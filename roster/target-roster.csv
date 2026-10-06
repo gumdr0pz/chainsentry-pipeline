@@ -1,0 +1,51 @@
+id,cohort,country,tier,type,entity,what_it_is,alpha_fit_reason
+MY-01,Gov/LE,Malaysia,T1,LE,PDRM MAPO — Commercial Crime,National crypto-scam casework centre; Aras already demoed CyberDSA to MAPO,Largest real caseload in home market; warm door; every case grows the corpus
+MY-02,Gov/LE,Malaysia,T1,Regulator,Bank Negara Malaysia (Financial Integrity),Supervises banks/e-wallets hit by transfer-fraud mule chains,Policy-shaping pilot; downstream demand pulls from bank examiners
+MY-03,Gov/LE,Malaysia,T1,Regulator,Securities Commission Malaysia,Digital-asset market regulator; new revised RM guidelines out now,Sell-to + sell-through: SC oversight desk AND its supervised exchanges
+MY-04,Gov/LE,Malaysia,T2,Agency,NACSA,Aras' MyFleet already deployed here — proven gov trust channel,Fastest gov yes in Malaysia; national fraud-response distribution
+MY-05,Gov/LE,Malaysia,T3,Agency,CyberSecurity Malaysia,National cyber agency; integration/resale partner,Channel not buyer — lends national-agency credibility
+MY-06,Exchange,Malaysia,T1,VASP,Luno Malaysia,"SC-licensed DAX, biggest MY retail book","Regulated, budget-exists, Chainalysis-priced-out — textbook displacement"
+MY-07,Exchange,Malaysia,T1,VASP,MX Global,SC-licensed digital asset exchange,Local licensed mid-tier; needs surveillance for new SC guidelines capex
+MY-08,Exchange,Malaysia,T2,VASP,Tokenize Technology,"SC-licensed exchange, tech-forward positioning",Smaller but fast decision cycle — quick reference logo
+MY-09,FinServ,Malaysia,T2,E-wallet,Touch 'n Go Digital,Dominant e-wallet; mule-account and scam-proceeds inflow hub,Chain-side tracing of wallet off-ramps; huge volume for detection tuning
+MY-10,Telco,Malaysia,T2,Telco,CelcomDigi,Existing Aras client (MyFleet lineage); SIM-mule/OTP-fraud nexus,Warm relationship; telco+chain correlation is a unique joint dataset
+MY-11,Stablecoin,Malaysia,T2,DPI,Zetrix MY / JMYR,Sovereign ringgit stablecoin rails; open ACT on register,Sovereign-infrastructure fit; close the stalled meeting-outcome action via alpha offer
+MY-12,Bank,Malaysia,T2,Bank,Maybank — Group AML/CFT,SEA's largest bank by market cap; fraud-loss pressure on retail transfers,Anchor bank reference cascades to every MY bank AML unit
+VN-01,Exchange,Vietnam,T1,VASP,Bithumb Vietnam (SSI Digital JV),"Foreign-license pilot track, explicit FATF grey-list-exit play","Day-one AML stack needed, no incumbent installed yet — land before Chainalysis"
+VN-02,Exchange,Vietnam,T1,VASP,SSI Digital,Brokerage arm building the licensed exchange vehicle,Local capital + new compliance team = greenfield buyer
+VN-03,Gov/LE,Vietnam,T2,Regulator,SBV — Supervision & AML department,Pilot supervisor as the grey-list exit executes,Regulator pilot legitimises the whole VN cohort
+TH-01,Gov/LE,Thailand,T1,Regulator,Thai SEC — digital asset enforcement,Runs crypto freezes inside national anti-fraud program,Active casework + regulator halo over every Thai licensee
+TH-02,Gov/LE,Thailand,T1,FIU,AMLO Thailand (crypto tracing unit),10K accounts frozen in current AML crackdown,State tracing capacity gap right now; corpus contribution MENA-adjacent? no — Thai corridor
+TH-03,Exchange,Thailand,T1,VASP,Bitkub,Largest Thai licensed exchange,Priced out of enterprise incumbent suite; national champion logo
+TH-04,Exchange,Thailand,T2,VASP,Gulf Binance (ex-Bitkub NCX),Gulf Energy + Binance JV — well-capitalised licensee,JV compliance mandates from both sides create a built-in budget line
+TH-05,Exchange,Thailand,T3,VASP,Satang / Topking,Long-standing Thai licensed platform,Second Thai reference at low effort
+PH-01,Gov/LE,Philippines,T1,Regulator,SEC Philippines — CASP rule-making desk,Writing the CASP rules right now; flagging unregistered platforms,Tool shaping into new rules = installed base for 10+ future licensees
+PH-02,Gov/LE,Philippines,T2,Regulator,BSP — payment supervision,Supervises e-money issuers used in scam off-ramps,Bank-side demand pull like BNM model
+PH-03,Exchange,Philippines,T1,VASP,PDAX,First licensed CASP in the Philippines,Pioneer-licensee security anxiety = receptive alpha
+PH-04,Exchange,Philippines,T2,VASP,Coins.ph (Mynt),Mass-market crypto inside GCash ecosystem,Off-ramp volume + AML team under BSP scrutiny
+ID-01,Gov/LE,Indonesia,T2,Regulator,OJK — Fintech/ASKI supervision,Absorbed crypto supervision from Bappebti; onboarding licensees,Supervision tooling sell-to; channel into 30+ registered PKA
+ID-02,Exchange,Indonesia,T2,VASP,Indodax,Largest Indonesian exchange by users,Volume-rich reference; incumbent penetration still shallow
+ID-03,Exchange,Indonesia,T3,VASP,Pintu,Fast-growing retail app model,High retail churn-fraud load = detection tuning value
+SG-01,Channel,Singapore,T3,Channel,Big-4 APAC forensic tech teams (SG),Resell/integrate tracing for regional bank mandates,Channel multiplies reach without headcount; regional deal access
+AE-01,Gov/LE,UAE,T1,Regulator,VARA (Dubai),Virtual Asset Regulatory Authority — federal wave consolidates its orbit,Sell-to + get listed as approved tooling for every VARA licensee
+AE-02,Gov/LE,UAE,T1,Regulator,SCA (federal securities authority),Now absorbs VASP licensing beyond free zones,Federal-level supervision pilot = regime-wide distribution
+AE-03,Exchange,UAE,T1,VASP,BitOasis,"UAE-first homegrown VASP, dual VARA+ADGM paths",National-champion story; local decision-makers; mid-tier pricing fit
+AE-04,Exchange,UAE,T1,VASP,M2 Capital,First VARA full-category licence,"Compliance-first player, small enough to move fast"
+AE-05,Exchange,UAE,T2,VASP,Binance FZE (Dubai),"Licensed in DMCC/FZE regime, giant flow",Branch-level gap: global Chainalysis deal ≠ UAE-entity needs; strategic risk noted
+AE-06,Exchange,UAE,T2,VASP,OKX UAE,Federally licensed exchange entity,Same branch-level displacement logic
+AE-07,Gov/LE,UAE,T2,FIU/LE,UAE FIU / ADPP cyber unit,Federal FIU standing up post-rulebook; prosecution caseload,Gulf corridor corpus is the differentiation payload — this is where it gets earned
+BH-01,Exchange,Bahrain,T2,VASP,Rain Software,"CBB-licensed, first-mover GCC exchange","Small market, friendly procurement, proven reference-giver"
+BH-02,Exchange,Bahrain,T2,VASP,CoinMENA,"CBB-licensed, GCC-wide retail footprint",Dual GCC coverage from one integration
+SA-01,Gov/LE,Saudi Arabia,T3,Regulator,SAMA/CMA sandbox entrants,Legal-development wave; sandbox participants incoming,Watch: enter via AE/BH references when sandbox opens
+QA-01,Gov/LE,Qatar,T3,Regulator,QFC Authority crypto framework,QFC emerging as second GCC licensing pocket,Watch-list; bundle into GCC campaign later
+CH-01,Gov/LE,Switzerland,T1,LE,Fedpol — Internet Crime Section,Federal LE tracing; cantonal police follow its tooling choices,Prestige anchor; on-prem sovereignty pitch lands where US-cloud tools don't
+CH-02,Gov/LE,Switzerland,T2,LE,Federal Prosecutor's Office (MPC) cyber,Cross-border money-flow cases incl. Gulf/BRICS corridors,Corridor coverage is the exact gap incumbents leave open here
+CH-03,Gov/LE,Switzerland,T1,FIU,MROS (Swiss FIU),SAR triage drowning in volume; thin Gulf/Asia corridor coverage,Unmet-gap pilot; FIU endorsement echoes through Swiss banks
+CH-04,Bank,Switzerland,T1,DLT-Bank,Sygnum,Swiss DLT bank licence + institutional custody,Handles Gulf/BRICS flows; single-vendor Western exposure is a board risk they name
+CH-05,Bank,Switzerland,T1,DLT-Bank,SEBA–ABACUS,"DLT bank, cross-border asset-services focus",Same board-risk logic; enterprise AML team already benchmarking costs
+CH-06,Bank,Switzerland,T2,FinServ,Bitcoin Suisse,"Legacy Swiss crypto bank, custody+financing",Custody-guidance pressure (FINMA 01/2026) drives tooling review
+CH-07,Bank,Switzerland,T2,DLT-Bank,Incore Bank,Settlement rails for cross-border EM payments,BRICS-corridor fit — but sanctions-adjacency: screen hard before any pilot
+CH-08,Gov/LE,Switzerland,T3,LE,Zug cantonal police cyber desk,Crypto Valley canton casework,Follows Fedpol; cheap second Swiss LE reference
+X-01,Channel,CH,T2,Channel,VQF (Swiss SRO),Self-regulatory org for Swiss VQs/DLVs,One contract = standards-listed reach to hundreds of SRO members
+X-02,Channel,SEA,T3,Channel,Regional Big-4/consultancy AML arms (SEA),Implementation partners for gov deals,Delivery capacity without hiring; deal flow via their bank books
+VN-04,Exchange,Vietnam,T2,VASP,Bybit Vietnam (pilot entity),Global exchange entering via the licensed pilot track,"Already staked regulatory flags; needs local AML stack sized to VN, not to global enterprise"
