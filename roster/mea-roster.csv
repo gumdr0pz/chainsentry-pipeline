@@ -1,0 +1,73 @@
+id,cohort,country,type,tier,one_liner,alpha_reason,confidence
+AE-01,regulator,UAE,VA regulator,T1,Dubai VA regulator; approved-tooling listing = installed base,sell-to + licensee distribution; regime still building supervision stack,high
+AE-02,regulator,UAE,Federal securities/VA regulator,T1,Absorbing federal VASP licensing (first full VA-platform operator licence issued to Bybit — news-corroborated),regime-wide supervision pilot; halo over all federal licensees,high
+AE-03,LE-FIU,UAE,Financial Intelligence Unit,T1,Standing up post-rulebook SAR pipeline,corridor corpus (Gulf) + state endorsement,high
+AE-04,LE,UAE,Dubai Police cyber/economic crimes,T2,Consumer scam caseload at scale,casework pilot; Dubai brand endorsement
+AE-05,LE,UAE,Abu Dhabi Police cyber directorate,T2,Emirate-level tracing capacity gap,second emirate LE reference
+AE-06,regulator,UAE,ADGM FSRA,T2,Abu Dhabi common-law financial free zone,institutional VASP cohort via one rulebook
+AE-07,channel,UAE,DMCC Crypto Centre,T3,Freezone hub of 400+ Web3 firms,"bulk awareness channel, zero headcount",high
+AE-08,exchange,UAE,Binance FZE,T1,Dubai-licensed Binance entity,global Chainalysis deal ≠ branch-level UAE corpus needs,high
+AE-09,exchange,UAE,"Bybit (UAE entity, SCA-licensed)",T1,First SCA VA-platform operator licence — news-corroborated,first-federal-licensee anxiety = tooling review now,high
+AE-10,exchange,UAE,OKX UAE,T1,Federally licensed,"branch-level displacement, budget exists",high
+AE-11,exchange,UAE,BitOasis,T1,UAE-first homegrown VASP,national-champion story; mid-tier fit,high
+AE-12,exchange,UAE,M2,T1,First VARA full licence,"compliance-first, fast movers",high
+AE-13,exchange,UAE,Bitget ME (VARA-licensed),T2,MENA-focused arm of global exchange,Gulf-corpus gap is their user complaint,medium
+AE-14,exchange,UAE,Crypto.com MENA (VARA-licensed),T2,Licensed regional arm,compliance team mandated by HQ,medium
+AE-15,exchange,UAE,CoinDCX MENA (VARA-licensed),T2,"India-heads, UAE licence",India-corridor graph fit = our wedge,medium
+AE-16,exchange,UAE,Kraken ME (Standard Chartered JV),T2,Bank-backed exchange in VARA pipeline,bank partner = dual door (exchange + bank AML),medium
+AE-17,bank,UAE,RAKBANK,T2,AED stablecoin in-principle approval — news-corroborated,first bank needing own stablecoin-flow monitoring,high
+AE-18,bank,UAE,Mashreq (digital asset ambitions),T2,UAE bank with public digital-asset push,bank AML desk + VA pilot adjacency,low
+AE-19,exchange,UAE,Bitunix,T3,"Dubai-based exchange, VARA in-principle",small but hungry; cheap logo,low
+AE-20,fintech,UAE,Pyypl,T3,Vasp-licensed consumer payments app,small-ticket volume tunes detection,low
+SA-01,regulator,Saudi,SAMA,T2,Finalising VA crypto policy; banks barred from VA since 2020 but review underway,policy-track whitepaper motion (BNM playbook copy),medium
+SA-02,regulator,Saudi,CMA Saudi,T2,Capital markets regulator; sandbox voices on exchange licensing,enter on AE/BH references when licences open,medium
+SA-03,LE-FIU,Saudi,Financial Investigations Unit (UIF),T2,Kingdom FIU; Hajj-season money flows + crypto,corpus value high; procurement closed until regime opens,low
+SA-04,bank,Saudi,Al Rajhi / SNB digital-asset readiness,T3,ME's biggest banks pre-positioning,watch; sell when CMA opens licensing,low
+SA-05,fintech,Saudi,stc pay,T3,Digital wallet at scale; regulator-capped on VA,watch for policy flip,low
+BH-01,regulator,Bahrain,Central Bank of Bahrain,T2,VA regime since 2019 — oldest in region,endorsement anchor; friendliest procurement,high
+BH-02,exchange,Bahrain,Rain,T1,CBB-licensed since regime inception,proven reference-giver,high
+BH-03,exchange,Bahrain,Bitarus,T2,Bahrain-licensed DEX-leaning hybrid,"small team, fast yes",medium
+BH-04,exchange,Bahrain,Alaan,T2,"CBB-licensed, Islamic-finance positioning",compliance-heavy buyer,medium
+BH-05,exchange,Bahrain,Gan,T3,CBB in-principle stage,licence-arrival buyer,low
+BH-06,exchange,Bahrain,Liquid (Binance regional),T2,"Binance regional custody arm, CBB-licensed",custody-grade tracing need,medium
+BH-07,exchange,Bahrain,CoinMENA,T2,"CBB-licensed, GCC-wide — acquired by Turkey's Paribu (up to $240M) — news-corroborated",ONE integration now serves BH+KSA+TR footprint via new owner,high
+QA-01,regulator,Qatar,QFC Authority,T2,QFC Financial Centre VASP framework,"pocket entry, bundle into GCC campaign",medium
+QA-02,bank,Qatar,QCB / QNB digital-asset watch,T3,State banks evaluating tokenisation,watch only,low
+KW-01,regulator,Kuwait,CMA Kuwait / recent draft VA law,T2,2024-25 draft crypto law signal,early motion; get on consultation record,low
+KW-02,bank,Kuwait,Boubyan Bank (digital assets),T3,Islamic digital-asset pioneer in KW,watch,low
+OM-01,regulator,Oman,CMA Oman,T3,"Capital markets regulator, CMA Oman",watch — no VA regime yet,low
+OM-02,bank,Oman,Bank Sohar / National Bank Oman,T3,banking groups on regional digital-asset curve,watch,low
+EG-01,regulator,Egypt,Financial Regulatory Authority,T1,Law 162/2023 regime; first approvals issued — news-corroborated,regime-shaping window; sell standard + tooling together,high
+EG-02,exchange,Egypt,First FRA-licensed VASP cohort,T1,Batch of first licensed companies (names to pin — FRA announcements),"day-one AML stack, no incumbent entrenched",medium
+EG-03,LE-FIU,Egypt,Egyptian Financial Regulatory FIU / EEFFU,T2,"informal economy + remittance inflows, FX pressure",corridor corpus (Nile-Gulf-Libya routes),low
+EG-04,bank,Egypt,CIB digital assets,T3,MEA's largest private bank,watch,low
+TR-01,regulator,Turkey,Capital Markets Board (SPK),T1,Law 7518 licensing regime live; exchange + custodian rules tightening — news-corroborated,dozens of licensed entities need surveillance; regime still new,high
+TR-02,LE-FIU,Turkey,MASAK,T1,FIU under grey-list exit pressure,caseload + FATF-exit motivation = real budget driver,medium
+TR-03,exchange,Turkey,BtcTurk,T1,largest licensed Turkish exchange,"licensed-AML obligation, lira off-ramp volume",high
+TR-04,exchange,Turkey,Paribu,T1,largest by users; just bought CoinMENA — news-corroborated,cross-market lever: one pilot = TR+GCC logos via one buyer,high
+TR-05,exchange,Turkey,Binance TR,T2,licensed local entity of global,local corpus gap,medium
+TR-06,exchange,Turkey,OKX TR,T2,licensed local entity,same logic,medium
+TR-07,exchange,Turkey,HTTX,T3,licensed mid-tier,second-tier reference,low
+TR-08,bank,Turkey,Garanti BBVA Kripto,T2,bank-owned licensed exchange,bank+exchange compliance in one logo,medium
+TR-09,fintech,Turkey,Papara / inPay wallets,T3,payment giants with crypto features,volume monitoring,low
+JO-01,regulator,Jordan,Jordan SEC,T2,licensing framework imminent — news-corroborated,get standard into rules pre-licence,medium
+JO-02,exchange,Jordan,First licensed Jordanian VASP cohort,T3,none licensed yet,day-one bundle when regime opens,low
+LB-01,LE-FIU,Lebanon,Lebanon FIU,T3,"dollar-flight economy, bank platform phase-out (Sayrafa closing — news-corroborated)",corridor corpus (Beirut-Gulf diaspora); revenue unlikely near-term,low
+LB-02,channel,Lebanon,Exchange-house networks,T3,remittance/OTC rails,corpus + insight; no procurement,low
+MA-01,regulator,Morocco,AMMC Morocco,T2,authorization regime under law 43-21,EU-adjacent corridor corpus; early mover window,low
+MA-02,exchange,Morocco,First authorized VASPs,T3,wave pending,bundle later,low
+IQ-01,watch,Iraq,CBQ dollar-flight corridor,T3,state hostile to VA; massive USDT off-ramp flows,CORPUS-INTELLIGENCE ONLY — do not pursue as buyer,medium
+X-11,channel,MENA,Big-4 forensic arms (Deloitte/KPMG/PwC/EY Middle East),T2,regulator incumbency across every GCC state,channel reach; they resell what they audit,high
+X-12,channel,MENA,AML consultancies serving VARA/SCA/CBB licensees,T2,"delivery capacity + licensee deal flow (RedCompliance, Acorio tier)",implementation partners,medium
+X-13,channel,MENA,"MENAFATF (MENA FATF, seated Bahrain)",T3,regional training/typologies body,methodology credibility across FIUs,medium
+X-14,channel,MENA,Freezone onboarding agents (IFZA/DMCC/RAKEZ tier),T3,every new VASP passes through one,lead flow,low
+AE-21,bank,UAE,Emirates NBD,T1,UAE's 2nd-largest bank; majority owner of BitOasis,one door = bank AML desk + controlling shareholder of target AE-11,high
+AE-22,bank,UAE,First Abu Dhabi Bank (FAB),T2,largest UAE bank; digital-asset custody exploration,anchor bank reference for VA custody monitoring,medium
+AE-23,bank,UAE,Abu Dhabi Islamic Bank / ADCB digital-asset watch,T3,AD banks on regional digital-asset curve,watch; ADGM corridor clients,low
+AE-24,bank,UAE,Wio Digital,T3,digital bank with embedded-finance rails,"watch — volume-heavy, thin VA mandate",low
+AE-25,tokenization,UAE,280x,T2,Abu Dhabi VARA-licensed tokenization exchange,tokenised RWA tracing is a near-empty market — own it before incumbents notice,medium
+AE-26,exchange,UAE,MEXC ME,T2,VARA no-objection reported,"mid-tier, moves fast, cheap logo",medium
+AE-27,tokenization,UAE,Securitize ME (ADGM),T2,tokenised fund/RWA issuance under ADGM,issuer-side monitoring = compliance wedge no incumbent serves,medium
+AE-28,exchange,UAE,Hubex (ADGM),T3,ADGM-licensed institutional venue,second ADGM reference,low
+AE-29,exchange,UAE,Bitmami (ADGM),T3,"ADGM-licensed, Arab-world focus",compliance-first small buyer,low
+BH-08,investment,Bahrain,GFH Financial Group,T3,regional investment group with digital-asset ventures,portfolio-wide door across KSA/BH,low
