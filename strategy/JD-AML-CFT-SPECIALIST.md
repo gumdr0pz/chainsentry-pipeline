@@ -73,4 +73,4 @@ ChainSentry's commercial pipeline is deliberately compliance-led: regulators and
 Screen on: (1) one writing sample — a 1-page mock "AML expectations for a VN pilot-licensed exchange"; (2) a live tracing exercise on a public cluster; (3) negotiation instincts on a sample data-rights clause. Red flag: candidate who only knows seat-based incumbent workflows and insists corpus beats deployability — that is the exact objection our wedge exists to break.
 
 ---
-*Grounding: ChainSentry STRATEGY.md v2 (positioning, gates G1–G6, alpha program, corpus roadmap, team gap) · OPP-20261006-001..004 · ACT-20261006-007/008 · RSK-20261006-001 · ACT-20261008-001 · target-roster.csv (50) · mea-roster.csv (72).*
+*Grounding: ChainSentry STRATEGY.md v2 (positioning, gates G1–G6, alpha program, corpus roadmap, §10 team gap) · OPP-20261006-001..004 · ACT-20261006-008 (design-partner terms) · RSK-20261006-001 · roster target CH-07 (Incore sanctions screen) · target-roster.csv (50) · mea-roster.csv (72).*
