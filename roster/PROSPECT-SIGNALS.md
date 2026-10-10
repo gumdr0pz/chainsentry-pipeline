@@ -1,4 +1,4 @@
-# ChainSentry Malaysia — Hiring-Signal Intelligence (layer 2)
+# ChainSentry Malaysia — Signal Intelligence (hiring · vendors · budget · personnel)
 
 Mined 2026-10-10 from live job-board traffic (LinkedIn public postings API, KL-filtered, 53 unique current postings, JD bodies pulled individually). This layer is NOT directory data — it shows WHO IS BUILDING A FINANCIAL-CRIME FUNCTION RIGHT NOW, WHICH STACK THEY NAME, and WHEN THE DOOR OPENS. Hiring for these roles predicts tool purchases 6–12 months out. Each posting = dated, click-verified.
 
@@ -38,6 +38,41 @@ Mined 2026-10-10 from live job-board traffic (LinkedIn public postings API, KL-f
 3. **New prospect cluster (roster additions warranted): Bybit MY desk (T1), First Digital (T2), StraitsX/Monee (T3-verify), Razer (T3).**
 4. **Channel:** Deloitte KL FinCrime = Path-4 first-approach candidate with evidence they staff delivery.
 5. Hiring-signal sweep is now a **recurring Friday loop** (endpoint works from this host; ~10 calls, full-market KL snapshot). Diff = campaign timing.
+
+## C. Vendors & incumbents (procurement trail — 4-agent sweep, click-verified)
+- **Luno = Chainalysis CONFIRMED** — official Chainalysis case study: KYT (monitoring) + Reactor (investigations). Named incumbent, displacement target #1; hiring stable (Greenhouse: only 2 OTC roles) = budget locked at incumbent until renewal.
+- **TNG**: Ant International "Digital Wallet Guardian" fraud-AI partner (Sep-25); first eWallet on BNM/PayNet National Fraud Portal (Aug-24); mandatory eKYC since Dec-24 (vendor unconfirmed). Integration requirement: interoperate with NFP. FCC head (open seat) will pick the crypto-tracing layer — Ant does chain-adjacent fraud but no on-chain tracing named = gap ours.
+- **CelcomDigi**: Voice Firewall = in-house core-network build (no vendor); IPification (Jul-26) + Google Firebase for identity/OTP-defense. Money-tracing layer absent from their stack entirely.
+- **SC procurement page (live, dated RFPs)** = supervisory-tech pipeline: **ECMS + SC&Bursa Coordinated Enforcement Repository (CERS) maintenance re-award RFP closed 9-Jul-2026** — the shared enforcement data spine; SOC/WAF/PAM/DWH/AI-chatbot all 2024-26. Winners unpublished (MyPROC-gated) → integration/displacement watchpoint.
+- **CyberSecurity Malaysia publishes award-level detail** (procurement page): Trend Micro USM Anywhere SIEM, Sangfor NGFW, Elastic Platinum, AWS awarded 2025; "Renewal Forensic Software" (SH/09/2025) vendor unnamed; INTAi facial-recognition testbed. MoF registration codes 210102/210103/210106 required to bid.
+- **⚠ STRUCTURAL GATE on all Malaysian gov sales: Cyber Security Act 2024 (Act 854) — only NACSA-licensed providers may sell managed security services since 26-Aug-2024 (registry: licence.nacsa.gov.my).** ChainSentry/GSA govt motion REQUIRES: NACSA CSL licence + MoF registration. Not in the activation suite yet → add as G-gate (owner Hadri; the JSJK conversation makes this urgent).
+- **NACSA–Huawei AI-security partnership** reported Jul-26 (secondary source only — verify before use).
+- **BNM: H1-2027 real-time fraud-ALERT pilot with selected banks** (Governor, IFCTF 6-Oct-26) — vendor unnamed = THE national procurement event to watch; NFP/PayNet is the rails.
+
+## D. Budget & mandate trail (parliament-verified — every line has a speaker + date)
+- **Belanjawan 2026 (PM Anwar, tabled 10-Oct-25)**: **RM32m anti-scam/cyber** · **RM12m NSRC** (PDRM-run) · **RM20m MODERNISING DIGITAL FORENSIC SYSTEMS + new Behavioural Science Unit** — a dated, published budget line for fraud-investigation tech at PDRM. JSJK pilot = spend against this line.
+- **Belanjawan 2027 (tabled YESTERDAY 9-Oct-26)**: funded **NSRC AI scam-checking app** — gov builds state-side tooling = integration surface + competitive signal (The Star 9-Oct).
+- **Cybercrime bill (RUU jenayah siber)** drafting committed Budget-2026; **SPRM publicly demands law compelling crypto platforms to file STR/CTR** → if enacted, every MY DAX buys screening/reporting tooling = mandatory demand wave.
+- **KDN Special Chamber 26-Feb-26**: **218,307 mule accounts 2023-25 (2025 alone: 87,209, +70% YoY)** — deputy minister deferred analytics questions to MOF/BNM = analytics pocket identified. YB Tan Hong Pin PM.17 motion demanded exactly our capability (AI fund-flow analytics, NSRC success metrics).
+- **BNM Governor IFCTF 6-Oct-26**: **RM1.9bn fraud prevented H1-26 (vs RM1.2bn FY-25)**; National Fraud Portal flagged **>1,600 high-risk mules**; "If criminals automate fraud, we must also automate detection."
+- **Rusdi (CCID) ICIJ responses Jan-26**: crypto = 4 investigation challenges (pseudonymous wallets · no local FI in flow · criminals on offshore unlicensed exchanges · cross-border data gaps) + **RM375m crypto-fraud losses 2023–Oct-25** — the buyer describing our product's requirements doc unprompted. Q1-26: 64,643 cases +12.9%.
+- **RMK13 (2026-30)**: NSRC empowerment as one-stop fraud centre · cybercrime enforcement + international cooperation · **A1.14 digital-asset/blockchain/CBDC sandbox expansion** · GovTech procurement channel.
+- SC AR2023 (still the cited gap): scam proceeds migrated to e-wallets/crypto explicitly to evade detection. MEXC+Bitget geo-blocked but operating via alt domains (parliamentary reply Apr-26); Binance still unlicensed (Jul-26 reply).
+
+## E. Operating-level personnel (below-C-suite, the layer requested — all sourced)
+- **BNM FIED (the AML/FI operating unit — the "NOT FOUND" is dead)**: **Mohd Fuad Arshad, Director FIED** (helmed FATF sessions AICB IFCTF24) · **June Lian (Lay Choon), Deputy Director FIED** (UNICRI ASEAN sanctions workshop Nov-25, AII AML board Apr-25). These are the working counterparts for a BNM pilot.
+- **JSJK operating chain**: **DCP Shamsul Amar Ramli — Timbalan Pengarah (Siasatan Jenayah Siber)** = direct superior of the crypto/PCIRC branch (rmp.gov.my May-25) · **CP Dato' Muhammed Hasbullah Ali — Pemangku Pengarah JSJK** (Acting Director, May-25 — confirm current status vs Rusdi; two director-level names need collision-resolution before the 15/20-Oct meetings) · **Ts. Mail bin Yussof, DSP — Senior Investigating Officer PCIRC(I)** (AII speaker Apr-25) · **SAC Mohamad Lazim — TD (Perancangan Strategik)** handover 1-Apr-26 (budget/planning seat!) · JSJK unit map (official RMP2U, updated 10-Oct-26): crypto unit = **Unit PCIRC/CCIS** under Cawangan Taktikal & Teknikal Siber; NSRC under Siber branch; HQ 03-26101222, ops room 03-26101599.
+- **NACSA ops layer**: **Datin Siti Hanizah — Director NC4** (command centre) · **Ts. Mohamed Kheirulnaim — Head Incident Response & Cyber Threat Intel, NC4** (GovInsider Champion, Jun-25).
+- **CyberSecurity Malaysia**: **Wan Roshaimi Wan Abdullah — CTO** (CyberDSA-2026 speaker page; also CSMY2025 agenda) = technical decision seat for the channel play. Unit heads below = genuinely unpublished (own conference + AR2025 negative result).
+- **SC**: ED layer refreshed from AR2025 — **Datuk Manoj Kurup ED Enforcement eff. 8-Apr-26** (ex-AG' Prosecution Head; successor Budiman Lutfi → judicial commissioner) · Meha Kasbun ED Enterprise (1-Feb-26) · Alex Ooi ED Audit Oversight · Dato' Zain Azhari ED Corporate Finance. Sub-ED heads QR-gated (negative, honest).
+- **Axiata (CelcomDigi parent)**: Suresh Sankaran — Group Head of Cyber Security (CyberDSA-2026) = shareholder-level door.
+
+## F. What C-E changes (committed)
+1. **Roster +4 (58 total): Reap T2, RedotPay T2, Ryt Bank T2, Gate T3** — greenfield FCC builds w/ tool shortlists in their own JDs.
+2. **Luno row**: incumbent confirmed Chainalysis → displacement pitch becomes concrete (KYT/Reactor replacement economics + MY corridor corpus).
+3. **NACSA CSL licence + MoF registration = new govt-sale gate** (Act 854). Owner: Hadri. Feeds activation G-gates.
+4. **JSJK meeting prep re-armed**: quote RM20m forensics line + Rusdi's own 4 challenges + 218k mules; targets in room: Aqila (door) → Shamsul Amar (siber TD) → Hasbullah/Rusdi (director layer). Planning TD Mohamad Lazim = budget seat to identify.
+5. **Watch events**: BNM H1-27 fraud-alert pilot vendor selection · SC ECMS/CERS maintainer (awarded, unpublished) · RUU jenayah siber drafting · Budget-2027 NSRC app build.
 
 ## Method (reproducible)
 LinkedIn jobs-guest public API: `linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=<K>&location=Malaysia` (curl, Mozilla UA) → card parse → per-posting JD body via `/jobs/api/jobPosting/<id>` → tool-name scan (Chainalysis|Elliptic|TRM|Actimize|NICE|Featurespace|ComplyAdvantage|World-Check|LexisNexis|Tookitaki|…30-term list) + reporting-line extract. Raw: /home/mtadmin/.hermes/workspace/li_jobs_my.json · JD bodies /tmp/jd_*.html · parsed /tmp/jd_analysis.json.
