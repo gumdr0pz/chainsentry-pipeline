@@ -2,12 +2,12 @@ id,cohort,country,type,tier,one_liner,alpha_reason,confidence
 AE-01,regulator,UAE,VA regulator,T1,Dubai VA regulator; approved-tooling listing = installed base,sell-to + licensee distribution; regime still building supervision stack,high
 AE-02,regulator,UAE,Federal securities/VA regulator,T1,Absorbing federal VASP licensing (first full VA-platform operator licence issued to Bybit — news-corroborated),regime-wide supervision pilot; halo over all federal licensees,high
 AE-03,LE-FIU,UAE,Financial Intelligence Unit,T1,Standing up post-rulebook SAR pipeline,corridor corpus (Gulf) + state endorsement,high
-AE-04,LE,UAE,Dubai Police cyber/economic crimes,T2,Consumer scam caseload at scale,casework pilot; Dubai brand endorsement
-AE-05,LE,UAE,Abu Dhabi Police cyber directorate,T2,Emirate-level tracing capacity gap,second emirate LE reference
-AE-06,regulator,UAE,ADGM FSRA,T2,Abu Dhabi common-law financial free zone,institutional VASP cohort via one rulebook
+AE-04,LE,UAE,Dubai Police cyber/economic crimes,T2,Consumer scam caseload at scale,casework pilot; Dubai brand endorsement,
+AE-05,LE,UAE,Abu Dhabi Police cyber directorate,T2,Emirate-level tracing capacity gap,second emirate LE reference,
+AE-06,regulator,UAE,ADGM FSRA,T2,Abu Dhabi common-law financial free zone,institutional VASP cohort via one rulebook,
 AE-07,channel,UAE,DMCC Crypto Centre,T3,Freezone hub of 400+ Web3 firms,"bulk awareness channel, zero headcount",high
 AE-08,exchange,UAE,Binance FZE,T1,Dubai-licensed Binance entity,global Chainalysis deal ≠ branch-level UAE corpus needs,high
-AE-09,exchange,UAE,"Bybit (UAE entity, SCA-licensed)",T1,First SCA VA-platform operator licence — news-corroborated,first-federal-licensee anxiety = tooling review now,high
+AE-09,exchange,UAE,"Bybit (UAE entity, SCA-licensed)",T1,First SCA VA-platform operator licence — news-corroborated,first-federal-licensee anxiety = tooling review now // BUYING CENTER = KUALA LUMPUR (6 AML postings Sep-Oct-26); their JDs name Chainalysis/Elliptic/TRM/CipherTrace = displacement pitch,high
 AE-10,exchange,UAE,OKX UAE,T1,Federally licensed,"branch-level displacement, budget exists",high
 AE-11,exchange,UAE,BitOasis,T1,UAE-first homegrown VASP,national-champion story; mid-tier fit,high
 AE-12,exchange,UAE,M2,T1,First VARA full licence,"compliance-first, fast movers",high
@@ -66,7 +66,7 @@ AE-22,bank,UAE,First Abu Dhabi Bank (FAB),T2,largest UAE bank; digital-asset cus
 AE-23,bank,UAE,Abu Dhabi Islamic Bank / ADCB digital-asset watch,T3,AD banks on regional digital-asset curve,watch; ADGM corridor clients,low
 AE-24,bank,UAE,Wio Digital,T3,digital bank with embedded-finance rails,"watch — volume-heavy, thin VA mandate",low
 AE-25,tokenization,UAE,280x,T2,Abu Dhabi VARA-licensed tokenization exchange,tokenised RWA tracing is a near-empty market — own it before incumbents notice,medium
-AE-26,exchange,UAE,MEXC ME,T1,VARA no-objection reported,VARA Notice of Fines (Jun-2026): unlicensed VA svc 2022-Apr-26 + KYC breaches; cease-and-desist complied; formally entering VARA licensing = live remediation/screening/tracing budget NOW,medium
+AE-26,exchange,UAE,MEXC ME,T1,VARA no-objection reported,VARA Notice of Fines 2026 (unlicensed VA svc 2022–Apr-26 + KYC breaches; C&D complied) + publicly entering VARA licensing = remediation/screening/tracing budget NOW,medium
 AE-27,tokenization,UAE,Securitize ME (ADGM),T2,tokenised fund/RWA issuance under ADGM,issuer-side monitoring = compliance wedge no incumbent serves,medium
 AE-28,exchange,UAE,Hubex (ADGM),T3,ADGM-licensed institutional venue,second ADGM reference,low
 AE-29,exchange,UAE,Bitmami (ADGM),T3,"ADGM-licensed, Arab-world focus",compliance-first small buyer,low
