@@ -66,7 +66,7 @@ AE-22,bank,UAE,First Abu Dhabi Bank (FAB),T2,largest UAE bank; digital-asset cus
 AE-23,bank,UAE,Abu Dhabi Islamic Bank / ADCB digital-asset watch,T3,AD banks on regional digital-asset curve,watch; ADGM corridor clients,low
 AE-24,bank,UAE,Wio Digital,T3,digital bank with embedded-finance rails,"watch — volume-heavy, thin VA mandate",low
 AE-25,tokenization,UAE,280x,T2,Abu Dhabi VARA-licensed tokenization exchange,tokenised RWA tracing is a near-empty market — own it before incumbents notice,medium
-AE-26,exchange,UAE,MEXC ME,T2,VARA no-objection reported,"mid-tier, moves fast, cheap logo",medium
+AE-26,exchange,UAE,MEXC ME,T1,VARA no-objection reported,VARA Notice of Fines (Jun-2026): unlicensed VA svc 2022-Apr-26 + KYC breaches; cease-and-desist complied; formally entering VARA licensing = live remediation/screening/tracing budget NOW,medium
 AE-27,tokenization,UAE,Securitize ME (ADGM),T2,tokenised fund/RWA issuance under ADGM,issuer-side monitoring = compliance wedge no incumbent serves,medium
 AE-28,exchange,UAE,Hubex (ADGM),T3,ADGM-licensed institutional venue,second ADGM reference,low
 AE-29,exchange,UAE,Bitmami (ADGM),T3,"ADGM-licensed, Arab-world focus",compliance-first small buyer,low

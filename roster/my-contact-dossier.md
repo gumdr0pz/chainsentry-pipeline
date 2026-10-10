@@ -1,11 +1,11 @@
-# Malaysia — Contact Dossier (ChainSentry MY Path) · v2
+# Malaysia — Contact Dossier (ChainSentry MY Path) · v3 — freshness audit
 
-Compiled 2026-10-10 (v1) · merged agent-research pass same day (v2) · Sources tagged: [V]=official page fetched this cycle, [N]=reputable news (dated), [R]=register evidence, [L]=LinkedIn-headline via news index (low). NO name appears without a source; unverifiable roles say NOT FOUND.
+Compiled 2026-10-10 (v1) · merged agent-research pass (v2) · deep freshness audit 10-Oct v3: VARA notice read at source, Malay-language verification, Rusdi dateline refresh · Sources tagged: [V]=official page fetched this cycle, [N]=reputable news (dated), [R]=register evidence, [L]=LinkedIn-headline via news index (low). NO name appears without a source; unverifiable roles say NOT FOUND.
 
 ## 1. Regulators & LE (endorsement doors)
 
 ### MY-01 PDRM — JSJK/CCID (Commercial Crime CID), Bukit Aman
-- **Datuk Rusdi Mohd Isa** — Director CCID/JSJK [N×3]: appointed per NST (Jun-2025, ex-KL police chief); quoted as CCID Director Feb-24-2026 (Malaymail), Jan-25-2026 (MCI), May-2026 caseload (Bernama). Predecessor Datuk Seri Khaw Keng Chai (c.2023–25) — superseded. *(Second research pass couldn't re-confirm via bot-walled Bernama; three independent 2026 datelines outrank that null.)*
+- **Datuk Rusdi Mohd Isa** — Director CCID/JSJK [N×5, all 2026]: Sarawak Tribune 22-Feb-26 · Bernama+Malaymail 5-May-26 · Malaymail 5-Aug-26 (Tabung Haji IP probes) · NST 13-Sep-26. Current, no doubt. Predecessor Datuk Seri Khaw Keng Chai (c.2023–25) — superseded. *(Second research pass couldn't re-confirm via bot-walled Bernama; three independent 2026 datelines outrank that null.)*
 - **ASP/Insp Nurul Aqila binti Md Sedik** — Unit Siasatan Jenayah Kriptowang — INBOUND briefing contact [R]: aqila@rmp.gov.my · 019-7915377 · rank discrepancy Insp/ASP unresolved — resolve before reply (due 10 Oct).
 - Section head below Rusdi (crypto/Kryptowang chief): NOT FOUND publicly — will surface via the reply thread.
 - Demand numbers [N]: RM3.0bn scam losses 2025 · 90% commercial crime online · Q1-26 +12.9% (64,643 reports) · Semakmule scam-check program orbit (NST Jan-2026) = program adjacency.
@@ -32,7 +32,9 @@ Compiled 2026-10-10 (v1) · merged agent-research pass same day (v2) · Sources 
 
 ### MY-07 MX Global
 - **Datuk/Dato' Fadzli Shah** — CEO [N] (The Edge; company blog Apr-2025)
-- ⚠️ **VARA Dubai enforcement action vs MX Global** [N-single-source] (FX News Group, Jun-2026) — verify before contact; if confirmed, sale re-frames as *remediation*: they need tracing/screening evidence for a regulator.
+- ✅ **COLLISION FIXED — the VARA action is NOT against them.** VARA Notice of Fines (read at source vara.ae, 10-Oct-26): target = **MX Global LTD = MEXC** (Seychelles exchange), unlicensed VA services in Dubai 2022–Apr-2026 + KYC failures; alert 5-Mar-26, fine + cease-and-desist; MEXC "intends to enter VARA's licensing process". **MEXC ≠ MX Global Sdn Bhd** (MY entity: Binance/Cuscapi-backed, Fadzli Shah, on the *licensed* list — mexcreview even lists them as the SC-licensed peers). MY-07 = clean.
+- 🔥 **Spin-off lead (MEA roster):** that notice means **AE-26 "MEXC ME" is a live, motivated buyer right now** — fined entity entering a licensing process = remediation + screening + tracing spend. Priority outreach when G2 opens.
+- Stale flag retained: Fadzli Shah tenure last confirmed Apr-2025; verify current before letters (MX site compliance page bot-walled).
 - MY compliance officer: NOT FOUND.
 
 ### MY-08 Tokenize → KDX — ⚠️ KILLED as buyer
@@ -48,7 +50,7 @@ Compiled 2026-10-10 (v1) · merged agent-research pass same day (v2) · Sources 
 ### MY-11 Zetrix AI Bhd — ⚠️ DISTRESSED, premise corrected
 - **TS Wong** — Founder & substantial shareholder [N] (ST/Edge Oct-2026; Malaymail Dec-2025 RMJDT launch) — exact exec title unconfirmed, don't assert CEO.
 - **Irsyad Saidin** — register thread contact [R] (Sep-2026 intro; outcome owed — ACT-007 due 17 Oct → answer: close politely).
-- ⚠️ Worse than v1: **JPJ suspended Zetrix/MyEG as collection agents, RM314m unpaid** [N] (Oct-2026) + **MARC negative watch**.
+- ⚠️ **Verified in Malay press, 5 sources:** Loke announcement 5-Oct-2026 — MyEG + Zetrix AI suspended as JPJ collection agents; **RM314m** unremitted 19-May→30-Sep-2026 (RTM/Bernama, Utusan, MalaysiaGazette). "No political motive" framing per minister. + MARC negative watch.
 - ⚠️ Premise correction: "Zetrix SC-approved DAX / JMYR stablecoin" NOT VERIFIED — the ringgit-stablecoin sandbox is **BLOX**, not Zetrix. JMYR hook in ACT-20260930-001 is weak; do not build the Zetrix wedge on it.
 
 ## 3. Telco & bank
@@ -64,7 +66,7 @@ Compiled 2026-10-10 (v1) · merged agent-research pass same day (v2) · Sources 
 - Vendor intake: eprochelpdesk@maybank.com.my [V-published] (supplier channel, not compliance).
 
 ### Channel — CyberSecurity Malaysia (MY-05)
-- **Roshdi Ahmad** — **Acting CEO** [N] (Bernama Jan-2026, post Amirudin retirement 13-Jan-2026) — acting-CEO window = open capability review; verify no permanent appointment before addressing letters.
+- **Roshdi Ahmad** — **Acting CEO** [N] (Bernama Jan-2026, post Amirudin retirement 13-Jan-2026) — acting-CEO window = open capability review; still ACTING as of CDSA-2026 support message (cyberdsa.com PDF, styled "Acting CEO") — no permanent appointment found up to 10-Oct-26.
 - Register-warm [R]: Fahdzli Rauf (Cyber Solutions) · Fathi Kamil (MyCERT) · Nazri Zamani (AI Unit) · Azrul Nazim (Partnerships)
 
 ## 4. Warm doors in register [R]
@@ -75,5 +77,6 @@ BNM AML/Payments division heads (AR PDF) · Luno/MX/TNG MY MLRO names (LinkedIn-
 
 ## 6. Confidence ledger
 - High: SC full senior mgmt, SC inboxes, Maybank Group CCO, BNM Governor, MY-08 kill, MY-11 distress facts
-- Medium: Rusdi Mohd Isa (JSJK), Scarlett Chai, Alan Ni, Fadzli Shah, Albern Murty, Roshdi Ahmad, TS Wong, Lanigan
+— v3 audit notes: Rusdi FRESH→high · VARA/MEXC collision RESOLVED at source · Zetrix suspension VERIFIED (5×, Malay press) · CSM acting CONFIRMED-current · Lanigan group-CEO still stale (Mar-2023 last dateline, use with care) · Fadzli tenure open flag · Yiow/Maybank PDF undated (pull AR2025 offline).
+- Medium: Scarlett Chai, Alan Ni, Fadzli Shah, Albern Murty, Roshdi Ahmad, TS Wong, Lanigan
 - Low/single-source: Hetzel (Luno global comp), Sing...[truncated]
