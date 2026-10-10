@@ -1,0 +1,138 @@
+[
+ {
+  "org": "CelcomDigi",
+  "detail": "Voice Firewall (nationwide July 2026, announced 24 Aug 2026) is described as integrated into CelcomDigi's CORE NETWORK, analyzing call traffic patterns/risk indicators; complements existing SMS firewall. No third-party vendor named in press = likely in-house/network-embedded. Pilot detected 355M malicious/suspicious call attempts incl 217M robocalls.",
+  "source_url": "https://www.lowyat.net/2026/402375/celcomdigi-voice-firewall-scam-flagging/",
+  "source_date": "2026-08-24",
+  "confidence": "high",
+  "signal": "incumbent=in-house network-level voice+SMS firewall; no external vendor disclosed"
+ },
+ {
+  "org": "CelcomDigi",
+  "detail": "July 2026 partnership with IPification for network-based phone number verification (skip-OTP identity API) to fight fake/duplicate accounts, ATO, identity fraud; also offers phone-number verification via Google Firebase. Consumer products MobileSHIELD/WebSHIELD (no vendor named on product page).",
+  "source_url": "https://www.lowyat.net/2026/402375/celcomdigi-voice-firewall-scam-flagging/",
+  "source_date": "2026-08-24",
+  "confidence": "high",
+  "signal": "vendors: IPification, Google Firebase (network APIs / identity)"
+ },
+ {
+  "org": "Luno MY",
+  "detail": "Chainalysis customer story (official vendor-published case study): Luno selected Chainalysis Know Your Transaction (KYT) for on-chain transaction monitoring and Chainalysis Reactor for investigations of ML/TF/sanctions.",
+  "source_url": "https://www.chainalysis.com/customer-stories/luno/",
+  "source_date": "undated (case study)",
+  "confidence": "high",
+  "signal": "incumbent: Chainalysis KYT + Reactor"
+ },
+ {
+  "org": "TNG Digital",
+  "detail": "TNG eWallet first eWallet to join BNM/PayNet National Fraud Portal (Aug 2024).",
+  "source_url": "https://www.tngdigital.com.my/tngd-news/tng-digital-joins-the-national-fraud-portal-to-strengthen-user-protection/",
+  "source_date": "2024-08-21",
+  "confidence": "high",
+  "signal": "integration route: BNM/PayNet NFP"
+ },
+ {
+  "org": "TNG Digital",
+  "detail": "Digital Wallet Guardian Partnership with Ant International + AlipayHK for AI-driven fraud prevention, ATO detection, knowledge sharing (Sep 2025). Ant International = de facto fraud-AI partner (TNG is Ant Group JV).",
+  "source_url": "https://fintechnews.sg/118064/e-wallets/digital-wallet-guardian/",
+  "source_date": "2025-09-11",
+  "confidence": "high",
+  "signal": "incumbent: Ant International fraud-AI stack"
+ },
+ {
+  "org": "TNG Digital",
+  "detail": "100% mandatory eKYC rolled out from 20 Dec 2024 (announced 20 Nov 2024); positioned as mule-account/fraud-weeding measure. eKYC vendor not named in coverage.",
+  "source_url": "https://www.bernama.com/en/news.php?id=2365391",
+  "source_date": "2024-11-20",
+  "confidence": "high",
+  "signal": "identity verification in-house/undisclosed vendor"
+ },
+ {
+  "org": "SC Malaysia (Securities Commission)",
+  "detail": "SC procurement page lists active/recent tech tenders: SOC Services RFP (closed 31 May 2024); SC-TAAM Audit Management System (Jul 2024); WAF Implementation Services (May 2025); PAM Replacement (Jul 2025); Data Warehouse Upgrade (May 2025); ECMS + SC&Bursa Coordinated Enforcement Repository System (CERS) maintenance/support (closed 9 Jul 2026); Integrated Physical Security Enhancement (2026); public-facing AI chatbot (Sep 2026). Confirms active supervisory-tech procurement pipeline but winners not published on page.",
+  "source_url": "https://www.sc.com.my/resources/sc-procurement",
+  "source_date": "accessed 2026-10-10",
+  "confidence": "high",
+  "signal": "procurement pipeline: SOC, ECMS/CERS enforcement systems, WAF, PAM, AI chatbot"
+ },
+ {
+  "org": "NACSA",
+  "detail": "NACSA-Huawei Malaysia AI-security partnership for gov networks/critical info assets, under National Cybersecurity Strategy 2025-2030 (reported early 2026; secondary blog source — verify).",
+  "source_url": "https://blog.subimpact.net/2026/07/nacsa-and-huawei-malaysia-forge-ai.html",
+  "source_date": "2026-07-10",
+  "confidence": "low",
+  "signal": "possible incumbent: Huawei (AI security framework)"
+ },
+ {
+  "org": "NACSA",
+  "detail": "Cyber Security Act 2024 (Act 854) licensing regime live since 26 Aug 2024: licence registry at licence.nacsa.gov.my gates who can sell managed SOC/pentest services = vendor landscape filter for any surveillance/forensics vendor entering gov market.",
+  "source_url": "https://www.nacsa.gov.my/application-licensing.php",
+  "source_date": "2024-10-01",
+  "confidence": "high",
+  "signal": "regulatory gate: NACSA CSL licensing"
+ },
+ {
+  "org": "CyberSecurity Malaysia",
+  "detail": "Official tender-award status page (2025 cycle) names incumbent tooling: USM Anywhere (SIEM, Trend Micro) license awarded SH/05/2025; Sangfor NGFW awarded SH/06/2025; 'Renewal Forensic Software' awarded SH/09/2025 (vendor not named); 'Hardware and Software for Data Recovery Services' SH/11/2025 awarded; Elastic X-Pack Platinum renewal SH/18/2025; OffSec platform (SH/16/2025) aborted; VAPT software SH/07/2025; RFP/01/2025 'INTAi' AI facial-recognition visitor-system testbed awarded; DPMA on AWS SH/21/2025. Requires MoF (Kementerian Kewangan) vendor registration codes 210102/210103/210106 for bids.",
+  "source_url": "https://www.cybersecurity.my/portal-main/procurement",
+  "source_date": "accessed 2026-10-10",
+  "confidence": "high",
+  "signal": "incumbents: Trend Micro USM Anywhere, Sangfor, Elastic, AWS; forensic tool renewed (vendor unnamed); surveillance-adjacent: facial recognition testbed INTAi"
+ },
+ {
+  "org": "Maybank Group",
+  "detail": "Maybank strategic partnership with Microsoft (announced 5 Aug 2025): cloud/AI foundation enabling real-time data analytics; M365 Copilot to 44,000 employees. Platform-level incumbent relevant to fraud-analytics stack; no AML application vendor named in the release.",
+  "source_url": "https://www.maybank.com/en/news/2025/08/05/maybank-microsoft-digital-ai-partnership.page",
+  "source_date": "2025-08-05",
+  "confidence": "high",
+  "signal": "incumbent: Microsoft (cloud/AI foundation)"
+ },
+ {
+  "org": "Maybank Group",
+  "detail": "Money Lock anti-fraud feature launched on MAE app Jan 2025, described as 'first-in-market' = in-house product capability; Maybank also runs 24/7 fraud hotline + NSRC 997 referral. No external vendor credited.",
+  "source_url": "https://www.maybank.com/en/news/2025/01/02.page",
+  "source_date": "2025-01-02",
+  "confidence": "high",
+  "signal": "in-house counter-fraud feature; vendor-agnostic public messaging"
+ },
+ {
+  "org": "Maybank Group",
+  "detail": "mwork.maybank.com (internal catalog/workforce portal) login page footer '© Copyright 2025 Ping Identity' — observable evidence of Ping Identity workforce identity deployment (page artifact, low-formal evidence).",
+  "source_url": "https://mwork.maybank.com/catalog-portal/ui",
+  "source_date": "observed 2026-10-10",
+  "confidence": "low",
+  "signal": "probable incumbent: Ping Identity (workforce IAM)"
+ },
+ {
+  "org": "BNM",
+  "detail": "BNM/PayNet ecosystem context: RM1.9b in scam transactions prevented reported Oct 2026; BNM plans to pilot a real-time fraud ALERT capability with selected banks in H1 2027 — a future procurement/integration window. National Fraud Portal (Aug 2024 launch) is the existing rails into banks/wallets/telcos.",
+  "source_url": "https://www.thevibes.com/articles/news/128046/malaysia-prevents-rm1.9b-in-scam-transactions-as-bnm-targets-real-time-fraud-alerts",
+  "source_date": "2026-10-06",
+  "confidence": "medium",
+  "signal": "pipeline: BNM fraud-alert pilot H1-2027; incumbent rails = PayNet NFP"
+ },
+ {
+  "org": "NACSA / Gov (NSRC)",
+  "detail": "Budget 2027 (tabled 9 Oct 2026 by PM Anwar) funds an AI-powered scam-checking app developed by NSRC (National Scam Response Centre, police-run, operates 997 hotline) — government-side anti-scam tooling being built in-house/at state level; vendor undisclosed.",
+  "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/budget-2027-ai-powered-scam-checking-app-a-welcome-move-experts-say",
+  "source_date": "2026-10-09",
+  "confidence": "high",
+  "signal": "gov in-house AI scam app; potential integration/displacement surface"
+ },
+ {
+  "org": "SC Malaysia (Securities Commission)",
+  "detail": "SC procurement includes 'Maintenance and Support Services for Enforcement Case Management System (ECMS) and SC & Bursa Coordinated Enforcement Repository System (CERS)' (RFP closed 9 Jul 2026) — SC+Bursa operate a shared market-surveillance/enforcement data repository whose incumbent maintainer is a named-target displacement/integration point; maintainer identity not published.",
+  "source_url": "https://www.sc.com.my/resources/sc-procurement",
+  "source_date": "accessed 2026-10-10",
+  "confidence": "high",
+  "signal": "surveillance-adjacent system: CERS market-enforcement repository up for maintenance re-award"
+ },
+ {
+  "org": "MX Global",
+  "detail": "Implemented FATF Travel Rule on the exchange from Sep 2022 (company blog announcement); no underlying compliance vendor named in any public source found. AML/KYC obligations asserted in marketing/company profiles only.",
+  "source_url": "https://blog.mxglobal.myegdev.com/2022/09/01/weve-made-changes-to-how-you-send-and-receive-digital-assets/",
+  "source_date": "2022-09-01",
+  "confidence": "medium",
+  "signal": "compliance capability in-house/undisclosed vendor — open displacement target"
+ }
+]

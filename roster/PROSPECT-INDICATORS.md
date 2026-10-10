@@ -1,63 +1,51 @@
-# ChainSentry — Prospect List with Buying Indicators
+# ChainSentry Malaysia — Master Prospect List (buying indicators + who signs)
 
-Compiled 2026-10-10 v1. Every indicator = dated, sourced event (sourcing: my-contact-dossier.md v3). Ranked by "why they buy NOW," not brand size. (END) = endorsement door, not buyer.
+v2 · 2026-10-10 (rebuilt after 4-lane deep sweep). Every indicator = dated, click-verified event; full sourcing in my-contact-dossier.md v3 + PROSPECT-SIGNALS.md (raw evidence in evidence/signals-20261010/). Ranked by "why they buy NOW."
 
-## T0 — buying pressure measurable today
+## 🟥 T0 — purchase pressure measurable right now
 
-### 1. PDRM JSJK/CCID (MY-01) — BUYER, inbound
-- Datuk Rusdi Mohd Isa — Director CCID (5 x 2026 datelines incl NST 13-Sep-26) — capability budget-holder
-- ASP Nurul Aqila binti Md Sedik — Kryptowang unit — ALREADY INVITED US (briefing, rank Insp/ASP unresolved) — aqila@rmp.gov.my 019-7915377
-- INDICATORS: RM2.97bn scam losses 2025 (his own Sep-26 figure); Q1-26 cases +12.9%; 90% commercial crime online; Tabung Haji IP opens Aug-26; Semakmule program orbit; unit named "crypto crime" EXISTS = org buy-in exists, tooling does not.
-- Trigger: the briefing itself. Move: reply (due TODAY), offer methodology-first session.
+**1. PDRM JSJK/CCID — they already invited us** · MY-01
+→ Sign: Director CCID **Datuk Rusdi Mohd Isa** [High, 5× 2026 sources] · Door: **ASP Nurul Aqila binti Md Sedik** (aqila@rmp.gov.my, 019-7915377 — rank collision to fix in reply) · Chain: **DCP Shamsul Amar Ramli** TD(Siber) → **Ts. Mail Yussof DSP** SIO PCIRC(I) · Budget seat: **SAC Mohamad Lazim** TD(Planning)
+Indicators: inbound briefing invite (reply due 10-Oct, escalate 12-Oct) · **RM20m Belanjawan-2026 forensics-modernisation line + RM12m NSRC** (spend target exists) · Rusdi's own 4 crypto-investigation challenges (ICIJ, Jan-26) · 218,307 mules, +70% YoY (KDN Feb-26) · RM375m crypto losses · cases +12.9% Q1
+Gate: **Act 854 / NACSA CSL licence question (ACT-20261010-001)** before any paid engagement.
 
-### 2. Maybank Group (MY-12) — BUYER, regulator-burnished need
-- Yiow Inn Sann — Group Chief Compliance Officer (official org PDF) — named decision-maker
-- Mohamed Rezwan — Group CRO (2024) / Shamsher Singh — Head Regional Compliance [low]
-- INDICATORS: BNM RM5m AML fine on Maybank Islamic (May-2025) = documented supervisory pressure; Group Compliance owns the remediation programme; SEA footprint = multi-jurisdiction crypto exposure they must supervise.
-- Move: letter to Group CCO referencing remediation (not product), vendor intake eprochelpdesk@maybank.com.my as back channel.
+**2. TNG Digital — the open seat buys the stack** · MY-09
+→ Hire lands into: **Head of Financial Crime Compliance** (posted 23-Sep-26; JD names NO tool) · CEO **Alan Ni** (fraud-risk founder)
+Indicators: greenfield FCC function incl. FIU liaison + board assurance · credit-division compliance build same fortnight (funding products = new mandates) · Ant fraud-AI covers fraud, NOT on-chain tracing · first eWallet on National Fraud Portal (integration surface)
+Move: FCC-targeted brief ≤2 wks; NFP-interoperability = the technical ask.
 
-### 3. MEXC (AE-26, MEA) — BUYER, freshly fined, licensing NOW
-- Public leadership thin (Seychelles-registered); route: Big-4 forensic arms + VARA-adjacent consultancies courting them post-fine.
-- INDICATORS: VARA Notice of Fines (2026): unlicensed VA services 2022–Apr-26 + KYC failures; cease-and-desist fully complied; PUBLICLY declared intent to enter VARA licensing = must stand up screening/tracing/Travel-Rule evidence for the application. Budget is being built right now.
-- Move: first call through G2 gate; angle = "license-application-ready transaction monitoring + corridor coverage."
+**3. Bybit KL hub — named incumbent stack in their own JDs** · MY-13
+→ Build: KL AML desk (6 postings 22-Sep→9-Oct: TM, KYB, Lead, Investigations, Name Screening & **Travel Rule**, Capital Risk)
+Indicators: JDs verbatim "Chainalysis, Elliptic, TRM Labs… CipherTrace" = budgeted multi-vendor seat; Travel-Rule exception pain described in own words; buying center = KL not Dubai (AE-09 corrected)
+Move: displacement one-pager — corridor corpus + on-prem + Travel-Rule ops, priced per-seat-against-suite.
 
-### 4. Luno Malaysia (MY-06) — BUYER, growth pressure
-- Scarlett Chai — Country Manager (4 sources through Sep-2026; fronts UMYR ringgit-stablecoin pilot = institutional/AML-sensitive)
-- Jeroni Khoo — Deputy CM MY (Mar-2026)
-- INDICATORS: UMYR stablecoin pilot with Halogen+Kenanga (Sep-2026) = new settlement rails = new monitoring obligations; 20% institutional share target by 2026 (Sep-25 theSun) = institutional due-diligence demands (they will be asked "what tracing do you run?"); biggest MY retail DAX = biggest exposure.
-- Move: via Chai on the stablecoin rail: "the pilot's counterparties will ask for your tracing posture — own it."
+**4. Maybank Group — supervisory wound with a deadline** · MY-12
+→ **Yiow Inn Sann**, Group Chief Compliance Officer [official org PDF] · Web3/Digital-Assets enterprise-architect hire (6-Oct: "build, buy, or partner" incl. compliance = RFP groundwork)
+Indicators: BNM RM5m AML fine on Maybank Islamic (May-25) = live remediation · AML app vendor UNNAMED publicly = incumbent unknown, pitch on merit not displacement
+Route: published vendor-inbox intake (compliance page) — needs vendor registration paperwork.
 
-## T1 — buying pressure structural, timing = their cycle
+**5. MEXC (MEA AE-26) — fined and licensing, budget being written now**
+Indicator: VARA Notice of Fines 2026 (unlicensed 2022–Apr-26 + KYC breaches) + publicly entering VARA licensing = remediation/screening/tracing purchase window. Collision note: this is MX Global LTD ≠ MX Global Sdn Bhd (MY target MY-07 cleared 10-Oct).
 
-### 5. TNG Digital (MY-09)
-- Alan Ni — CEO (fintechnews interview Aug-2026; career fraud/risk founder = speaks the language)
-- INDICATORS: TNG/PayNet industry fraud-alert pilot in BNM orbit (Oct-2026) — participation = obligations; eWallet fraud ops already funded; largest off-ramp = mule-network choke point JSJK wants mapped.
-- Move: complement-not-compete pitch to fraud/risk team (compliance head name = warm-intro gap).
+## 🟨 T1 — structural pressure, live windows
 
-### 6. CelcomDigi (MY-10) — Aras client, warm
-- Albern Murty — Group CEO (3 sources Feb-2026); anti-fraud stance is now CEO-brand (Voice Firewall, >355m suspicious calls blocked, Aug-2026)
-- INDICATORS: launched own anti-fraud stack = budget + mandate PROVEN; stack stops at the network — the money leaves via crypto off-ramps they cannot see; SIM-mule/OTP nexus is their fraud vector's downstream leg.
-- Move: Aras account team path; pitch = money-mapping complement to Voice Firewall. Existing contract = procurement already warm.
+**6. Reap (KL)** · MY-17 — JD verbatim: "transitioning from manual workflows to a modern, automated, rules-based monitoring environment" (7-Oct) = purchase imminent, shortlist in ad (Unit21/Flagright/Chainalysis/Elliptic). Visa-scheme + stablecoin flows.
+**7. Ryt Bank (MY digital bank)** · MY-19 — pre-launch, standing up entire FCC stack from scratch per BNM/FATF (Sep–Oct) = design-partner-shaped window.
+**8. RedotPay (KL)** · MY-18 — TM Specialist Web3 (21-Sep), filing own SARs; JD tool list = live shortlist.
+**9. MX Global** · MY-07 — SC compliance-deadline obligations; Travel-Rule since 2022; vendor stack undisclosed = discovery call, not displacement. CEO Fadzli Shah [stale-flagged].
+**10. NACSA** · MY-04 — CEO **Ir. Dr. Megat Zuhairy** (warm) · MyFleet precedent · NC4 ops heads named (Hanizah, Kheirulnaim) · Huawei AI partnership reported (verify). Fastest gov signature — IF Act 854 gate clears.
+**11. CelcomDigi** · MY-10 (Aras client) — CEO **Albern Murty**; Voice Firewall in-house + IPification identity = anti-scam stack built up to, but not into, the money layer. Aras account team = warm path.
 
-### 7. MX Global (MY-07)
-- Fadzli Shah — CEO [tenure stale-flag Apr-2025 — verify] ; compliance officer = name-gap (LinkedIn wall)
-- INDICATORS: SC-licensed DAX w/ compliance-deadline obligations; Binance/Cuscapi backing = expects institutional-grade tooling; VARA-MEXC confusion in market = reputational incentive to SHOW licensed-grade monitoring (cleared in v3 — they are NOT the fined entity, but market doesn't know it yet: "publish your compliance posture" is the opening).
-- Move: compliance-desk letter post-G2; verify tenure first.
+## 🟦 T2 — tailwind + channel
 
-### 8. NACSA (MY-04) — fastest gov yes (warm)
-- Ir. Dr. Megat Zuhairy bin Megat Tajuddin — CEO [register STK ref]
-- INDICATORS: MyFleet trust = precedent for adopting MY-built platform; national asset-tracking mandate = natural consumer of location+chain intelligence.
-- Move: Faurani door; white-label/regulator co-positioning decision (D-07-adjacent) first.
+- **BNM** · MY-02 — FIED: **Mohd Fuad Arshad** (Director) + **June Lian** (DepDir); Governor's H1-27 real-time fraud-alert pilot (6-Oct-26) = national watch event; RM1.9bn prevented H1-26 frames the meeting.
+- **SC** · MY-03 — Dr Wong Huei Ching (digital door), **Manoj Kurup ED Enforcement eff 8-Apr-26**; ECMS/CERS re-award Jul-26 = enforcement-spine integration watch; published inboxes (cau@/aduan@/supervision@).
+- **CyberSecurity Malaysia** · MY-05 — CTO **Wan Roshaimi** (technical seat), CEO still **Acting Roshdi Ahmad** = capability-review window; publishes award-level procurement (forensics renewal SH/09/2025 vendor unnamed = watch).
+- **Gate MY** · MY-20 — wants data feeds not suites (API pitch). **First Digital** · MY-14 · **StraitsX/Monee** · MY-15 — ops-layer builds.
+- **Luno** · MY-06 — incumbent CONFIRMED Chainalysis KYT+Reactor; hiring stable = hold for renewal-cycle displacement; UMYR pilot (Sep-26) = institutional-AML conversation hook via **Scarlett Chai**.
 
-## T2 — endorsement doors (END) — sell credibility, not licences
-- SC: Dr Wong Huei Ching ED Digital Strategy (door) + Datuk Manoj Kurup ED Enforcement; inboxes cau@/aduan@/supervision@seccom.com.my; INDICATOR: revised digital-asset regime = supervisory tooling gap they must solve; we answer consultations (ACT-004).
-- BNM: Gov Shaik Abdul Rasheed's AI-financial-crime/predictive-fraud line (Oct-2026) = policy hook for whitepaper (ACT-004), not a sale.
-- CyberSecurity MY: Roshdi Ahmad ACTING CEO (still acting 10-Oct-26 per CDSA artifact) = capability review window open; warm units: Fahdzli Rauf, Fathi Kamil, Nazri Zamani, Azrul Nazim. Channel play, not direct.
-- CAAM: Hazlim (15-Oct meeting) = association halo → member banks later.
+## ⬛ Kill list (dated)
+Tokenize MY-08 (defunct; founder frozen 8-Oct-26) · Zetrix MY-11 (RM314m JPJ seizure, suspended agent; close ACT-007 politely).
 
-## DEAD / DO-NOT-SELL (kill list, dated)
-- Tokenize Xchange — collapsed Jul-2025, S$267M insolvent, founder Hong Qi Yu assets frozen (ST 8-Oct-26). MY remnant "KDX" distancing itself = association risk. (Case-study material for the JSJK deck only.)
-- Zetrix AI — RM314m JPJ unremitted, suspended 5-Oct-26 (5 Malay sources), MARC negative watch. Cannot fund anything; JMYR rail = zero-cost hold only.
-
-## Name gaps that need in-country clicks (not scraping)
-Luno/MX/TNG MLRO names (LinkedIn-wall) · BNM Financial Integrity division head (AR2025 PDF) · Maybank AR2025 CCO currency check · MX compliance desk.
+## Standing watch events (Friday sweep diffs against evidence/signals-20261010/)
+BNM H1-27 pilot vendor · SC ECMS/CERS winner · RUU jenayah siber drafting + SPRM crypto-STR/CTR law (mandatory-demand wave if enacted) · Belanjawan-2027 NSRC app vendor · TNG FCC appointment · JSJK director-layer collision (Hasbullah-vs-Rusdi).

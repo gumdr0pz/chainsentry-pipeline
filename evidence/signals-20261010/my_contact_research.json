@@ -1,0 +1,132 @@
+[
+  {
+    "company": "Luno Malaysia Sdn Bhd (Luno Exchange)",
+    "tier": "1 - crypto DAX (SC-registered)",
+    "leadership": [
+      {"name": "Scarlett Chai", "role": "Country Manager (Malaysia), Luno", "source": "https://fintechnews.my/61019/blockchain/luno-ringgit-stablecoin-umyr/", "date": "2026-09-24", "confidence": "Medium"},
+      {"name": "Jeroni Khoo", "role": "Deputy Country Manager for Malaysia, Luno", "source": "https://fintechnews.my/57415/blockchain/luno-malaysia-listings/", "date": "2026-03-30", "confidence": "Medium"},
+      {"name": "James Lanigan", "role": "Group CEO, Luno (global; group-level, not Malaysia entity)", "source": "https://fintechnews.my/tag/luno/ (headline: 'Luno's COO James Lanigan Will Now Serve as the New CEO')", "date": "2023-03-23", "confidence": "Medium", "note": "Malaysia door is the Country Manager, not group CEO. Andrew Kiguel NOT verified as current CEO in any 2025-2026 source — treat as NOT FOUND."}
+    ],
+    "compliance_contact": {"name": "Johan Hetzel (CAMS)", "role": "Global Head of Compliance & Anti-Financial Crime (Crypto), Luno", "source": "LinkedIn profile headline via Google News index (login-walled)", "date": "profile cached, recency unverified (flag: stale, 2019-dated index entry)", "confidence": "Low", "note": "No Malaysia-based MLRO/compliance officer found in public sources."},
+    "emails_published": [],
+    "route_note": "Enter via Scarlett Chai (Country Manager MY, quoted Sep-2026 on the UMYR ringgit-stablecoin pilot with Halogen/Kenanga — institutional/AML-sensitive initiative = natural ChainSentry hook). Luno is a DCG subsidiary under group-wide AML program."
+  },
+  {
+    "company": "MX Global Sdn Bhd / MX Exchange (Labuan-linked DAX)",
+    "tier": "1 - crypto DAX (RMO-DAX registered Aug 2021; Binance/Cuscapi-backed)",
+    "leadership": [
+      {"name": "Fadzli Shah", "role": "CEO, MX Global / MX Exchange (appointed Aug 2021, ex-MDEC C-level); current tenure NOT re-confirmed in 2025-26 sources", "source": "https://www.digitalnewsasia.com (headline: 'MX Exchange gets nod as Recognised Market Operator-Digital Asset Exchange in Malaysia, appoints Fadzli Shah CEO')", "date": "2021-08-27", "confidence": "Low (stale; no newer confirmation)"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": null, "source": "mxglobal.com.my/compliance page renders empty (JS); no named compliance lead in news", "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "Watch-out: Dubai VARA took enforcement action against MX Global (FX News Group, 2026-06-23) — frame outreach as remediation/tracing capability, and verify who actually holds the MY compliance portfolio before pitching."
+  },
+  {
+    "company": "Tokenize Technology Sdn Bhd / Tokenize Xchange (now KDX - Kinetic DAX Sdn Bhd), KL",
+    "tier": "1 - crypto DAX — DISTRESSED / under investigation",
+    "leadership": [
+      {"name": "Wei Chi Chan", "role": "CEO at KDX (formerly known as Tokenize Malaysia) — per LinkedIn headline", "source": "LinkedIn profile headline via Google News index", "date": "profile index entry; recency unverified", "confidence": "Low"},
+      {"name": "NOT FOUND (founder of Tokenize Xchange, Singapore entity)", "role": "Founder, Tokenize Xchange Pte Ltd — named in Singapore court filings ('Assets of Tokenize Xchange founder and his ex-wife frozen by court order') but the headline does not state the name and no reliable page reachable to extract it", "source": "The Business Times / Straits Times via Google News", "date": "2026-10-07", "confidence": "N/A — name deliberately not guessed"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": null, "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "HIGH-RISK TARGET: KDX publicly distanced itself from Tokenize Singapore police investigation (Fintech News MY 2025-08-04); CAD (SG) investigating withdrawals; users suing founder for S$60m+; S$267m liabilities. Sell only as a distressed/investigative use case or skip; do not treat as healthy buyer."
+  },
+  {
+    "company": "TNG Digital Sdn Bhd (Touch 'n Go eWallet)",
+    "tier": "1 - largest MY e-wallet / issuer (BNM-regulated)",
+    "leadership": [
+      {"name": "Alan Ni", "role": "CEO, TNG Digital", "source": "https://fintechnews.my interview headline 'TNG eWallet is No Longer a Payments Company? | Alan Ni CEO, TNG Digital'", "date": "2026-08-04", "confidence": "Medium"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": "Head of Compliance/AML not published; TNG Digital site has no leadership page (about-us.html 404)", "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "CEO Alan Ni confirmed via multiple Aug-2026 media items (Edge, Fintech News, NST). Compliance decision-maker must be sourced via LinkedIn Sales Nav or a warm intro — nothing public. Anti-scam/fraud-alert programs (with PayNet, per BNM governor Oct-2026) are the product wedge."
+  },
+  {
+    "company": "Zetrix (Zetrix AI Berhad, formerly My E.G. Services Bhd)",
+    "tier": "2 - blockchain L1 / DPI / digital-services conglomerate",
+    "leadership": [
+      {"name": "TS Wong", "role": "Founder & substantial shareholder, Zetrix AI Berhad (news consistently calls him 'Zetrix AI's TS Wong'/'founder'; exact executive title not stated in retrieved sources — do NOT assert CEO without the annual report)", "source": "https://www.straitstimes.com/asia/se-asia/troubled-umno-linked-firm-zetrix-owes-malaysian-government-over-63-million-in-collections-source + The Edge Malaysia", "date": "2026-10-02/03", "confidence": "Medium (name/role)"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": null, "source": "zetrix.com corporate-information page has no named officer listing (JS-rendered)", "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "CAUTION: Zetrix is in active distress — suspended by JPJ as collection agent over RM314m unpaid revenue (Oct-2026), share sell-offs by TS Wong, MARC negative watch. Also note: the ringgit-stablecoin sandbox story belongs to BLOX (The Edge, 2025-07-22), not Zetrix — the JMYR/DAX-approval premise could not be verified. Payment risk on any deal."
+  },
+  {
+    "company": "Securities Commission Malaysia (SC)",
+    "tier": "1 - regulator (DAX/capital markets)",
+    "leadership": [
+      {"name": "Dato' Mohammad Faiz Azmi", "role": "Chairman, Securities Commission Malaysia (title changed from 'Commissioner of Securities/Chief Executive' under SC Act amendment; page lists him as Chairman)", "source": "https://www.sc.com.my/about/senior-management", "date": "page 'Last Updated: As at 8 April 2026'; corroborated by PBoC meeting report 2026-04-14", "confidence": "High"},
+      {"name": "Datin Paduka Azalina Adham", "role": "Managing Director, SC", "source": "https://www.sc.com.my/about/senior-management", "date": "2026-04-08", "confidence": "High"},
+      {"name": "Dr. Wong Huei Ching", "role": "Executive Director, Digital Strategy & Innovation, SC (fintech/digital-assets door)", "source": "https://www.sc.com.my/about/senior-management", "date": "2026-04-08", "confidence": "High"}
+    ],
+    "compliance_contact": {"name": "N/A (regulator)", "role": "AML/CFT/CPF guidelines sit under SC Regulation; named regulation head not on senior-management page", "source": null, "date": null, "confidence": null},
+    "emails_published": [
+      {"email": "cau@seccom.com.my", "purpose": "general enquiries (published on sc.com.my/about/contact-us)"},
+      {"email": "aduan@seccom.com.my", "purpose": "complaints (published on sc.com.my/about/contact-us)"},
+      {"email": "supervision@seccom.com.my", "purpose": "supervision dept (published on contact-us dept list)"}
+    ],
+    "route_note": "Regulator channel: Dr Wong Huei Ching's Digital Strategy & Innovation ED office is the entry for blockchain-forensics/pilot engagement; aduan@seccom.com.my is the published enforcement/complaint inbox."
+  },
+  {
+    "company": "Bank Negara Malaysia (BNM)",
+    "tier": "1 - regulator (banks/AML/payment systems)",
+    "leadership": [
+      {"name": "Dato' Sri Shaik Abdul Rasheed bin Abdul Ghaffour", "role": "Governor of Bank Negara Malaysia, since 1 July 2023 (CORRECTION to task brief: it is NOT 'Abdul Rasheed Megat Abdul Khalid' and it did NOT start Feb 2025; predecessor Nor Shamsiah Mohd Yunus served to 30 Jun 2023)", "source": "https://en.wikipedia.org/wiki/Bank_Negara_Malaysia (infobox + governor list); corroborated by active-as-governor coverage: Reuters 2026-07-27, FMT 2026-10-06 ('BNM governor warns of AI-assisted financial crime')", "date": "accessed 2026-10-10, incumbency active as of Oct 2026", "confidence": "High (incumbent name via Wikipedia + multiple 2026 news attributions)"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": "Payments/AML/Financial Cyber Resilience department heads — bnm.gov.my fully bot-blocked (Access Denied/Cloudflare via all fetch paths)", "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "Governor's Oct-2026 public line ('fraud prevention must shift from reactive to predictive; AI-assisted financial crime') is the direct policy hook for ChainSentry; AML/Payment Development Dept contacts need the BNM annual report PDF or LinkedIn — site unreachable from datacenter IPs."
+  },
+  {
+    "company": "PDRM / JBSS Bukit Aman — Jabatan Siasatan Jenayah Komersil (JSJK/JCID)",
+    "tier": "1 - law enforcement (crypto fraud/commercial crime)",
+    "leadership": [
+      {"name": "NOT FOUND", "role": "Current Pengarah / Chief Commissioner JSJK (Comm Datuk Seri Khaw Keng Chai circa 2023-2025 could NOT be re-confirmed as current in 2026 sources; name left blank per no-guess rule)", "source": "Google News MY queries for JKJ/JSJK/Khaw Keng Chai returned no 2025-26 named incumbent", "date": null, "confidence": "NOT FOUND"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": "crypto/ICT investigation section head — no published name found", "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "JSJK leadership is announced via Malay-language press releases (Bernama/Harian) which are bot-walled from this environment. Practical door: PDRM's Semakmule scam-check program participation (NST 2026-01-05) and MDEC/NACSA-adjacent events; obtain incumbent name from a Malaysian comms contact or the PDRM directory in-country."
+  },
+  {
+    "company": "CelcomDigi Bhd",
+    "tier": "2 - telco (fraud/scam-call battleground, A2P & SIM regulation)",
+    "leadership": [
+      {"name": "Albern Murty", "role": "Group Chief Executive Officer, CelcomDigi (formally appointed 10 Feb 2026; successor to Datuk Mohamad Idham Nawawi)", "source": "NST / The Edge Malaysia / BusinessToday 'CelcomDigi confirms Albern Murty as CEO'", "date": "2026-02-10", "confidence": "Medium (multiple reputable outlets, consistent)"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": "Group Chief Compliance Officer not published", "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "CelcomDigi shipped a 'Voice Firewall' scam-call product (Aug 2026, >355m suspicious calls) — they see themselves as anti-fraud sellers; pitch ChainSentry as tracing/downstream-money-mapping complement, via the new CEO's fraud/transformation agenda."
+  },
+  {
+    "company": "Maybank Group",
+    "tier": "2 - bank (AML-supervised; prior AML fine)",
+    "leadership": [
+      {"name": "Mohamed Rezwan", "role": "Group Chief Risk Officer, Maybank (closest risk-function chief publicly named; NOT a compliance officer)", "source": "Maybank Group announcement headline via Google News 'Maybank appoints Mohamed Rezwan as new Group Chief Risk Officer'", "date": "2024-08-07", "confidence": "Medium"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": "Group Chief Compliance Officer / AML head — not named in any public source reachable (annual-report leadership pages are PDFs behind maybank.com, not surfaced)", "source": null, "date": null, "confidence": null},
+    "emails_published": [{"email": "eprochelpdesk@maybank.com.my", "purpose": "supplier enquiries only (published on maybank.com/en/contact-us.page) — NOT a compliance inbox"}],
+    "route_note": "BNM fined Maybank Islamic RM5m for AML lapses (Fintech News MY, 2025-05-29) — remediation pressure is real; route via Group CRO office or the supplier channel (Maybank runs an active vendor intake), then ask for Group Compliance referral. CCO name must be pulled from the AR2025 PDF or LinkedIn before any personalized outreach."
+  },
+  {
+    "company": "CyberSecurity Malaysia (agencia di bawah MOSTI)",
+    "tier": "2 - national cyber agency (forensics CoE owner)",
+    "leadership": [
+      {"name": "Roshdi Ahmad", "role": "Acting CEO, CyberSecurity Malaysia (predecessor CEO Dato' Amirudin retired 13 Jan 2026 after 13 years — the task-brief candidates Dr. Shaharudin/Megat Zuhairy are NOT current)", "source": "Bernama 'CyberSecurity Malaysia Appoints Roshdi Ahmad As Acting CEO'", "date": "2026-01-14", "confidence": "Medium"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND", "role": "head of cyber forensic / CoE units — cybersecurity.my web paths 404 from this environment", "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "Acting-CEO window = open strategy review; approach on national cyber-defence/forensics capability procurement. Confirm whether a permanent CEO has been named since Jan 2026 (no later news found) before addressing correspondence."
+  },
+  {
+    "company": "Luno — group vs Malaysia entity (cross-check for target #1)",
+    "tier": "verification note",
+    "leadership": [
+      {"name": "James Lanigan", "role": "Group CEO, Luno (global, since Mar 2023)", "source": "Fintech News Malaysia headline", "date": "2023-03-23", "confidence": "Medium"},
+      {"name": "Scarlett Chai", "role": "Country Manager (Malaysia) — DIFFERENT person from group CEO; she is the Malaysia-entity lead", "source": "https://fintechnews.my/61019/blockchain/luno-ringgit-stablecoin-umyr/", "date": "2026-09-24", "confidence": "Medium"}
+    ],
+    "compliance_contact": {"name": "NOT FOUND for Malaysia; Johan Hetzel at group level (Low, stale)", "role": null, "source": null, "date": null, "confidence": null},
+    "emails_published": [],
+    "route_note": "Confirmed: Malaysia leadership ≠ group leadership. Andrew Kiguel could not be verified as current group CEO in any 2025-26 source; do not use that name."
+  }
+]
