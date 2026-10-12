@@ -2,7 +2,7 @@
 
 **Status:** Canonical v1 (2026-10-08) · Owner: Hadri (accountable) · Prepared: Vesper
 **Relationship to strategy:** `strategy/STRATEGY.md` v2 is the *why* (positioning, parity, gates, kill metrics). This suite is the canonical *how* — paths, sequencing, resourcing, metrics, decisions. Where they differ, this suite governs execution and STRATEGY.md governs doctrine.
-**Grounding:** DEC-20260914-001 · DEC-20260915-001 · INIT-20261006-001 · OPP-20261006-001..004 · ACT-20261006-003..008 · ACT-20261008-001/002 · RSK-20261006-001 · rosters: `roster/target-roster.csv` (50) + `roster/mea-roster.csv` (72) · JD-AML-CFT-SPECIALIST v2.
+**Grounding:** DEC-20260914-001 · DEC-20260915-001 · INIT-20261006-001 · OPP-20261006-001..004 · ACT-20261006-003..008 · ACT-20261008-001/002 · ACT-20261010-001 · INT-20261010-001..003 · RSK-20261006-001 · rosters: `roster/target-roster.csv` (58) + `roster/mea-roster.csv` (72) · JD-AML-CFT-SPECIALIST v2.
 
 ## Contents
 
