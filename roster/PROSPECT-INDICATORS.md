@@ -55,6 +55,21 @@ _"none published" = genuinely not public (support forms or Aras/warm channels ar
 Indicators: inbound briefing invite (reply due 10-Oct, escalate 12-Oct) · **RM20m Belanjawan-2026 forensics-modernisation line + RM12m NSRC** (spend target exists) · Rusdi's own 4 crypto-investigation challenges (ICIJ, Jan-26) · 218,307 mules, +70% YoY (KDN Feb-26) · RM375m crypto losses · cases +12.9% Q1
 Gate: **Act 854 / NACSA CSL licence question (ACT-20261010-001)** before any paid engagement.
 
+### 🎯 JSJK briefing — confirmed PDRM attendees (operator-verified list, 12-Oct)
+
+| # | Rank | Name | Role |
+|---|---|---|---|
+| 1 | **ACP** | **M Zambri bin Mahmod** | **KPP Bahagian Siasatan Perakaunan Forensik / Siasatan Jenayah Cryptocurrency — division head, senior-most** |
+| 2 | SUPT | Mohd Norazizi bin Badri | (division not stated) |
+| 3 | ASP | Norfalisa Hartini bt Kholin | (division not stated) |
+| 4 | ASP | Nurul 'Aqila bt Md. Sedik | Kryptowang/crypto-crime — invitation initiator (rank conflict closed: ASP) |
+| 5 | Insp | E Poh Hua | (division not stated) |
+| 6 | Insp | Mohd Safuan bin Hamdan | (division not stated) |
+| 7 | Insp | Nalini a/p Munusamy | (division not stated) |
+| 8 | Insp | Siti Fatimah bt Abdul Mutalib | (division not stated) |
+
+Reading: an **8-officer working session anchored at division-head level**, with forensic accounting folded into the crypto-crime bahagian — pitch casework throughput + court-grade output against the RM20m forensics-modernisation line, not a unit-tool demo. Recorded-output walkthrough per Gate-Exception Protocol; no live demo pre-G2.
+
 **2. TNG Digital — the open seat buys the stack** · MY-09
 → Hire lands into: **Head of Financial Crime Compliance** (posted 23-Sep-26; JD names NO tool) · CEO **Alan Ni** (fraud-risk founder)
 Indicators: greenfield FCC function incl. FIU liaison + board assurance · credit-division compliance build same fortnight (funding products = new mandates) · Ant fraud-AI covers fraud, NOT on-chain tracing · first eWallet on National Fraud Portal (integration surface)
