@@ -59,16 +59,18 @@ Gate: **Act 854 / NACSA CSL licence question (ACT-20261010-001)** before any pai
 
 | # | Rank | Name | Role |
 |---|---|---|---|
-| 1 | **ACP** | **M Zambri bin Mahmod** | **KPP Bahagian Siasatan Perakaunan Forensik / Siasatan Jenayah Cryptocurrency — division head, senior-most** |
-| 2 | SUPT | Mohd Norazizi bin Badri | (division not stated) |
-| 3 | ASP | Norfalisa Hartini bt Kholin | (division not stated) |
-| 4 | ASP | Nurul 'Aqila bt Md. Sedik | Kryptowang/crypto-crime — invitation initiator (rank conflict closed: ASP) |
-| 5 | Insp | E Poh Hua | (division not stated) |
-| 6 | Insp | Mohd Safuan bin Hamdan | (division not stated) |
-| 7 | Insp | Nalini a/p Munusamy | (division not stated) |
-| 8 | Insp | Siti Fatimah bt Abdul Mutalib | (division not stated) |
+| 1 | **ACP** | **M Zambri bin Mahmod** | **KPP Bahagian Siasatan Perakaunan Forensik / Siasatan Jenayah Cryptocurrency — division head, senior-most** · ⚠︎ not independently findable (operator channel) |
+| 2 | SUPT | Mohd Norazizi bin Badri | (division not stated) · ⚠︎ not independently found |
+| 3 | ASP | Norfalisa Hartini bt Kholin | (division not stated) · ⚠︎ not independently found |
+| 4 | ASP | Nurul 'Aqila bt Md. Sedik | crypto unit (PDRM public name: **Unit Mata Wang Kripto**) — invitation initiator · LinkedIn RMP match indirect, identity unconfirmed |
+| 5 | Insp | E Poh Hua | **CCID crypto** — ✅ **VERIFIED**: Bitcoin Malaysia Conf 2024 agenda, PDRM CCID, talk on crypto crimes |
+| 6 | Insp | Mohd Safuan bin Hamdan | (division not stated) · ⚠︎ not independently found |
+| 7 | Insp | Nalini a/p Munusamy | 🔶 **CORROBORATED**: LinkedIn "Insp Dr. Nalini Munusamy — Cryptocurrency Investigation Officer" (employer auth-walled) |
+| 8 | Insp | Siti Fatimah bt Abdul Mutalib | (division not stated) · ⚠︎ not independently found |
 
-Reading: an **8-officer working session anchored at division-head level**, with forensic accounting folded into the crypto-crime bahagian — pitch casework throughput + court-grade output against the RM20m forensics-modernisation line, not a unit-tool demo. Recorded-output walkthrough per Gate-Exception Protocol; no live demo pre-G2.
+Verification note (12-Oct): officer visibility below division-head level is normally non-public — 5× NOT-INDEPENDENTLY-FOUND is expected, not disproof; 1 verified + 1 corroborated support list authenticity. Full sweep: register INT-20261012-001.
+
+Reading: an **8-officer working session anchored at division-head level**, with forensic accounting folded into the crypto-crime bahagian — pitch casework throughput + court-grade output against the scam-loss caseload (RM2.97bn, Rusdi Sep-26) — note: the Belanjawan-26 RM20m digital-forensics line attributes to D11 in coverage, do NOT cite it at the JSJK table, not a unit-tool demo. Recorded-output walkthrough per Gate-Exception Protocol; no live demo pre-G2.
 
 **2. TNG Digital — the open seat buys the stack** · MY-09
 → Hire lands into: **Head of Financial Crime Compliance** (posted 23-Sep-26; JD names NO tool) · CEO **Alan Ni** (fraud-risk founder)
