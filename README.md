@@ -14,7 +14,8 @@ This repo holds the execution layer: strategy, activation plan, target rosters, 
 |---|---|---|
 | `strategy/STRATEGY.md` | **Doctrine** — positioning, Chainalysis parity scoreboard, entry playbooks, pricing counters, kill metrics | v2, 6-Oct |
 | `activation/` | **Canonical market-activation suite** (vision/mission → six paths → master plan → KPIs/risks/decisions) + consolidated `.docx` | v1, 8-Oct |
-| `roster/CONTACTS.csv` | **Contact list** — 39 rows: company / person / position / email / phone / how-to-reach / source. Published contacts only; gaps recorded as gaps | 10-Oct |
+| `roster/CONTACTS.csv` | **Contact list** — 66 rows: company / person / position / **state-tagged email** (VERIFIED-DIRECT / CATCHALL / PATTERN / published) / phone / how-to-reach / source. 20 corridor orgs with dated buy-now hooks | 12-Oct |
+| `pricing/PRICING.md` · `pricing/ChainSentry-Pricing-v1.docx` | **Pricing tier ladder** — Scout (free) / Analyst $249 / Investigator $749 / Compliance $2,299 / **Sovereign (on-prem, air-gap)** / API from $29. Structure benchmarked vs published market ladders; capacity numbers marked PENDING-ENGINEERING-CONFIRM | 14-Oct |
 | `roster/PROSPECT-INDICATORS.md` | **Master prospect list** — ranked by "why they buy NOW," each target = named signatory + dated buying indicators; contact table embedded | v2, 10-Oct |
 | `roster/PROSPECT-SIGNALS.md` | Signal intelligence — hiring clusters, incumbent vendors, procurement/budget trails (Belanjawan lines, parliamentary replies), operating-level personnel | 10-Oct sweep |
 | `roster/MALAYSIA-BATTLEMAP.docx` | All three analyses above in one circulated document (strip contact table before external use) | 10-Oct |
