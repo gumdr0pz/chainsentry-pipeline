@@ -1,84 +1,69 @@
 # JD — Head of Financial Crime Compliance, ChainSentry
 **Company:** Aras Integrasi Sdn Bhd · **Product:** ChainSentry (blockchain forensics & AML tracing, sovereign-deployable)
-**Reports to:** Solutions Architect / COO · **Location:** Kuala Lumpur / hybrid · **Type:** Full-time (or Senior Advisor retainer — see §8)
-**Version:** v2 · 15-Oct-2026 · owner: Hadri · v2 changes: crypto-competence ramp (T0), multi-jurisdiction scope, corridor design partners — modeled on competitor research (STUDY-competitor-trust-roles.md)
+**Reports to:** Solutions Architect (COO track) · **Location:** KL · hybrid · **Mode:** full-time, or 2-day/wk advisor retainer
 
-## 1. Why this role exists (one paragraph)
-ChainSentry's engineering is real; its *trust* is not yet built. Buyers of forensics are MLROs, CCOs and
-FIU officers who only trust vendors whose methodology survives a regulator examination, whose case files
-survive a court challenge, and whose salesperson has personally filed the STR they're now being examined
-for. This role is the bridge: one senior financial-crime practitioner who owns ChainSentry's compliance
-credibility end-to-end — product requirements, evidentiary standard, regulator engagement, and
-design-partner trust — across every jurisdiction we enter. Category note: this is exactly how the Big-3
-staff the seat (Elliptic "Head of Enterprise Regulatory Advisory", TRM network-activation roles): bought
-from the buyer's world, with crypto at working-knowledge level and chain depth kept in a separate
-engineering/intelligence bench.
+## Why this role exists
+ChainSentry's binding constraint is trust, not engineering. This seat owns the trust side end-to-end: regulatory soundness, evidentiary strength, buyer credibility, and regulator presence across MY + the corridor.
 
-## 2. Mission
-Make ChainSentry the blockchain-tracing product that a regulated institution — a Malaysian bank, DAX or
-FIU first, then any corridor jurisdiction (SG/TH/VN/ID/AE/TR/EG) — can **defend choosing**: to its board,
-to its regulator, and in court.
+## The translation engine — his skills → crypto (how we utilize him)
+| His skill (bank-native) | How it lands in crypto | What he produces for ChainSentry |
+|---|---|---|
+| FIED STR drafting (PDRM/ASTANA) | STR anatomy is identical on-chain; only evidence artifacts change (txhash, cluster, exposure path) | STR-ready case-file workflow; "crypto STR" playbook for Malaysian FIs — none exists publicly today |
+| AMLATFPUAA 2001 disclosure orders | On-chain records = digital evidence; admissibility questions are his, not ours | Evidentiary standard for export: chain-of-custody, exhibit naming, affidavit hooks |
+| Sanctions/name screening (Refinitiv/DJ/CTOS) | OFAC SDN + virtual-asset designations + Travel Rule = screening with a wallet dimension | Requirement set for our sanctions/VA-designation coverage; MEA lanes hinge on this |
+| Regulatory inspection response (BNM/SC) | Regulators now ask FIs about VA exposure, DAX/KYT vendors, Travel Rule | Trust Requirements Spec; our answers to FI questionnaires |
+| Board/management reporting | Boards ask "how do we govern crypto risk" without vendor fog | Compliance-grade reporting pack: what a board needs, in board language |
+| Court proceedings experience | First on-chain cases will be contested; expert testimony is scarce locally | Deck/webinar claims audit; expert-witness readiness path for ChainSentry |
+| AML policy/program build | FIs must extend programs to VA exposure — that extension IS our use case | Productized checklist: "AML program update for VA exposure" (lead magnet + pilot scope) |
+## Honest positioning
+We hire for judgment and translate for medium. Chain-fluency is a mandatory 30-day ramp we fund; his compliance depth is the raw material the product needs. The design principle is deliberate: **he is not our crypto expert — he is our crypto BUYER.** The compliance head with no chain depth is exactly who ChainSentry must convert; his learning curve is the buyer's learning curve, and every step that teaches him ships as product capability.
 
-## 3. What he owns (five pillars, each with authority)
-| # | Pillar | Scope | Authority |
-|---|--------|-------|-----------|
-| P1 | **Regulatory requirements → product (multi-jurisdiction)** | Beachhead MY: BNM AML/CFT Policy, SC RM Guidelines 2025, PMABA, AMLATFPUAA 2001. Corridor layer: FATF R.15/R.20 + Travel Rule (GFI), MAS PSN01/02 (SG), VARA & AMLC (UAE), AMLO/SEC (TH), PPATK (ID), CMA/CBUAE (AE/EU-MiCA horizon). Owns the requirements spec handed to engineering + a standing horizon-scan practice (Elliptic model: early, actionable notice of what's coming, per jurisdiction) | Sets trust-feature backlog priorities |
-| P2 | **Evidentiary standard** | Own chain-of-custody + court-grade export: TXID-level verification, node-replay evidence integrity, STR field-mapping (FIED first; corridor FIU mappings as we enter), order-response packs (AMLATFPUAA §28 and equivalents). He has filed STRs and attended proceedings — he defines "good enough for the judge", including for chain evidence | **Veto on any evidentiary claim** made about the product |
-| P3 | **Trust gatekeeper** | Review every sales claim, deck, webinar and marketing text against what the product can actually do and what compliance can lawfully assert, per jurisdiction | **Veto on claims** (kills hype before it burns the brand) |
-| P4 | **Design-partner & reference program (MY → corridor)** | Recruit 2–3 MY design partners from his network + roster T1s (banks, DAX, e-wallets); then 1–2 corridor partners from the MEA roster (72 targets). Runs the pilot-compliance playbook; converts pilots into named references. Network-activation mandate (TRM grammar): we hire his earned network, not a cold-quota seller | Owns the design-partner bar (shared with Aras sales: Shuhada) |
-| P5 | **Regulator & industry presence (regional)** | MY: AMLCFA/conference circuit, BNM/SC engagement as a compliance peer. Regional: whitepaper multi-jurisdiction edition under his name; appearances beyond MY (Dubai/SG compliance circuits) as corridor pilots engage. Speaks as ChainSentry's compliance voice | Speaks as ChainSentry's compliance voice |
+## The crypto ramp — first 30 days (part of the job, not homework)
+**Week 1 — Mental model.** Addresses, blocks, fees; UTXO vs account; what a wallet is and isn't; exchanges, DEXs, mixers, bridges; block explorers without fear. 2×2h engineering-led sessions + reading.
+**Week 2 — Typologies in his native language.** Pig-butchering, romance scams, mule networks, ransomware, sanctioned-entity movement, off-ramp patterns — each mapped to the typology he already knows: mule accounts ↔ mule wallets, cash-out ↔ off-ramp, layering ↔ chain-hop. He writes each mapping as a one-pager; the one-pagers become our MY-tuned typology library.
+**Week 3 — Tool-side.** ChainSentry hands-on: run 5 seeded live cases end-to-end; tag/cluster/exposure features; every place the tool fails to answer a compliance question becomes a backlog entry with his name on it.
+**Week 4 — His turn (T0 gate, contractual).** Unscripted 20-min brief: one VA off-ramp typology, to the product team, in compliance language. Pass = the team understood it without translation.
+**Ongoing.** One chain-fluency item/week (TRM/Elliptic/Chainalysis public reports, FATF VA updates, SC RM Guidelines); budgeted path to recognisable standing (CAMS-Crypto or equivalent).
 
-## 4. Engineered success — measured, timeboxed
-**Day 0–30 (credibility floor)**
-- T0: **Chain fluency boot** — complete ChainSentry operator training; personally trace 5 live cases (engineering supplies real tainted-fund walks). Gate: by day 30 briefs one VA off-ramp typology end-to-end, unscripted. (Category baseline: Elliptic states "working knowledge of crypto and blockchain" as the trust-seat requirement — we engineer his to that bar deliberately.)
-- T1: Trust Requirements Spec v1 — every MY regulator obligation a bank MLRO will test us on, mapped shipped/roadmap/gap; + first corridor jurisdiction slotted (UAE or SG, owner's pick). Signed by COO.
-- T2: Claims audit of all current ChainSentry collateral; corrections applied.
-- KPI: T0 gate passed; spec day 30; zero unreviewed claims live.
+## Success artifacts (engineered in — dated, checkable)
+**T0 (Day 30):** passes the Week-4 crypto brief (above) + his 4 typology one-pagers merged into the product's typology library.
+**T1 (Day 30):** Trust Requirements Spec — what MY + 2 corridor jurisdictions require of a forensic tool, signed by us as backlog commitments.
+**T2 (Day 60):** STR-ready case-file workflow defined from his FIED experience; engineering accepts scope.
+**T3 (Day 90):** 2–3 MY design partners engaged; crypto-STR playbook v1 draft; all collateral claims-audited once.
+**T4 (Month 12):** 2 named-reference pilots; methodology whitepaper (MY + corridor supplement); ≥1 appearance outside MY; ≥1 documented BNM/SC engagement.
 
-**Day 31–90 (the product gets sharper)**
-- T3: STR-ready case-file workflow validated: ChainSentry export → FIED STR field mapping + AMLATFPUAA §28 order-response pack (his own former-desk experience, productized) — crypto case templates included (exchange off-ramp, P2P mixer-touch, mule-wallet fan-out).
-- T4: 2 MY design-partner workshops (roster T1 + his references); ≥3 engaged. Begin first corridor partner conversation.
-- KPI: workflow doc + 3 engaged design partners by day 90.
+## Clear tasks — his standing backlog, from week one
+Named, checkable, no grey zones. Standing cadence unless noted:
+1. **Weekly:** claims-audit pass on any new/changed collateral or deck (veto authority); review open case studies against evidentiary standard.
+2. **Weekly (from wk 3):** "tool vs compliance question" log — every question the product cannot answer becomes a backlog entry; he owns the log.
+3. **Day 1–10:** interviews — our 66-contact roster + his own network: minimum 8 conversations on how FIs handle VA exposure today. Output: Trust Requirements Spec input set.
+4. **Day 1–30:** write 4 typology one-pagers (his mapping work — Week 2 ramp); own T0 brief.
+5. **Day 30–60:** STR-ready case-file workflow — write it, walk it with engineering, walk it with one friendly MLRO (candidate: his referee, conflict-cleared first).
+6. **Day 30–90:** design-partner recruitment — target list from our T1 roster + his book; he leads, COO shadows.
+7. **Monthly:** horizon scan — one page, corridor regulatory movement (MAS, VARA, PPATK, AMLO, SC/BNM, FATF), with "so what for ChainSentry" line per item.
+8. **Quarterly:** webinar/briefing under his name (MY, then corridor); conference circuit proposal to COO.
+9. **Quarterly:** expert-network activation — join 1–2 (Deloitte/FTI/Ropes&Gray class), log any ChainSentry referral as engagement, never quota.
+10. **Standing:** veto on public claims about evidentiary/regulatory matters. If he can't say it at a BNM roundtable, it doesn't ship.
 
-**Month 4–12 (the product gets trusted, beyond Malaysia)**
-- 2 MY pilots with named-reference rights + ≥1 corridor pilot engaged (MEA roster).
-- Methodology whitepaper published under his name + Aras (MY edition v1; corridor supplement v2).
-- ≥2 industry-stage appearances (≥1 outside MY by month 12); ≥1 documented BNM/SC engagement.
-- Success = a procurement checklist item where ChainSentry answers a regulator question *better* than the incumbent foreign suite — and the same answer travels to the next jurisdiction.
+## Pillars (what he owns)
+- **P1 Regulatory soundness — MY + corridor.** BNM/SC/PMABA/AMLATFPUAA at home; FATF R.15/R.20 + Travel Rule, MAS PSN01/02 (SG), VARA/AMLC (UAE), AMLO (TH), PPATK (ID), MiCA horizon. He converts regimes → requirement rows in our backlog.
+- **P2 Evidentiary standard.** Owns what "court-grade export" means; **veto** on evidentiary claims. On-chain evidence is a new medium; admissibility law is his old law.
+- **P3 Trust gatekeeper.** **Veto** on sales claims/decks/webinars. Crypto buyers are the most claim-sensitive segment on earth — one overstated "we traced it" burns a corridor deal.
+- **P4 Design partners & references.** MY first, then corridor — network activation, not cold outreach.
+- **P5 Regulator & market presence.** Whitepaper in his name, BNM/SC engagement as compliance peer, corridor conference circuit by month 12.
 
-## 5. The fit we're hiring for (his profile, stated plainly)
-10+ yrs AML/CFT across development bank, takaful, retail bank, unit trust; current Manager, Financial
-Intelligence & Integrity, Bank Pembangunan Malaysia (board-level AML advisory, IRA lead, CRP template
-build, core-banking implementation, FIED STR submission, AMLATFPUAA 2001 order response, court
-proceedings); earlier Bank Rakyat surveillance officer (STR/CTR, branch assessment, LEA liaison),
-Hong Leong MSIG Takaful governance. CAMCO (AICB) + ICA Cert. KYC/CDD. Tools: Refinitiv World-Check,
-Dow Jones, CTOS ConneX, ComplianceLink. He has sat in every chair ChainSentry sells to.
-**Crypto exposure: none on record — this is stated, not hidden.** It is the category norm for this seat
-(chain depth lives in engineering/intel, per Elliptic/TRM hiring split) and the JD engineers the closure
-via T0 with a hard gate. His transferables are exactly what crypto buyers' compliance teams test on:
-sanctions screening (UN/OFAC/MOHA), STR craft, order response, court testimony.
+## Who we're looking for
+- 8+ yrs AML/financial-crime in banking/FI (MY or corridor): STR author, FIU-facing, regulator engagement, program builds.
+- Sanctions & screening tooling depth; board-level reporting.
+- **Crypto: not required.** Curiosity + completing the funded 30-day ramp is. CAMS a plus; any VA exposure a bonus, never a gate.
+- Can brief a room of MLROs without vendor fog. Writes well. Standing in the MY/corridor compliance community.
 
-## 6. What success needs FROM us (his dependencies — we commit or the JD lies)
-- Engineering: trust-feature backlog honored (P1 spec prioritized, 6-week response cycle on gap items); T0 case-walks supplied
-- Access: product sandbox + his own tracing cases on live chain data from week 1
-- Network: roster T1 + MEA warm doors handed over with context (Aras sales pairing: Shuhada/Jasila)
-- Budget: conference + whitepaper line (AMLCA, SIC, regional: STEP Dubai, Singapore FinCrime circuits)
-- Harvey SDR pipeline handles top-of-funnel so he never does cold grind — he works warm doors and trust.
-- **AI-native expectation (category-stated, ours made real):** he runs his workflow with Harvey + our agents daily, and demonstrates AI-assisted compliance publicly — differentiator no competitor can show in our corridor context.
+## What we give him
+Crypto education funded and scheduled · sandbox + live cases week 1 · direct engineering access, backlog honored · warm T1 doors opened by COO · his name on the whitepaper · conference budget · **no year-1 sales quota** (category norm; TRM's own words: "activate a network you've already earned… not a traditional closing-quota sales role") · builder equity story.
 
-## 7. Guardrails (conflict & independence, non-negotiable)
-- While employed elsewhere: no solicitation of his current employer; disclosure to Aras COO of any
-  relationship that could look like a side-deal; client-facing work under a written independence note.
-- He does not own sales quota in year 1 — trust-building must not be taxed by commission pressure
-  (quota attaches to the sales team he arms; his bonus keys to §4 KPIs).
+## Guardrails
+No solicitation of current employer while employed (corridor via formal channels only) · independence: no side retainers that conflict with the veto seat · no commission pressure on trust functions · all his third-party-facing comms run the claims-audit workflow (self-audit, COO sign-off).
 
-## 8. Engagement options
-A) Full-time Head of Financial Crime Compliance — recommended when he's off current employment; band indicative RM15–20k/mo + KPI bonus (mark: indicative, owner to confirm).
-B) Senior Advisor retainer (2 days/wk): §3 P1–P3 immediately, P4–P5 after transition. Zero-COI-clean if structured with the independence note.
-
-## 9. Verification state (honesty ledger)
-Source of §5 = résumé received 15-Oct-2026 (self-reported). External corroboration (LinkedIn/BNM listings)
-PENDING — search backend unavailable 15-Oct; run when restored. Referees on file: Fadhli Nor Azman
-(Head of Compliance, ShopeePay/SeaMoney MY — warm compliance-network node), Suzanna Sulaiman
-(Head of Branch Audit, SME Bank). Competitor-role grammar: STUDY-competitor-trust-roles.md (Elliptic/TRM
-boards fetched 15-Oct; Chainalysis NOT FETCHED — excluded from claims).
+## Engagement modes
+**A. Full-time head** — all five pillars, T0–T4 as contract objectives. **B. Advisor retainer (2 days/wk)** — P1–P3 immediately, ramp compressed to days 1–14, P4/P5 deferred to hire #2; COI-clean pattern for an in-market senior.
+*Band: indicative RM15–20k/mo (A); pro-rated (B). Owner confirmation before posting.*
