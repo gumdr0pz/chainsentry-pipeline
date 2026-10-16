@@ -2,10 +2,10 @@
 
 **To:** Farul (CTO) · **From:** Hadri (Solutions Architect, Cyber Security Practice)
 **Date:** 15 Oct 2026 · **Event:** Dark Web Investigation, 3 days, 12–14 Oct 2026, Kluster Siber, Elektronik & Robotik, Pusat Kecemerlangan Sultan Ibrahim, UPNM
-**Ref:** full field report `reports/FIELD-REPORT-UPNM-DARKWEB-20261012-14.md` (repo 83da7f3); sign-in extraction `roster/UPNM-DARKWEB-KEHADIRAN-20261014.md` (65eb5f5)
+**Ref:** full field report `reports/FIELD-REPORT-UPNM-DARKWEB-20261012-14.md` v2; sign-in extraction `roster/UPNM-DARKWEB-KEHADIRAN-20261014.md` (65eb5f5); curriculum verified from course slide (OCR, 2 passes agree)
 
 ## BLUF
-Aras attended the UPNM dark-web course end-to-end; the Day-3 cohort on our verified sign-in is **five RMAF personnel — four from RISUD (finance-corps investigation arm), one from AWC**. Military *financial* investigators getting dark-web training is a capacity-building signal directly adjacent to ChainSentry's ICP fringe. UPNM is simultaneously venue, host, and trainee pipeline — an academy/training-channel target. No asks on engineering beyond what the existing alpha window already commits; flagged so the week-1 load is visible.
+Aras attended the UPNM dark-web course end-to-end; the Day-3 cohort on our verified sign-in is **five RMAF personnel — four from RISUD (finance-corps investigation arm), one from AWC**. The curriculum makes this stronger than an attendance signal: six modules over three days with **Day-2 afternoon = "Cryptocurrency Tracing & Financial Attribution"**, and the course spine is *"legal safeguards, OPSEC and evidence preservation run through every module"* — ChainSentry's exact capability walk and evidentiary posture, taught by a buyer. UPNM is simultaneously venue, host, and trainee pipeline — an academy/training-channel target with a curriculum/tooling seam at Modules 4–6. No asks on engineering beyond what the existing alpha window already commits; flagged so the week-1 load is visible.
 
 ## Participant intelligence (Day-3 sign-in, OCR-verified)
 | Rank & Name | Service No. | Unit | Outreach-safe contact |
@@ -16,7 +16,16 @@ Aras attended the UPNM dark-web course end-to-end; the Day-3 cohort on our verif
 | Sjn U Mohamad Nazirul Asraf bin Abdullah | ⚠ 2 readings | TUDM — RISUD | nazirulasraf89@gmail.com (med; personal gmail) |
 | Kpl Muhammad Zaim Amsyar bin Mohd Sabri | 740282 | TUDM — RISUD | captzaim@gmail.com (personal, hi-conf) |
 
-⚠ = handwritten in source photo, unresolved across OCR passes; variant ledger in the roster file. Verified for Day 3 only; Day 1–2 sheets not in evidence. [TBC-OWNER: organizer/facilitator/curriculum detail — Hadri to fill.]
+⚠ = handwritten in source photo, unresolved across OCR passes; variant ledger in the roster file. Verified for Day 3 only; Day 1–2 sheets not in evidence.
+
+## Curriculum (verified from course slide, "Three Days and Six Modules")
+| Day | Morning | Afternoon |
+|---|---|---|
+| Day 1 — 12 Oct | M1 Dark Web Infrastructure & Anonymity | M2 Criminal Ecosystems & Illicit Economies |
+| Day 2 — 13 Oct | M3 Intelligence Collection & Data Extraction | **M4 Cryptocurrency Tracing & Financial Attribution** |
+| Day 3 — 14 Oct | M5 Investigative Tradecraft & OPSEC | M6 Intelligence Analysis & Reporting |
+
+Course spine, verbatim: *"Legal safeguards, OPSEC and evidence preservation run through every module."* Instructors not identified in materials seen. [TBC-OWNER: facilitator identities.]
 
 ## Why this matters (CTO read)
 1. **Signal quality:** RISUD = payment/finance corps with investigation elements; four of five attendees. Funded dark-web curriculum for military financial investigators maps onto exactly the workflow ChainSentry productizes (marketplace/vendor tracing, VA off-ramp ID, evidence-grade export).

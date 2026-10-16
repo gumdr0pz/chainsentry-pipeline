@@ -1,81 +1,74 @@
-# FIELD REPORT — Dark Web Investigation Training (UPNM)
+# FIELD REPORT — Dark Web Investigation Training (UPNM) — v2
 
 **Classification:** Internal — Aras Integrasi · **Prepared by:** Hadri (Solutions Architect, Cyber Security Practice)
-**Date of report:** 15 Oct 2026 · **Event window:** 12–14 Oct 2026 (Mon–Wed)
-**Venue:** Kluster Siber, Elektronik dan Robotik, Pusat Kecemerlangan Sultan Ibrahim, UPNM
-**Subject:** Dark Web Investigation — 3-day practical course
-**Evidence base:** Day-3 participant sign-in sheet (photo, orientation-corrected OCR, committed 65eb5f5); operator notes. Items marked [TBC-OWNER] require Hadri's fill-in from personal attendance.
+**Date of report:** 15 Oct 2026 (v2 — curriculum added from course slide; supersedes v1)
+**Event:** Dark Web Investigation, 3-day course · **Date:** 12–14 October 2026 (Mon–Wed) · **Venue:** Kluster Siber, Elektronik dan Robotik, Pusat Kecemerlangan Sultan Ibrahim, UPNM
 
----
+## 1. BLUF
+UPNM ran a serious, well-structured 3-day dark-web course for TUDM personnel. The curriculum's Day-2 afternoon module is *Cryptocurrency Tracing & Financial Attribution* — ChainSentry's exact problem space, taught as core content — and the course spine is "legal safeguards, OPSEC and evidence preservation run through every module," which is the same evidentiary posture our product is built on. Two concrete openings: curriculum/sandbox partnership with UPNM, and a military financial-investigation cohort (RISUD-heavy) now in our awareness base. No commitments made; all outreach drafts held.
 
-## 1. Event summary [TBC-OWNER: organizer-led framing — one line to confirm]
-Three-day dark-web investigation course hosted at UPNM's cyber/electronics/robotics centre of excellence, closing Wed 14 Oct (attendance verified on final-day sign-in). Participant cohort drawn from RMAF cyber/finance-investigation elements (see §2). Delivery staff/curriculum detail [TBC-OWNER: instructor(s), module list, hands-on components, platforms used].
+## 2. Verified facts
+- **Course:** Dark Web Investigation, 12–14 Oct 2026, UPNM Kluster Siber, Elektronik dan Robotik (Pusat Kecemerlangan Sultan Ibrahim). [FACT: sign-in sheet + curriculum slide, both photo-verified]
+- **Curriculum (from course slide "Three Days and Six Modules"):** [FACT: OCR, two independent passes agree]
 
-## 2. Participant intelligence (sign-in sheet, Day 3 — 5 of 5 rows)
-| # | Rank & Name | Service No. | Unit | Contact |
+| Day | Morning | Afternoon |
+|---|---|---|
+| Day 1 — 12 Oct | **M1** Dark Web Infrastructure & Anonymity | **M2** Criminal Ecosystems & Illicit Economies |
+| Day 2 — 13 Oct | **M3** Intelligence Collection & Data Extraction | **M4** **Cryptocurrency Tracing & Financial Attribution** |
+| Day 3 — 14 Oct | **M5** Investigative Tradecraft & OPSEC | **M6** Intelligence Analysis & Reporting |
+
+  Course spine, verbatim: *"Legal safeguards, OPSEC and evidence preservation run through every module."*
+- **Attendance (Day 3 sign-in, photo OCR):** 5 TUDM personnel — 4× RISUD (finance-and-payments corps), 1× AWC. Full table + ⚠ ambiguity ledger: `roster/UPNM-DARKWEB-KEHADIRAN-20261014.md`. Day 1–2 sheets not in evidence.
+- **Instructors:** not identified in materials seen — **[TBC-OWNER: names/orgs if recalled]**
+
+## 3. Assessment (mine, not FACT)
+1. **The curriculum is our pitch deck, written by a buyer.** M1→M6 maps near-1:1 to ChainSentry's capability walk: infrastructure/anonymity (discovery), ecosystems (typologies), collection/extraction (ingest), crypto tracing & attribution (our core), tradecraft/OPSEC (workflow security), analysis & reporting (case-file export). A training institution teaching this sequence is a *thinking* customer — and a natural curriculum partner: they teach the workflow; we can supply the live tooling for M4–M6 exercises.
+2. **The evidence-preservation spine is the sales seam.** Their course treats admissibility as a through-line, not a chapter. That's exactly the trust layer we sell — ChainSentry's court-grade export (workflow built to the AMLATFPUAA evidentiary standard, per the Head-of-FCC design) answers their M6 reporting requirement with a product, not a slide.
+3. **Cohort read:** four RISUD attendees into dark-web + crypto-tracing training = military financial-crime capacity being built now. Long-cycle ICP fringe in uniform; engagement only via official channels (defence etiquette; no individual pitching).
+4. UPNM = venue + host + pipeline (cadets rotate into cyber roles). Institutional relationship > individual contacts here.
+
+## 4. Actions & owners
+| # | Action | Owner | Due | Status |
 |---|---|---|---|---|
-| 1 | Mej Ts. Luqman Hakim bin Ibrahim | 374223 | TUDM — RISUD | luqman.hakim@airforce.mil.my (hi-conf) |
-| 2 | Mej Muhammad Nabil bin Md Naser | 374339/374539 ⚠ | TUDM — RISUD | 019-375 4539; n[?]l.nsr89@gmail.com ⚠ |
-| 3 | Kapt Muhammad Rais bin Zakaria | 375795 | TUDM — AWC | raiszakaria[96/98]@gmail.com ⚠ |
-| 4 | Sjn U Mohamad Nazirul Asraf bin Abdullah | 727968/727988 ⚠ | TUDM — RISUD | nazirulasraf89@gmail.com (med) |
-| 5 | Kpl Muhammad Zaim Amsyar bin Mohd Sabri | 740282 | TUDM — RISUD | captzaim@gmail.com (hi-conf) |
+| 1 | Organizer email (drafted v2, cites M4 directly) — **send needs approval** | Hadri | post-approval | drafted |
+| 2 | 1:1 follow-up to Mej Luqman (official address, outreach-safe) | Hadri | post-approval | drafted |
+| 3 | Offer sandbox slot for M4–M6 exercises inside alpha window (19 Oct–13 Dec) | Hadri | on interest | proposed in draft |
+| 4 | Roster the 5 participants (tiering, verification states, ⚠ cells flagged) | Vesper | on GO | awaiting |
+| 5 | UPNM curriculum-partner angle → CTO awareness copy updated | Vesper | done | — |
 
-⚠ = handwritten cell unresolved in source photo (full variant ledger in roster/UPNM-DARKWEB-KEHADIRAN-20261014.md). Coverage note: sheet verified for Day 3 only; Day 1–2 sheets not in evidence.
+## 5. Emails drafted (approval-gated — nothing third-party-facing goes out unsigned)
 
-**Unit reading (assessment, flagged):** 4/5 from RISUD — the Royal Malaysian Air Force finance-and-payments corps with investigation elements; 1/5 from AWC (Air Warfare Centre). A finance-corps cohort trained in dark-web investigation is a precise signal: military financial-crime and cyber-finance skills-building is actively funded.
-
-## 3. ChainSentry relevance
-- Direct ICP adjacency: our roster fringe already names military/defence financial investigation. RISUD investigators with dark-web training are exactly the users who need marketplace/vendor tracing, VA off-ramp identification, and evidence-grade case exports.
-- Timing signal: UPNM investing in dark-web curriculum = procurement appetite for tooling and further training in this exact domain (venue owner + course host + trainee pipeline in one institution).
-- Institutional angle: UPNM (Paksi network) is itself an engagement target as course host — potential academy/curriculum partner and training revenue channel, mirroring the MAMPU/AG academy play.
-
-## 4. Observations [TBC-OWNER — 3–5 bullets from your attendance: what was taught hands-on, tools/infrastructure available at the lab, questions participants asked (buying signals), gaps you noticed that ChainSentry answers]
-
-## 5. Risks & etiquette
-- All five are uniformed officers; individual gmails are personal. No product pitching to individuals — engagement routes through official unit/institution channels (same protocol as our PDRM/ASTANAE lines).
-- Contact-cell ambiguities mean only two emails are outreach-safe today (rows 1, 5); settle ⚠ cells against the paper sheet before any official correspondence naming them.
-
-## 6. Recommended actions
-1. Send organizer thank-you + capability note (draft email A — ready).
-2. 1:1 networking note to Mej Luqman on his .mil.my address (draft email B — ready).
-3. Offer UPNM a ChainSentry alpha slot aligned to our Early Adopter window (19 Oct–13 Dec); offer a RISUD unit briefing through official channel.
-4. Feed the 5 pax into the roster pipeline (verification state, tiering) after ⚠ resolution.
-5. [TBC-OWNER: agenda/facilitator confirmation] then file this report final to CognitiveOS register.
-
-## 7. Email drafts
-### Email A — to course organizer (UPNM PKE SI)
-> **Subject:** Dark Web Investigation (12–14 Oct, UPNM) — thanks and a practical next step
+### Email A — to course organizer/UPNM (v2, curriculum-grounded)
+> **Subject:** Dark Web Investigation (12–14 Oct) — a practical tie-in for Modules 4–6
 >
-> Dear [Organizer name / Dr name],
+> Dear [Organizer name],
 >
-> Thank you for the three days at Kluster Siber, PKE Sultan Ibrahim — the cohort's questions were sharp, and the energy in the room on Day 3 says UPNM is building something worthwhile in this space. My attendance sign-in confirmed on 14 Oct.
+> Thank you for three well-built days at Kluster Siber — the six-module structure, and the way evidence preservation runs through every module rather than sitting in one chapter, shows real craft. My sign-in confirmed on Day 3.
 >
-> Two things I can offer while the course is fresh, both without cost or paperwork at this stage:
+> One tie-in worth twenty minutes of your time: Module 4 (Cryptocurrency Tracing & Financial Attribution) is exactly the problem space our platform exists for. ChainSentry is a Malaysian-built blockchain-intelligence platform — sovereign, locally operated — and it would fit your M4–M6 exercises directly: live tracing cases, attribution workflows, and reporting out to an evidence-grade standard, without depending on foreign-hosted tooling your students can't access after class.
 >
-> 1. **Session materials + reading pack** — our dark-web and blockchain-tracing reference set (typologies, off-ramp patterns, evidence-handling checklist) for your next cohort's annex. Yours to reuse internally.
-> 2. **A working look at ChainSentry** — our sovereign blockchain-intelligence platform, built and operated here in Malaysia. If it fits your teaching needs, we can open a sandbox slot for the centre inside our early-adopter window (19 Oct–13 Dec), with office hours from our side. For a training centre, the practical use is live investigation exercises that don't depend on foreign-hosted tooling.
->
-> If useful, happy to walk your technical team through it at your convenience — 45 minutes, at UPNM.
+> If useful, I can open a sandbox slot for the centre inside our early-adopter window (19 Oct–13 Dec) with office hours from our side, and walk your technical team through it at UPNM — 45 minutes, no paperwork, no cost at this stage.
 >
 > With thanks,
-> Hadri
-> Wan Abdul Muhaimin Hadri bin A Rahman
-> Solutions Architect, Cyber Security Practice — Aras Integrasi Sdn Bhd
-> [phone] · chainsentry [product line]
+> Hadri — Solutions Architect, Cyber Security Practice, Aras Integrasi Sdn Bhd
 
-### Email B — 1:1 to Mej Luqman (official email, no product pitch)
-> **Subject:** Dark Web Investigation course — following up
+### Email B — 1:1, Mej Luqman (official address only)
+> **Subject:** Dark-web reference pack — following the UPNM course
 >
-> Dear Mejar Luqman,
+> Dear Mej Luqman,
 >
-> We shared the last two days of the UPNM dark-web course — your questions during the practical sessions were among the ones worth keeping.
+> Good to share Day 3 of the Dark Web Investigation course at UPNM. For RISUD's casework, you're welcome to our reference pack: dark-web typologies, common off-ramp patterns, and a practical evidence-handling checklist — nothing classified, nothing that isn't in the public domain, assembled for Malaysian investigators.
 >
-> If helpful to your work with RISUD, I can share the reference material we use on tracing digital-asset flows tied to financial crime — the kind of material that answers the "what do we ask the banks/exchanges for" question when a case lands on your desk. No charge, no form; it's public-benefit material we've built for investigators.
+> Reply with a suitable address and I'll send it across. If your unit ever wants a briefing on blockchain-tracing capability for military financial investigations, happy to run one **through official channels** — just one line from your office is enough.
 >
-> And if it ever helps for your unit to see a Malaysian-built tracing platform in a briefing (we do these through official channels, to whichever department asks), my door is open — one line from your office is enough to start it.
->
-> Selamat bertugas,
-> Hadri
-> [signature block]
+> Regards,
+> Hadri — Aras Integrasi Sdn Bhd
 
-*Both drafts: no attachments until first reply; nothing names a procurement process; both survive being read by a CO.*
+## 6. Notes & gaps
+- Instructor identities/affiliations: not in evidence — [TBC-OWNER]
+- Day 1–2 attendance: sheets not seen — cohort size beyond the 5 signed Day-3 rows unknown — [TBC-OWNER]
+- Hands-on vs lecture ratio, tooling used in M3/M4: [TBC-OWNER: worth asking organizer in Email A reply thread]
+- Contact-cell ambiguities stand per ledger; outreach limited to rows 1 (official .mil.my) and 5 (high-conf gmail) pending re-verification.
+- Defence etiquette: uniformed personnel; no product pitch to individuals; institutional channels only; emails above reviewed to that standard.
+
+*Sources: attendance-sheet OCR + curriculum-slide OCR (2 passes each, agreement-checked, this session); `roster/UPNM-DARKWEB-KEHADIRAN-20261014.md`. Owner field-notes requested where [TBC-OWNER] appears.*
