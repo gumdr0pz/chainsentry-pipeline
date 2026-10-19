@@ -1,32 +1,34 @@
 {
   "programme": "EA-50",
+  "count_unit": "ORGANISATIONS (companies/agencies) — named individuals are SEATS within an org tenancy, never the count",
   "window": {"opens": "2026-10-19", "closes": "2026-12-31", "note": "extension of the 13-Dec corridor label per directive 2026-10-19, minuted in EA50-GROWTH-PLAN-2026.md"},
-  "targets": {"registered": 50, "sandboxed": 30, "activated": 15, "converted": 6},
+  "targets": {"registered_orgs": 50, "sandboxed_orgs": 30, "activated_orgs": 15, "converted_orgs": 6},
   "stage_definitions": {
-    "registered": "slot requested + sandbox access provisioned",
-    "sandboxed": "logged in >=2x, sample data loaded",
-    "activated": "ran >=1 real workflow on own/public data",
-    "converted": "design-partner MOU (data-rights clause) or paid-pilot commitment"
+    "registered": "org slot requested + sandbox TENANCY provisioned",
+    "sandboxed": ">=1 seat active, >=2 logins, sample data loaded",
+    "activated": ">=1 real workflow run on the ORG's own/public data",
+    "converted": "org design-partner MOU (data-rights clause) or paid-pilot commitment"
   },
   "tiers": [
-    {"tier": 1, "name": "Warm inbound & campus", "days": "0-14", "target_registered": 15, "cohorts": ["UPNM darkweb centre", "CSM alpha env", "PDRM JSJK/CCID attendees", "CAAM workshop", "RMAF/UPNM alumni"]},
-    {"tier": 2, "name": "Roster warm doors (displacement)", "days": "7-28", "target_registered": 15, "cohorts": ["MY DAXs Luno/MX/Tokenize/TnG/Zetrix", "NACSA/MyFleet orbit", "bank KL investigation desks", "Deloitte KL channel"]},
-    {"tier": 3, "name": "Harvey-fed scale lane", "days": "21-42", "target_registered": 12, "gating_dependency": "send-domain unblock + Spamhaus delist", "cohorts": ["released drafts + 38-prospect campaigns", "LinkedIn KL crypto-AML cluster"]},
-    {"tier": 4, "name": "Regulator-adjacent & corridor licensees", "days": "35-56", "target_registered": 5, "cohorts": ["BNM/SC console-lite invites", "VN/EG licensee cohorts", "TR/AE one-doors"]},
-    {"tier": 5, "name": "Strategic anchors", "days": "49-73", "target_registered": 3, "anchors": ["PDRM MAPO casework pilot", "PILOT-2 regulated monitor", "Fiato dogfood tenant (fiato/PLAN.md)"]}
+    {"tier": 1, "name": "Warm inbound & campus orgs", "days": "0-14", "target_orgs": 5, "orgs": ["UPNM darkweb centre (counts once across orbits)", "CyberSecurity Malaysia alpha env", "PDRM JSJK/CCID", "CAAM", "UPNM RMAF-course orbit (UPNM tenancy)"]},
+    {"tier": 2, "name": "Roster warm doors (displacement)", "days": "7-28", "target_orgs": 13, "orgs": ["Luno Malaysia", "MX Global", "Tokenize Technology", "TnG Digital", "Zetrix", "NACSA", "UOB KL hub", "OCBC KL hub", "MUFG KL hub", "Deloitte KL (channel)", "Razer", "First Digital KL", "StraitsX/'Monee' (verify naming first)"]},
+    {"tier": 3, "name": "Harvey-fed scale lane (VOLUME CARRIER)", "days": "21-42", "target_orgs": 20, "gating_dependency": "send-domain unblock + Spamhaus delist", "sources": "38-prospect universe + 53-posting KL cluster orgs (one tenancy per org) + MEA fiat lanes"},
+    {"tier": 4, "name": "Regulator-adjacent & corridor licensees", "days": "35-56", "target_orgs": 9, "orgs": ["BNM supervisory orbit", "SC orbit", "CSM production orbit", "PayNet-orbit pilot partner", "VN licensee #1", "VN licensee #2", "EG FRA first-cohort", "Paribu/CoinMENA one-door", "Emirates NBD->BitOasis one-door"]},
+    {"tier": 5, "name": "Strategic anchors", "days": "49-73", "target_orgs": 3, "anchors": ["PDRM MAPO casework pilot", "PILOT-2 regulated monitor", "Fiato dogfood tenant (fiato/PLAN.md)"]}
   ],
+  "distribution_check": {"t1": 5, "t2": 13, "t3": 20, "t4": 9, "t5": 3, "total": 50},
   "welded_gates": [
     {"date": "2026-10-30", "gate": "P0 review", "bar": ">=5 seed meetings + >=2 MOUs"},
-    {"date": "2026-11-27", "gate": "wk8", "bar": ">=3 active pilots; EA activated >=5 else correct-rule 3"},
-    {"date": "2026-12-31", "gate": "EA-50 close-out", "bar": "final funnel count + wk26-prep handoff"}
+    {"date": "2026-11-27", "gate": "wk8", "bar": ">=3 active pilots; EA activated >=5 orgs else correct-rule 3"},
+    {"date": "2026-12-31", "gate": "EA-50 close-out", "bar": "final org-funnel count + wk26-prep handoff"}
   ],
   "kill_correct_rules": [
-    "Tier-1 conversion <50% by Day 14 -> onboarding friction sprint before Tier-3 spend",
+    "Tier-1 org conversion <50% by Day 14 -> onboarding friction sprint before Tier-3 spend",
     "Mail egress unresolved by 2026-11-09 -> Tier-3 redirects to LinkedIn/manual",
-    "Activated <5 by 2026-11-27 -> shrink to Tier-5 anchors + referral motion, outreach freezes",
+    "Activated <5 ORGS by 2026-11-27 -> shrink to Tier-5 anchors + referral motion, outreach freezes",
     "Zero Tier-5 graduations by 2026-12-31 -> conversion-failure verdict to wk26 board",
     "Any churn after activation -> interview + minuted cause (0 tolerated after wk8)"
   ],
   "adopters": [],
-  "updated_at": "2026-10-19T16:50:00Z"
+  "updated_at": "2026-10-19T17:00:00Z"
 }

@@ -9,50 +9,68 @@
 
 ## 1. Programme objective & the honest funnel
 
-**Target: 50 registered early adopters by 31 Dec 2026**, graduated along an explicit ladder — registration is the count; activation and conversion are the quality bars. Absolute-count claims end here; everything below is engineered targets, not assertions:
+**Target: 50 adopting ORGANISATIONS by 31 Dec 2026** (unit = company/agency; named individuals are seats within an org tenancy, never the count), graduated along an explicit ladder — registration is the org count; activation and conversion are the quality bars. Absolute-count claims end here; everything below is engineered targets, not assertions:
 
-| Stage | Definition | Target 31 Dec |
+| Stage (org-level) | Definition | Target 31 Dec |
 |---|---|---|
-| **Registered** | Slot requested + sandbox access provisioned | **50** |
-| **Sandboxed** | Logged in ≥2×, sample data loaded | ≥30 |
-| **Activated** | Ran ≥1 real tracing/screening workflow on their own/public data | ≥15 |
-| **Converted** | Design-partner MOU (data-rights clause) or paid-pilot commitment | ≥6 |
+| **Registered orgs** | Org slot requested + sandbox tenancy provisioned | **50** |
+| **Sandboxed orgs** | ≥1 seat active, ≥2 logins, sample data loaded | ≥30 |
+| **Activated orgs** | ≥1 real tracing/screening workflow run on the org's own/public data | ≥15 |
+| **Converted orgs** | Design-partner MOU (data-rights clause) or paid-pilot commitment | ≥6 |
 
-Conversion assumptions `[ASSUMPTION — validated by Day 14 data]`: touch→meeting 25% · meeting→slot 50% · slot→registered 70%. Registered-to-activated 30%; activated-to-converted 40%. Funnel math implies ~100–140 meetings and ~450+ touches across 8+ weeks — feasible ONLY with all four supply lanes live (see §3 dependencies). Kill/correct rules in §5 keep it honest.
+Conversion assumptions `[ASSUMPTION — validated by Day 14 data]` at ORG granularity: org-touch→meeting 25% · meeting→slot 50% · slot→registered 70%. Registered-to-activated 30%; activated-to-converted 40%. Funnel math implies ~100–140 org meetings and ~450+ org touches across 8+ weeks against a contactable universe of ~150+ orgs (MEA roster 72 · KL signals cluster ~53 · displacement cohort 10+ · licensee cohorts 20+) — roughly a one-third penetration requirement: aggressive, feasible ONLY with all four supply lanes live (see §3 dependencies). Kill/correct rules in §5 keep it honest.
 
 ## 2. The tier ladder (low-hanging → complex)
 
-### TIER 1 — Warm inbound & campus (Days 0–14 · 19 Oct–1 Nov) — `target: 15 registered`
-| # | Adopter/cohort | Entry offer | Status on record |
-|---|---|---|---|
-| 1.1 | **UPNM dark-web research centre** | Signed sandbox slot + office hours + 45-min walkthrough at UPNM (no paperwork, no cost) — offer already extended in field report | Inbound; convert to signed slot wk1 |
-| 1.2 | **CyberSecurity Malaysia (alpha env)** | Alpha-environment onboarding completion (credentials commitment tracked, due 17 Oct — verify closed) | Alpha window opens 19 Oct |
-| 1.3 | **PDRM JSJK/CCID attendees (5 named officers)** | Individual follow-ups from 12-Oct briefing: public-data casework triage on one live scam typology | Briefing held; warm |
-| 1.4 | **CAAM workshop track** | Aviation-security workshop carry-over: one sandbox demo slot | Meet 15 Oct — verify outcome |
-| 1.5 | **RMAF / UPNM field-report orbit** | Course-attendance follow-ups (6 officers trained Oct 12–14): alumni slots | Field report delivered to CTO |
+### TIER 1 — Warm inbound & campus orgs (Days 0–14 · 19 Oct–1 Nov) — `target: 5 orgs`
+| # | Adopter ORG | Seats (contacts — never the count) | Entry offer | Status on record |
+|---|---|---|---|---|
+| 1.1 | **UPNM dark-web research centre** | Centre lead + technical team | Signed sandbox slot + office hours + 45-min walkthrough at UPNM (no paperwork, no cost) — offer already extended in field report | Inbound; convert to signed slot wk1 |
+| 1.2 | **CyberSecurity Malaysia (alpha env)** | Alpha-env credentials holder + CTO seat | Alpha-environment onboarding completion (credentials commitment, due 17 Oct — verify closed) | Alpha window opens 19 Oct |
+| 1.3 | **PDRM JSJK/CCID** | 5 named briefing officers as seats | Follow-ups from 12-Oct briefing: public-data casework triage on one live scam typology | Briefing held; warm |
+| 1.4 | **CAAM** | Workshop-track counterpart | Aviation-security workshop carry-over: one sandbox demo slot | Meet 15 Oct — verify outcome |
+| 1.5 | **UPNM (RMAF course orbit)** | 6 trained officers as alumni seats under the UPNM tenancy | Alumni slots off field-report delivery | Field report delivered to CTO |
 
-### TIER 2 — Roster warm doors: displacement cohort (Days 7–28 · 26 Oct–15 Nov) — `+15 (30 cum)`
-| # | Cohort | Entry offer |
+(T1 ≈ 4–5 ORGS; UPNM counts once across its orbits — officers are seats, not adopters.)
+
+### TIER 2 — Roster warm doors: displacement cohort (Days 7–28 · 26 Oct–15 Nov) — `+13 orgs (18 cum)`
+| # | Adopter ORG | Entry offer |
 |---|---|---|
-| 2.1 | **MY DAXs: Luno (MY-branch scope only), MX Global, Tokenize, TnG/Zetrix** | Free flow-scanner audit on existing Reactor/CSV exports; report back in a week (Path-1 mechanic verbatim) |
-| 2.2 | **NACSA / MyFleet distribution orbit** | Warm-intro slots via proven gov-trust channel; NC4 IR/CTI desk invites |
-| 2.3 | **Banks' KL investigation desks (UOB/OCBC/MUFG hub staff)** | Investigations-layer case-tooling trials (Tier-3/channel intel per signals — sold as capacity aid, not stack swap) |
-| 2.4 | **Deloitte KL FinCrime (channel)** | Partnership-frame trial seats for client remediation work (Path-4 rail) |
+| 2.1 | **Luno Malaysia** (MY-branch scope only) | Free flow-scanner audit on existing Reactor/CSV exports; report back in a week (Path-1 mechanic verbatim) |
+| 2.2 | **MX Global** | Flow-scanner audit offer |
+| 2.3 | **Tokenize Technology** | Flow-scanner audit offer |
+| 2.4 | **TnG Digital** | Flow-scanner audit + FCC-window congratulation brief (their Head-of-FCC seat = stack undecided) |
+| 2.5 | **Zetrix** | Flow-scanner audit offer (open loop closes one way or other) |
+| 2.6 | **NACSA** | Warm-intro slot via proven MyFleet gov-trust channel; NC4 IR/CTI desk invites |
+| 2.7 | **UOB (KL hub)** | Investigations-layer case-tooling trial (capacity aid frame, not stack swap) |
+| 2.8 | **OCBC (KL hub)** | Investigations-layer case-tooling trial |
+| 2.9 | **MUFG (KL hub)** | Investigations-layer case-tooling trial |
+| 2.10 | **Deloitte KL (channel)** | Partnership-frame trial seats for client remediation work (Path-4 rail) |
+| 2.11 | **Razer (Shah Alam)** | Fraud-monitoring adjacent trial (Tier-3 signal — track) |
+| 2.12 | **First Digital (KL desk)** | Compliance-ops tooling trial (ops layer building, 15-Sep hire) |
+| 2.13 | **StraitsX / 'Monee'** | Trial invite AFTER entity-naming verification (brand confusion = diligence gap) |
 
-### TIER 3 — Harvey-fed scale lane (Days 21–42 · 9–29 Nov) — `+12 (42 cum)`
+### TIER 3 — Harvey-fed scale lane (Days 21–42 · 9–29 Nov) — `+20 orgs (38 cum)` — THE VOLUME CARRIER
 **Hard dependency: send-domain unblock FIRST** (SMTP egress — host IP Spamhaus-listed, Microsoft tenants bouncing; affects TNG/CelcomDigi/CSM/SC until mail moves).
+Org targets come from the 38-prospect seeded universe + the 53-posting KL cluster orgs (each posting org = one tenancy: Bybit KL desk, Bitget, celcomdigi-adjacent paycos, PJ greenfields) + MEA-roster fiat lanes. Every released campaign names ORG-level accept criteria (one tenant per company).
 | # | Workstream | Entry offer |
 |---|---|---|
-| 3.1 | **Send-domain fix + dedicated domain** | New sending domain (choose from §domain recon: e.g. chainsentry.io — $28.12 first yr), warmed, SPF/DKIM/DMARC, CAN-SPAM postal address | 
-| 3.2 | **Release 4 pending drafts** + campaigns to the 38-prospect seeded universe | Approval-gated → release on fix |
-| 3.3 | **LinkedIn outreach lane** | KL crypto-AML cluster (Bybit desk, First Digital, StraitsX/Monee — roster-corrected) |
+| 3.1 | **Send-domain fix + dedicated domain** | New sending domain (from §domain recon: e.g. chainsentry.io — $28.12 first yr), warmed, SPF/DKIM/DMARC, CAN-SPAM postal address |
+| 3.2 | **Release 4 pending drafts** + org-addressed campaigns | Approval-gated → release on fix; one slot per org | 
+| 3.3 | **LinkedIn outreach lane** | KL crypto-AML cluster orgs (roster-corrected: Bybit MY desk as ITS OWN tenancy, distinct from the AE entity) |
 
-### TIER 4 — Regulator-adjacent & corridor licensee cohorts (Days 35–56 · 23 Nov–13 Dec) — `+5 (47 cum)`
-| # | Cohort | Entry offer |
+### TIER 4 — Regulator-adjacent & corridor licensee orgs (Days 35–56 · 23 Nov–13 Dec) — `+9 orgs (47 cum)`
+| # | Adopter ORG | Entry offer |
 |---|---|---|
-| 4.1 | **BNM/SC supervisory orbit** | Supervisory-console lite invites (monitoring consoles are low-revenue/high-leverage — never priced as the deal) |
-| 4.2 | **VN/EG licensee day-one cohorts** | Day-one AML bundle invites timed to licence issuance (cohort list pinned wk7 per master plan) |
-| 4.3 | **Turkey/UAE one-doors (Paribu/CoinMENA, Emirates NBD→BitOasis)** | Controlling-shareholder door: one pilot = two logos — invite-format only |
+| 4.1 | **Bank Negara Malaysia (supervisory orbit)** | Supervisory-console lite invite (monitoring consoles are low-revenue/high-leverage — never priced as the deal) |
+| 4.2 | **Securities Commission Malaysia (orbit)** | Console-lite invite via the SC oversight-desk relationship |
+| 4.3 | **CyberSecurity Malaysia (production orbit)** | Alpha→production tenancy conversion invite |
+| 4.4 | **PayNet orbit pilot partner** | Fraud-alert pilot co-tenant invite (BNM-orbit Oct-2026 pilot) |
+| 4.5 | **VN licensee cohort org #1** | Day-one AML bundle invite timed to licence issuance |
+| 4.6 | **VN licensee cohort org #2** | Day-one AML bundle invite (cohort list pinned wk7 per master plan) |
+| 4.7 | **Egypt FRA first-cohort org** | Day-one AML bundle invite (time-limited, regime pace) |
+| 4.8 | **Paribu (TR — CoinMENA one-door)** | Controlling-shareholder door: one pilot = TR + GCC logos — invite-format only |
+| 4.9 | **Emirates NBD → BitOasis (AE one-door)** | Bank-AML-desk + controlling-shareholder door — invite-format only |
 
 ### TIER 5 — Strategic anchors (Days 49–73 · 7–31 Dec, complex papering) — `+3 (50 cum)`
 | # | Anchor | Complexity | Graduation |
