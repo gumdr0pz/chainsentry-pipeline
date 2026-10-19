@@ -1,0 +1,32 @@
+{
+  "programme": "EA-50",
+  "window": {"opens": "2026-10-19", "closes": "2026-12-31", "note": "extension of the 13-Dec corridor label per directive 2026-10-19, minuted in EA50-GROWTH-PLAN-2026.md"},
+  "targets": {"registered": 50, "sandboxed": 30, "activated": 15, "converted": 6},
+  "stage_definitions": {
+    "registered": "slot requested + sandbox access provisioned",
+    "sandboxed": "logged in >=2x, sample data loaded",
+    "activated": "ran >=1 real workflow on own/public data",
+    "converted": "design-partner MOU (data-rights clause) or paid-pilot commitment"
+  },
+  "tiers": [
+    {"tier": 1, "name": "Warm inbound & campus", "days": "0-14", "target_registered": 15, "cohorts": ["UPNM darkweb centre", "CSM alpha env", "PDRM JSJK/CCID attendees", "CAAM workshop", "RMAF/UPNM alumni"]},
+    {"tier": 2, "name": "Roster warm doors (displacement)", "days": "7-28", "target_registered": 15, "cohorts": ["MY DAXs Luno/MX/Tokenize/TnG/Zetrix", "NACSA/MyFleet orbit", "bank KL investigation desks", "Deloitte KL channel"]},
+    {"tier": 3, "name": "Harvey-fed scale lane", "days": "21-42", "target_registered": 12, "gating_dependency": "send-domain unblock + Spamhaus delist", "cohorts": ["released drafts + 38-prospect campaigns", "LinkedIn KL crypto-AML cluster"]},
+    {"tier": 4, "name": "Regulator-adjacent & corridor licensees", "days": "35-56", "target_registered": 5, "cohorts": ["BNM/SC console-lite invites", "VN/EG licensee cohorts", "TR/AE one-doors"]},
+    {"tier": 5, "name": "Strategic anchors", "days": "49-73", "target_registered": 3, "anchors": ["PDRM MAPO casework pilot", "PILOT-2 regulated monitor", "Fiato dogfood tenant (fiato/PLAN.md)"]}
+  ],
+  "welded_gates": [
+    {"date": "2026-10-30", "gate": "P0 review", "bar": ">=5 seed meetings + >=2 MOUs"},
+    {"date": "2026-11-27", "gate": "wk8", "bar": ">=3 active pilots; EA activated >=5 else correct-rule 3"},
+    {"date": "2026-12-31", "gate": "EA-50 close-out", "bar": "final funnel count + wk26-prep handoff"}
+  ],
+  "kill_correct_rules": [
+    "Tier-1 conversion <50% by Day 14 -> onboarding friction sprint before Tier-3 spend",
+    "Mail egress unresolved by 2026-11-09 -> Tier-3 redirects to LinkedIn/manual",
+    "Activated <5 by 2026-11-27 -> shrink to Tier-5 anchors + referral motion, outreach freezes",
+    "Zero Tier-5 graduations by 2026-12-31 -> conversion-failure verdict to wk26 board",
+    "Any churn after activation -> interview + minuted cause (0 tolerated after wk8)"
+  ],
+  "adopters": [],
+  "updated_at": "2026-10-19T16:50:00Z"
+}
