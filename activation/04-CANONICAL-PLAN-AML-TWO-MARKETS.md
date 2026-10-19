@@ -85,6 +85,7 @@ Ramp rule: **ship order M1→M5**, M3 (investigation cockpit) is the flagship an
 
 ### STEP F — Fiato lateral (perpetual engagement rail)
 Absorbed from prior draft: Fiato exam-readiness = hire's JD Task 1. Steps: gap assessment (Day 30) → CSF coverage matrix → data-rights + MoU → CSF-1/2 controlled test (Day 60) → live screening/monitoring (Day 90) → commercial conversion (Day 180). Success = named payments reference in E2.
+**Canonical home (2026-10-19):** the Fiato plan now lives in its own repo — `../fiato/PLAN.md` (github.com/gumdr0pz/chainsentry-fiato), source evidence sha-pinned. This section is the pointer; the sub-repo is authoritative for the bilateral engagement.
 
 ---
 
