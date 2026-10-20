@@ -1,6 +1,6 @@
 # PROGRAMME — ChainSentry Early Adopters 50 (EA-50): Growth Plan to 31 December 2026
 
-**Status:** DRAFT v1 (2026-10-19) · Owner: Hadri (approval) · Operator: Vesper (execution)
+**Status:** DRAFT v2 (2026-10-20 — unique-org reconciliation + master target-list fusion) · Owner: Hadri (approval) · Operator: Vesper (execution)
 **Window:** 19 Oct – 31 Dec 2026 (opens today; supersedes the 13-Dec corridor label per this directive — labelled extension, minuted here)
 **Sits on:** 02-MASTER-PLAN gates (P0 review fri 30 Oct · wk8 gate fri 27 Nov · wk12 circuit breaker late Dec) · 01-ACTIVATION-PATHS non-negotiables (a)–(d) · roster/signals evidence · Fiato repo (`fiato/PLAN.md`) as Tier-5 lateral
 **Focus:** low-hanging → complex tier ladder; every tier = entry offer → activation ritual → graduation criterion.
@@ -19,6 +19,13 @@
 | **Converted orgs** | Design-partner MOU (data-rights clause) or paid-pilot commitment | ≥6 |
 
 Conversion assumptions `[ASSUMPTION — validated by Day 14 data]` at ORG granularity: org-touch→meeting 25% · meeting→slot 50% · slot→registered 70%. Registered-to-activated 30%; activated-to-converted 40%. Funnel math implies ~100–140 org meetings and ~450+ org touches across 8+ weeks against a contactable universe of ~150+ orgs (MEA roster 72 · KL signals cluster ~53 · displacement cohort 10+ · licensee cohorts 20+) — roughly a one-third penetration requirement: aggressive, feasible ONLY with all four supply lanes live (see §3 dependencies). Kill/correct rules in §5 keep it honest.
+
+**v2 UNIQUE-ORG RECONCILIATION (2026-10-20):** tier sums (5+13+20+9+3=50) counted THREE duplicate classes; true unique count on record = **47 living-or-solid orgs** (+2 dead/distressed slots) + 3 RESTORE-PROPOSALS = 50. Corrections, in force for all tracking:
+1. **Lifecycle double-count closed** — CSM (alpha env T1.2 → production orbit T4.3) and PDRM (briefing triage T1.3 → MAPO casework pilot T5.1) are ONE org maturing through two stages, never two adopters. Tracker rows carry `stage_of:` markers.
+2. **Lane double-count closed** — OCBC (T2.8) appeared also as a T3 candidate; Reap also sat in the T2-replacement proposals. Absorbed into the earliest-tier row.
+3. **Dead slots replaced** — T2.3 Tokenize (defunct Jul-25, founder assets frozen 8-Oct-26) and T2.5 Zetrix (RM314m seizure, distressed) stay ON the ladder but as revived/replace slots; [[PROPOSED]] promotions: Reap (purchase-imminent JD, names Unit21/Flagright/Chainalysis/Elliptic in own ad) and Maybank Group (BNM RM5m remediation, GCCO Yiow Inn Sann, vendor-route entry).
+4. **Restoration trio [[PROPOSED — needs Hadri nod]]** bridging 47→50: (R.1) **CelcomDigi** — existing Aras client, warm-account money-layer trial; (R.2) **VARA Dubai** — approved-tooling listing = installed base across the whole VARA orbit; (R.3) **SCA UAE** — federal supervision pilot, first-VA-platform-licence halo. Both regulators are mea-roster T1/high-confidence rows previously parked outside the counted ladder.
+Master fused target list: `programmes/ea50-master-organisations.csv` (130 rows org-grain incl. MEA expansion pool) + `programmes/ea50-master-seats.csv` (named seats) + XLSX build of 2026-10-20. Tracker continues to count UNIQUE orgs only.
 
 ## 2. The tier ladder (low-hanging → complex)
 
