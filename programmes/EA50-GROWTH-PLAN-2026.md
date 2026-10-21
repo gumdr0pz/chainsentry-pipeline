@@ -25,7 +25,7 @@ Conversion assumptions `[ASSUMPTION — validated by Day 14 data]` at ORG granul
 2. **Lane double-count closed** — OCBC (T2.8) appeared also as a T3 candidate; Reap also sat in the T2-replacement proposals. Absorbed into the earliest-tier row.
 3. **Dead slots replaced** — T2.3 Tokenize (defunct Jul-25, founder assets frozen 8-Oct-26) and T2.5 Zetrix (RM314m seizure, distressed) stay ON the ladder but as revived/replace slots; [[PROPOSED]] promotions: Reap (purchase-imminent JD, names Unit21/Flagright/Chainalysis/Elliptic in own ad) and Maybank Group (BNM RM5m remediation, GCCO Yiow Inn Sann, vendor-route entry).
 4. **Restoration trio [[PROPOSED — needs Hadri nod]]** bridging 47→50: (R.1) **CelcomDigi** — existing Aras client, warm-account money-layer trial; (R.2) **VARA Dubai** — approved-tooling listing = installed base across the whole VARA orbit; (R.3) **SCA UAE** — federal supervision pilot, first-VA-platform-licence halo. Both regulators are mea-roster T1/high-confidence rows previously parked outside the counted ladder.
-Master fused target list: `programmes/ea50-master-organisations.csv` (130 rows org-grain incl. MEA expansion pool) + `programmes/ea50-master-seats.csv` (named seats) + XLSX build of 2026-10-20. Tracker continues to count UNIQUE orgs only.
+Master fused target list: `programmes/ea50-master-organisations.csv` (184 rows org-grain after the 21-Oct T2-DEPTH pass — 54 rows: Gulf/SA-QA-KW-OM + AE/BH people+trigger sweep; 17 net-new flagged RESTORE-PROP) + `programmes/ea50-master-seats.csv` (149 named seats) + XLSX build of 2026-10-21. Tracker continues to count UNIQUE orgs only — T2-DEPTH rows track depth/net-new separately and do NOT inflate the 50.
 
 ## 2. The tier ladder (low-hanging → complex)
 

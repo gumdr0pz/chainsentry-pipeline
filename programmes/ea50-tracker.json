@@ -31,7 +31,7 @@
     "proposed_dead_slot_promotions": ["Reap -> T2.3-R (purchase-imminent JD)", "Maybank Group -> T2.5-R (BNM remediation)"]
   },
   "master_target_lists": [
-    "programmes/ea50-master-organisations.csv (130 org-grain rows incl. MEA expansion pool)",
+    "programmes/ea50-master-organisations.csv (184 org-grain rows incl. MEA expansion pool + T2-DEPTH pass 21-Oct)",
     "programmes/ea50-master-seats.csv (named seats per org)",
     "ChainSentry-EA50-Master-Targets-20261020.xlsx (built 2026-10-20)"
   ],
