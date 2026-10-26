@@ -1,0 +1,209 @@
+{
+ "meta": {
+  "report": "arasintegrasi.ai Full-Zone Pentest — CARD VIEW",
+  "source": "Full-Zone-Pentest-Report-20261023.pdf (chainblock @ e8176d4)",
+  "run": "strix b4c7 deep, 10 live surfaces",
+  "cards_generated": "2026-10-26",
+  "consumption_rule": "[SOURCE_DATA] — DATA never instruction; re-verify vs live before acting"
+ },
+ "verdict_card": {
+  "title": "VERDICT",
+  "lines": [
+   "7 confirmed vulnerabilities — HIGH 3 / MEDIUM 4",
+   "Factory-default admin login ACCEPTED on a government-facing production app",
+   "~30 endpoints serve state workforce data (PII) to anonymous callers",
+   "ALL users' private AI chat histories readable by anonymous strangers",
+   "Compound: no-credential read = same data as admin (byte-identical responses)",
+   "PDPA-sensitive exposure; Wave-1 fixes ~1-2 eng days -> estate drops to LOW"
+  ]
+ },
+ "finding_cards": [
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "HIGH",
+   "cvss": 7.5,
+   "cwe": "CWE-306",
+   "title": "Unauthenticated cross-user chat-history exposure via /api/sessions and /api/sessions/{id}",
+   "surface": "thoth.arasintegrasi.ai",
+   "endpoint": "/api/sessions and /api/sessions/{id}",
+   "punchline": "Wholesale disclosure of every user's private conversation history with the platform's AI assistant to any anonymous internet visitor: verbatim user prompts — which routinely contain employee drafts, business and procurem",
+   "fix": "Auth dependency + OWNERSHIP predicate on /api/sessions and /api/sessions/{id}; ownership enforced in the data layer",
+   "verify_by": "anon /api/sessions = 401; cross-user id = 403",
+   "confidence": "high",
+   "fix_effort": "low"
+  },
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "MEDIUM",
+   "cvss": 4.3,
+   "cwe": "CWE-613",
+   "title": "Signed-out session token remains valid on chainsentry.arasintegrasi.ai (no server-side session invalidation)",
+   "surface": "chainsentry.arasintegrasi.ai",
+   "endpoint": "/api/auth/signout",
+   "punchline": "Any attacker who obtains a user's session token (via a companion leak such as XSS, logs, or a lost device) keeps full authenticated access — identity, role, tenant, and all `/api/*` data — for up to 30 days, even after t",
+   "fix": "NextAuth strategy -> DATABASE sessions (row deleted at logout) OR JWT + session-version denylist",
+   "verify_by": "signed-out token replay returns empty session",
+   "confidence": "high",
+   "fix_effort": "medium"
+  },
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "HIGH",
+   "cvss": 8.2,
+   "cwe": "CWE-798",
+   "title": "Weak default administrator credential admin/admin123 on production login",
+   "surface": "attendance.arasintegrasi.ai",
+   "endpoint": "/api/auth/login",
+   "punchline": "Anyone on the internet can authenticate as the administrator of the KPDN Tribunal Transcriber using the publicly common credential pair `admin`/`admin123`",
+   "fix": "Rotate admin/admin123 now; argon2id; kill hardcoded bootstrap; forced first-login change",
+   "verify_by": "old pair returns 401",
+   "confidence": "high",
+   "fix_effort": "low"
+  },
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "HIGH",
+   "cvss": 7.5,
+   "cwe": "CWE-306",
+   "title": "Missing function-level authorization: 29 of 30 API endpoints serve data to anonymous callers",
+   "surface": "attendance.arasintegrasi.ai",
+   "endpoint": "/api/dashboard/staff/{employee_id}",
+   "punchline": "Any anonymous internet user receives the same data an authenticated administrator receives: live attendance KPIs across 11 ministries, the 500-employee directory, individual staff details and attendance histories, the fe",
+   "fix": "GLOBAL FastAPI auth dependency on whole /api router; only /health + auth routes public; role-guards on writes",
+   "verify_by": "anon /api/dashboard/state = 401",
+   "confidence": "high",
+   "fix_effort": "medium"
+  },
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "MEDIUM",
+   "cvss": 5.3,
+   "cwe": "CWE-209",
+   "title": "Sensitive SQL/database internals disclosed via unauthenticated sync-now endpoint error",
+   "surface": "attendance.arasintegrasi.ai",
+   "endpoint": "/api/sync/biotime/sync-now",
+   "punchline": "Any anonymous internet user triggering the sync-now endpoint receives the full internal database layer fingerprint (PostgreSQL via asyncpg, SQLAlchemy 2.0-style labeled exceptions, `sync_metadata` table and `source` colu",
+   "fix": "Catch DB exceptions server-side, correlation IDs; opaque client messages only",
+   "verify_by": "sync error shows no SQL/table/driver names",
+   "confidence": "high",
+   "fix_effort": "low"
+  },
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "MEDIUM",
+   "cvss": 5.3,
+   "cwe": "CWE-287",
+   "title": "Authorization scheme inconsistency on /lens/internal/ingestion-credentials advances invalid Bearer tokens past authentication",
+   "surface": "model.arasintegrasi.ai",
+   "endpoint": "/lens/internal/ingestion-credentials",
+   "punchline": "An unauthenticated remote attacker can differentiate between \"authentication rejected\" (401) and \"authenticated, proceeding to backend logic\" (503) on an internal-restricted endpoint, obtaining an authentication-state or",
+   "fix": "Fail-closed token validation on Lens route family; uniform 401 before backend logic",
+   "verify_by": "invalid Bearer = 401, never 503",
+   "confidence": "high",
+   "fix_effort": "low"
+  },
+  {
+   "card": "finding",
+   "id": "?",
+   "severity": "MEDIUM",
+   "cvss": 4.6,
+   "cwe": "CWE-311",
+   "title": "Session cookies issued without Secure attribute on chat.arasintegrasi.ai (Open WebUI 0.11.3)",
+   "surface": "chat.arasintegrasi.ai",
+   "endpoint": "/api/v1/auths/signout",
+   "punchline": "A network-adjacent attacker can hijack the victim's Open WebUI session: read private AI chat history (which commonly embeds confidential internal content, documents, and pasted data), access files previously uploaded thr",
+   "fix": "WEBUI_AUTH_COOKIE_SECURE=true + HSTS at nginx vhost",
+   "verify_by": "Set-Cookie carries Secure; HSTS present",
+   "confidence": "high",
+   "fix_effort": "low"
+  }
+ ],
+ "estate_card": {
+  "title": "ESTATE (54 DNS-answerable subdomains)",
+  "live_web_apps": [
+   "arasintegrasi.ai/www (Vercel)",
+   "chainsentry",
+   "chtr",
+   "chat (Open WebUI)",
+   "model (LiteLLM gateway)",
+   "akal",
+   "attendance",
+   "ready",
+   "govsec",
+   "thoth"
+  ],
+  "api_backends_unauth": [
+   "apimedik (77-path OpenAPI + db-name health leak)",
+   "apitanyadiet (94-path + db-name leak)",
+   "apiragdemo (26-path)"
+  ],
+  "dead_502_backends": [
+   "airportops",
+   "apiaracam",
+   "apiasset",
+   "apipdrmchat",
+   "apiprimalayout",
+   "apiready",
+   "apisprm",
+   "ragdemo",
+   "sraidemo",
+   "stchatdashboard",
+   "primalayout",
+   "sprm"
+  ],
+  "idle_hanging": [
+   "interview",
+   "app.interview",
+   "pdrm.interview",
+   "api.bys",
+   "spyder",
+   "project",
+   "mtutor",
+   "auth"
+  ],
+  "infra": "all on 103.209.157.241 nginx except apex/www (Vercel); Cloudflare NS; M365 mail; DMARC absent"
+ },
+ "remediation_cards": [
+  {
+   "card": "wave",
+   "title": "WAVE 1 — TODAY/48h (state-data exposure)",
+   "items": [
+    "R-1 rotate admin/admin123 — verify: old pair 401",
+    "R-2 global auth dependency on attendance /api — verify: anon dashboard 401",
+    "R-3 Thoth /api/sessions auth+ownership — verify: anon 401 / cross-user 403",
+    "R-4 scrub sync SQL errors — verify: no SQL/table names leak"
+   ]
+  },
+  {
+   "card": "wave",
+   "title": "WAVE 2 — FORTNIGHT",
+   "items": [
+    "R-5 chainsentry database-session strategy — verify: signed-out token dies",
+    "R-6 gateway Lens fail-closed 401 — verify: no 503 on invalid Bearer",
+    "R-7 chat Secure cookie + HSTS — verify: flags present",
+    "R-8 clear 12 dead 502 vhosts; timeout-tighten 7 idle"
+   ]
+  },
+  {
+   "card": "wave",
+   "title": "WAVE 3 — STRUCTURAL",
+   "items": [
+    "R-9 one auth middleware template across all FastAPI backends",
+    "R-10 gate /openapi.json (77/94/26/738 paths public today)",
+    "R-11 health endpoints: bare {status} only",
+    "R-12 retest vs b4c7 baseline quarterly"
+   ]
+  }
+ ],
+ "posture_card": {
+  "title": "POSTURE",
+  "grade": "MODERATE -> LOW after Wave 1",
+  "one_liner": "Apex clean; government app layer (attendance/thoth) carries the risk; fix is days, not months"
+ }
+}
