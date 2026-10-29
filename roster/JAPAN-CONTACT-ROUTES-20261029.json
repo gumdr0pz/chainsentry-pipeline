@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "artifact": "Japan contact-route map — ChainSentry targets from 'Japan is what crypto looks like when it grows up' post",
+    "generated": "2026-10-29T13:18:27Z",
+    "generator": "Vesper (HermesAgent)",
+    "trigger": {
+      "post": "LinkedIn, Gabriel Mamou-Mani (/in/gabrielmama), 'Japan is what crypto looks like when it grows up.'",
+      "url": "https://www.linkedin.com/posts/gabrielmama_japan-is-what-crypto-looks-like-when-it-grows-share-7516527830449508353-z4kn/",
+      "shortlink": "https://lnkd.in/p/gy5HVaqt",
+      "traction": "102 reactions, 16 comments at pull (2026-10-29)",
+      "verified_via": "Googlebot-UA guest fetch [A2]"
+    },
+    "fit_thesis": "Japan-licensed VASPs are compliance-first buyers by construction: post-display economics (SBI crypto arm: ¥21.2B pretax on ¥41.6B revenue) fund compliance budgets; custody-segregation rules (2017 licence regime, FTX-Japan repayment precedent) make auditability a purchasing criterion. ChainSentry's sovereign/auditable posture speaks directly to post-MtGox/post-Coincheck institutional scar tissue.",
+    "grading_legend": "[V]=official page fetched this cycle; [A2]=dual-source/current; [N]=news dateline; [ROUTE]=actionable channel; stale/unknown flagged",
+    "consumption_rule": {
+      "audience": "Hadri + sales ops; feeder for roster/CONTACTS.csv rows",
+      "reading_order": "meta -> companies[] -> warm_doors -> remaining_gaps -> next_actions",
+      "hard_rules": [
+        "every name carries dated source or stale-flag",
+        "NOT FOUND beats guessing",
+        "regulator-register verification before outreach naming 'licensed'"
+      ]
+    }
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "company": "SBI Group / SBI VC Trade (crypto arm)",
+      "why_they_buy": "Bank-group operator of two licensed exchanges; crypto arm profitable at scale (¥21.2B pretax / ¥41.6B rev per post) — budget exists; institutional desk 'SBIVC for Prime' already serves large corporates; custody-regime veteran",
+      "contact_routes": [
+        {
+          "route": "SBIVC for Prime (institutional/large-corporate desk) — jp: サービス > SBIVC for Prime; corporate onboarding enquiry via sbivc.co.jp forms",
+          "type": "[ROUTE] sales desk",
+          "note": "the compliance conversation lives with the institutional desk, not retail support"
+        },
+        {
+          "route": "SBI VC Trade corporate site — corporate info pages live in EN nav (EN site responds, /en/company-profile 404 = path drift; navigate from /en/)",
+          "type": "[V] page",
+          "verified": "site fetched 2026-10-29, EN nav present"
+        },
+        {
+          "route": "SBI Group corporate enquiry form (sbigroup.co.jp) — IR pages bot-walled to curl (403); browser session reaches the form",
+          "type": "[ROUTE] web form",
+          "note": "form-mediated contact; slower but authoritative"
+        }
+      ],
+      "named_people": "NOT FOUND this pass (management page path moved; registry verification pending) — stale-flagged, no guessing",
+      "confidence": "Medium — company/route solid; named compliance officers outstanding"
+    },
+    {
+      "rank": 2,
+      "company": "Sony (crypto exchange arm: S.BLOX; blockchain arm incorporated in Singapore per post)",
+      "why_they_buy": "Owns a licensed Japanese exchange (S.BLOX) AND builds its own L2/blockchain (Singapore-incorped) — cross-border exposure both ways; gaming/ecosystem wallet scale creates on-chain forensic demand",
+      "contact_routes": [
+        {
+          "route": "S.BLOX corporate/company pages — www.sblox.jp live (JA-primary; EN company page thin 2KB shell)",
+          "type": "[V] page",
+          "note": "JA-language outreach or EN business-mail lands better; enquiry via site footer"
+        },
+        {
+          "route": "Sony Group corporate HQ — sony.com/en/ contact routed to business divisions via group enquiry",
+          "type": "[ROUTE] group form",
+          "note": "long arc; lead with S.BLOX operating-company angle not group-level"
+        },
+        {
+          "route": "Singapore blockchain arm — separate entity; approach via LinkedIn company page + SG business registries (ACRA lookup) when the L2-devrel door is wanted",
+          "type": "[ROUTE] peripheral",
+          "note": "secondary door; primary is the JP exchange licence holder"
+        }
+      ],
+      "named_people": "NOT FOUND this pass — S.BLOX officers not scraped; stale-flagged",
+      "confidence": "Medium-Low — doors identified, named officers outstanding"
+    },
+    {
+      "rank": 3,
+      "company": "Coincheck (licensed exchange; KDDI holds 14.9%)",
+      "why_they_buy": "Survivor of the ¥58B 2018 hack — scar tissue IS the sales hook; KDDI equity line gives enterprise distribution; monex-group listed entity = public compliance disclosures",
+      "contact_routes": [
+        {
+          "route": "Coincheck corporate site — corporate.coincheck.com responds (JP; EN variant attempted) — corporate/institutional enquiries via site contact form",
+          "type": "[V] page",
+          "verified": "fetched 2026-10-29 (JS-shell; form-mediated)"
+        },
+        {
+          "route": "Listed-entity disclosures — IR pages name directors and auditors (Board/compliance committee) via TDnet/yuho filings + corporate site IR tab",
+          "type": "[ROUTE] regulatory filings",
+          "note": "filing-scraped officer names = zero-guess identification channel; browser session needed"
+        },
+        {
+          "route": "KDDI partnership desk as warm introducer — KDDI english.kddi.com corporate enquiries live",
+          "type": "[ROUTE] indirect",
+          "note": "shareholder alignment: approach AFTER Coincheck direct, with KDDI as follow-on"
+        }
+      ],
+      "named_people": "NOT FOUND this pass — corporate JS shell; filings route logged",
+      "confidence": "Medium — company economics public (listed), officers via filings route pending"
+    },
+    {
+      "rank": 4,
+      "company": "Mercari (bitcoin in resale app)",
+      "why_they_buy": "Consumer-app distribution of BTC; compliance surface = payments/e-money licences + crypto brokerage exposure; scaling in-app financial services",
+      "contact_routes": [
+        {
+          "route": "Mercari leadership [V] — about.mercari.com/en/about/leadership/ fetched 2026-10-29: Shintaro Yamada (Director, Representative Executive Officer & CEO); Fumiaki Koizumi; Takuya Kitagawa (Director, Executive Officer, SVP Corporate); Kazuhiko Toyama; Mayumi Umezawa; Shiho Konno; Kikka Hanazawa; Masahiro Kotosaka (Independents); Kumi Fujisawa; Sayaka Eda; Mayumi Tochinoki; Makiko Shinoda",
+          "type": "[V] named people",
+          "verified": "own governance page, current"
+        },
+        {
+          "route": "Mercari newsroom/press channel — about.mercari.com/en/press/ list live (partner-announcement culture = proactive PR voice)",
+          "type": "[ROUTE] press/partnerships",
+          "note": "partnership framing (crypto-rails + trust tooling) fits their announcement rhythm"
+        },
+        {
+          "route": "Corporate enquiry via about.mercari.com contact forms",
+          "type": "[ROUTE] web form"
+        }
+      ],
+      "named_people": "VERIFIED board/executive roster [V] (above); compliance-function named owner NOT FOUND — route: LinkedIn org page + hiring posts (compliance openings name the team lead)",
+      "confidence": "High on company/people [V]; Medium on compliance-function owner"
+    },
+    {
+      "rank": 5,
+      "company": "KDDI (telco; 14.9% Coincheck)",
+      "why_they_buy": "Not a VASP — an investor and distribution rail; value = warm intro authority to Coincheck + mobile-wallet user base (au WALLET crypto ambitions)",
+      "contact_routes": [
+        {
+          "route": "english.kddi.com corporate enquiries (site responds; /executives path 404 = drift)",
+          "type": "[V] page + [ROUTE] form"
+        },
+        {
+          "route": "KDDI OPEN INNOVATION / business-partnership programmes (public corporate-VC + partner initiative channels)",
+          "type": "[ROUTE] programme",
+          "note": "telcos route vendor contact through partnership offices — use the front door"
+        }
+      ],
+      "named_people": "NOT FOUND this pass — executive page path moved; stale-flagged",
+      "confidence": "Low-Medium — treat as introducer only"
+    }
+  ],
+  "warm_doors": [
+    {
+      "door": "Gabriel Mamou-Mani (post author, /in/gabrielmama)",
+      "why": "authored the attention (102 reactions); market-commentator reaching the exact buyer circle; intro-holder if engaged with substance",
+      "grade": "[A2]"
+    },
+    {
+      "door": "岩元もも (iwamotomomo) — Manager, VIP Support Dept, SHIRUSHI Inc. (web3 business-adoption support; commented on post)",
+      "why": "JP web3 business-connector; local-market translation of the pitch; self-signalled engagement in-thread",
+      "grade": "[A2]"
+    },
+    {
+      "door": "Manuel Lopes (马成功) — deal-side commenter (exchange-ownership value thesis in-thread)",
+      "why": "M&A/deal perspective aligned to ChainSentry placement; engaged publicly",
+      "grade": "[A2]"
+    },
+    {
+      "door": "El Lee — customer-distribution commenter",
+      "why": "distribution-model discussant; possible reach to consumer-app rails",
+      "grade": "[A2]"
+    },
+    {
+      "door": "James Dean Galitsis — compliance/environment commenter",
+      "why": "articulated compliance-vs-innovation tension; peer voice for methodology credibility",
+      "grade": "[A2]"
+    }
+  ],
+  "remaining_gaps": [
+    "Named compliance officers at SBI VC Trade, S.BLOX, Coincheck (filings/JFSA routes logged, need browser sessions)",
+    "JFSA licensed-exchange register re-verification (list path moved; browser needed) — REQUIRED before any outreach claims 'licensed'",
+    "SBI Group management page current path (IR bot-walled to curl; WB throttled)",
+    "LinkedIn post commentariat beyond 5 named (16 comments, 5 transcribed)",
+    "Publisher inboxes for all five orgs (forms dominate; direct mailboxes NOT FOUND this pass)"
+  ],
+  "next_actions": [
+    {
+      "action": "Browser pass: JFSA register + corporate IR pages + officer identification (one sitting, budget-capped)",
+      "owner": "Vesper"
+    },
+    {
+      "action": "Merge verified rows into roster/CONTACTS.csv with source-tags + dates (same-pass roster edit per house rule)",
+      "owner": "Vesper"
+    },
+    {
+      "action": "Warm-door outreach draft (Gabriel Mamou-Mani first — substance-led, Japanese-market angle, no pitch-spam)",
+      "owner": "Vesper",
+      "gate": "Hadri approval (third-party-facing contact)"
+    },
+    {
+      "action": "Decide JP-market entry framing: 'post-FTX-Japan custody auditability' story for SBI/Coincheck; 'Singapore-incorp swap' story for Sony's arm",
+      "owner": "Hadri + DAF"
+    }
+  ],
+  "verification_ledger": {
+    "High": [
+      "Five companies named in post [A1-text]",
+      "Mercari executive roster [V]",
+      "SBIVC-for-Prime desk exists [V]",
+      "Commentariat handles [A2]"
+    ],
+    "Medium": [
+      "SBI crypto-arm profit figures (post-cited, publicly filed by SBI IR — re-verify before quoting)",
+      "Route viability for S.BLOX/Coincheck forms"
+    ],
+    "Low/single-source": [
+      "Sony blockchain arm incorporation claim (post-asserted)",
+      "Any named-person claims beyond Mercari (none made)"
+    ],
+    "fetched_this_cycle": "2026-10-29 13:15-13:35 UTC via Googlebot-UA guest fetches"
+  }
+}
