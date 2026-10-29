@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "artifact": "Harvey-collected intelligence — Japan cohort (JP-01..05)",
+    "generated": "2026-10-29T14:42:59Z",
+    "collector": "Harvey SDR (harvey-run.service) — profile stage, free signals only (21 confirmed per directive: no paid collection)",
+    "db": "~/.hermes/intel/harvey/data/harvey.db (companies source=chainsentry-japan-route-map)",
+    "note": "Built programmatically from Harvey's observation rows; companions: roster/JAPAN-CONTACT-ROUTES-20261029.json (route layer) + CONTACTS.csv rows (29-Oct)"
+  },
+  "companies": [
+    {
+      "company": "Coincheck Inc. (monex group)",
+      "domain": "coincheck.com",
+      "website": "https://corporate.coincheck.com/",
+      "observations_count": 6,
+      "tech_stack": "Google Analytics, Google Tag Manager",
+      "contact_form": null,
+      "hiring_roles_detected": null,
+      "contacts_found": null,
+      "blocks_ai_crawlers": true,
+      "gap_flags": [
+        "HIRING_ROLE",
+        "CONTACT_FOUND"
+      ]
+    },
+    {
+      "company": "KDDI Corporation",
+      "domain": "kddi.com",
+      "website": "https://english.kddi.com/",
+      "observations_count": 7,
+      "tech_stack": "Google Tag Manager",
+      "contact_form": "https://kddi.com",
+      "hiring_roles_detected": null,
+      "contacts_found": null,
+      "blocks_ai_crawlers": true,
+      "gap_flags": [
+        "HIRING_ROLE",
+        "CONTACT_FOUND"
+      ]
+    },
+    {
+      "company": "Mercari Inc. (Mercari Crypto)",
+      "domain": "mercari.com",
+      "website": "https://about.mercari.com/en/",
+      "observations_count": 0,
+      "tech_stack": null,
+      "contact_form": null,
+      "hiring_roles_detected": null,
+      "contacts_found": null,
+      "blocks_ai_crawlers": false,
+      "gap_flags": [
+        "0 observations — site structure defeated free collector (about.mercari.com); manual roster verification stands from earlier pass"
+      ]
+    },
+    {
+      "company": "SBI VC Trade Co., Ltd. (SBI Group)",
+      "domain": "sbivc.co.jp",
+      "website": "https://www.sbivc.co.jp/en/",
+      "observations_count": 6,
+      "tech_stack": "Google Tag Manager",
+      "contact_form": null,
+      "hiring_roles_detected": null,
+      "contacts_found": null,
+      "blocks_ai_crawlers": true,
+      "gap_flags": [
+        "HIRING_ROLE",
+        "CONTACT_FOUND"
+      ]
+    },
+    {
+      "company": "Sony — S.BLOX (crypto exchange arm)",
+      "domain": "sblox.jp",
+      "website": "https://www.sblox.jp/",
+      "observations_count": 6,
+      "tech_stack": null,
+      "contact_form": null,
+      "hiring_roles_detected": null,
+      "contacts_found": null,
+      "blocks_ai_crawlers": true,
+      "gap_flags": [
+        "HIRING_ROLE",
+        "CONTACT_FOUND"
+      ]
+    }
+  ]
+}
