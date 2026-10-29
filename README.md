@@ -14,13 +14,13 @@ This repo holds the execution layer: strategy, activation plan, target rosters, 
 |---|---|---|
 | `strategy/STRATEGY.md` | **Doctrine** — positioning, Chainalysis parity scoreboard, entry playbooks, pricing counters, kill metrics | v2, 6-Oct |
 | `activation/` | **Canonical market-activation suite** (vision/mission → six paths → master plan → KPIs/risks/decisions) + consolidated `.docx` | v1, 8-Oct |
-| `roster/CONTACTS.csv` | **Contact list** — 66 rows: company / person / position / **state-tagged email** (VERIFIED-DIRECT / CATCHALL / PATTERN / published) / phone / how-to-reach / source. 20 corridor orgs with dated buy-now hooks | 12-Oct |
+| `roster/CONTACTS.csv` | **Contact list** — 76 rows: company / person / position / **state-tagged email** (VERIFIED-DIRECT / CATCHALL / PATTERN / published) / phone / how-to-reach / source. 20 corridor orgs with dated buy-now hooks + JP cohort (29-Oct route map) | 29-Oct |
 | `pricing/PRICING.md` · `pricing/ChainSentry-Pricing-v1.docx` | **Pricing tier ladder** — Scout (free) / Analyst $249 / Investigator $749 / Compliance $2,299 / **Sovereign (on-prem, air-gap)** / API from $29. Structure benchmarked vs published market ladders; capacity numbers marked PENDING-ENGINEERING-CONFIRM | 14-Oct |
 | `roster/PROSPECT-INDICATORS.md` | **Master prospect list** — ranked by "why they buy NOW," each target = named signatory + dated buying indicators; contact table embedded | v2, 10-Oct |
 | `roster/PROSPECT-SIGNALS.md` | Signal intelligence — hiring clusters, incumbent vendors, procurement/budget trails (Belanjawan lines, parliamentary replies), operating-level personnel | 10-Oct sweep |
 | `roster/MALAYSIA-BATTLEMAP.docx` | All three analyses above in one circulated document (strip contact table before external use) | 10-Oct |
 | `roster/my-contact-dossier.md` | Per-org contact dossier with per-claim sourcing + confidence tags | v3, 10-Oct |
-| `roster/target-roster.csv` | **Canonical roster — 58 targets**, Malaysia + SEA + Switzerland core (hiring-signal prospects MY-13..20 included, each row cites its dated signal) | 10-Oct |
+| `roster/target-roster.csv` | **Canonical roster — 63 targets**, Malaysia + SEA + Switzerland core + Japan cohort JP-01..05 (29-Oct; SBI/Coincheck T1, licensed-status re-verification pending JFSA pass) | 29-Oct |
 | `roster/mea-roster.csv` | MEA roster — 72 entities, 13 markets (UAE/Turkey/Egypt/Bahrain/KSA cohorts, G2-gated) | 8-Oct |
 | `strategy/JD-AML-CFT-SPECIALIST.md` / `.docx` | Position CS-AML-001 spec (in-depth professional version) — salary band + careers contact intentionally blank pending Hadri | v2, 10-Oct |
 | `evidence/signals-20261010/` | Raw snapshots behind the signal file: 53 parsed KL postings, per-JD tool-scan, vendor lane, contact lane. **Friday-diff baseline** | 10-Oct |
