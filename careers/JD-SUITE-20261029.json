@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "artifact": "ChainSentry hiring suite — structured position specs",
+    "generated": "2026-10-29T07:44:31Z",
+    "generator": "Vesper (HermesAgent)",
+    "built_from": [
+      {
+        "path": "/home/mtadmin/.hermes/intel/chainsentry-pipeline/careers/JD-CS-AML-001-v3.md",
+        "sha256": "54c270719a7e975737e0e1e7a099c0aae82d87f5d4f1d3df84fb8ecb2e1dc9ea"
+      },
+      {
+        "path": "/home/mtadmin/.hermes/intel/chainsentry-pipeline/careers/JD-CS-DEV-001-v1.md",
+        "sha256": "61afc8e5dedcbe739ea79a11fc0f3b4fa17a2095fa3beed5547983e61c46cd8e"
+      }
+    ],
+    "note": "Generated programmatically from the JD masters. Bands INDICATIVE — COO confirmation before posting."
+  },
+  "consumption_rule": {
+    "audience": "machine consumption — ATS/job-board import, recruiter agents",
+    "reading_order": "meta -> consumption_rule -> positions[] -> pending_approvals[]",
+    "semantics": {
+      "positions[].card_id": "stable, never reused",
+      "positions[].status": "DRAFT until posting approval",
+      "positions[].qualifications": "required_common applies to all hires; *_additional split by band (empty for single-band positions)",
+      "pending_approvals": "hard gates — do not publish while any gate is open"
+    }
+  },
+  "positions": [
+    {
+      "card_id": "CS-AML-001",
+      "title": "AML/CFT Subject-Matter Expert — Cryptocurrency Financial Crime & Compliance",
+      "version": "v3 — supersedes v2 (26 Oct 2026)",
+      "status": "DRAFT — internal review; band INDICATIVE",
+      "company": "Aras Integrasi Sdn Bhd — ChainSentry Product Division",
+      "products": "ChainSentry (forensics & E-KYC) with the chain: family — chain:HARVEST (wallet intelligence) and the identity layer",
+      "reports_to": "Solutions Architect / Product Lead, ChainSentry — dotted line to COO for contractual and commercial matters",
+      "direct_reports": "None at appointment; owns analyst/contractor support as the design-partner cohort scales",
+      "grade": "Senior Executive / Assistant Manager (4–8 years relevant experience)",
+      "location": "Kuala Lumpur, Malaysia (hybrid). **Travel:** ~15–20% — Ho Chi Minh City, Bangkok, Dubai, occasionally Manama, Istanbul, Zürich",
+      "travel": "",
+      "employment_type": "Full-time, permanent; three-month probation with structured objectives (Section 9)",
+      "remuneration": "Competitive band aligned to Malaysian financial-crime market norms (band confirmed by COO before posting); medical, travel allowance, funded CAMS/ICA renewal, professional-body membership",
+      "responsibilities": {
+        "3.1 Compliance-by-design for pilots and design partners": [
+          "Draft, negotiate and administer the design-partner agreement suite: pilot term sheets, written-reference and quotation clauses, sanitised labelled-case contribution terms, and the data-rights clause that treats a pilot's labelled dispositions as paid consideration.",
+          "Maintain the pilot compliance matrix — legal basis, cross-border data categories, hosting location, retention and destruction/return obligations — for every active pilot.",
+          "Pre-empt jurisdiction blockers as a habit: Malaysian PDPA and AMLA 2001 handling for law-enforcement and reporting-institution data; Swiss banking-secrecy treatment for FIU-type submissions; UAE federal and emirate-level rules across VARA and SCA regimes; Vietnamese and Egyptian pilot-documentation obligations.",
+          "Run pre-launch compliance reviews with engineering and close-out reviews that certify what corpus material may lawfully return to the shared corpus, in what sanitised form, under which clause."
+        ],
+        "3.2 Crypto AML operations: sanctions and corpus integrity": [
+          "Own the sanctioned-address and watchlist labelling pipeline end to end: OFAC SDN, EU, UK (OFSI) and UN lists, court-document addresses, ransomware-payment trackers and takedown archives converted into deterministic, versioned, source-cited seed labels.",
+          "Define label acceptance criteria and QA machine-generated clusters; nothing enters the production corpus without a provenance chain that survives the question \"where did this attribution come from?\"",
+          "Operate and tune the sanctions-screening engine for corridor clusters and settlement rails — match-type weighting, coin-type validation, false-positive handling, escalation paths.",
+          "Stay current on the emerging typologies the corridor produces — bridge-exploit fund dispersal, privacy-coin conversion flows (shielded/transparent transitions), cross-chain hop obscuration, stolen-funds laundering-as-a-service — and convert them into detection and label logic."
+        ],
+        "3.3 Typology casework and court-grade reporting": [
+          "Conduct blockchain tracing casework during pilots: mule-network mapping, scam-centre fund-flow reconstruction, exchange off-ramp identification, mixer and peel-chain handling, cross-chain bridge hops.",
+          "Produce tracing reports at brief and court grade (MY, UAE and CH flavours) with methodology statements, evidence and source citations, limitations, reproducibility appendices and a plain-language executive summary an investigator can forward unedited.",
+          "Support law-enforcement design partners through their internal processes — investigation-paper support in the Malaysian flavour, jointly agreed cases, within agreed data boundaries.",
+          "Build the report-template library from real cases; iterate against actual reader feedback at customer institutions."
+        ],
+        "3.4 Regulatory, FIU and law-enforcement engagement": [
+          "Serve as technical-compliance counterpart for Bank Negara Malaysia (Financial Integrity/Payments), Securities Commission Malaysia, VARA, SCA, the UAE FIU, Bahrain's CBB, Turkey's MASAK and SPK, Egypt's FRA and FIU, and Swiss FIU-class bodies.",
+          "Author supervisory-grade artefacts: discussion papers, public-consultation responses arguing proportionate surveillance standards, baseline guidance (for example, \"AML/CFT expectations for a newly licensed digital-asset exchange\").",
+          "Prepare and co-present capability briefings to investigator audiences on methodology and recorded public-data output.",
+          "Support MENAFATF/FATF-adjacent positioning: Recommendation 15 coverage, Travel Rule obligations and implementation practice across the roster states."
+        ],
+        "3.5 Commercial, bid and enablement support": [
+          "Act as named AML/CFT SME on RFP/tender responses and supplier due-diligence questionnaires; own the reusable compliance-answers library.",
+          "Review prospects' AML policies, travel-rule posture and tooling as the diagnostic hook of \"day-one AML\" bundles for newly licensed VASPs.",
+          "Support pricing conversations on compliance substance — what a proportionate licence covers, what an address-band includes, why seat-based incumbent pricing misaligns for supervised SMBs.",
+          "Deliver methodology workshops and investigator training during pilots."
+        ],
+        "3.6 Internal influence and product feedback": [
+          "Convert pilot friction into product backlog: data-handling gaps, report-format gaps, audit-log requirements, jurisdiction-specific features.",
+          "Hold standing recommend-block authority in corpus and pilot reviews on unlawful data movement — the recommendation is recorded; engineering is required to answer."
+        ]
+      },
+      "success_horizons": [
+        {
+          "horizon": "Day 30",
+          "outcome": "Pilot agreement suite + data-rights annex drafted; jurisdictional legal map covering the seed markets produced with named blockers escalated in writing"
+        },
+        {
+          "horizon": "Day 90",
+          "outcome": "100% of signed pilots on the compliance template; sanctions/watchlist labelling pipeline operational with weekly refresh (<48h from list publication); first MY-flavour court-grade report accepted by a design partner"
+        },
+        {
+          "horizon": "Month 6",
+          "outcome": "Sanctions screening live for at least two design-partner use cases with documented false-positive handling; first public artefact (consultation response or methodology section) submitted; analyst supervision begun as cohort scales"
+        },
+        {
+          "horizon": "Month 12",
+          "outcome": "≥8 design partners on active, compliant pilots with zero unresolved compliance findings; label-provenance QA at 100% of the production corpus; precision/recall methodology published for one corridor; ≥2 customer-named written references enabled (1 government, 1 VASP)"
+        }
+      ],
+      "qualifications": {
+        "required_common": [
+          "4–8 years in AML/CFT, financial-crime compliance or financial-crime investigations, of which at least 2 years hands-on with blockchain/digital-asset crime: typologies, on-chain tracing, exchange risk monitoring, Travel Rule operations.",
+          "Perspective earned on the buy side or enforcement side: VASP compliance function, bank AML/CFT or transaction-monitoring unit, FIU analyst, law-enforcement financial-crime analyst, or a forensic/consultancy crypto-investigations practice. Vendor-side pre-sales alone does not satisfy this.",
+          "Working fluency in FATF standards as applied to virtual assets (Recommendation 15, Travel Rule/IVMS101), plus demonstrated working knowledge of at least one of: Malaysian AMLA 2001 with BNM/SC digital-asset policy; the UAE federal framework with VARA/SCA rulebooks; Turkish Law No. 7518 with MASAK regulation; Swiss GATA/AMLO and VQF-class SRO practice; Egyptian Law 162/2023 with FRA regulations.",
+          "Able to follow USDT-on-TRON through peel chains, peel-and-return patterns, mixer entry and bridge hops using public explorers and clustering tooling without assistance. You do not write production code, but you never need tracing done for you.",
+          "Regulatory-grade English prose; writing sample required at shortlist.",
+          "Comfortable with law-enforcement-grade material: classification, need-to-know and chain-of-custody as habits, not policies.",
+          "CAMS active, or committed within 12 months with employer-supported study."
+        ],
+        "required_middle": [],
+        "required_junior": [],
+        "nice_to_have": [
+          "Certification: CFCS, ICA, CICAM or equivalent.",
+          "Operating experience on incumbent tracing platforms (Chainalysis, TRM Labs, Elliptic) — you will help compete against them honestly, including on import/export compatibility.",
+          "Privacy-coin typology depth (Zcash transparent/shielded econometrics, Monero view-key practice) — a deliberate product wedge.",
+          "Published AML/CFT or digital-asset policy writing; expert-witness or consultation-submission history.",
+          "E-KYC/fraud-assurance awareness (document authentication, deepfake detection, identity assurance levels) — the identity console falls inside this role's advisory perimeter.",
+          "Languages: English mandatory (written); Malay strong advantage; Arabic, Turkish, Vietnamese or Russian genuine differentiators."
+        ]
+      },
+      "offer": [
+        "Genuine ownership: the compliance doctrine of a sovereign blockchain-forensics product is written by this role, not inherited.",
+        "Year-one exposure to central banks, FIUs and police financial-crime units across three continents.",
+        "Authority matched to accountability — blocking recommendations are recorded and answered, not absorbed.",
+        "Funded certification and professional-body participation; publication credit under your own name.",
+        "A small team, direct access to leadership, and a stated kill/continue culture: honest bad news is valued over managed optimism."
+      ],
+      "engagement_terms": " Full-time, permanent; KL hybrid; band **INDICATIVE pending COO confirmation before any posting**; probation three months with structured objectives; formal NDA and classification discipline from day one. Alternative engagement modes (senior fractional / advisory retainer) may be discussed for exceptional candidates; the default is employment. ",
+      "application": " Submit CV plus a one-page writing sample responding to: *\"What should a newly licensed digital-asset exchange in your jurisdiction be required to have in place on day one for transaction monitoring — and what is proportionate?\"* Shortlisted candidates complete a live public-chain tracing exercise and a clause-negotiation conversation with the hiring panel. Applications to **[careers contact — confirm before posting]**.  ",
+      "artifacts": {
+        "master_md": {
+          "path": "/home/mtadmin/.hermes/intel/chainsentry-pipeline/careers/JD-CS-AML-001-v3.md",
+          "sha256": "54c270719a7e975737e0e1e7a099c0aae82d87f5d4f1d3df84fb8ecb2e1dc9ea"
+        },
+        "docx_twin": {
+          "exists": true,
+          "sha256": "9aca7cebe9bbaae7c150e503a1c6fbb60a9f3cf3816c1ef677149d548a1e7bb3"
+        }
+      }
+    },
+    {
+      "card_id": "CS-DEV-001",
+      "title": "Blockchain Developer (Junior / Middle) — Forensics & Data Platform",
+      "version": "v1 — new position",
+      "status": "DRAFT — internal review; band INDICATIVE",
+      "company": "Aras Integrasi Sdn Bhd — ChainSentry Product Division",
+      "products": "",
+      "reports_to": "Solutions Architect / Product Lead, ChainSentry — engineering mentoring from the senior engineering bench",
+      "direct_reports": "",
+      "grade": "Two bands hire against this single posting — Junior (0–2 years) and Middle (2–4 years)",
+      "location": "Kuala Lumpur, Malaysia (hybrid)",
+      "travel": "",
+      "employment_type": "Full-time, permanent; three-month probation with structured objectives",
+      "remuneration": "Band aligned to the Malaysian engineering market by level (INDICATIVE pending COO confirmation before posting); medical coverage; hardware and learning budget",
+      "responsibilities": {
+        "3.1 On-chain data engineering": [
+          "Build and maintain ingestion services that acquire, parse, normalise and index on-chain data across multiple networks (Bitcoin-family, Ethereum/EVM, TRON, Solana), from raw RPC through to storage.",
+          "Implement and extend address-codec validation per chain — Base58Check, Bech32/Bech32m, EIP-55 checksums — treating validation as a gate, not a suggestion.",
+          "Work with the crawler fleet's output: idempotent upserts, deduplication across sources, schema evolution without losing provenance columns."
+        ],
+        "3.2 Enrichment and intelligence pipelines": [
+          "Extend the enrichment engines: contract-vs-EOA classification via `eth_getCode`, token-metadata resolution, explorer reconciliation, sanctions-list joins.",
+          "Build new collection veins as coverage expands (including privacy-coin transparent-address handling and cross-chain bridge event mapping).",
+          "Keep false-positive rates measurable: every heuristic gets a precision story, and you will instrument it."
+        ],
+        "3.3 Forensics product features": [
+          "Ship investigator-facing features in the Next.js/TypeScript app: cluster-graph exploration, trace timelines, case-pack export, watchlist views.",
+          "Own the graph layer pragmatically — layout performance on large clusters, sensible edge semantics, clean interaction for non-technical examiners."
+        ],
+        "3.4 Sanctions and compliance engineering": [
+          "Harden the sanctions-import path: OFAC SDN (XML/JSON/CSV), EU/UK/UN list variants, deterministic address extraction, versioned and dated imports.",
+          "Tune matching behaviour with the AML/CFT SME: exact vs fuzzy matching thresholds, coin-type validation, scoring weights — with documented, reversible changes."
+        ],
+        "3.5 Surfaces and integrations": [
+          "Maintain and extend the MCP tool layer so agentic clients can consume ChainSentry capabilities safely (authentication, scoping, tool contracts).",
+          "Build and maintain internal APIs consumed by the app, the pipelines, and partner integrations."
+        ],
+        "3.6 Quality, security and operations": [
+          "Practise the team's discipline: checksum-validated ingestion, secret-free commits, dependency review, migration discipline on PostgreSQL, containerised deploys to Linux hosts.",
+          "Take part in deployment and incident triage for owned systems — you ship it, you keep it alive."
+        ]
+      },
+      "success_horizons": [
+        {
+          "horizon": "Day 30",
+          "outcome": "At least one shipped ingestion/validation change in production with tests; can walk through the codec stack (Base58Check vs Bech32m vs EIP-55) unaided; first PR merged into the crawler or app codebase"
+        },
+        {
+          "horizon": "Day 90",
+          "outcome": "Owns one ingestion vein end to end (source, validation, storage, monitoring); one enrichment heuristic instrumented with a measurable precision figure; onboarding doc for that vein exists"
+        },
+        {
+          "horizon": "Month 6",
+          "outcome": "Delivers a forensics app feature through to production (Middle) or a significant component of one (Junior); sanctions-import path handles at least two list variants deterministically; participates in deploy rotations"
+        },
+        {
+          "horizon": "Month 12",
+          "outcome": "Recognisable owner of a subsystem the AML/CFT SME trusts for casework evidence; MCP/tooling contributions shipped; zero data-provenance regressions attributable to owned code; able to brief a non-technical reviewer on the corpus's data journey"
+        }
+      ],
+      "qualifications": {
+        "required_common": [
+          "JavaScript/TypeScript and Python are your working languages; SQL (PostgreSQL) is second nature.",
+          "Concrete grasp of blockchain fundamentals: transactions, UTXO vs account models, addresses vs keys, confirmations, and why address encodings differ per chain.",
+          "Git discipline you do not have to be reminded about; comfort in Linux environments; willingness to carry deploys.",
+          "Bias to verification: you would rather measure than assert — checksums, tests, logs."
+        ],
+        "required_middle": [
+          "Production experience in at least one of: data-pipeline/backhaul engineering, Web3/on-chain services, or fintech backend systems.",
+          "Demonstrable asynchronous-worker and queue patterns; schema-evolution experience on live datasets.",
+          "Familiarity with at least one major chain's tooling ecosystem (ethers/viem, bitcoinlib, explorer APIs)."
+        ],
+        "required_junior": [
+          "A portfolio that proves hands-on work: shipped projects, freelance builds, or substantial open-source/contribution history touching blockchains, scrapers, or data tooling.",
+          "The trajectory matters more than the years: evidence you learn fast and finish things."
+        ],
+        "nice_to_have": [
+          "Rust or Go alongside the core stack.",
+          "Front-end graph experience (Cytoscape, D3, xyflow) or real MCP/tool-API design.",
+          "Privacy-coin curiosity (Zcash address model, transparent vs shielded flows) — a deliberate product wedge; you would help build its first vein.",
+          "Docker production operations; conversational Mandarin for regional vendor coordination."
+        ]
+      },
+      "offer": [
+        "Production ownership uncommon at this level: your services run in sovereign deployments where a foreign vendor would be a black box.",
+        "Dual craft development: data engineering and forensics product work in one seat.",
+        "Direct access to the product lead and the AML/CFT SME; no layers between your code and the investigator who uses it.",
+        "Hardware and learning budget; funded attendance at regional security/blockchain community events.",
+        "A stated kill/continue culture — measured results and honest bad news beat managed optimism."
+      ],
+      "engagement_terms": " Full-time, permanent; KL hybrid; band **INDICATIVE pending COO confirmation before any posting** (junior and middle bands distinguished by level); probation three months with structured objectives; NDA applies — portions of the work touch law-enforcement-adjacent casework and customer compliance data. ",
+      "application": " Submit CV or portfolio plus a short note on a piece of data tooling you built and what broke first. Shortlisted candidates complete a practical exercise: validate, ingest and enrich a small raw address dataset (codec edge cases included) and walk through your choices in a technical conversation. Applications to **[careers contact — confirm before posting]**.  ",
+      "artifacts": {
+        "master_md": {
+          "path": "/home/mtadmin/.hermes/intel/chainsentry-pipeline/careers/JD-CS-DEV-001-v1.md",
+          "sha256": "61afc8e5dedcbe739ea79a11fc0f3b4fa17a2095fa3beed5547983e61c46cd8e"
+        },
+        "docx_twin": {
+          "exists": true,
+          "sha256": "460facd3cf0a754af73269051536dce6886ce6eacd08cfd5a48efc6c77915f6c"
+        }
+      }
+    }
+  ],
+  "pending_approvals": [
+    {
+      "gate": "G1",
+      "item": "Salary bands — both positions",
+      "owner": "Hadri (COO)",
+      "blocks": "posting"
+    },
+    {
+      "gate": "G2",
+      "item": "Careers contact address",
+      "owner": "Hadri (COO)",
+      "blocks": "posting"
+    },
+    {
+      "gate": "G3",
+      "item": "Posting approval",
+      "owner": "Hadri (COO)",
+      "blocks": "external publication"
+    }
+  ]
+}
