@@ -29,7 +29,9 @@
         "charter typo documented: iman.khasly@cybeersecurity.my is WRONG, canonical = balqis.khasly@",
         "hadri@cybersecurity.my excluded (addressee = Hadri himself, not a CSM person)"
       ]
-    }
+    },
+    "updated": "2026-10-30T09:17:07Z",
+    "revision_note": "29-Oct rev 2: added sarah@cybersecurity.my as Blockchain SME per Hadri directive; collision-flag vs suraya.hani@ recorded, not resolved by assumption."
   },
   "people": [
     {
@@ -235,6 +237,17 @@
         "ACT-20261027-001"
       ],
       "note": "mapping unconfirmed — verify before use"
+    },
+    {
+      "name": "Sarah (given name from address local part; surname unrecorded)",
+      "email": "sarah@cybersecurity.my",
+      "role": "Blockchain SME (subject-matter expert) — per Hadri directive 2026-10-29",
+      "verification": "[PATTERN-UNVERIFIED] (domain-wide; M365 blocks RCPT probes from our side)",
+      "unit": "CSM",
+      "sources": [
+        "Hadri directive 2026-10-29 — register intake [R]"
+      ],
+      "note": "Bare local part consistent with CSM naming convention (cf. zaharudin@, madihah@, izwadee@). Possible overlap with Suraya Hani Binti Ahmad Zaki (suraya.hani@) is NOT assumed — separate persons unless Hadri confirms otherwise. [COLLISION-FLAG]"
     }
   ],
   "functional_boxes": [
@@ -274,8 +287,8 @@
     }
   ],
   "counts": {
-    "unique_addresses": 22,
-    "named_people": 16,
+    "unique_addresses": 23,
+    "named_people": 17,
     "functional_boxes": 4,
     "unmapped_variants": 1,
     "excluded": 1
