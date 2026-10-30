@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "artifact": "CyberSecurity Malaysia — consolidated email register (all names, one list)",
+    "generated": "2026-10-30T09:13:33Z",
+    "generator": "Vesper (HermesAgent)",
+    "built_from": "programmatic sweep: grep -rn '@cybersecurity.my' across ~/.hermes/intel + ~/.hermes/memories — 22 unique addresses deduplicated, classified by verification state",
+    "provenance_files": [
+      "cognitiveos/CONV-20260804-005.md",
+      "cognitiveos/CONV-20260810-001.md",
+      "cognitiveos/CONV-20260812-001.md",
+      "cognitiveos/CONV-20260828-001.md",
+      "cognitiveos/CONV-20260915-001*.md",
+      "cognitiveos/CONV-20260923-001*.md",
+      "cognitiveos/CONV-20260930-001*.md",
+      "cognitiveos/CONV-20261016-001.md",
+      "cognitiveos/ACT-20261027-001*.md",
+      "strategic-cognitiveos/documents/DOC-20261016-001.md",
+      "strategic-cognitiveos/documents/DOC-20261028-006*.md",
+      "cognitiveos-amelia/stakeholders/STK-20260915-001-iman-balqis.md",
+      "chainsentry-pipeline/programmes/ea50-master-seats.csv",
+      "verification-sweep-20261012.json",
+      "emailhunt-smtp-verified.json"
+    ],
+    "grading_legend": "[V]=org-published/verified on sweep; [PATTERN-UNVERIFIED]=M365 host blocks RCPT probes from our side — deliverability check before send; [ASSUMPTION]=unconfirmed mapping",
+    "consumption_rule": {
+      "audience": "Hadri + outreach ops; feeds CONTACTS.csv / Harvey email_patterns",
+      "hard_rules": [
+        "deliverability unverified for all named-person addresses — functional boxes only count as org-verified",
+        "charter typo documented: iman.khasly@cybeersecurity.my is WRONG, canonical = balqis.khasly@",
+        "hadri@cybersecurity.my excluded (addressee = Hadri himself, not a CSM person)"
+      ]
+    }
+  },
+  "people": [
+    {
+      "name": "Roshdi Ahmad (YBrs. Encik Hj.)",
+      "email": "roshdi.ahmad@cybersecurity.my",
+      "role": "Acting Chief Executive Officer (permanent appt pending)",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM leadership",
+      "sources": [
+        "ea50-master-seats.csv",
+        "emailhunt-smtp-verified.json (signed CDSA-2026 support message)",
+        "verification-sweep-20261012.json"
+      ],
+      "note": "9 months acting as of 14-Jan-26; LinkedIn roshdi-ahmad-82162743"
+    },
+    {
+      "name": "Wan Roshaimi Bin Wan Abdullah",
+      "email": "roshaimi.abdullah@cybersecurity.my",
+      "role": "Chief Technology Officer — technical decision seat",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM technology",
+      "sources": [
+        "ea50-master-seats.csv (CyberDSA-2026 speaker page + CSMY2025 agenda)",
+        "CONV-20260812-001.md"
+      ],
+      "note": "CTO seat per seats-csv; MyCERT acceptance thread converges"
+    },
+    {
+      "name": "Fathi Kamil Mohad Zainuddin",
+      "email": "fathi.kamil@cybersecurity.my",
+      "role": "CMERP integration lead; MyCERT CyberSOC report rev-author",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "MyCERT / CMERP",
+      "sources": [
+        "CONV-20260804-005.md",
+        "CONV-20260812-001.md",
+        "DOC-20261028-006 (author_of_record)"
+      ],
+      "note": "longest-standing CSM working counterpart"
+    },
+    {
+      "name": "Mohamad Hafiz Bin Rahman",
+      "email": "hafiz.rahman@cybersecurity.my",
+      "role": "TI integration lead",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "MyCERT TI",
+      "sources": [
+        "CONV-20260804-005.md",
+        "CONV-20260810-001.md"
+      ],
+      "note": null
+    },
+    {
+      "name": "Mohammad Zaharudin Bin Ahmad Darus",
+      "email": "zaharudin@cybersecurity.my",
+      "role": "TI team / Lead, R&D Collaboration",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "MyCERT TI / R&D",
+      "sources": [
+        "CONV-20260804-005.md",
+        "CONV-20261015-001 (testing panel)",
+        "DRAFT-20260930-001"
+      ],
+      "note": null
+    },
+    {
+      "name": "Ts. Fakhrul Afiq Bin Abd Aziz",
+      "email": "fakhrul.afiq@cybersecurity.my",
+      "role": "Digital Forensics, Responsive Technology & Services Division",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "RTSD — Digital Forensics",
+      "sources": [
+        "DRAFT-20260930-001",
+        "CONV-20260930-001 (GovSec TIP extension thread)"
+      ],
+      "note": "Explora* discussion initiator 30 Sep"
+    },
+    {
+      "name": "Azrul Nazim",
+      "email": "azrul.aziz@cybersecurity.my",
+      "role": "Steering Committee (CSM side)",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM × Aras steering",
+      "sources": [
+        "DOC-20261016-001.md (PoC charter)",
+        "CONV-20260828-001.md (DAF counterpart)"
+      ],
+      "note": "DAF's working counterpart on CSM joint management paper"
+    },
+    {
+      "name": "Muhammad Izwadee Bin Hamzah",
+      "email": "izwadee@cybersecurity.my",
+      "role": "Project Director + Steering Committee",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "VoronKompass PoC",
+      "sources": [
+        "DOC-20261016-001.md",
+        "CONV-20260915-001 (header shows bare + named forms = same address)"
+      ],
+      "note": null
+    },
+    {
+      "name": "Nurkhairunnisa Mohamad Khairi",
+      "email": "nisya.khairi@cybersecurity.my",
+      "role": "CSM Project Manager",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "VoronKompass PoC",
+      "sources": [
+        "CONV-20261016-001.md",
+        "DOC-20261016-001.md",
+        "STK-20261016-001"
+      ],
+      "note": null
+    },
+    {
+      "name": "Izzatul Faqiha Marzuki",
+      "email": "faqiha.marzuki@cybersecurity.my",
+      "role": "CSM working team",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "VoronKompass PoC",
+      "sources": [
+        "CONV-20261016-001.md",
+        "DOC-20261016-001.md",
+        "STK-20261016-002"
+      ],
+      "note": null
+    },
+    {
+      "name": "Madihah",
+      "email": "madihah@cybersecurity.my",
+      "role": "CSM process authority (transmittal requirements)",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM TA process",
+      "sources": [
+        "CONV-20260923-001 (Track-Changes instructions)"
+      ],
+      "note": "full name unverified"
+    },
+    {
+      "name": "Nazri Bin Ahmad Zamani",
+      "email": "nazri.az@cybersecurity.my",
+      "role": "GovSec TIP extension thread (role TBD)",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM",
+      "sources": [
+        "CONV-20260804-005.md",
+        "DRAFT-20260930-001"
+      ],
+      "note": null
+    },
+    {
+      "name": "Suraya Hani Binti Ahmad Zaki",
+      "email": "suraya.hani@cybersecurity.my",
+      "role": "GovSec TIP extension thread",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM",
+      "sources": [
+        "DRAFT-20260930-001"
+      ],
+      "note": null
+    },
+    {
+      "name": "Iman (Balqis) Binti Khasly",
+      "email": "balqis.khasly@cybersecurity.my",
+      "role": "CSM participant, role TBD",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM",
+      "sources": [
+        "STK-20260915-001-iman-balqis.md",
+        "DOC-20261016-001.md"
+      ],
+      "note": "CANONICAL — charter typo 'iman.khasly@cybeersecurity.my' documented, do not use"
+    },
+    {
+      "name": "Rasyid Redha",
+      "email": "rasyidredha@cybersecurity.my",
+      "role": "ChainSentry testing panel (role unverified)",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM testing panel",
+      "sources": [
+        "CONV-20261015-001"
+      ],
+      "note": null
+    },
+    {
+      "name": "Roshenna A/P Durairajoo",
+      "email": "roshenna.durairajoo@cybersecurity.my",
+      "role": "ChainSentry testing panel (role unverified)",
+      "verification": "[PATTERN-UNVERIFIED]",
+      "unit": "CSM testing panel",
+      "sources": [
+        "CONV-20261015-001"
+      ],
+      "note": null
+    },
+    {
+      "name": "(unmapped variant)",
+      "email": "azurani@cybersecurity.my",
+      "role": "recipient of 11-Nov meeting-availability confirmation",
+      "verification": "[ASSUMPTION]",
+      "unit": "scheduling alias — likely Azrul Nazim",
+      "sources": [
+        "ACT-20261027-001"
+      ],
+      "note": "mapping unconfirmed — verify before use"
+    }
+  ],
+  "functional_boxes": [
+    {
+      "email": "enquiry@cybersecurity.my",
+      "role": "general enquiries",
+      "verification": "[V] (verification-sweep-20261012)",
+      "note": "org publishes only this general box for named-officer reach"
+    },
+    {
+      "email": "media@cybersecurity.my",
+      "role": "media",
+      "verification": "[V] (verification-sweep-20261012)",
+      "note": "+603-8800 7999; old tender@/bidding@ no longer on site"
+    },
+    {
+      "email": "cybersoc@cybersecurity.my",
+      "role": "MyCERT CyberSOC (author_of_record on TI reports)",
+      "verification": "[V] (DOC-20261028-006)",
+      "note": null
+    },
+    {
+      "email": "mykripto@cybersecurity.my",
+      "role": "MyKripto / PKCN cryptology division",
+      "verification": "[V] (cj1-leadership-watch 27-Jul)",
+      "note": "subdomain mykripto.cybersecurity.my throws intermittent 500s"
+    }
+  ],
+  "excluded": [
+    {
+      "email": "hadri@cybersecurity.my",
+      "reason": "addressee = Hadri himself (CyberDSA launch-communication draft); not a CSM person",
+      "sources": [
+        "EMAIL-DRAFT-20260817-001.md",
+        "CVS-EVIDENCE-REGISTER.csv"
+      ]
+    }
+  ],
+  "counts": {
+    "unique_addresses": 22,
+    "named_people": 16,
+    "functional_boxes": 4,
+    "unmapped_variants": 1,
+    "excluded": 1
+  }
+}
