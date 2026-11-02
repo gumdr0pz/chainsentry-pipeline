@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "artifact": "Zetrix AI — value-transfer (siphon) architecture analysis",
+    "generated": "2026-11-02T04:22:17Z",
+    "base_source": "theedgemalaysia.com/node/818006 + 818012 + 818017 (Edge Weekly 14–20 Sep 2026)",
+    "discipline": "Channels mapped and graded; NO allegation of crime. FACT / INFERENCE / UNKNOWN separated."
+  },
+  "channel_1_capex_reservoir": {
+    "fact": [
+      "Development cost RM171.3M (FY2020) → RM2.8B (end-2025) → RM3.7B (end-Jun 2026)",
+      "Grew avg RM720.17M/yr over 3 FYs; amortised avg RM28.51M/yr = 25:1 ratio",
+      "Total amortisation 2020–2025 only RM139.9M against RM2.8B balance",
+      ">50% of total assets; 'key audit matter' flagged since 2021",
+      "Funded mainly by DEBT: gross debt RM166.1M (FY21) → RM483.3M (FY22) → RM2.2B (end-Jun 26)",
+      "Net cash +RM63.3M (2020) → net debt RM1.2B (2025) → total debt RM1.7B audited"
+    ],
+    "inference": {
+      "grade": "MEDIUM",
+      "text": "Shareholder and lender capital is being converted into an intangible whose economic value cannot be independently verified from outside. The intangible is the reservoir: value enters as cash/debt, sits as an unamortised asset, and its recoverability rests on management projections."
+    },
+    "red_flag": "External auditor TGS TW PLT resigned early Oct 2026 citing 'portfolio rationalisation and resource management'"
+  },
+  "channel_2_offshore_revenue_opacity": {
+    "fact": [
+      "Blockchain/AI revenue RM127.6M (2023) → RM362.8M (2024) → RM643.5M (2025)",
+      "Offshore revenue EXACTLY equals blockchain/AI revenue: 2024 RM362.8M = RM362.8M; 2025 RM643.5M = RM643.5M",
+      "No customer breakdown disclosed; no segmental detail beyond Malaysia/overseas split",
+      "Token sales per quarter are small against total revenue"
+    ],
+    "inference": {
+      "grade": "LOW-MEDIUM",
+      "text": "The earnings base that capitalises RM3.7B cannot be attributed to identifiable counterparties. Exact coincidence of two independently-defined figures is analytically notable — it suggests a single revenue stream booked offshore, not necessarily related-party."
+    },
+    "unknown": "Whether those offshore customers are independent, related, or token purchasers"
+  },
+  "channel_3_spac_carveout": {
+    "fact": [
+      "AI Foundation Lab carve-out targeted at US$3B (RM12.2B) valuation + US$200M pre-IPO raise (CLSA note 26 Aug)",
+      "Vehicle: Forefront Tech Holdings Acquisition Corp (FTHAC), Nasdaq; US$100M IPO 1 May 2026",
+      "MoU with Zetrix AI 25 May 2026; NON-BINDING; exclusivity to 21 Nov 2026; must close by 1 Nov 2027 or liquidate",
+      "Next Lion Ltd (BVI), owned by Sean Yap Shon Leong (MD, M&A Asset Management Malaysia), is managing member of the sponsor",
+      "Sponsor holds 3.69M FTHAC shares = 26.9% voting; paid ~US$3.6M",
+      "Sponsor's votes ALONE sufficient to approve a business combination (simple majority; 1/3 quorum)",
+      "Zetrix AI to hold 80%, then pare down; proceeds to repay debt and potentially pay special dividend"
+    ],
+    "inference": {
+      "grade": "MEDIUM-HIGH",
+      "text": "This is the designated value-crystallisation exit for the RM3.7B intangible. The same related party sits on the buy side with effective voting control, while no independent valuation has been disclosed. A carve-out is legitimate; a carve-out priced by an affiliate-controlled SPAC is the point of maximum leakage risk."
+    },
+    "structural_note": "Value leaves the listed entity as an asset sale to a vehicle the affiliate controls, at a price the affiliate's votes can approve."
+  },
+  "channel_4_related_party_loop": {
+    "fact": [
+      "Philippines deal signed with Next Lion, terminated 3 days later (4 Sep) citing share-price volatility",
+      "Same day, re-signed with IPVG Employees Inc on identical terms: 50% of MyEG Ventures for RM130M",
+      "Next Lion REMAINS a shareholder of MyEG Philippines after the swap",
+      "Bursa queried the price: MyEG Phils avg PAT only PHP21.61M (RM1.4M)/yr over 3 yrs; net assets RM20M — RM130M for that",
+      "Sean Yap placed on leave by M&A Equity/MAEH amid review of Next Lion links (14 Sep)"
+    ],
+    "inference": {
+      "grade": "MEDIUM",
+      "text": "A vendor swap that preserves the affiliate's economic interest while removing it from the counterparty position. Bursa's own query establishes the price was not supported by the target's earnings."
+    }
+  },
+  "channel_5_token_pathway": {
+    "fact": [
+      "ZTX token FDV US$3.44B on US$28,869 daily volume across 2 venues (MEXC, XT.COM)",
+      "'Sales of Zetrix blockchain nodes and tokens' is an explicit revenue line",
+      "53% of maximum supply unissued = future issuance capacity",
+      "Token fell 88.7% from ATH; collapsed on issuer news (9 Oct −46.3%), not market beta (R² 0.034)"
+    ],
+    "inference": {
+      "grade": "MEDIUM",
+      "text": "A parallel valuation rail outside the listed entity. Token and node sales can monetise the same underlying asset base without passing through equity, and issuance capacity provides a recurring realisation channel independent of Bursa disclosure rules."
+    }
+  },
+  "public_funds_angle": {
+    "fact": [
+      "RM314M in JPJ fees and summonses collected since May 2026 NOT remitted",
+      "Collection agency status suspended 5 Oct; resumption conditional on settlement",
+      "Government suing; RM353.13M tax bill on MyEG unit (29 Oct)",
+      "PAC raised governance/accountability concerns (30 Oct)"
+    ],
+    "note": "This is the most concrete public-record value-diversion finding, but it is a remittance/payment failure, NOT a blockchain mechanism. Distinct from the crypto channels above."
+  },
+  "counter_evidence": {
+    "against_siphoning_thesis": [
+      "TS Wong's sell-down (30%→1.85%) was FORCED by margin calls at DECLINING prices (29.9sen, 48sen, 60.6sen as price collapsed) — he destroyed his own wealth; not profitable insider extraction",
+      "IFC (World Bank) subscribed 199.6M shares at 78 sen in Feb 2026 after diligence — a serious institutional investor bought",
+      "Real deployments exist: Malaysia Blockchain Infrastructure core chain, MyDigital ID, Philippines DICT MoU",
+      "60%+ net margins for 3 consecutive years is genuinely unusual — either exceptional economics or an accounting artifact; unresolved"
+    ],
+    "unresolvable": [
+      "Whether development cost reflects genuine build or parked value — requires forensic audit of capitalised invoices",
+      "Whether offshore blockchain/AI customers are independent",
+      "Whether the US$3B SPAC valuation has any independent support"
+    ]
+  },
+  "assessment": {
+    "grade": "INFERENCE — MEDIUM",
+    "text": "The chain is not the siphon. The chain is the ASSET being siphoned — or, on the benign reading, the asset being built. What the public record establishes is a four-part architecture in which RM3.7B of capital has been converted into an unamortised intangible, financed by RM2.2B of debt, whose designated monetisation path runs through a US$3B SPAC controlled on the buy side by an affiliate of the company's own counterparty, with an opaque offshore revenue base that cannot be traced to named customers. Every element is individually disclosable and arguably legitimate. The combination is what warrants scrutiny.",
+    "not_claimed": "No finding of fraud, dishonesty or offence. No regulator has made such a finding."
+  }
+}
