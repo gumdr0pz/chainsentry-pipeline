@@ -1,0 +1,126 @@
+{
+  "wing": "wing4_governance",
+  "subject": "Zetrix AI Bhd (KLSE: ZETRIX), formerly MyEG Services Bhd",
+  "task": "Independent corroboration of governance/regulatory claims (a)-(g)",
+  "researched_at_utc": "2026-11-02",
+  "method": "Google News RSS queries (EN + Malay variants) + DuckDuckGo Lite snippets. Primary search backend (SearXNG web_search) returned zero results; direct web_extract unavailable (backend error). Evidence is headline-level from multiple independent Malaysian outlets plus verbatim article snippets for the auditor item.",
+  "items": {
+    "a_jpj_arrears_rm314m": {
+      "verdict": "CORROBORATED",
+      "source_count": 6,
+      "findings": {
+        "arrears_figure": "RM314m confirmed across outlets: 'Govt to sue Zetrix, MyEG over RM314mil in JPJ arrears' (FMT, 27 Oct 2026); 'Zetrix AI confirms RM314m JPJ arrears after Bursa demands direct answer' (The Edge Malaysia, 8 Oct 2026); 'Zetrix yet to pay RM314 million in gov't revenue – Loke' (Paul Tan, 23 Oct 2026); 'JPJ suspends MyEG, Zetrix AI over unpaid RM314mil revenue' (The Star, 5 Oct 2026). Transport Minister Loke publicly confirmed the debt; earlier The Edge/FMT (2 Oct) reported ministry confirming >RM200 mil before the precise RM314m figure was confirmed via Bursa query.",
+        "suspension": "JPJ suspended MyEG/Zetrix as collection agent; coverage dated 5 Oct 2026 (The Star, Malay Mail, Lumi News; MYC! 6 Oct confirms payments moved away from MyEG). Exact effective date of 5 Oct matches the reported news date [date-of-effect vs announcement not separately verified].",
+        "government_suit": "CORROBORATED: FMT (27 Oct), Fintech News Malaysia (28 Oct), Dr Wealth (27 Oct) all report govt to sue Zetrix/MyEG over the RM314m.",
+        "resumption_conditional_on_settlement": "PARTIAL: 'Zetrix AI submits proposal to resolve RM314mil JPJ arrears' (FMT, 5 Oct) and Malay Mail 'Pay immediately: Loke demands MYEG, Zetrix AI settle RM314m arrears' support settlement-as-condition, but no fetched source states the exact wording 'resumption conditional on settlement' [that phrasing UNVERIFIED].",
+        "note": "One police-probe headline cites RM230.9m collected (Fintech News, 14 Oct) vs RM314m arrears — figures likely measure different things; discrepancy noted, not resolved."
+      },
+      "sources": [
+        "https://freemalaysiatoday.com (Govt to sue Zetrix, MyEG over RM314mil in JPJ arrears, 27 Oct 2026)",
+        "The Edge Malaysia: Zetrix AI confirms RM314m JPJ arrears after Bursa demands direct answer, 8 Oct 2026",
+        "The Star: JPJ suspends MyEG, Zetrix AI over unpaid RM314mil revenue, 5 Oct 2026",
+        "Malay Mail: 'Pay immediately': Loke demands MYEG, Zetrix AI settle RM314m arrears, 5 Oct 2026",
+        "Paul Tan / FMT: Ministry confirms Zetrix AI owes JPJ over RM200mil, 2 Oct 2026",
+        "Fintech News Malaysia: Zetrix AI, MyEG Face Legal Action Over RM314 Million in Unpaid JPJ Collections, 28 Oct 2026"
+      ]
+    },
+    "b_tax_bill_rm353_13m": {
+      "verdict": "CORROBORATED",
+      "source_count": 6,
+      "findings": {
+        "detail": "RM353.13 mil tax assessment on MyEG unit (LHDN/IRB) and government civil suit reported simultaneously by The Edge Malaysia (29 Oct 2026), BusinessToday (29 Oct, 'IRB'), The Malaysian Reserve (29 Oct), scoop.my (29 Oct), Paul Tan (30 Oct, 'LHDN'), Malaysiakini (30 Oct, adds 'company seeks amicable settlement'). Figure RM353.13m matches claim exactly; suit filing ~29 Oct matches."
+      },
+      "sources": [
+        "The Edge Malaysia: Zetrix AI's MyEG unit hit with RM353.13 mil tax bill, govt files suit, 29 Oct 2026",
+        "BusinessToday Malaysia: MYEG Faces RM353 Million Tax Assessment From IRB, Government Files Civil Suit, 29 Oct 2026",
+        "The Malaysian Reserve: Zetrix AI hit with RM353m tax claim as govt files civil suit, 29 Oct 2026",
+        "Malaysiakini: MyEG hit with RM353m tax suit, company seeks amicable settlement, 30 Oct 2026",
+        "scoop.my: MyEG faces RM353.13m tax bill, government lawsuit, 29 Oct 2026"
+      ]
+    },
+    "c_pac_governance_concerns": {
+      "verdict": "CORROBORATED",
+      "source_count": 2,
+      "findings": {
+        "detail": "NST Online (Fri 30 Oct 2026): 'RM314m MyEG arrears raise governance, accountability concerns, says PAC [WATCH]' — directly matches the claim (PAC, governance/accountability, ~30 Oct). The Edge Malaysia 'Frankly Speaking: When suspension is not good enough' (12 Oct) and 'Third-party handling of public funds in the spotlight' (Edge/KLSE Screener, 19 Oct) independently place third-party handling of public funds in the spotlight. Direct PAC statement (committee minutes/Hansard) not fetched; corroboration is via two independent outlets."
+      },
+      "sources": [
+        "NST Online: RM314m MyEG arrears raise governance, accountability concerns, says PAC [WATCH], 30 Oct 2026",
+        "The Edge Malaysia / KLSE Screener: Third-party handling of public funds in the spotlight, 19 Oct 2026"
+      ]
+    },
+    "d_auditor_resignation": {
+      "verdict": "CORROBORATED",
+      "source_count": 5,
+      "findings": {
+        "detail": "TGS TW PLT resigned as Zetrix AI external auditor, announced Mon 28 Sep 2026 via Bursa filing. Verbatim snippet (NST via DDG): 'Audit firm TGS TW PLT has resigned as the external auditor of Zetrix AI Bhd, citing portfolio rationalisation and resource management for the decision' — the stated reason matches the claim exactly. Notice effective in 21 days (Traders Union). Minor date correction: claim said 'early Oct 2026'; announcement was 28 Sep 2026 (effective ~19 Oct if 21-day notice counted). TGS reportedly resigned from at least 14 other Bursa-listed companies for similar reasons [that count single-source]."
+      },
+      "date_correction": "Claim 'early Oct 2026' -> announced 28 Sep 2026 (effective 21 days later).",
+      "sources": [
+        "NST Online: TGS TW resigns as Zetrix AI external auditor, 28 Sep 2026 (www.nst.com.my/business/corporate/2026-09-1543278/...)",
+        "The Edge Malaysia: Zetrix AI announces resignation of TGS TW as external auditor, 28 Sep 2026",
+        "The Star / The Malaysian Reserve / BusinessToday: same, 28 Sep 2026",
+        "KLSE Screener: Zetrix AI external auditor TGS resigns (klsescreener.com/v2/news/view/1799265)"
+      ]
+    },
+    "e_macc_police_probes": {
+      "verdict": "CORROBORATED",
+      "source_count": 5,
+      "findings": {
+        "police_and_macc": "The Edge (13 Oct): 'MACC says police investigating MyEG and Zetrix AI, will act if corruption suspected'. FMT/Malay Mail/The Malaysian Reserve (13-15 Oct): Zetrix pledges cooperation with police and MACC over unpaid RM314m collections.",
+        "six_witnesses": "FMT (13 Oct): '6 witnesses questioned in police probe into MyEG, Zetrix'; Fintech News (14 Oct): 'Police Question 6 Witnesses in MyEG, Zetrix Probe Over RM230.9M'. Six witnesses corroborated.",
+        "macc_report_by_politician": "NST (7 Oct): 'Umno leader lodges MACC report over RM314mil MyEG, Zetrix AI issue' — corroborates 'MACC report lodged by a politician', though the individual is described only as an Umno leader [name UNVERIFIED].",
+        "related": "SC (Securities Commission) visited Zetrix HQ amid probe (The Edge, 28 Oct) — additional regulatory pressure not in the original claim list."
+      },
+      "sources": [
+        "The Edge Malaysia: MACC says police investigating MyEG and Zetrix AI, 13 Oct 2026",
+        "Free Malaysia Today: 6 witnesses questioned in police probe into MyEG, Zetrix, 13 Oct 2026",
+        "Fintech News Malaysia: Police Question 6 Witnesses in MyEG, Zetrix Probe Over RM230.9M, 14 Oct 2026",
+        "NST Online: Umno leader lodges MACC report over RM314mil MyEG, Zetrix AI issue, 7 Oct 2026",
+        "FMT / Malay Mail: Zetrix AI to fully cooperate with cops, MACC, 15 Oct 2026"
+      ]
+    },
+    "f_uma_query": {
+      "verdict": "CORROBORATED",
+      "source_count": 4,
+      "findings": {
+        "detail": "Bursa UMA query on Zetrix on Fri 28 Aug 2026 corroborated by BusinessToday ('Zetrix AI Share Plunges 50%, Bursa Issues UMA Query'), The Malaysian Reserve ('twin UMA queries' with HeiTech Padu), The Star ('Zetrix AI denies link to graft case after share price plunge'), Moomoo (direct short selling suspended; 50% limit-down). Date 28 Aug 2026 matches the claim exactly."
+      },
+      "sources": [
+        "BusinessToday Malaysia: Zetrix AI Share Plunges 50%, Bursa Issues UMA Query, 28 Aug 2026",
+        "The Malaysian Reserve: Zetrix AI, HeiTech Padu plunge as Bursa issues twin UMA queries, 28 Aug 2026",
+        "The Star: Zetrix AI denies link to graft case after share price plunge, 28 Aug 2026",
+        "Moomoo: Direct short selling suspended; Zetrix plunges 50% hitting limit down, 28 Aug 2026"
+      ]
+    },
+    "g_marc_sukuk_downgrade": {
+      "verdict": "CORROBORATED",
+      "source_count": 5,
+      "findings": {
+        "two_week_two_step_downgrade": "'MARC cuts Zetrix AI sukuk rating for second time in two weeks, bringing it close to default' (The Edge, 30 Oct); 'Zetrix AI sukuk rating plunges from AA- to near default in two weeks' (The Malaysian Reserve, 30 Oct). AA- start point and two-week window match the claim.",
+        "reasons": "BusinessToday (31 Oct): 'Amid Liquidity, Governance Concerns'; NST (30 Oct): 'MARC Ratings raises red flag over Zetrix AI's governance'. Claim's 'shareholding and debt concerns' is partly consistent (liquidity/debt yes; 'shareholding' rationale not seen verbatim in fetched headlines) [shareholding-as-stated rationale UNVERIFIED].",
+        "rating_level": "BB+ as an interim level: BusinessToday (18 Oct) 'MARC Slashes Zetrix AI's RM2 Billion Sukuk Rating To BB+' — one source; exact final rating notch after the second cut [UNVERIFIED beyond 'close to near default'].",
+        "oct22_covenant_deadline": "CORROBORATED: FMT (16 Oct) 'Zetrix AI given until Oct 22 to fix potential sukuk covenant breach'; The Edge (16 Oct) acknowledgment of potential breach; Focus Malaysia (20 Oct) RM2.16b sukuk breach/PN17 fears; The Malaysian Reserve (23 Oct) failed resolution with sukukholders + Norraesah relinquished executive chairman role; NST (30 Oct) missed the deadline.",
+        "RM2bil_sukuk_size": "RM2 billion sukuk confirmed by BusinessToday/Focus Malaysia (RM2.16b outstanding)."
+      },
+      "sources": [
+        "The Edge Malaysia: MARC cuts Zetrix AI sukuk rating for second time in two weeks, 30 Oct 2026",
+        "The Malaysian Reserve: Zetrix AI sukuk rating plunges from AA- to near default in two weeks, 30 Oct 2026",
+        "NST Online: MARC Ratings raises red flag over Zetrix AI's governance, 30 Oct 2026",
+        "BusinessToday Malaysia: MARC Slashes Zetrix AI's RM2 Billion Sukuk Rating To BB+, 18 Oct 2026",
+        "FMT: Zetrix AI given until Oct 22 to fix potential sukuk covenant breach, 16 Oct 2026",
+        "The Malaysian Reserve: Zetrix AI fails to reach resolution with sukukholders, 23 Oct 2026"
+      ]
+    }
+  },
+  "could_not_find_or_verify": [
+    "Exact wording/official statement that JPJ collection-agent status resumption is conditional on full settlement (only inferential coverage via 'pay immediately' / settlement-proposal reports).",
+    "The name of the politician/Umno leader who lodged the MACC report.",
+    "MARC's exact final sukuk notch after the second cut and whether 'shareholding' (vs liquidity/governance) was the stated rationale.",
+    "Primary-source documents themselves (Bursa announcements, PAC minutes/Hansard, court filings, MARC rating action PDFs) — corroboration rests on ≥2 independent news outlets per item; SearXNG search backend returned zero results and web_extract backend was unavailable, so no direct fetches of bourse/rating-agency documents were made.",
+    "Reconciliation of RM230.9m (police-probe headline) vs RM314m (arrears figure)."
+  ],
+  "dates_corrected": {
+    "d_auditor_resignation": "Claim said 'early Oct 2026'; announcements 28 Sep 2026 with 21-day notice (effective ~19 Oct)."
+  }
+}

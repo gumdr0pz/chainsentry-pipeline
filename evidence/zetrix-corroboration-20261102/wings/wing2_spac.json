@@ -1,0 +1,106 @@
+{
+  "task": "Wing 2 — Corroborate Next Lion / FTHAC SPAC structure and US$3B AI Foundation Lab carve-out (claim source: The Edge Malaysia Weekly, 14-20 Sep 2026)",
+  "date_researched": "2026-11-02",
+  "method": "SEC EDGAR full-text search (efts.sec.gov), EDGAR filings index + direct document greps (424B4 prospectus, 10-Q Q2-2026, 8-K May 5 2026, 8-K/A Sep 24 2026, submissions JSON for CIKs 2097986 and 2126042), Google News RSS (en-MY), spacresearch.com (inconclusive)",
+
+  "primary_entities_confirmed": {
+    "fthac_identity": {
+      "status": "CORROBORATED (SEC primary)",
+      "detail": "Forefront Tech Holdings Acquisition Corp, SEC CIK 0002097986, SIC 6770 (blank checks/SPAC), Commission File No. 001-43263, Nasdaq tickers FTHAU (units) / FTHA (Class A shares) / FTHAW (warrants). 8-A12B and Nasdaq CERT filed 2026-04-29. Press release 2026-06-18 confirms separate trading of FTHA/FTHAW commencing 2026-06-22 on Nasdaq Global Market. Unit = 1 Class A ordinary share + 1/2 redeemable warrant, warrant strike $11.50.",
+      "urls": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002097986&type=&dateb=&owner=include&count=40",
+        "https://www.sec.gov/Archives/edgar/data/2097986/000121390026070136/ea029529901ex99-1.htm"
+      ],
+      "note_jurisdiction": "8-K/A (acc. 0001213900-26-102843) and press release state incorporation in Cayman Islands with principal office Regatta Office Park, Grand Cayman. EDGAR metadata lists 'Tortola' as biz location and inc_state code 'E9'. The claim did not assert FTHAC's jurisdiction; if it is quoted as a BVI entity that would be inaccurate per the filings."
+    },
+    "ipo_us100m_may1_2026": {
+      "status": "CORROBORATED (SEC primary)",
+      "detail": "10-Q (filed 2026-08-13, acc. 0001213900-26-089208): 'On May 1, 2026, we consummated the Initial Public Offering of 10,000,000 Units at $10.00 per Unit, generating gross proceeds of $100,000,000', plus simultaneous sale of 370,000 private placement units at $10.00 ($3.7M). 424B4 final prospectus filed 2026-05-01 (acc. 0001213900-26-050604); 8-K closing report filed 2026-05-05; 8-K/A amendment filed 2026-09-24. Underwriter: BTIG, LLC."
+    },
+    "sponsor_structure": {
+      "status": "CORROBORATED (SEC primary)",
+      "detail": "Sponsor = Next Lion Sponsor Holdings LLC, a Delaware LLC formed December 2025 (own EDGAR CIK 0002126042; filed Form 3 2026-04-29 and Form 4 2026-05-05). 10-Q: on 2025-12-10 the sponsor was changed from Next Lion Limited to Next Lion Sponsor Holdings LLC; Next Lion Limited is the sole member of the sponsor. 424B4: 'Next Lion Limited, a British Virgin Islands company, limited by shares', 'Next Lion Limited is the managing member of the sponsor', and 'Next Lion Limited holds voting and investment discretion with respect to the securities held by the sponsor.' Exactly matches the claim's 'Next Lion Ltd (BVI) is managing member of Next Lion Sponsor Holdings LLC.'"
+    },
+    "sean_yap_role": {
+      "status": "PARTLY CORROBORATED",
+      "detail": "424B4 prospectus states verbatim: 'Yap Shon Leong is the director of Next Lion Limited, which is the managing member of our sponsor, Next Lion Sponsor Holdings LLC'. CONFIRMED: his name and directorship of Next Lion Limited. NOT CONFIRMED in SEC filings: that he 'owns' Next Lion Limited (prospectus says director + voting discretion; beneficial ownership by him not extracted in my greps) and that he is MD of M&A Asset Management Malaysia Sdn Bhd (EDGAR full-text search for 'Sean Yap' returns 0 hits; 'M&A Asset Management' in EDGAR appears only in unrelated OS Therapies Inc filings). Malaysian press (below) independently links him to M&A Equity/MAEH."
+    },
+    "sponsor_stake_3.69m_26.9pct": {
+      "status": "CORROBORATED (SEC primary), with arithmetic caveat",
+      "detail": "424B4 beneficial-ownership table: Next Lion Sponsor Holdings LLC and Next Lion Limited each shown with 3,688,333 shares = 26.9% of outstanding ordinary shares post-IPO (vs 3,833,333 Class B founder shares = 100% of Class B pre-IPO). The claim's '3.69 million shares = 26.9%' matches the prospectus figure 3,688,333 exactly. Caveat found in 10-Q: 500,000 founder shares were forfeited by 2026-06-30, leaving 3,333,333 Class B outstanding, and 3,333,333 Class B + 370,000 private units at 2026-06-30 — so the sponsor's stake as of mid-2026 is below the prospectus-table 3,688,333/26.9% snapshot. The Edge's figure appears drawn from the prospectus table (or its ownership-table basis), not from the later 10-Q share count."
+    },
+    "sponsor_paid_about_us3.6m": {
+      "status": "CORROBORATED (SEC primary, within rounding)",
+      "detail": "424B4 risk/liquidity section: total at-risk capital stated as $3,425,000, comprising the $25,000 founder-share purchase price (~$0.007/share) plus private placement units purchased at $10.00 per unit ($25,000 + $3.65M ≈ $3.675M is the full over-allotment case in the same document; the $3,425,000 figure corresponds to 342,500 private units). Either way 'about US$3.6M' is consistent with the prospectus's own at-risk-capital disclosure."
+    },
+    "close_by_1_nov_2027": {
+      "status": "CORROBORATED (SEC primary, derived)",
+      "detail": "10-Q: the SPAC must complete an initial business combination 'within 18 months from the closing of the Initial Public Offering' (the Completion Window). IPO closed 1 May 2026 → 18 months = 1 November 2027. This independently reproduces The Edge's 'must close by 1 Nov 2027' deadline."
+    },
+    "sponsor_votes_sufficient_alone": {
+      "status": "NOT VERIFIED in primary sources",
+      "detail": "The claim that sponsor voting shares alone would suffice to approve a business combination could not be confirmed from the documents I captured. The prospectus table's 26.9% is a percentage of outstanding ORDINARY SHARES, and a business combination ordinarily requires a majority of votes cast/at the meeting; I did not find (nor rule out) a super-voting Class B share structure — the 424B4 excerpts I extracted show one-vote-per-share style language and a two-thirds threshold only for trust-agreement amendments. Marked [UNVERIFIED]: this sub-claim needs a direct read of the 'Beneficial Ownership' footnotes and the articles/amendment vote threshold."
+    },
+    "zetrix_mou_25_may_2026": {
+      "status": "NOT FOUND IN SEC FILINGS; corroborated only in press",
+      "detail": "EDGAR full-text search for 'Zetrix' restricted to CIK 0002097986 returns 0 hits; 'AI Foundation Lab' returns 0 hits across all of EDGAR; FTHAC's only post-IPO 8-Ks are 2026-05-05 (IPO closing), 2026-05-07 (audited balance sheet), 2026-06-18 (separate trading) and the 2026-09-24 8-K/A (IPO-closing amendment) — no 8-K discloses any MoU or business-combination agreement with Zetrix. If the 25 May 2026 MoU existed, FTHAC did not file it as a material definitive agreement; Zetrix-side disclosure would sit with Bursa Malaysia (outside this wing's sources). Press corroboration is real but secondary: The Edge cover story 'The role of Next Lion in Zetrix AI's Nasdaq listing'; The Star / KLSE Screener 'Zetrix AI Nasdaq bid heats up with SPAC partnership'; Bloomberg 'Malaysia's Zetrix Raises Funds, Plans to List AI Unit on Nasdaq'. Note Bloomberg headline independently confirms a fundraise + Nasdaq listing plan for an AI unit, but the specific terms (non-binding, exclusivity to 21 Nov 2026) are single-sourced to The Edge."
+    },
+    "us3b_valuation_and_us200m_praise": {
+      "status": "SINGLE-SOURCED [UNVERIFIED]",
+      "detail": "The US$3 billion target valuation for the AI Foundation Lab carve-out and the US$200M pre-IPO raise were found ONLY in The Edge coverage via Google News RSS. Bloomberg's headline ('Zetrix Raises Funds, Plans to List AI Unit on Nasdaq') confirms the general shape (fundraise + planned Nasdaq listing of an AI unit) but the specific US$3B/US$200M figures were not visible in any headline/snippet and the Bloomberg body was not retrieved (paywalled). Zero EDGAR corroboration."
+    },
+    "sean_yap_placed_on_leave": {
+      "status": "CORROBORATED IN PRESS (multiple independent outlets)",
+      "detail": "Google News RSS (en-MY) returns at least four separate outlets: (1) The Edge Malaysia: 'M&A Equity places unit CEO Sean Yap Shon Leong on leave amid review of Next Lion links'; (2) The Malaysian Reserve: 'MAEH says Sean Yap's Next Lion role was personal, places him on leave'; (3) BusinessToday Malaysia: 'M&A Equity Places CEO Sean Yap On Administrative Leave, Pending Review Of Involvement In Next Lion, Zetrix Deal'; (4) KLSE Screener: 'M & A Equity not involved in Next Lion, puts Sean Yap on administrative leave'. Companies House / MAEH corporate filings not checked (Bursa announcements would be the primary record)."
+    },
+    "zetrix_listed_in_institutional_portfolios": {
+      "status": "INCIDENTAL CORROBORATION",
+      "detail": "EDGAR full-text 'Zetrix' / 'Zetrix AI' (1,576-1,583 hits) consists of NPORT-P holdings reports from Ashmore Funds, DBX ETF Trust and iShares Trust — i.e., Zetrix AI Bhd is a real, index-held Malaysian-listed security (Emerging Asia funds). Confirms the issuer's existence and public float, not the SPAC deal."
+    }
+  },
+
+  "verdict_matrix": {
+    "CORROBORATED_VIA_PRIMARY_FILINGS": [
+      "FTHAC existence, Nasdaq listing (FTHA/FTHAU/FTHAW), CIK 0002097986",
+      "US$100M IPO closed 1 May 2026 (10,000,000 units @ $10.00)",
+      "Next Lion Sponsor Holdings LLC is the sponsor; Next Lion Limited (BVI) is its sole member and managing member",
+      "Yap Shon Leong named as director of Next Lion Limited with voting/investment discretion over sponsor shares",
+      "Sponsor block 3,688,333 shares = 26.9% (per 424B4 ownership table)",
+      "Sponsor at-risk capital ~US$3.43M-3.68M (claim's 'about US$3.6M' consistent)",
+      "18-month completion window from 1 May 2026 → 1 Nov 2027 deadline"
+    ],
+    "CORROBORATED_VIA_INDEPENDENT_PRESS_ONLY": [
+      "Sean Yap placed on administrative leave at M&A Equity/MAEH pending review of Next Lion/Zetrix links (4+ outlets: The Edge, The Malaysian Reserve, BusinessToday MY, KLSE Screener)",
+      "Zetrix AI plans Nasdaq listing of AI unit via SPAC partnership (The Star, Bloomberg)",
+      "MAEH position that Yap's Next Lion role was 'personal', not corporate"
+    ],
+    "RESTATED_ONLY": [
+      "KLSE Screener repeats The Star/The Edge copy for the SPAC partnership story",
+      "US$3B valuation / US$200M pre-IPO raise: no outlet other than The Edge located; Bloomberg confirms shape, not the numbers"
+    ],
+    "NOT_FOUND": [
+      "Any SEC filing naming Zetrix, the 25 May 2026 MoU, exclusivity to 21 Nov 2026, AI Foundation Lab, or the US$3B/US$200M figures (EDGAR FTS = 0 hits inside FTHAC filings and 0 across EDGAR for 'AI Foundation Lab')",
+      "EDGAR corroboration that Sean Yap OWNS Next Lion Limited (prospectus names him director only) or that he is MD of M&A Asset Management Malaysia Sdn Bhd",
+      "Primary-source proof that sponsor voting shares alone can approve a business combination (26.9%-of-shares figure cuts against this unless super-voting shares exist; not extracted)",
+      "Boardroom Alpha / spacresearch coverage of FTHAC (spacresearch company page returned no usable FTHAC data in fetch)",
+      "Bursa Malaysia announcements (outside this wing's tool scope)"
+    ]
+  },
+
+  "notable_gaps_and_flags": [
+    "Absence of an FTHAC 8-K for the Zetrix MoU is itself informative: a non-binding MoU may not trigger Item 1.01, but once exclusivity/economics bind, an 8-K would normally be required — monitor subsequent 8-K/10-Q filings.",
+    "8-K/A filed 24 Sep 2026 amends the IPO-closing 8-K (event date 1 May 2026) — reason for amendment not extracted; worth reading in a follow-up wing.",
+    "Three SCHEDULE 13Gs filed 12-13 Aug 2026 (acc. 0001104659-26-095318, 0001167557-26-000150, 0000919574-26-004992) — institutional >5% holders of FTHA; unidentified in this pass.",
+    "EDGAR shows 'Tortola' business location while documents show Grand Cayman address; treat FTHAC as Cayman-incorporated per the filings themselves.",
+    "Founder-share forfeiture (3,833,333 → 3,333,333) means live sponsor stake < the 3,688,333/26.9% prospectus snapshot; recompute against latest cover page (10-Q cover: 10,370,000 Class A + 3,333,333 Class B as of 12 Aug 2026 → sponsor-related Class B = 3,333,333 = ~24.3% of the 13,703,333 then outstanding, before private-unit shares)."
+  ],
+
+  "key_citations": [
+    {"doc": "424B4 final prospectus", "accession": "0001213900-26-050604", "filed": "2026-05-01", "url": "https://www.sec.gov/Archives/edgar/data/2097986/000121390026050604/ea0268971-07.htm"},
+    {"doc": "10-Q Q2 2026", "accession": "0001213900-26-089208", "filed": "2026-08-13", "url": "https://www.sec.gov/Archives/edgar/data/2097986/000121390026089208/ea0301623-10q_forefront.htm"},
+    {"doc": "8-K IPO closing", "accession": "0001213900-26-052180", "filed": "2026-05-05", "url": "https://www.sec.gov/Archives/edgar/data/2097986/000121390026052180/ea0289143-8k_forefront.htm"},
+    {"doc": "8-K/A amendment", "accession": "0001213900-26-102843", "filed": "2026-09-24", "url": "https://www.sec.gov/Archives/edgar/data/2097986/000121390026102843/ea0306337-8ka1_forefront.htm"},
+    {"doc": "Next Lion Sponsor Holdings LLC (CIK 2126042) Form 3/Form 4", "accessions": ["0001213900-26-049611", "0001213900-26-052511"]},
+    {"doc": "Press release, separate trading", "accession": "0001213900-26-070136", "filed": "2026-06-18", "url": "https://www.sec.gov/Archives/edgar/data/2097986/000121390026070136/ea029529901ex99-1.htm"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "artifact": "Zetrix value-transfer thesis \u2014 corroboration pass",
+  "generated": "2026-11-02T04:31:41Z",
+  "method": "5 parallel wings, shared citation ledger, primary-filing preference, evidence-gated verify",
+  "wings": {
+    "wing1_financials.json": {
+      "bytes": 9298,
+      "sha256": "5c928248f9e26b9b98355cc8"
+    },
+    "wing2_spac.json": {
+      "bytes": 13625,
+      "sha256": "a046742208840d07306e6757"
+    },
+    "wing3_revenue.json": {
+      "bytes": 15249,
+      "sha256": "ab7ed44323991aeaa30e2cc2"
+    },
+    "wing4_governance.json": {
+      "bytes": 12027,
+      "sha256": "06042969f9934dc7d80cd7b4"
+    },
+    "wing5_counter.json": {
+      "bytes": 14733,
+      "sha256": "7f6a0e014faf8bf36f451075"
+    }
+  },
+  "corrections_issued": 3,
+  "ledger_sources": 12
+}

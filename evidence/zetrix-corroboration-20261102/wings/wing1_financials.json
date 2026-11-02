@@ -1,0 +1,143 @@
+{
+  "task": "Corroborate Zetrix AI (ex-MyEG) development-cost and debt figures from independent sources",
+  "claim_origin": "The Edge Malaysia Weekly, 14-20 Sep 2026 (Cover Story: 'Questions abound about Zetrix AI')",
+  "research_date": "2026-11-02",
+  "method": "Google News RSS (en-MY) query rotation -> outlet site fetches (themalaysianreserve.com, freemalaysiatoday.com) -> full-text figure scan",
+  "sources_fetched_full_text": [
+    {
+      "id": "S1",
+      "outlet": "The Malaysian Reserve",
+      "title": "Zetrix's billion-ringgit profit paradox",
+      "author": "Rupinder Singh",
+      "date": "2026-10-13",
+      "url": "https://themalaysianreserve.com/2026-10-13/zetrixs-billion-ringgit-profit-paradox/",
+      "type": "Independent weekly business outlet; explicitly flags MARC Ratings as its data source for the asset/borrowings ratios. States 'This article first appeared in The Malaysian Reserve weekly print edition'.",
+      "status": "full text fetched and parsed"
+    },
+    {
+      "id": "S2",
+      "outlet": "Free Malaysia Today",
+      "title": "Perfect storm pushes Zetrix to the precipice",
+      "date": "2026-10-23",
+      "url": "https://www.freemalaysiatoday.com/category/opinion/2026-10-23/perfect-storm-pushes-zetrix-to-the-precipice",
+      "type": "Independent news outlet (opinion/analysis piece); quotes MBSB Research, MARC, CLSA notes.",
+      "status": "full text fetched and parsed"
+    },
+    {
+      "id": "S3",
+      "outlet": "NST Online (headline only)",
+      "title": "MARC Ratings raises red flag over Zetrix AI's governance",
+      "date": "2026-10-30",
+      "url": "https://www.nst.com.my (via Google News RSS; article URL not resolved)",
+      "type": "Independent national daily; headline corroborates MARC governance action, not specific figures.",
+      "status": "headline only - page not fetched"
+    },
+    {
+      "id": "S4",
+      "outlet": "BusinessToday Malaysia (headline only)",
+      "title": "MARC Slashes Zetrix AI's RM2 Billion Sukuk Rating To BB+, Questions Nasdaq Listing Plans",
+      "date": "2026-10-18",
+      "type": "Independent outlet; corroborates existence/size of RM2b sukuk programme and MARC downgrade timeline.",
+      "status": "headline only"
+    },
+    {
+      "id": "S5",
+      "outlet": "The Edge Malaysia (origin outlet, follow-ups)",
+      "titles": ["Cover Story 1: Questions abound about Zetrix AI (24 Sep)", "Frankly Speaking: Zetrix AI must explain the RM3.7 bil development cost (21 Sep)", "MARC cuts Zetrix AI sukuk rating... (30 Oct)"],
+      "type": "Same-group follow-up coverage - RESTATED, not independent corroboration.",
+      "status": "headlines only; paywalled"
+    }
+  ],
+  "figures": [
+    {
+      "figure": "Development cost RM2.8B at end-2025",
+      "verdict": "CORROBORATED",
+      "detail": "S1: 'cumulative development expenditure had reached approximately RM3.7 billion, compared to RM2.85 billion at end-2025'. S2: 'RM3.7 billion from RM2.85 billion at end-2025'. Two independent outlets give RM2.85b, consistent with The Edge's rounded RM2.8B (note: sources say RM2.85b, not RM2.8b).",
+      "independent_sources": ["S1", "S2"]
+    },
+    {
+      "figure": "Development cost RM3.7B at end-Jun 2026",
+      "verdict": "CORROBORATED",
+      "detail": "S1 and S2 both state approximately RM3.7b cumulative development expenditure at end-June 2026. Also echoed in The Edge's own follow-up headline ('must explain the RM3.7 bil development cost'), restated by S1/S2 independently.",
+      "independent_sources": ["S1", "S2"]
+    },
+    {
+      "figure": "Development cost RM171.3M at FY2020",
+      "verdict": "NOT FOUND",
+      "detail": "No fetched source gives the FY2020 baseline. Would require the audited FY2020 annual report / Bursa filing.",
+      "independent_sources": []
+    },
+    {
+      "figure": "Development cost exceeds 50% of total assets (key audit matter)",
+      "verdict": "CORROBORATED (percentage), NOT FOUND (key audit matter)",
+      "detail": "S1 cites MARC Ratings: 'development expenditure represented 56% of Zetrix's total assets' - consistent with, and more precise than, 'exceeds 50%'. The 'key audit matter' characterisation was NOT found in any fetched source; unverified against the actual audit report.",
+      "independent_sources": ["S1 (via MARC Ratings)"]
+    },
+    {
+      "figure": "Average RM720.17M/yr development spend over three financial years",
+      "verdict": "NOT FOUND",
+      "detail": "Derived figure (implied by RM2.8b->RM3.7b growth plus earlier base); no source states it. Arithmetically consistent with the corroborated end-2025 and end-Jun-2026 values only under The Edge's own derivation.",
+      "independent_sources": []
+    },
+    {
+      "figure": "Only RM28.51M/yr amortised; total amortisation 2020-2025 only RM139.9M",
+      "verdict": "NOT FOUND",
+      "detail": "No fetched source gives these amortisation amounts. Closest independent datapoint: S1 notes Q2 FY26 depreciation & amortisation expenses rose 463.3% YoY and finance costs +70.7% - directionally consistent with heavy capitalisation and only recent catch-up amortisation, but does not confirm the stated totals.",
+      "independent_sources": []
+    },
+    {
+      "figure": "Gross debt RM2.2B at end-Jun 2026",
+      "verdict": "CORROBORATED",
+      "detail": "S1: 'borrowings had increased to about RM2.2 billion'. S2: 'Total borrowings stood at RM2.2 billion, up 74.3% from RM1.26 billion a year earlier'.",
+      "independent_sources": ["S1", "S2"]
+    },
+    {
+      "figure": "Gross debt RM166.1M in FY2021",
+      "verdict": "PARTIALLY CORROBORATED (with discrepancy)",
+      "detail": "S1 states borrowings rose 'to about RM2.2 billion from RM160.5 million in 2021'. RM160.5M vs The Edge's RM166.1M - same order of magnitude and same endpoint, but the two numbers differ by ~RM5.6M (possible scope difference: gross debt incl. lease liabilities vs borrowings line). Flag as unexplained variance.",
+      "independent_sources": ["S1 (different value: RM160.5M)"]
+    },
+    {
+      "figure": "Gross debt RM483.3M in FY2022",
+      "verdict": "NOT FOUND",
+      "detail": "No fetched source reports the FY2022 debt level. S2 provides a different intermediate point: RM1.26b total borrowings at end-Jun 2025.",
+      "independent_sources": []
+    },
+    {
+      "figure": "Net cash +RM63.3M (2020) became net debt RM1.2B (2025)",
+      "verdict": "NOT FOUND (endpoints), PARTIALLY CORROBORATED (trajectory)",
+      "detail": "No source states the 2020 net-cash or 2025 net-debt figures directly. Independent corroboration of the direction and rough magnitude: S2 gives end-Jun-2026 position - cash RM541.6M vs short-term borrowings RM853.1M, total borrowings RM2.2b (implied net debt ~RM1.66b); S2 also gives total borrowings RM1.26b at end-Jun 2025, consistent with a net debt of ~RM1.2b in 2025 after netting cash.",
+      "independent_sources": ["S2 (adjacent data points only)"]
+    }
+  ],
+  "supporting_context_from_independent_sources": [
+    "S1/S2: FY2025 net profit RM883.85M (+24.9%), revenue RM1.34b (+31.3%) - the 'profit paradox' framing.",
+    "S1/S2: JPJ arrears RM314M (May 19-Sep 30 2026 collections), stopped RM231M cheque; confirmed to Bursa as a payable.",
+    "S1: MARC Ratings revised MARCWatch to Negative (early Oct) citing insufficient information on the borrowing increase and development-expenditure allocation; warned of rating suspension/withdrawal.",
+    "S2/S4: MARC downgraded RM2b sukuk AA-IS -> BB+IS on Oct 18; S3/headlines: second cut toward default level Oct 30.",
+    "S2: covenant requires co-founder Wong to remain single largest shareholder; his stake fell to 1.84% via margin-call forced sales.",
+    "RSS (headline-level): IFC (World Bank) US$40M for 2.5% stake in Zetrix AI (Feb 2026, Digital News Asia / Malaysian Reserve) - independent confirmation of the AI-Foundation-Lab-linked capital plan."
+  ],
+  "summary": {
+    "sources_located": 12,
+    "sources_full_text_verified": 2,
+    "figures_corroborated_independently": [
+      "Dev cost ~RM3.7b end-Jun-2026 (x2 outlets)",
+      "Dev cost RM2.85b end-2025 (x2 outlets)",
+      "Dev cost = 56% of total assets (MARC via Malaysian Reserve)",
+      "Gross debt ~RM2.2b end-Jun-2026 (x2 outlets)"
+    ],
+    "figures_with_discrepancy": [
+      "FY2021 debt: The Edge RM166.1M vs Malaysian Reserve/MARC RM160.5M"
+    ],
+    "figures_single_sourced_not_found": [
+      "FY2020 dev cost RM171.3M",
+      "RM720.17M/yr average spend",
+      "RM28.51M/yr amortisation / RM139.9M total 2020-2025 amortisation",
+      "FY2022 debt RM483.3M",
+      "net cash +RM63.3M (2020) and net debt RM1.2B (2025) as exact figures",
+      "key audit matter designation"
+    ],
+    "notes": "The two strongest corroborations (S1, S2) both trace their asset-ratio and borrowings data to MARC Ratings' MARCWatch commentary, i.e. MARC is the common upstream source behind both - treat them as two independent newsrooms reporting one independent analyst (MARC), not two fully independent data streams. The amortisation-side claims (RM28.51M/yr, RM139.9M total) are the weakest externally-verified part of the claim; they would need the FY2025 audited financial statements / Bursa annual report PDF, which could not be reached from this environment within the call budget."
+  }
+}

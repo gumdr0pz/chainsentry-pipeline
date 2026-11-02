@@ -1,0 +1,118 @@
+{
+  "task": "Wing 3 — Zetrix AI: offshore-revenue / blockchain-revenue coincidence and customer identification",
+  "date_researched": "2026-11-02",
+  "claim_under_investigation": "The Edge Malaysia Weekly (14-20 Sep 2026): Zetrix's revenue from outside Malaysia equalled its blockchain/AI-related service revenue in 2024 (RM362.8m) and 2025 (RM643.5m); in 2023 overseas revenue RM127.6m vs blockchain/AI RM126.6m; no customer base or segmental detail beyond Malaysia/overseas split; quarterly token sales small vs total revenue.",
+
+  "coincidence_corroboration": {
+    "verdict": "PARTIALLY CORROBORATED (second outlet uses the identical figures for the blockchain/AI revenue line, confirming the two series are numerically identical in public reporting; but no source other than The Edge itself explicitly frames or explains the overseas=blockchain equality)",
+    "detail": [
+      "The Malaysian Reserve, 'Zetrix's billion-ringgit profit paradox', 13 Oct 2026 (full text fetched, themalaysianreserve.com/2026-10-13/zetrixs-billion-ringgit-profit-paradox/): states 'Blockchain- and AI-related revenue increased from RM127.6 million in 2023 to RM362.8 million in 2024 and RM643.5 million in 2025.' These are EXACTLY the amounts The Edge attributes to BOTH overseas revenue and blockchain/AI revenue for 2024/2025 — independent confirmation that RM362.8m/RM643.5m are the blockchain/AI segment figures and that the same numbers circulate as the overseas-geography split.",
+      "Minor discrepancy worth noting: The Edge's 2023 pairing is RM127.6m overseas vs RM126.6m blockchain/AI (marginally lower); TMR instead lists RM127.6m as the 2023 blockchain/AI figure. One of the two attributions of the RM127.6m/RM126.6m pair is transposed in secondary coverage; the underlying pair of figures is the same.",
+      "No other outlet found that explicitly comments on the equality/identity of the offshore and blockchain revenue series. The framing 'revenue from outside the country is the same amount as blockchain/AI revenue' remains a single-source (The Edge) observation and editorial characterisation, even though the numbers themselves are double-sourced.",
+      "Contextual numbers from the TMR article (fetched): FY25 revenue RM1.34b (+31.3%), net profit RM883.85m (+24.9%); 1H26 normalised earnings +38.9% to RM540.7m 'supported by AI subscriptions and services, Web3 application fees and sales of Zetrix Layer-1 nodes'; MBSB Research estimated non-AI/non-blockchain activities still ~40% of group revenue."
+    ]
+  },
+
+  "analyst_and_auditor_commentary": {
+    "found": [
+      "MBSB Research (via The Malaysian Reserve, fetched): investors 'need to understand how much of the newer revenue is recurring, how much depends on individual transactions or technology sales, and how effectively it converts into cash' — closest thing to analyst commentary on the quality/composition of the blockchain/AI revenue; MBSB kept Buy (TP cut RM1.24→90sen on 26 Aug 2026), later placed rec/TP under review while FY26 core-earnings forecast RM1.1b unchanged.",
+      "MARC Ratings (via TMR, fetched): MARCWatch revised to Negative on 4 Oct 2026 citing 'heightened concerns about transparency and governance', saying it had NOT received sufficient information on the surge in borrowings and the allocation/utilisation of development expenditure; also cited the external auditor's resignation and payment arrears; warned it may suspend/withdraw the rating if information stays unavailable.",
+      "Auditor event: external auditor TGS TW PLT resigned; Zetrix attributed it to 'portfolio rationalisation and resource management'; TMR notes no evidence of a disagreement over accounting treatment. No auditor commentary on the revenue coincidence was found.",
+      "Structural red flags reported (TMR, fetched): cumulative development expenditure ~RM3.7b by end-June 2026 = 56% of total assets; borrowings RM2.19b (from RM160.5m in 2021); D&A +463.3% yoy in Q2; JPJ suspension over RM314m unremitted collections; market cap fell to ~RM600m vs projected RM1.1b earnings; Bursa UMA query after 50% intraday plunge (28 Aug 2026, FMT headline)."
+    ],
+    "not_found": "No analyst, auditor, regulator or forensic-accounting commentary that specifically addresses the offshore-revenue-equals-blockchain-revenue coincidence."
+  },
+
+  "customer_identification": {
+    "disclosure_status": "Zetrix does not publicly disclose named customers or segmental detail beyond a Malaysia/overseas split; no customer-concentration disclosure was found in any accessible source (a Google News RSS query for 'Zetrix customer concentration' returned only an unrelated Web3Labs Nasdaq IPO item). The identified entities below come from partnership/deal announcements, NOT from revenue disclosures — their status as actual PAYING customers of the RM362.8m/RM643.5m revenue lines is unverified.",
+    "named_counterparties": [
+      {
+        "name": "Guangxi Beitou IT Innovation Technology Investment Group Co., Ltd. (Beitou IT Innovation)",
+        "nature": "Wholly-owned state enterprise of the Guangxi Autonomous Region Government, China",
+        "role": "Co-establishes the flagship China-Asean AI Lab ('Malaysia-China AI Innovation and Cooperation Centre', at Zetrix Tower, Petaling Jaya) under a China-Malaysia G2G MoU on AI; witnessed by Guangxi governor Lan Tianli and Malaysian MITI minister Tengku Zafrul (Apr 2025). Earlier (Dec 2023) Zetrix and Beitou launched digital ID and driver's licence services on blockchain for Chinese citizens. Guangxi provincial government reportedly allocated US$1.38b (RM6.14b) fund for such China-Asean projects.",
+        "source": "Digital News Asia 11 Apr 2025 (full text fetched); Bernama 18 Sep 2023 headline and NST/TNGlobal Dec 2023 headlines (titles only)"
+      },
+      {
+        "name": "China Academy of Information and Communications Technology (CAICT) and General Administration of Customs of the PRC",
+        "nature": "Chinese government agencies",
+        "role": "MyEG/Zetrix claims 'exclusive partnerships' positioning Zetrix Layer-1 as 'the preferred platform' for deploying cross-border solutions (per DNA article). Customs clearance processing cited as a Zetrix application area.",
+        "source": "Digital News Asia 11 Apr 2025 (fetched)"
+      },
+      {
+        "name": "Xinghuo Blockchain Infrastructure and Facility (China national blockchain network)",
+        "nature": "China national-level blockchain infrastructure",
+        "role": "Zetrix operates an 'international supernode' connecting to it (per Bernama-syndicated article).",
+        "source": "The Malaysian Reserve / Bernama 7 Jul 2026 (full text fetched)"
+      },
+      {
+        "name": "Philippines DICT (Dept of Information and Communications Technology; secretary Henry R. Aguda)",
+        "nature": "Philippine government",
+        "role": "MoU (7 Jul 2026) between Zetrix Philippines Inc, My Blockchain Infrastructure Sdn Bhd and DICT for a 'sovereign-grade' public blockchain on the Zetrix protocol — credential issuance/verification, MY-PH digital-ID interoperability, trade facilitation. The Edge later ran a cover story titled 'Puzzling off-then-on Philippines deal' (24 Sep 2026, paywalled, headline only) suggesting the deal status was not straightforward.",
+        "source": "TMR/Bernama fetched; Edge headline via Google News RSS"
+      },
+      {
+        "name": "My Blockchain Infrastructure Sdn Bhd (MBI) / MIMOS Bhd",
+        "nature": "MBI = JV of Zetrix AI and Malaysia's National R&D Agency MIMOS",
+        "role": "Zetrix is the core chain powering Malaysia Blockchain Infrastructure, Malaysia's national blockchain platform launched April 2025 — a related-party/national-infrastructure channel for blockchain revenue.",
+        "source": "TMR/Bernama 7 Jul 2026 (fetched)"
+      },
+      {
+        "name": "Philippine Bureau of Internal Revenue, National Bureau of Investigation, Securities and Exchange Commission",
+        "nature": "Philippine government agencies",
+        "role": "Cited as 'partners' from Zetrix's ~decade of operating in the Philippines as a digital government service enabler (pre-transformation MyEG business).",
+        "source": "TMR/Bernama 7 Jul 2026 (fetched)"
+      },
+      {
+        "name": "MyDigital ID (national digital ID initiative)",
+        "nature": "Malaysian national digital ID; MyEG/Zetrix platform",
+        "role": "Zetrix/AI revenue projections tied to MyDigital ID adoption — The Star (16 Jan 2026) 'Zetrix AI eyes new revenue from MyDigital ID adoption'; NST (3 Jul 2025) 'set for revenue boost from MyDigital ID'; BusinessToday (13 Aug 2025) ran 'Zetrix AI Clarifies On MyDigital ID And Blockchain Revenue Projections' (headlines only — bodies not fetched). Mutual digital-ID recognition with China/Guangxi via MyDigital ID was the lab's first announced service.",
+        "source": "Google News RSS headlines; DNA article (fetched)"
+      },
+      {
+        "name": "China-Asean AI Lab network (expansion)",
+        "nature": "Flagship lab with Beitou (Malaysia), expanded to Indonesia (Aug 2025)",
+        "role": "Lab ecosystem names Deepseek, DJI, Leju Robot, Huawei, Alibaba, HeiTech Padu as participants; also May 2026 MoU with Shenzhen Data Exchange for 'ASEAN-China data trading superhighway' (finance.biggo.com headline).",
+        "source": "DNA fetched; TNGlobal/BusinessToday/Malaysian Reserve Aug 2025 headlines; The Star/NST Jul 2025 headline 'Zetrix AI widens Asean footprint to reduce political and revenue risk'"
+      },
+      {
+        "name": "IFC (World Bank Group)",
+        "nature": "Multilateral investor, not a customer",
+        "role": "US$40 million equity investment in Zetrix AI announced 26 Feb 2026 to back digital public infrastructure — a notable external endorsement worth noting in any diligence weighing.",
+        "source": "Fintech News Malaysia / The Malaysian Reserve / Nabalu headlines via RSS (bodies not fetched)"
+      }
+    ]
+  },
+
+  "token_sales": {
+    "corroboration": "The Edge's characterisation that Zetrix sells tokens quarterly but the amounts are small vs total revenue is consistent with headline-level coverage found: 'Zetrix AI's earnings hit record high on blockchain fees and token sales' (The Edge, 27 Feb 2026) and '1Q profit jumps 49% on blockchain fees and node sales' (KLSE Screener, 25 May 2026). Revenue drivers publicly named: AI subscriptions/services, Web3 application fees, Zetrix Layer-1 node sales, token sales. No quantified token-sale figures were retrievable (paywalled)."
+  },
+
+  "what_could_not_be_found": [
+    "Named PAYING customers of the blockchain/AI revenue line, or any customer-concentration disclosure (top-N customer %). The company discloses only a Malaysia/overseas geographic split, per The Edge.",
+    "Any second outlet or analyst/auditor explicitly commenting on the offshore=blockchain revenue identity itself.",
+    "The full text of The Edge Malaysia cover stories ('Questions abound about Zetrix AI', 12/24 Sep 2026; 'Puzzling off-then-on Philippines deal') — paywalled; only headlines verified.",
+    "Bernama full text of the 2023 Beitou partnership (bernama.com search blocked, HTTP 400); only headline verified via Google News RSS.",
+    "The body of BusinessToday's 'Zetrix AI Clarifies On MyDigital ID And Blockchain Revenue Projections' (13 Aug 2025) — site returned 403 to scraping; what exactly was clarified remains unverified.",
+    "Any explanation or rebuttal published by Zetrix about the revenue coincidence; auditor's true reasons for resigning (company line: portfolio rationalisation).",
+    "Segment-level breakdown of the RM362.8m/RM643.5m into counterparties, or evidence of whether MBI, the Guangxi/China projects, or the Philippines MoU generated recognised revenue at those amounts. [UNVERIFIED] for all counterparty-to-revenue linkages."
+  ],
+
+  "assessment": "The offshore-equals-blockchain coincidence is numerically double-sourced (The Edge + The Malaysian Reserve print identical RM362.8m/RM643.5m figures for blockchain/AI revenue), which strengthens the anomaly's factual basis while the 'same amount' framing itself stays single-source. Publicly-named counterparties are overwhelmingly state-linked: Guangxi state enterprise Beitou, Chinese national agencies (CAICT, Customs, Xinghuo network), Malaysia's MIMOS/MBI JV, and Philippine government bodies (DICT, BIR, NBI, SEC). That concentration pattern — opaque, government-linked, cross-border counterparties whose payments would by construction be 'overseas' revenue — makes the coincidental equality plausible as an artefact of how little is disaggregated, but no accessible source confirms actual payment flows, contract values, or recurrence. Third-party governance signals as of Oct 2026 are negative: MARCWatch Negative over transparency/information gaps, auditor resignation, RM314m unremitted JPJ collections, RM3.7b capitalised development spend (56% of assets), RM2.19b borrowings, and a 91.8% share-price drawdown.",
+
+  "sources_verified_full_text": [
+    {"url": "https://themalaysianreserve.com/2026-10-13/zetrixs-billion-ringgit-profit-paradox/", "outlet": "The Malaysian Reserve", "date": "2026-10-13"},
+    {"url": "https://www.digitalnewsasia.com/business/myeg-and-beitou-it-innovation-establish-flagship-china-asean-ai-lab", "outlet": "Digital News Asia", "date": "2025-04-11"},
+    {"url": "https://themalaysianreserve.com/2026-07-07/zetrix-ais-blockchain-selected-to-power-philippines-public-blockchain-infrastructure/", "outlet": "The Malaysian Reserve (Bernama)", "date": "2026-07-07"}
+  ],
+  "sources_headline_only": [
+    "The Edge Malaysia: 'Cover Story 1: Questions abound about Zetrix AI' (2026-09-24); 'Questions abound about Zetrix AI' weekly edition (2026-09-12); 'Cover Story 1: Puzzling off-then-on Philippines deal' (2026-09-24); 'earnings hit record high on blockchain fees and token sales' (2026-02-27)",
+    "Bernama (2023-09-18) 'Myeg Partners With China's Beitou It Innovation To Leverage Zetrix Blockchain' — headline via Google News RSS",
+    "FMT (2026-08-28) 'Zetrix AI plummets 50%, Bursa issues UMA query'; FMT (2026-10-23) 'Perfect storm pushes Zetrix to the precipice'",
+    "BusinessToday (2025-08-13) 'Zetrix AI Clarifies On MyDigital ID And Blockchain Revenue Projections'",
+    "The Star (2026-01-16) 'Zetrix AI eyes new revenue from MyDigital ID adoption'; NST (2025-07-03) same theme",
+    "Fintech News Malaysia / The Malaysian Reserve (2026-02-26) IFC US$40m equity investment",
+    "TNGlobal/BusinessToday/Malaysian Reserve (Aug 2025) ASEAN-China AI Lab Indonesia expansion",
+    "NST (2025-07-13) 'Zetrix AI widens Asean footprint to reduce political and revenue risk'"
+  ],
+  "method_notes": "Google News RSS queries (11 distinct) + direct site fetches. Tools that failed and were worked around: web_extract backend misconfigured (SearXNG cannot extract); headless browser unavailable (chrome-not-running); r.jina.ai 403; DuckDuckGo HTML returned no links; bing search returned nothing; bernama.com and businesstoday.com.my blocked (400/403); theedgemalaysia.com cover stories paywalled. The Edge's own claim text was not re-fetched (paywall); its wording is taken as given from the task brief."
+}
