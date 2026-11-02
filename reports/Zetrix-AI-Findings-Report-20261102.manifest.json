@@ -1,0 +1,32 @@
+{
+  "artifact": "Zetrix AI \u2014 Market & Token Intelligence (Expanded Findings)",
+  "generated": "2026-11-02T03:55:03Z",
+  "pdf": "/home/mtadmin/.hermes/intel/chainsentry-pipeline/reports/Zetrix-AI-Findings-Report-20261102.pdf",
+  "sha256": "3aa49d89976cc07597308d23a153603918876e330f7659d67f2b62a986199619",
+  "pages": 7,
+  "generator": "scripts/build-zetrix-report.py",
+  "headline_figures": {
+    "equity_close": "RM0.065",
+    "equity_mcap": "RM514.57M",
+    "equity_drawdown": "-91.9%",
+    "shares_out": "7.92B",
+    "token_price": "USD2.496",
+    "token_ath": "USD22.08",
+    "token_drawdown": "-88.7%",
+    "token_fdv": "USD3.44B",
+    "volume_24h": "USD28,869",
+    "corr_btc_180d": 0.185,
+    "r_squared": 0.034,
+    "beta_btc": 0.519,
+    "crisis_vol_ratio": 9.9
+  },
+  "alignment_corrections": [
+    "screener RM1.32/2.558B-shares record DISCARDED as arithmetically inconsistent",
+    "adopted audited quote page RM0.065/7.92B shares",
+    "equity and token returns matched on calendar dates only"
+  ],
+  "verification": {
+    "text_extract": "clean \u2014 no CID garbage, no numeric entities, no literal markup",
+    "vision_check": "pages 1,4,5 verified: tables aligned, bold rendered, no clipping"
+  }
+}
