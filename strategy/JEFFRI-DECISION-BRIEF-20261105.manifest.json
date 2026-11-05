@@ -1,0 +1,12 @@
+{
+  "artifact": "Decision brief - Hire Jeffri Ashari (Head FCC)",
+  "generated": "2026-11-05T11:22:28Z",
+  "pdf_sha256": "b002246fac1e3e65aee2a79e74ea1fd7ab8d3fcab88f519cdbd1de7119c341ff",
+  "pages": 3,
+  "pair": "JEFFRI-DECISION-BRIEF-20261105.json (same stem)",
+  "recommendation": "HIRE full-time, conditional on resume corroboration + referee identity resolution",
+  "alignment_record": [
+    "initial build caught 2 defects via extraction gate: double-escaped bullet entities + literal <b> in table cells - fixed and re-rendered",
+    "vision verify pages 1+3: PASS no defects"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "artifact": "Decision brief - Hire Jeffri Ashari, Head of Financial Crime Compliance",
+    "generated": "2026-11-05T11:21:09Z",
+    "prepared_by": "Vesper (HermesAgent) - ChainSentry product division, Aras Integrasi",
+    "basis": [
+      "INT-20261015-001 (candidate record, FIT=HIGH/HIRE-VERIF=PENDING)",
+      "ACT-20261008-002 (hiring ACT, P1, due 2026-10-22, in-progress, 14 days overdue)",
+      "INT-20261010-002 (KL buying-cluster hiring intelligence)",
+      "ART-20261008-002 (activation suite, P0-P3 sequencing)",
+      "DEC-20260908-001 (7-FTE operating model)"
+    ],
+    "classification": "CONFIDENTIAL - internal decision brief",
+    "data_discipline": "Resume facts are SELF-REPORTED pending independent verification; flagged inline. No finding asserted beyond the record."
+  },
+  "recommendation": {
+    "decision": "HIRE - full-time, NOT advisor retainer",
+    "condition": "conditional on two verifications: (1) independent corroboration of resume claims; (2) referee identity resolution (Fadhli/ShopeePay vs fadzli@mxglobal)",
+    "asymmetry": "Downside = one salary inside a 7-FTE plan already ratified (DEC-20260908-001). Upside = trust apparatus for P3 regulator packaging + uncontested BNM-orbit access + answer to the 'says who?' question that kills enterprise sales."
+  },
+  "business_case": [
+    {
+      "pillar": "He IS the buying center",
+      "facts": "BPMB Manager Fin Intelligence & Integrity; Bank Rakyat AML surveillance; HL MSIG Takaful; CAMCO + ICA (KYC/CDD); 10+ yrs [SELF-REPORTED]",
+      "benefit": "Chairs ChainSentry sells into (FIED STR, AMLATFPUAA 2001, IRA/CRP, board advisory) are chairs he occupied; removes the translator-through-glass sales problem",
+      "market_timing": "KL cluster hiring NOW - Bybit 6 AML roles naming Chainalysis/Elliptic/TRM verbatim; TNG Head-FCC posted 23-Sep with tool stack UNDECIDED = 6-12 month purchase window"
+    },
+    {
+      "pillar": "Claims veto on the product's core assertion",
+      "facts": "Court-grade reports, STR-ready workflow, sanctions corpus integrity = differentiated outputs; JD encodes a claims-VETO pillar",
+      "benefit": "Practitioner kills product claims that would not survive BNM examination or opposing counsel; cheap insurance against the most expensive failure mode (reference-death)"
+    },
+    {
+      "pillar": "Translation engine (bank-native to crypto)",
+      "facts": "v3 JD 7-row translation table: STR -> crypto-STR playbook; AMLATFPUAA -> evidentiary export; screening -> VA/sanctions coverage",
+      "benefit": "Banks buy 'STR workflow BNM accepts', not 'blockchain analytics'; in-house translator shortens every pitch/demo/POC"
+    },
+    {
+      "pillar": "Unlocks P3 regulator packaging (commercial summit)",
+      "facts": "AMLA plan: P0 BridgeHold Evidence Pack -> P1 holder-cohort registry -> P2 Explainable-Hold pilot -> P3 regulator packaging (BNM-FIED/SC/CCID, counsel-gated)",
+      "benefit": "P3 requires fluency in exactly what FIED expects from a filer; P0 lighthouse needs compliance framing, not engineering anecdote"
+    },
+    {
+      "pillar": "Warm doors into uncontested segments",
+      "facts": "Network spans development finance, cooperative banking, takaful, CAMCO/ICA alumni",
+      "benefit": "BNM-orbit institutions with AML obligations and zero crypto-vendor relationships; engineered M-12: pilots + whitepaper + BNM-SC engagement; design partners from his rolodex"
+    },
+    {
+      "pillar": "Regulatory posture for ourselves",
+      "facts": "Wallet-intelligence monetisation makes us an AML/CFT-adjacent provider",
+      "benefit": "Certified staff strengthen every vendor-DD questionnaire; de-risks own AMLA exposure; answers 'who stands behind this?'"
+    }
+  ],
+  "engineered_success_metrics": [
+    {
+      "day30": "Trust Requirements Spec (named output)",
+      "day90": "STR-ready workflow + 3 design partners",
+      "month12": "pilots + whitepaper + BNM-SC engagement"
+    }
+  ],
+  "guardrails": [
+    "no current-employer solicitation",
+    "no year-1 quota commitments",
+    "independence note intact"
+  ],
+  "open_owner_calls": [
+    {
+      "call": "FT vs 2-day advisor retainer",
+      "waiting_since": "2026-10-15",
+      "recommendation": "FT if P3/BMN-SC engagement is on the 12-month horizon - retainer savings evaporate in coordination cost"
+    },
+    {
+      "call": "Band confirmation",
+      "blocking": "ACT-20261008-002 prong 1 (posting with confirmed grade and band)"
+    },
+    {
+      "call": "Posting channels",
+      "options": "LinkedIn, HRT2U/CareersHub MY, CAMA/ACAMS MY network, Big-4 forensic referral"
+    }
+  ],
+  "verification_checklist": [
+    {
+      "item": "Independent corroboration of resume claims",
+      "state": "PENDING - external search blocked at 15-Oct pass; rerun required before offer"
+    },
+    {
+      "item": "Referee identity: Muhammad Fadhli (ShopeePay|SeaMoney) vs fadzli@mxglobal.com.my",
+      "state": "CONFLICT FLAGGED - employer attribution unresolved; resolve before approach"
+    },
+    {
+      "item": "Screen: writing sample + live public-cluster tracing exercise + data-rights clause negotiation instinct",
+      "state": "DESIGNED, NOT RUN"
+    }
+  ]
+}
