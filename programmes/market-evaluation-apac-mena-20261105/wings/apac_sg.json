@@ -1,0 +1,151 @@
+{
+  "jurisdiction": "Singapore",
+  "compiled": "2026-11-05",
+  "method": "Google News RSS via firecrawl (en-SG), MAS site direct (partial - 404 on PSP register path), web_search backend returned empty (SearXNG unavailable)",
+  "confidence_note": "All items below are backed by a real news headline+date captured in this sweep unless marked [UNVERIFIED]. MAS primary-source URLs could not be fetched this run.",
+
+  "REG_FACT": [
+    {
+      "claim": "Singapore has 37 licensed crypto (DPT) firms out of nearly 300 applicants under the Payment Services Act licensing regime (figure as reported late 2025; historic tail of the 2020 PSA transition-exemption pool).",
+      "source": "Fintech Singapore headline 'Singapore Now Has 37 Licensed Crypto Firms Out of Nearly 300 Applicants'",
+      "url": "https://fintechnews.sg (via news.google.com/rss q=MAS digital payment token licence)",
+      "date": "2025-11-14",
+      "flag": "current licensed-entity count as of 2026 not confirmed against MAS ESIS register [count partially UNVERIFIED for 2026]"
+    },
+    {
+      "claim": "Gemini received MAS payment licence for crypto/cross-border payments (reported Dec 2025, 'after nearly two-year review'), then a FULL MPI licence reported through 2026 — a 2025-26 licensing wave data point.",
+      "source": "Fintech Singapore / TradingView / CoinGape",
+      "url": "news.google.com/rss q=MAS digital payment token licence",
+      "date": "2025-12-01 .. 2026-10-07"
+    },
+    {
+      "claim": "Ripple won a broader Singapore MPI licence as MAS cleared expansion of its digital payment services.",
+      "source": "FinTech Weekly / 99Bitcoins",
+      "date": "2026-06-03 .. 2026-06-08"
+    },
+    {
+      "claim": "A distinct 'DTSP' (digital token service provider) licensing regime/rule change took effect ~late 2024-2025 with MAS signalling stricter licence-lifecycle obligations; 'One Year of Singapore's DTSP Regime' commentary (Sep 2026) and 'new licensing rule for relocating DTSPs' (Oct 2025).",
+      "source": "RSM Global; The Straits Times",
+      "date": "2025-10-17, 2026-09-09",
+      "flag": "exact statutory instrument name [UNVERIFIED] — PSA vs FSMA-based DTSP regime not confirmed from MAS text"
+    },
+    {
+      "claim": "MAS ran a stablecoin regime consultation (Proposed Stablecoin Rules, mid-2025) and launched an initiative (Jun 2026) enabling settlement of tokenised bank liabilities and well-regulated stablecoins.",
+      "source": "TRM Labs blog; MAS announcement via Business Times",
+      "date": "2025-07-04, 2026-06-03"
+    },
+    {
+      "claim": "MAS Calls for Stronger AML Controls Among Crypto Firms (Jul 2025) and press coverage of 'real-time AML for payment processors' rules push (Jun 2025) indicate an active AML/CFT tightening cycle for PS/DPT licensees.",
+      "source": "Fintech Singapore; FinTech Global",
+      "date": "2025-06-27, 2025-07-25",
+      "flag": "specific Notice PSN02 amendment text / SC-VC04 guideline number NOT verified this run [UNVERIFIED] — MAS AFA notices page fetch returned no content"
+    },
+    {
+      "claim": "Financial Services and Markets Act (FSMA, effective Apr 2025) now frames crypto-firm obligations alongside PSA; multiple vendor explainers published 2026.",
+      "source": "TRM Labs 'Unpacking Singapore's FSMA: What Crypto Firms Need to Know'",
+      "date": "2026-06-18 / 2026-09-30"
+    }
+  ],
+
+  "DEMAND_SIGNAL": [
+    {
+      "claim": "Coinbase opened a new Singapore office with expanded hiring (Dec 2025) and launched an SG engineering hub with EDB (Jun 2025) — footprint growth at a licensed exchange.",
+      "source": "The Straits Times; Coinbase/EDB",
+      "date": "2025-06-25, 2025-12-17"
+    },
+    {
+      "claim": "Crypto.com appointed Mohammed Mortajine as Chief Compliance Officer — senior compliance build-out at SG-headquartered exchange.",
+      "source": "Crypto.com press",
+      "date": "2025-10-06"
+    },
+    {
+      "claim": "'Fintech firms from Airwallex to Revolut on hiring spree in Singapore amid AI-driven boom' — broad compliance/fintech hiring market.",
+      "source": "news (Mar 2026)",
+      "date": "2026-03-12"
+    },
+    {
+      "claim": "Binance to keep hundreds of staff in Singapore despite crackdown (Feb 2026) — sustained SG compliance headcount at largest venue.",
+      "source": "news (sources-based)",
+      "date": "2026-02-23"
+    },
+    {
+      "claim": "Singapore Police + licensed crypto exchanges ran joint operations freezing scam-linked accounts (~S$9M saved Sep 2026; S$2.86M/90 victims Aug-Dec 2025) — operational demand for chain-tracing/screening at exchange level and public-private partnership formalisation (UNODC report Oct 2026).",
+      "source": "The Straits Times; UNODC",
+      "date": "2025-12-03, 2026-09-30, 2026-10-24"
+    },
+    {
+      "claim": "No direct job-posting scrape of Crypto.com / Independent Reserve / Coinbase SG / Bybit SG / Matrixport / Gate SG was performed — demand inferred from hiring news above. [UNVERIFIED at posting level]",
+      "source": "n/a",
+      "date": "2026-11-05"
+    }
+  ],
+
+  "COMPETITOR_PRESENCE": [
+    {
+      "vendor": "TRM Labs",
+      "presence": "DOMINANT in SG this period: partnership with Cyber Security Agency of Singapore for national threat intel (Oct 2026); SG govt teams up with Google, AWS and TRM Labs on cyber defences (Sep 2026); hired ex-MAS Ziqing Ang as Head of Policy APAC (Sep-Oct 2025) and ex-MAS regulator Claudia Hui as Head of Compliance Advisory APAC (Dec 2025); prolific SG policy content (FSMA, stablecoin consultation, MAS strategy podcast w/ Kenneth Gay).",
+      "dates": "2025-09-15 .. 2026-10-30"
+    },
+    {
+      "vendor": "Chainalysis",
+      "presence": "Active thought-leadership/market-data presence: 'Singapore Leads Asian Crypto Market' report series (Sep-Oct 2026), SEA report 2026, cross-border payments focus; SG office/partnerships not confirmed this sweep [UNVERIFIED].",
+      "dates": "2026-08-27 .. 2026-10-05"
+    },
+    {
+      "vendor": "Elliptic",
+      "presence": "Commercial win: KAST (SG-based payments) chose Elliptic digital-asset decisioning for global AML/sanctions (Apr 2026); pig-butchering laundering research (Oct 2026).",
+      "dates": "2026-04-24, 2026-10-30"
+    },
+    {
+      "vendor": "Adjacent hiring signal",
+      "presence": "BitGo hired ex-MAS/ex-TRM Angela Ang to lead APAC (Aug 2026) — confirms MAS-alumni talent loop that incumbents exploit for regulatory positioning.",
+      "dates": "2026-08-04 .. 2026-08-27"
+    },
+    {
+      "vendor": "Merkle Science / Solidus Labs / Codewise(Spellbreaker) / AnChain.AI",
+      "presence": "ZERO mentions in this SG news sweep. Merkle Science is widely reported SG-founded/HQ but not corroborated this run [UNVERIFIED].",
+      "dates": "n/a"
+    }
+  ],
+
+  "ENFORCEMENT": [
+    {
+      "action": "MAS REVOKED Bsquared Technology's Major Payment Institution licence over 'serious breaches' (incl. AML) — first high-profile DTP-adjacent licence revocation of the cycle.",
+      "sources": "The Business Times / The Edge / RSM",
+      "dates": "2025-12-17 .. 2026-11-01",
+      "tooling_gap": "licence-lifecycle transaction monitoring & AML program adequacy evidence"
+    },
+    {
+      "action": "MAS composition penalties totalling S$960,000 against five major payment institutions; coverage: 'Penalties Reveal Specific AML Gaps'.",
+      "sources": "Hubbis / FinTech Global / Fincrime Central",
+      "dates": "2025-11-17, 2026-06-30, 2026-07-16",
+      "tooling_gap": "CDD/transaction-monitoring rule coverage at payment institutions"
+    },
+    {
+      "action": "Post-3BD-money-laundering-case follow-on: 9 financial institutions handed S$27.45m MAS penalties (Dec 2025).",
+      "sources": "news roundup",
+      "dates": "2025-12-03",
+      "tooling_gap": "correspondent/wire monitoring; crypto adjacency of laundering layer"
+    },
+    {
+      "action": "MAS added Bybit to Investor Alert List (Nov 4 2026) and Hyperliquid (Jun 2026 — one of first DeFi protocols flagged, despite SG-based entity claim); MAS monitoring Tokenize Xchange wind-down/asset return (Aug 2026).",
+      "sources": "The Straits Times / TradingView / CNA / The Defiant",
+      "dates": "2026-06-18 .. 2026-11-04",
+      "tooling_gap": "unlicensed-platform exposure detection, DeFi/protocol-level tracing, off-platform flow attribution — directly adjacent to ChainSentry chain-tracing MCP value prop"
+    },
+    {
+      "action": "Binance hack (Jun 2025) — SG investors' exposure unknowable, withdrawals suspended; later ICIJ reporting (Apr 2026) on billions moved via major exchanges linked to launderers/North Korean hackers.",
+      "sources": "The Straits Times; ICIJ",
+      "dates": "2025-06-26, 2026-04-24",
+      "tooling_gap": "real-time stolen-funds tracing across BTC/ETH/TRX/SOL; exchange-side exposure queries"
+    }
+  ],
+
+  "GAPS_NOT_VERIFIED": [
+    "Exact current licensed-DPT/MPI count on MAS ESIS register (register fetch failed/404 this run)",
+    "PSN02 amendment text and MAS SC-VC04 guideline number/status",
+    "Per-company AML job-posting counts at Crypto.com, Independent Reserve, Coinbase SG, Bybit SG, Matrixport, Gate SG",
+    "SG offices/partnerships for Merkle Science, Solidus Labs, Codewise, AnChain.AI (zero signal in sweep)",
+    "Whether 'DTSP regime' is a PSA amendment or FSMA-based instrument"
+  ]
+}

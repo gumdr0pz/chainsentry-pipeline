@@ -64,3 +64,5 @@ D-01/02 vision + path ratification · **D-03 pipeline runner (recommend: Aras se
 
 ## Sub-repos
 - **`fiato/`** — dedicated Fiato collaboration repo (github.com/gumdr0pz/chainsentry-fiato): bilateral ChainSentry × Fiato Malaysia plan + source evidence. Referenced by the canonical plan (`activation/04-CANONICAL-PLAN-AML-TWO-MARKETS.md` §STEP F). Owned separately; parent links, never duplicates.
+
+- 2026-11-05: APAC/MENA pre-market evaluation — 14 jurisdictions scored (wings + evaluation-20261105.json under programmes/market-evaluation-apac-mena-20261105/)

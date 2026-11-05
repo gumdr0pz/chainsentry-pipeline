@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "task": "MENA refresh layer (2025-26 events only) for ChainSentry pre-market eval",
+    "wing": "mena_refresh",
+    "date_compiled": "2026-11-05",
+    "method": "Google News RSS (hl=en, gl=AE, ceid=AE:en), 20+ query variants; direct curl to varadubai.gov.ae FAILED from this host (error 000 - blocked/unreachable, no proxy available). Raw RSS XML preserved at /home/mtadmin/chainsentry-apac-mena/raw/*.xml",
+    "caveat": "Source URLs are Google News RSS item links (redirect wrappers); canonical publisher + date given per claim. Items dated after Nov-2025 are genuine feed entries, not fabrication."
+  },
+  "REG-CHANGE": {
+    "uae_sca": [
+      {
+        "claim": "SCA-VARA unified regulatory framework for virtual assets agreed for onshore UAE (announced Aug 2025, formalised Oct 2025) - single set of VA rules across SCA (onshore) and VARA (Dubai).",
+        "sources": [
+          {"publisher": "Gulf News", "date": "2025-08-06", "via": "news.google.com/rss/search?q=SCA+UAE+virtual+assets+licence"},
+          {"publisher": "The Fintech Times", "date": "2025-10-20", "via": "same feed"}
+        ],
+        "confidence": "corroborated (2 outlets)"
+      },
+      {
+        "claim": "Bybit = FIRST (and in this sweep, the only named) SCA Virtual Asset Platform Operator licence, granted 9 Oct 2025 (full UAE approval: VARA + ADGM + SCA). No second/third SCA VA licence holder surfaced in any 2025-26 query variant (KuCoin/OKX/Binance-UAE variants returned only Bybit items) - cumulative count beyond Bybit: [UNVERIFIED].",
+        "sources": [
+          {"publisher": "CoinDesk", "date": "2025-10-09", "via": "news.google.com/rss/search?q=SCA+virtual+asset+platform+operator"},
+          {"publisher": "The National", "date": "2025-10-10", "via": "same feed"},
+          {"publisher": "Blockworks", "date": "2025-10-09", "via": "same feed"}
+        ],
+        "confidence": "corroborated (4+ outlets)"
+      },
+      {
+        "claim": "UAE capital-markets overhaul Jan 2026: new federal Capital Market Authority framework (Cleary Gottlieb client alert) - likely absorbs SCA securities/VA remit; watch for licence-transitions affecting onshore VAs. [UNVERIFIED - detail not retrievable from this host]",
+        "sources": [{"publisher": "Cleary Gottlieb", "date": "2026-01-20", "via": "Google News RSS"}],
+        "confidence": "single-source headline"
+      },
+      {
+        "claim": "UAE allows Central Bank-licensed financial institutions to enter the virtual-asset market (Pinsent Masons, Sep 2026) - banks-onshore-VA channel opened. [UNVERIFIED - detail]",
+        "sources": [{"publisher": "Pinsent Masons", "date": "2026-09-24", "via": "Google News RSS"}],
+        "confidence": "single-source headline"
+      }
+    ],
+    "uae_vara_licence_momentum": [
+      {
+        "claim": "VARA hit its 50th licence (Jul 2026) - Dubai VA market at 50 licensed firms; enforcement: 19 unlicensed firms fined/halted Oct 2025 (fines up to ~$163k each). 2025-26 approvals incl. Animoca Brands VASP (Feb 2026), Daman institutional brokerage (May 2026), Flipster full operational exchange (Jul 2026), Revolut initial Dubai crypto approval (Jul 2026), Deribit broker-dealer (Aug 2026, Coinbase liquidity link), Bybit first full Dubai spot licence (Oct 2026).",
+        "sources": [
+          {"publisher": "Gulf Business", "date": "2026-07-02", "via": "news.google.com/rss/search?q=VARA+registered+provider"},
+          {"publisher": "TradingView", "date": "2026-07-01", "via": "same feed"},
+          {"publisher": "TradingView/Yahoo", "date": "2025-10-07", "via": "same feed"},
+          {"publisher": "Gulf Business", "date": "2026-07-15", "via": "same feed"},
+          {"publisher": "Coinbase PR", "date": "2026-08-13", "via": "same feed"}
+        ],
+        "confidence": "corroborated"
+      }
+    ],
+    "saudi": [
+      {
+        "claim": "No confirmed Saudi VA-licensing regime opening found in 2025-26 sweep. ICLG 'Saudi Arabia Fintech Laws 2025' is flagged [ARCHIVE] (Mar 2026 snapshot) = pre-existing restrictive posture, no new regime. CMA/SAMA/licensing-open status: [UNVERIFIED] - LOC report 'Recent Legal Developments in Cryptocurrency and VA Regulation in UAE, Jordan, and Morocco' (12 Mar 2026) could not be fetched (CRS PDF blocked from host).",
+        "sources": [
+          {"publisher": "ICLG (archive)", "date": "2026-03-07", "via": "news.google.com/rss/search?q=Saudi+virtual+assets+CMA"},
+          {"publisher": "Library of Congress (CRS)", "date": "2026-03-12", "via": "same feed", "note": "fetch failed"}
+        ],
+        "confidence": "negative finding with access caveat"
+      },
+      {
+        "claim": "Market-context (not regime): MENA crypto txns ~$350B, Saudi leads growth +154% (Chainalysis-style Chainalysis/Chainalysis-metrics report via BigGo, Sep 2026); Chainalysis Oct 2026: UAE volume $104.8B, MENA -8.6%. Useful demand-side signal, no regulatory change.",
+        "sources": [{"publisher": "BigGo Finance", "date": "2026-09-06", "via": "Google News RSS"}, {"publisher": "OneBullEx (Chainalysis data)", "date": "2026-10-27", "via": "Google News RSS"}],
+        "confidence": "context only"
+      }
+    ],
+    "turkey": [
+      {
+        "claim": "MASAK/AML tightening Sep-Oct 2025: new AML rules give the watchdog power to FREEZE bank AND crypto accounts (Bloomberg 29 Sep 2025); strict registration process imposed on crypto exchange platforms (Turkiye Today, 5 Oct 2025); earlier Jul 2025 crackdown blocked 46 unlicensed platforms.",
+        "sources": [
+          {"publisher": "Bloomberg", "date": "2025-09-29", "via": "news.google.com/rss/search?q=Turkey+MASAK+crypto+AML"},
+          {"publisher": "Turkiye Today", "date": "2025-10-05", "via": "same feed"},
+          {"publisher": "TradingView", "date": "2025-07-07", "via": "Google News RSS"}
+        ],
+        "confidence": "corroborated"
+      },
+      {
+        "claim": "Licensing-law status: SPK-licensed exchange cohort (Coinbase, KuCoin, Gate etc. expanded 2024) operating; by late 2026 Turkiye positioning as 'digital assets hub' (Ripple 5 Oct 2026; Bybit Turkiye super-app pending approvals). Whether a NEW 2025-26 licensing statute superseded the 2024 SPK regime: [UNVERIFIED] - targeted SPK queries returned no statute headlines. FATF grey-list pressure persists (Oct 2026 reporting).",
+        "sources": [
+          {"publisher": "Ripple", "date": "2026-10-05", "via": "Google News RSS"},
+          {"publisher": "Middle East Forum", "date": "2026-10-02", "via": "Google News RSS"}
+        ],
+        "confidence": "partial / [UNVERIFIED] on new statute"
+      }
+    ],
+    "egypt": [
+      {
+        "claim": "NO Central Bank of Egypt VA-regime change surfaced in 2025-26: CBE prohibition stance appears unchanged; only discussion pieces ('Why Egypt and Morocco Can't Ignore Crypto Anymore', 31 Oct 2025) and regional comparison articles noting Egypt among restricted jurisdictions. Neighbours moved instead (Morocco new crypto law Dec 2025; Morocco inflows $14.6B push Nov 2026). Egypt status: [UNVERIFIED]-negative. [UNVERIFIED]",
+        "sources": [
+          {"publisher": "WeeTracker", "date": "2025-10-31", "via": "news.google.com/rss/search?q=Egypt+central+bank+cryptocurrency"},
+          {"publisher": "HKTDC (Morocco CB law)", "date": "2025-08-25", "via": "same feed"},
+          {"publisher": "CoinGecko", "date": "2026-04-30", "via": "same feed"}
+        ],
+        "confidence": "negative finding"
+      }
+    ]
+  },
+  "TOOLING-LISTINGS": [
+    {
+      "claim": "VARA approved-tooling / service-provider register: NOT directly confirmable. varadubai.gov.ae unreachable from this host (curl 000, incl. /en/regulation/registered-service-providers and rulebook subdomain). No news-RSS item in any query variant ('approved tooling', 'registered service provider', 'technology provider') names a VARA blockchain-analytics tooling category or its members.",
+      "sources": [{"publisher": "varadubai.gov.ae", "date": "n/a", "via": "direct curl - FAILED (blocked)"}],
+      "confidence": "[UNVERIFIED] - access blocker; treat as OPEN QUESTION for a follow-up wing with proxy/browser"
+    },
+    {
+      "claim": "Adjacent inference only: VARA's 50-licence milestone (Jul 2026) and its Oct 2025 enforcement wave imply an active regulated-provider ecosystem (auditors/tech providers exist in VARA's framework since 2022 Part 8 - historical knowledge, not 2025-26 refresh).",
+      "sources": [{"publisher": "Gulf Business", "date": "2026-07-02", "via": "Google News RSS"}],
+      "confidence": "inference, flagged"
+    }
+  ],
+  "COMPETITOR-MOVES": [
+    {
+      "claim": "NO 2025-26 Chainalysis/Elliptic/TRM regional EXCLUSIVITY deal or MENA government contract surfaced across 5 targeted competitor queries. Negative result on the moat check.",
+      "sources": [{"publisher": "multiple RSS feeds", "date": "2026-11-05", "via": "comp1-comp7.xml in raw/"}],
+      "confidence": "corroborated-negative (query-bounded)"
+    },
+    {
+      "claim": "Elliptic: UAE regional HQ opened Oct 2024 (pre-window, house context); Deutsche Bank-led US$120M round May 2026 - war chest that could fund MENA GTM; 'How crypto regulation changed in 2025' review Dec 2025 (thought-leadership presence incl. MENA).",
+      "sources": [
+        {"publisher": "Elliptic PR", "date": "2024-10-08", "via": "Google News RSS"},
+        {"publisher": "FintechNews CH", "date": "2026-05-15", "via": "Google News RSS"},
+        {"publisher": "Elliptic", "date": "2025-12-12", "via": "Google News RSS"}
+      ],
+      "confidence": "corroborated"
+    },
+    {
+      "claim": "TRM Labs: 'Global Crypto Policy Review Outlook 2025/26' (Dec 2025) and continuous Iran/sanctions MENA investigations (Shelbit $6.3bn, Aug 2026; A7 network, Oct 2026) = strong MENA-visibility but no announced UAE/SA government contract.",
+      "sources": [{"publisher": "TRM Labs", "date": "2025-12-03 / 2026-08-07 / 2026-10-01", "via": "Google News RSS"}],
+      "confidence": "corroborated"
+    },
+    {
+      "claim": "Chainalysis: data-citation presence in MENA (UAE $104.8B volume Oct 2026; Iran $3B illicit-activity report Mar 2026) and US-sanctions tracing work (Reuters: Dubai crypto exchange sanctioned for IRGC aiding, Aug 2026, 'following a Reuters report' - investigative-tracing adjacency). No signed MENA gov contract found. [UNVERIFIED] on any contract.",
+      "sources": [
+        {"publisher": "Reuters", "date": "2026-08-07", "via": "Google News RSS"},
+        {"publisher": "Yahoo Finance", "date": "2026-03-05", "via": "Google News RSS"}
+      ],
+      "confidence": "corroborated-adjacency"
+    }
+  ],
+  "gaps_for_next_wing": [
+    "VARA registered-service-provider / tooling register via proxy or browser (site blocked from this host)",
+    "SCA cumulative VA-licence count post-Bybit; Capital Market Authority transition impact (Cleary alert, Jan 2026)",
+    "Saudi: fetch CRS report INS/INS12580 (blocked) + CMA/SAMA statements directly",
+    "Turkey: confirm whether a 2025-26 digital-assets statute replaced the 2024 SPK licensing regime"
+  ]
+}

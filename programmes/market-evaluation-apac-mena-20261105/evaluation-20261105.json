@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "evaluation": "ChainSentry pre-market evaluation - APAC & MENA",
+    "generated": "2026-11-05T06:20:42Z",
+    "weights": {
+      "reg": 0.25,
+      "demand": 0.25,
+      "comp": 0.2,
+      "fit": 0.2,
+      "route": 0.05,
+      "effort": 0.05
+    },
+    "axis_legend": "reg=regulatory openness, demand=enforcement/hiring-driven urgency, comp=competitive density INVERSE (5=empty), fit=chain-coverage fit (TRX/stablecoin/remittance), route=warm-door availability, effort=ease of entry INVERSE (5=easy)",
+    "evidence_base": [
+      "wings/apac_sg.json",
+      "wings/apac_hk.json",
+      "wings/apac_au_kr.json",
+      "wings/apac_in.json",
+      "wings/apac_sea_cluster.json",
+      "wings/mena_refresh.json",
+      "roster/mea-roster.csv (29 rows)",
+      "japan cohort (harvey.db 71 companies)",
+      "chainharvest capability ledger (88,481 wallets, f442b4f)"
+    ],
+    "honesty": "scores derived from headline-level RSS evidence + live SFC page parse + SEC-adjacent sources; 52 explicit [UNVERIFIED] tags carried; MAS register count, ISMS-cert list, AUSTRAC register size remain open"
+  },
+  "scores": {
+    "SG": {
+      "reg": 4,
+      "demand": 4,
+      "comp": 1,
+      "fit": 3,
+      "route": 3,
+      "effort": 2,
+      "why": "37 licensed firms (Nov-25) + tightening DTSP rules + S$27.45m penalty cycle = live demand; BUT TRM owns the regulatory layer (CSA partnership, ex-MAS pipeline); 4 smaller competitors zero-signal; route warm via existing MAS-licensed KL adjacency",
+      "posture": "selective \u2014 displacement pitch only where TRM absent; entry via compliance hiring waves",
+      "composite": 3.05
+    },
+    "HK": {
+      "reg": 4,
+      "demand": 5,
+      "comp": 2,
+      "fit": 4,
+      "route": 4,
+      "effort": 3,
+      "why": "13 VATPs verified live + 2 stablecoin issuers + 25EC62 layering guidance + JPEX trial = hard demand; Elliptic-HashKey + Solidus-EX.IO placements prove budget; still BUYABLE \u2014 incumbents have beachheads not saturation; route: OSL/HashKey cap-table adjacency + $500M treasury",
+      "posture": "PRIMARY \u2014 twin-entry (VATP AML + stablecoin-issuer tracing)",
+      "composite": 3.8
+    },
+    "AU": {
+      "reg": 3,
+      "demand": 3,
+      "comp": 2,
+      "fit": 3,
+      "route": 2,
+      "effort": 3,
+      "why": "DACSP removal sweep (45 providers) + Framework Bill = tightening bar; TRM mindshare + AUSTRAC-Chainalysis incumbent; Chainalysis breach (31 Oct-2 Nov) = challenger window",
+      "posture": "opportunistic \u2014 ride the Chainalysis breach narrative; watch AUSTRAC renewal",
+      "composite": 2.75
+    },
+    "KR": {
+      "reg": 3,
+      "demand": 5,
+      "comp": 3,
+      "fit": 3,
+      "route": 2,
+      "effort": 4,
+      "why": "Record fines (Upbit \u20a935.2bn, Bithumb \u20a936.8bn) + travel rule ALL transactions (Aug-26) + only 28 VASPs = extreme enforcement-driven demand; hardest entry (ISMS cert, Korean-language, local integrator norm)",
+      "posture": "partner-entry \u2014 via local SI; do not enter direct",
+      "composite": 3.5
+    },
+    "IN": {
+      "reg": 4,
+      "demand": 5,
+      "comp": 2,
+      "fit": 4,
+      "route": 3,
+      "effort": 3,
+      "why": "49 FIU-registered exchanges + Oct-25 notices to 25 offshore + \u20b95,000cr ED probe + state LE tracing demand unmet by foreign vendors; PMLA Sec-13 regime is accessible; 30% tax suppresses retail but enforcement compensates",
+      "posture": "PRIMARY \u2014 LE/state-police cell first (I4C, cyber commandos), exchange second",
+      "composite": 3.75
+    },
+    "ID": {
+      "reg": 4,
+      "demand": 4,
+      "comp": 2,
+      "fit": 5,
+      "route": 3,
+      "effort": 3,
+      "why": "OJK regime live, 26-29 CASPs (flagged), Satgas PASTI enforcement + PPATK on-chain casework; TRM already selling to ID LE = contested but beatable; largest SEA investor base (23.48M)",
+      "posture": "PRIMARY \u2014 PPATK adjacency via MY corridor; TRX-corridor fit",
+      "composite": 3.7
+    },
+    "TH": {
+      "reg": 4,
+      "demand": 3,
+      "comp": 3,
+      "fit": 4,
+      "route": 2,
+      "effort": 3,
+      "why": "Hot cycle (travel rule + self-custody checks + $151K stablecoin cap); AMLO froze 10k accounts Mar-26; Bitget buying licensed TH exchange shows M&A churn; licensed-count unverified",
+      "posture": "watch \u2014 enter when AMLO procurement opens",
+      "composite": 3.4
+    },
+    "PH": {
+      "reg": 4,
+      "demand": 3,
+      "comp": 2,
+      "fit": 5,
+      "route": 3,
+      "effort": 2,
+      "why": "BSP freeze shaped market; Coins.ph enforcement + remittance scale; TRX-corridor heartland = ChainSentry coverage advantage (TRX verified); english-speaking procurement",
+      "posture": "PRIMARY \u2014 remittance-corridor AML pilot, BSP-adjacent",
+      "composite": 3.4
+    },
+    "VN": {
+      "reg": 2,
+      "demand": 3,
+      "comp": 1,
+      "fit": 4,
+      "route": 2,
+      "effort": 3,
+      "why": "No licence regime yet = greenfield pilot + FATF-grey pressure; zero incumbent presence; but procurement path immature \u2014 pilot-motion only",
+      "posture": "PILOT-MOTION \u2014 whitepaper to MoF/State Bank; seed now, harvest when law lands",
+      "composite": 2.5
+    },
+    "UAE": {
+      "reg": 5,
+      "demand": 4,
+      "comp": 3,
+      "fit": 4,
+      "route": 5,
+      "effort": 2,
+      "why": "VARA 50+ licences + SCA unified framework; 29-row warm roster with T1 doors; NO incumbent exclusivity (query-bounded negative); Elliptic $120M round = most fundable rival but not entrenched; effort LOW (DMCC, common-law zones)",
+      "posture": "PRIMARY \u2014 VARA approved-tooling question unanswered = open door; pitch the 29-row roster",
+      "composite": 4.0
+    },
+    "SA": {
+      "reg": 2,
+      "demand": 3,
+      "comp": 2,
+      "fit": 3,
+      "route": 2,
+      "effort": 4,
+      "why": "No licensing opening; banks still barred; +154% growth = future market only; enter on AE/BH references when CMA opens",
+      "posture": "WATCH \u2014 warm only, zero cost",
+      "composite": 2.55
+    },
+    "BH": {
+      "reg": 5,
+      "demand": 2,
+      "comp": 2,
+      "fit": 3,
+      "route": 4,
+      "effort": 2,
+      "why": "Oldest VA regime (2019), friendliest procurement, Rain as proven reference-giver \u2014 but smallest market; cost-of-entry trivially low",
+      "posture": "QUICK WIN \u2014 reference-building, not revenue",
+      "composite": 3.05
+    },
+    "TR": {
+      "reg": 3,
+      "demand": 4,
+      "comp": 2,
+      "fit": 3,
+      "route": 3,
+      "effort": 3,
+      "why": "MASAK freeze powers + 46 blocked platforms + registration live = enforcement demand; Paribu one-door lead (controlling-shareholder route); Effort moderate",
+      "posture": "SECONDARY \u2014 invite-format only per existing lead",
+      "composite": 3.05
+    },
+    "EG": {
+      "reg": 1,
+      "demand": 2,
+      "comp": 1,
+      "fit": 2,
+      "route": 1,
+      "effort": 4,
+      "why": "Prohibition stance unchanged; no regime; Morocco is the mover in North Africa instead",
+      "posture": "DROP \u2014 monitor only; park",
+      "composite": 1.6
+    }
+  },
+  "ranking": [
+    {
+      "j": "UAE",
+      "reg": 5,
+      "demand": 4,
+      "comp": 3,
+      "fit": 4,
+      "route": 5,
+      "effort": 2,
+      "composite": 4.0,
+      "posture": "PRIMARY \u2014 VARA approved-tooling question unanswered = open door; pitch the 29-row roster"
+    },
+    {
+      "j": "HK",
+      "reg": 4,
+      "demand": 5,
+      "comp": 2,
+      "fit": 4,
+      "route": 4,
+      "effort": 3,
+      "composite": 3.8,
+      "posture": "PRIMARY \u2014 twin-entry (VATP AML + stablecoin-issuer tracing)"
+    },
+    {
+      "j": "IN",
+      "reg": 4,
+      "demand": 5,
+      "comp": 2,
+      "fit": 4,
+      "route": 3,
+      "effort": 3,
+      "composite": 3.75,
+      "posture": "PRIMARY \u2014 LE/state-police cell first (I4C, cyber commandos), exchange second"
+    },
+    {
+      "j": "ID",
+      "reg": 4,
+      "demand": 4,
+      "comp": 2,
+      "fit": 5,
+      "route": 3,
+      "effort": 3,
+      "composite": 3.7,
+      "posture": "PRIMARY \u2014 PPATK adjacency via MY corridor; TRX-corridor fit"
+    },
+    {
+      "j": "KR",
+      "reg": 3,
+      "demand": 5,
+      "comp": 3,
+      "fit": 3,
+      "route": 2,
+      "effort": 4,
+      "composite": 3.5,
+      "posture": "partner-entry \u2014 via local SI; do not enter direct"
+    },
+    {
+      "j": "TH",
+      "reg": 4,
+      "demand": 3,
+      "comp": 3,
+      "fit": 4,
+      "route": 2,
+      "effort": 3,
+      "composite": 3.4,
+      "posture": "watch \u2014 enter when AMLO procurement opens"
+    },
+    {
+      "j": "PH",
+      "reg": 4,
+      "demand": 3,
+      "comp": 2,
+      "fit": 5,
+      "route": 3,
+      "effort": 2,
+      "composite": 3.4,
+      "posture": "PRIMARY \u2014 remittance-corridor AML pilot, BSP-adjacent"
+    },
+    {
+      "j": "SG",
+      "reg": 4,
+      "demand": 4,
+      "comp": 1,
+      "fit": 3,
+      "route": 3,
+      "effort": 2,
+      "composite": 3.05,
+      "posture": "selective \u2014 displacement pitch only where TRM absent; entry via compliance hiring waves"
+    },
+    {
+      "j": "BH",
+      "reg": 5,
+      "demand": 2,
+      "comp": 2,
+      "fit": 3,
+      "route": 4,
+      "effort": 2,
+      "composite": 3.05,
+      "posture": "QUICK WIN \u2014 reference-building, not revenue"
+    },
+    {
+      "j": "TR",
+      "reg": 3,
+      "demand": 4,
+      "comp": 2,
+      "fit": 3,
+      "route": 3,
+      "effort": 3,
+      "composite": 3.05,
+      "posture": "SECONDARY \u2014 invite-format only per existing lead"
+    },
+    {
+      "j": "AU",
+      "reg": 3,
+      "demand": 3,
+      "comp": 2,
+      "fit": 3,
+      "route": 2,
+      "effort": 3,
+      "composite": 2.75,
+      "posture": "opportunistic \u2014 ride the Chainalysis breach narrative; watch AUSTRAC renewal"
+    },
+    {
+      "j": "SA",
+      "reg": 2,
+      "demand": 3,
+      "comp": 2,
+      "fit": 3,
+      "route": 2,
+      "effort": 4,
+      "composite": 2.55,
+      "posture": "WATCH \u2014 warm only, zero cost"
+    },
+    {
+      "j": "VN",
+      "reg": 2,
+      "demand": 3,
+      "comp": 1,
+      "fit": 4,
+      "route": 2,
+      "effort": 3,
+      "composite": 2.5,
+      "posture": "PILOT-MOTION \u2014 whitepaper to MoF/State Bank; seed now, harvest when law lands"
+    },
+    {
+      "j": "EG",
+      "reg": 1,
+      "demand": 2,
+      "comp": 1,
+      "fit": 2,
+      "route": 1,
+      "effort": 4,
+      "composite": 1.6,
+      "posture": "DROP \u2014 monitor only; park"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "jurisdiction": "INDIA",
+  "as_of": "2026-11-05",
+  "task": "FIU-IND regime + blockchain-AML demand recon for ChainSentry APAC/MENA entry",
+  "note_on_dates": "Live environment date is Nov 2026; '2025-26 state' interpreted as FY2024-25/FY2025-26 enforcement cycle. All claims from real Google News RSS / live fetches; unverifiable items marked [UNVERIFIED].",
+  "REG-FACT": [
+    {
+      "claim": "FIU-IND registered 49 crypto exchanges (VDASPs) during FY 2024-25; total registered reporting entities under PMLA Section 13 / 2023 VDA amendment is at least 49 exchanges.",
+      "source_url": "https://bfsi.economictimes.indiatimes.com/news/49-crypto-currency-exchanges-registered-with-fiu-during-2024-25-fiscal-report/ (via Google News, ET BFSI)",
+      "source_date": "2026-01-05",
+      "quote_title": "49 crypto currency exchanges registered with FIU during 2024-25 fiscal: Report - Economic Times BFSI; corroborated: Times of India 2026-01-05 '49 crypto exchanges register with FIU in FY 2024-25'"
+    },
+    {
+      "claim": "Regime basis: VDA service providers brought under PMLA (Prevention of Money Laundering Act) reporting-entity obligations by MCA notification effective 01-03-2023; registration with FIU-IND via FiNGate portal mandatory; FIU publishes 'no permission/not registered' (blacklist) lists driving MeitY URL blocks.",
+      "source_url": "https://fiuindia.gov.in/ (live curl 2026-11-05: homepage reachable, VDASP registration circular pdf VDASP04072023.pdf linked; sub-pages e.g. /registered-entities/ blocked by site WAF 'Request Rejected')",
+      "source_date": "2026-11-05",
+      "corroborating": "Cyril Amarchand Mangaldas FIG Paper No. 33 (2024-01-25) 'Compulsory Registration of Off-shore VDASPs with FIU-IND'; FIG Paper No. 57 VDA Series 11 (2026-05-27) 'India Digital Assets Round-Up'"
+    },
+    {
+      "claim": "FIU-IND Annual Report 2024-25 published and analyzed by law firms (SAR/STR trend analysis for VDA sector) - primary PDF not fetched [UNVERIFIED exact STR counts].",
+      "source_url": "https://www.cyrilshroff.com FIG Paper No. 53 (VDA Series 8) via Google News",
+      "source_date": "2026-01-15"
+    }
+  ],
+  "ENFORCEMENT": [
+    {
+      "claim": "Binance: FIU-IND penalty Rs 18.82 crore (~US$2.25M) June 2024 for PMLA violations; de-registered/blocked; re-registered Aug 2024 after paying.",
+      "source_url": "https://www.reuters.com (Google News 'India financial watchdog imposes $2.25 million penalty on Binance')",
+      "source_date": "2024-06-19; re-registration 2024-08-15 (Economic Times, CoinDesk)"
+    },
+    {
+      "claim": "Bybit: FIU-IND show-cause + ~US$1M fine, website blocked Feb 2025; re-registered and resumed full India access Sep 2025 (CAM advised Bybit Technology Ltd on FIU-IND VDASP registration).",
+      "source_url": "Google News: Binance Square news 2025-02-06 'India Strikes Crypto Exchange Bybit: Major Fine Issued, Website Blocked'; CoinDesk 2025-09-08 'Bybit Back in Business in India'; SCC Online 2025-09-11"
+    },
+    {
+      "claim": "Oct 2025: FIU-IND served notices on 25 offshore crypto platforms for PMLA violations (incl. Huione, CEX.IO, BingX), recommending MeitY URL takedown; Coinbase briefly suspended then resumed India service days later.",
+      "source_url": "https://www.medianama.com/2025/10/223-fiu-ind-notices-25-offshore-crypto-platforms-pmla/ (Google News 2025-10-03); Economic Times 2025-10-01 '25 offshore crypto exchanges face govt action'; Inc42 2025-10-02"
+    },
+    {
+      "claim": "Sep 2026: FIU-IND flagged 15 crypto platforms for AML non-compliance and sought takedowns (registered entities flagged for deficiencies, distinct from the 25 unregistered offshore).",
+      "source_url": "CoinDesk 2026-09-09 'India's financial intelligence unit flags 15 crypto platforms for AML lapses'; The Block 2026-09-09; YourStory 2026-09-09"
+    },
+    {
+      "claim": "ED (Enforcement Directorate) crypto enforcement wave FY2026: Rs 5,000-crore FEMA investigation scrutinising Mudrex, Saber.Money, InstaDApp, Fluid (Oct-Nov 2026); 17 premises searched Chennai Sep 2026; Rs 300-crore Bengaluru influencer scam Jul 2026; Rs 500-crore 'Korvio Coin' raids Jun 2026; Rs 303-crore syndicate with crypto trail to Dubai Jul 2026; Live Law frames 'Regulatory Vacuum: India's Rs 2,500 Crore Problem' Jul 2026.",
+      "source_url": "MediaNama 2026-11-03 'ED alleges FEMA contraventions involving cryptocurrency payments'; Inventiva 2026-10-30; New Indian Express 2026-09-05; Times of India 2026-07-22; The Week 2026-07-13; Live Law 2026-07-07 (all via Google News RSS)"
+    },
+    {
+      "claim": "RBI posture July 2026: central bank report revived push to isolate banks from crypto / open to prohibition - structural headwind but reinforces PMLA-channel-only compliance demand.",
+      "source_url": "TradingView 2026-07-03 'India's central bank revives push to isolate banks from crypto'; CoinDesk 2026-07-08 (Reuters)",
+      "source_date": "2026-07-03"
+    }
+  ],
+  "DEMAND-SIGNAL": [
+    {
+      "claim": "Compliance workload drivers: FY24-25 49 registered exchanges must file STRs to FIU, run Travel-Rule-grade monitoring; Budget 2025 tightened crypto reporting norms (new compliance rules effective April 2026); Budget 2026 gave NO relief on 30% tax / 1% TDS s.194S (expert hopes for reduction unfulfilled).",
+      "source_url": "ET BFSI 2025-02-01 'Budget 2025: Govt tightens crypto reporting norms, new compliance rules from April 2026'; Moneycontrol 2026-02-01 'No incentives for crypto in Budget 2026'; Economic Times 2026-01-30 'Will 30% tax see a reduction in Budget 2026?'"
+    },
+    {
+      "claim": "TDS/tax market context: 1% TDS on VDA transfers + 30% flat tax persisted through Budget 2026; new TDS/TCS rule changes effective 2025-04-01; heavy tax compliance correlates with FIU reporting burden on same entities.",
+      "source_url": "Livemint 2025-03-30 'New TDS, TCS rules 2025'; CAclubindia 2026-03-14 'India Crypto Tax: Post-Budget 2026 Law Explained'; CoinDCX 2026-09-22 tax guide"
+    },
+    {
+      "claim": "Law-enforcement demand: Delhi Police Cyber Command operating at scale on crypto frauds (The Hindu Oct 2026); CBI nationwide digital-arrest crackdown across 20 states (Sep 2026); Gujarat CID bust of Rs 250-crore network (Jul 2026); Meghalaya Rs 45-crore global crypto scam FIR (May 2026); I4C (MHA) issued Trust Wallet crypto-scam advisory (Apr 2026) and is being wired directly into banks (PNB real-time NCRP integration, Mar 2025).",
+      "source_url": "The Hindu 2026-10-21; Digital Watch 2026-09-08; New Indian Express 2026-07-11; Shillong Times 2026-05-10; The420.in 2026-04-27; Economic Times 2025-03-17; TheTechPanda 2025-01-29"
+    },
+    {
+      "claim": "Exchange-side demand: Mudrex resumed withdrawals only after 'compliance upgrade' (Jan 2025); CoinDCX FIU-registered since Mar 2023; ET/Analytics Insight 2026 lists show a stable universe of ~10-11 FIU-compliant domestic exchanges (CoinDCX, CoinSwitch, ZebPay, Mudrex, SunCrypto...) = finite, addressable buyer set.",
+      "source_url": "YourStory 2025-01-28; Business Today 2023-03-20; Economic Times 2026-01-21 '2026 list of FIU registered crypto exchange in India'; Analytics Insight 2026-05-15"
+    },
+    {
+      "claim": "Chainalysis India 2026 data point: local exchanges capture just 0.7% of crypto inflows (CryptoSlate, Oct 2026) - most volume is offshore/P2P, i.e., enforcement/tracing demand sits with FIU/ED/police rather than the 49 registered entities alone.",
+      "source_url": "CryptoSlate 2026-10-04 via Google News"
+    },
+    {
+      "signal_rating": "Volume driver ranking: (1) FIU STR/thematic-report obligations on 49 VASPs, (2) ED/FEMA crypto cases needing chain tracing, (3) state-police + I4C fraud-proceeds tracing, (4) offshore-platform takedown support."
+    }
+  ],
+  "COMPETITOR-PRESENCE": [
+    {
+      "vendor": "Chainalysis",
+      "presence": "Strong brand/reports in India (Global Adoption Index: India #1 two years running; Q1-2026 India inflows coverage) but NO verified India government/police contract found in 2025-26 news [UNVERIFIED - none surfaced]. Note: Chainalysis disclosed an agentic-AI cyberattack exposing customer names/emails (Oct 2026) - reputational angle usable in India procurement pitches.",
+      "source_url": "The Block 2025-09-04; CryptoSlate 2026-10-04; BitKE/NewsCord 2026-10-31"
+    },
+    {
+      "vendor": "Elliptic",
+      "presence": "APAC police capacity-building on crypto scam compounds reported Jul 2026 (CFOtech Asia - regional training, SE-Asia scam-centre focus; India-specific contract NOT evidenced [UNVERIFIED]). No India govt contract surfaced in 2025-26 news.",
+      "source_url": "CFOtech Asia 2026-07-20 via Google News"
+    },
+    {
+      "vendor": "TRM Labs",
+      "presence": "High mindshare via analytics citations in Indian media (NDTV/Firstpost/ET citing TRM on the Oct-2026 $6.3B Binance-North Korea attribution) and India-relevant reports (2026 Crypto Crime Report, Dec 2025 Global Crypto Policy Review). No India contract surfaced [UNVERIFIED].",
+      "source_url": "NDTV 2026-10-30; Firstpost 2026-10-30; TRM reports via Google News 2025-12-03 / 2026-01-28"
+    },
+    {
+      "gap_observation": "No Western vendor appears embedded in Indian state-police / I4C / ED workflows in public record 2025-26. Local demand is being met ad hoc (police 'cyber commandos', Costel/Forensics Laboratory Ltd [UNVERIFIED - not in this sweep's sources]). Open niche: affordable chain-tracing tooling for Indian cyber cells + FIU thematic reporting - price-sensitive market given 0.7%-inflow-domestic stat.",
+      "source_url": "The Hindu 2026-10-21 (in-house capability)"
+    }
+  ],
+  "chain_sentry_fit_notes": [
+    "Bull: 49 FIU-registered VASPs with statutory STR duties + takedown pipeline (25 + 15 offshore platforms flagged 2025-26) + ED crypto-FEMA wave = recurring monitoring/tracing spend; ChainSentry's 88k-wallet intel + chain tracing + OFAC validator maps to FIU sanctions-screening and ED Dubai/Huione-linked tracing needs.",
+    "Bear: RBI openly favouring bank isolation/prohibition (Jul 2026) caps exchange growth; 0.7% domestic inflow share means registered-VASP TAM is small; govt procurement path (state police, MHA/I4C) favours local vendors/empanelment; 30% tax + 1% TDS suppressing volumes.",
+    "Entry wedges: (1) offshore-exchange screening SaaS for the 49 registered exchanges (Travel-Rule/STR workflow), (2) state-police cyber-cell tracing pilots, (3) FIU-adjacent consultancies (CAM FIG-paper ecosystem: Cyril Amarchand, Grant Thornton) as channel."
+  ],
+  "gaps_unverified": [
+    "Exact FIU registered-entity grand total incl. non-VDA reporting entities (fiuindia.gov.in sub-pages WAF-blocked; homepage reachable).",
+    "FIU-IND Annual Report 2024-25 STR counts (PDF not fetched).",
+    "Any Chainalysis/Elliptic/TRM paid India deployments (absence of news != absence of contract).",
+    "Named compliance job postings at CoinDCX/CoinSwitch/ZebPay/Mudrex (RSS returned listicles, not job boards; would need LinkedIn/Naukri scrape).",
+    "2026 Budget final TDS changes (coverage says no change; post-Budget-2026 explainer not read in full)."
+  ]
+}

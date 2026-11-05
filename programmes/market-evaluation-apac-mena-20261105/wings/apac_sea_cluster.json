@@ -1,0 +1,228 @@
+{
+  "cluster": "APAC_SEA",
+  "jurisdictions": ["ID", "TH", "PH", "VN"],
+  "generated": "2026-11-05",
+  "method": "Google News RSS per country (hl/gl params) x3 programmatic sweeps; direct curls mostly JS-shell failures (logged); Wikipedia baseline no-match. All claims carry source+date from RSS item metadata. Counts not confirmable from headlines are marked [UNVERIFIED].",
+  "fit_hypothesis_check": "TRX-corridor thesis: partially corroborated in PH (TRC-20 settlement-layer coverage, USDT-TRC20 on local exchange GCrypto) and regionally (TRON USDT dominance); no direct PH/VN/ID remittance-corridor TRX flow dataset found in this sweep.",
+
+  "indonesia": {
+    "reg_facts": [
+      {
+        "claim": "OJK formally absorbed crypto-asset oversight from Bappebti effective Jan 2025 under POJK 27/2024 transition; OJK-Bappebti announced the handover completed (transition phase closed) by late 2026.",
+        "source": "https://pasardana.id (via Google News RSS) 'Babak Baru Regulasi Kripto: OJK Resmi Ambil Alih Pengawasan dari Bappebti' + https://news.tokocrypto.com 'OJK dan Bappebti Tuntaskan Peralihan Pengawasan Aset Kripto'",
+        "date": "2025-03-04 (Hukumonline framework note), 2026-01-20 (Pasardana), 2026-10-25 (TokoNews completion)",
+        "confidence": "high"
+      },
+      {
+        "claim": "Licensed CASP (PAKD/WAEX) count under OJK: CoinGeek reports 29 licensed crypto exchanges (Jan 2026); Indonesian trackers list 26 officially OJK-licensed exchanges by Jun 2026 (list drifted as Luno registered and consolidation occurred). Treat as 26-29 active licensed CASPs.",
+        "source": "https://coingeek.com/indonesia-lists-29-licensed-crypto-exchanges/ (RSS 2026-01-12) + https://digivestasi.id 'Daftar 26 Exchange Kripto Resmi Berizin OJK' (RSS 2026-06-09) + https://investortrust.id '...26 PAKD Terbaru' (RSS 2026-06-05)",
+        "date": "2026-01-12 / 2026-06-05 / 2026-06-09",
+        "confidence": "medium (26 vs 29 discrepancy unresolved — reconcile against OJK official PAKD registry)"
+      },
+      {
+        "claim": "Enforcement of unlicensed trading: Satgas PASTI shut down 228 illegal digital financial-asset traders (plus 27 illegal private pawnshops) in one June 2026 action wave.",
+        "source": "https://www.ojk.go.id 'Satgas PASTI Hentikan 27 Gadai Swasta Ilegal dan 228 Pedagang Aset Keuangan Digital Ilegal'",
+        "date": "2026-06-22",
+        "confidence": "high (regulator's own site)"
+      },
+      {
+        "claim": "AML duties: PPATK (FIU) runs crypto typology work — published a public-private 'Operational Alert' on crypto-asset misuse and jointly conducted on-chain asset tracing with East Java Regional Police on a crypto trading-scam case.",
+        "source": "https://www.ppatk.go.id (RSS items: 'PPATK Perkuat Kemitraan Publik–Privat ... Operational Alert Penyalahgunaan Aset Kripto' 2025-11-13; 'PPATK dan Polda Jawa Timur Perkuat Penelusuran Aset Kasus Scam Trading Kripto' 2026-09-25)",
+        "date": "2025-11-13 / 2026-09-25",
+        "confidence": "high"
+      }
+    ],
+    "demand_signals": [
+      {
+        "claim": "Market scale: 23.48 million crypto investors, Rp 30.5T (~USD 1.9B) monthly transaction value, two consecutive months of growth per OJK-cited data.",
+        "source": "https://www.cnbcindonesia.com 'Aset Kripto Masih Menarik, Investor 23,48 Juta, Transaksi Rp 30,5 T' (RSS)",
+        "date": "2026-11-03",
+        "confidence": "high"
+      },
+      {
+        "claim": "FIU is actively doing blockchain tracing casework with police (PPATK-Polda tracing item above) — direct buyer-persona signal for a forensics/chain-tracing tool.",
+        "source": "https://www.ppatk.go.id",
+        "date": "2026-09-25",
+        "confidence": "high"
+      }
+    ],
+    "competitor_presence": [
+      {
+        "claim": "TRM Labs markets an Indonesia law-enforcement win (on-chain intelligence supporting terrorism-financing convictions) — evidence incumbents are already selling into ID FIU/police.",
+        "source": "https://www.trmlabs.com 'How Indonesian Law Enforcement Used On-chain Intelligence to Secure Convictions for Terrorism Financing'",
+        "date": "2026-04-05",
+        "confidence": "high"
+      },
+      {
+        "claim": "Exchange consolidation among licensed players: OSL Indonesia left CFX exchange to join ICEx Group.",
+        "source": "https://kontan.co.id 'OSL Indonesia Resmi Meninggalkan CFX dan Bergabung ke ICEx Group' (RSS)",
+        "date": "2026-05-13",
+        "confidence": "medium"
+      }
+    ]
+  },
+
+  "thailand": {
+    "reg_facts": [
+      {
+        "claim": "SEC TH is tightening VA-operator AML rules: proposed Travel Rule implementation requiring 5-year transfer-record retention plus verification of self-custody wallets.",
+        "source": "https://crypto.news 'Thailand SEC plans Travel Rule requiring five-year crypto transfer records' + https://www.bangkokpost.com 'Thailand tightening digital asset transfer rules' + https://www.nationthailand.com (Travel Rule, 2026-03-15)",
+        "date": "2026-03-15 / 2026-09-02 / 2026-09-03",
+        "confidence": "high"
+      },
+      {
+        "claim": "SEC proposed a ~USD 151K cap on stablecoin transfers (outbound capital-control style guardrail).",
+        "source": "https://crypto.news 'Thailand SEC proposes $151K stablecoin transfer cap'",
+        "date": "2026-09-13",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Crypto-tourism play is LIVE: crypto-to-baht conversion scheme for foreign tourists launched (licensed EATs + local banks), announced Aug 2025 — an emerging regulated flow needing source-of-funds/AML screening.",
+        "source": "https://www.reuters.com 'Thailand to launch crypto-to-baht conversion for foreign tourists' + https://www.nationthailand.com + https://research.hktdc.com 'THAILAND: Crypto-to-Baht Conversion Scheme Launched'",
+        "date": "2025-08-16 / 2025-08-19 / 2025-10-10",
+        "confidence": "high"
+      },
+      {
+        "claim": "2026 product-market widening: crypto capital-gains tax waiver on licensed platforms; SEC approved spot BTC/ETH ETFs on SET; digital-asset derivatives rules consultation open.",
+        "source": "https://finance.yahoo.com (2026-08-09) + https://www.coindesk.com (2026-10-09) + Thailand Business News (2026-11-01), via RSS",
+        "date": "2026-08-09 / 2026-10-09 / 2026-11-01",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Exact count of licensed VA operators (historically ~36 digital asset exchanges/brokers) as of 2026: [UNVERIFIED]. Signal of churn: Bitget acquired a licensed Thai exchange from Japan's GMO Internet (inorganic entry).",
+        "source": "https://thedefiant.io 'Bitget to Buy Licensed Thai Exchange From Japan's GMO Internet'",
+        "date": "2026-10-20",
+        "confidence": "count UNVERIFIED; acquisition medium"
+      }
+    ],
+    "demand_signals": [
+      {
+        "claim": "AMLO/authorities froze 10,000+ bank/crypto accounts in a major money-laundering crackdown (Mar 2026); SEC running laundering probes of listed firms; Binance-hack fallout triggered extra Thai regulator scrutiny — enforcement appetite is high.",
+        "source": "https://www.binance.com (RSS 2026-03-10) + https://www.bangkokpost.com 'SEC steps up laundering probe of listed firms' (2025-12-05) + https://www.bangkokpost.com 'Binance hack prompts Thai scrutiny' (2026-10-30)",
+        "date": "2025-12-05 / 2026-03-10 / 2026-10-30",
+        "confidence": "medium-high"
+      },
+      {
+        "claim": "Thailand is a hub jurisdiction for SEA scam-center proceeds flows (Interpol Operation First Light: 5,800 arrests / USD 293M; Meta-Royal Thai Police removed 1.4m scam accounts) — sustained demand for wallet attribution/tracing.",
+        "source": "https://www.bbc.com (2026-07-09) + https://www.asianewsnetwork.com (2026-06-05), via RSS",
+        "date": "2026-06-05 / 2026-07-09",
+        "confidence": "medium"
+      }
+    ],
+    "competitor_presence": [
+      {
+        "claim": "No TH-specific Chainalysis/Elliptic/TRM deal surfaced in this sweep [none found in corpus]. Regional incumbent presence via TRM policy reports and global scam-crackdown participation.",
+        "source": "https://www.trmlabs.com 'Global Crypto Policy Review Outlook 2025/26'",
+        "date": "2025-12-03",
+        "confidence": "low (absence-of-evidence only)"
+      }
+    ]
+  },
+
+  "philippines": {
+    "reg_facts": [
+      {
+        "claim": "BSP licensing FREEZE still in effect at least through Aug-Sep 2025: BSP extended its ban on NEW CASP/VASP license applications (moratorium imposed 2022). Whether the freeze formally continues into late 2026 was not confirmed in this sweep — treat as still-binding absent a rescission notice. Exact licensed-CASP count: [UNVERIFIED] (known licensees incl. Coins.ph/DCPay, UnionBank as first VASP-licensed bank, PayMaya).",
+        "source": "https://coingeek.com/bsp-extends-ban-on-new-crypto-licenses-in-philippines/ + https://bitpinas.com 'BSP Extends Ban on New Crypto Exchange VASP License Applications' + https://adobochronicles.com (UnionBank 1st VASP bank)",
+        "date": "2025-08-29 / 2025-09-02 (freeze extension); 2023-09-20 (UnionBank)",
+        "confidence": "high for 2025 extension; freeze status as of Nov 2026 UNVERIFIED"
+      },
+      {
+        "claim": "Regulatory reshuffle in motion: BSP told outlets crypto-to-crypto trading 'fits naturally' under SEC and plans VASP rule amendments — supervision of trading may migrate BSP->SEC, echoing Indonesia's consolidation pattern.",
+        "source": "https://bitpinas.com '[Exclusive] BSP: Crypto-to-Crypto Trading Fits Naturally Under SEC; VASP Rule Amendments Planned'",
+        "date": "2026-07-10",
+        "confidence": "high"
+      },
+      {
+        "claim": "Stricter listing rules with privacy-coin ban issued (Jun 2026).",
+        "source": "https://decrypt.co 'Philippines Issues Stricter Crypto Listing Rules, Bans Privacy Coins'",
+        "date": "2026-06-15",
+        "confidence": "high"
+      },
+      {
+        "claim": "Live AML enforcement against a licensed VASP: BSP blocked Coins.ph/DCPay from bank & e-wallet cash-ins (Sep 30-Oct 2 2026) citing BSP Resolution No. 839; Coins.ph says license intact while contesting. Largest AML action against a PH crypto firm to date.",
+        "source": "https://business.inquirer.net + https://mb.com.ph (Manila Bulletin) + https://fintechnews.ph 'BSP Blocks Inbound Transfers to DCPay' + https://tech-insider.org 'Coins.ph Risks License as BSP Cites Resolution 839 [2026]'",
+        "date": "2026-09-30 / 2026-10-01 / 2026-10-02 / 2026-10-14",
+        "confidence": "high"
+      }
+    ],
+    "demand_signals": [
+      {
+        "claim": "BSP signed data-sharing pacts with NBI, CICC (cybercrime office) and SEC to strengthen anti-scam enforcement; local fintechs shipping BSP anti-fraud-rule products (SwiftGuard) — compliance spend is being mandated, not optional.",
+        "source": "https://bitpinas.com 'BSP Signs Data-Sharing Deals with NBI, CICC, SEC' (2026-02-25) + 'SwiftPay Launches SwiftGuard to Help Banks Meet BSP Anti-Fraud Rules' (2026-07-23)",
+        "date": "2026-02-25 / 2026-07-23",
+        "confidence": "medium-high"
+      },
+      {
+        "claim": "TRX-usage evidence for PH corridor: USDT on TRON (TRC-20) offered by local licensed venue GCrypto since Jan 2024; TRC-20 covered as preferred settlement layer for instant payments in payments trade press; TRON added to Polygon Open Money Stack USDT payouts (Oct 2026). Direct PH remittance-volume-on-TRON dataset: [UNVERIFIED] — need Chainalysis/TRM corridor data, not available keyless here.",
+        "source": "https://bitpinas.com 'USDT on Tron Network Now Available at GCrypto' + https://paymentsindustryintelligence.com 'How TRC-20 Became the Preferred Settlement Layer for Instant Payments' + https://polygon.technology (2026-10-08)",
+        "date": "2024-01-04 / 2026-07-15 / 2026-10-08",
+        "confidence": "medium (directional support for TRX fit; no corridor-specific volume)"
+      }
+    ],
+    "competitor_presence": [
+      {
+        "claim": "Binance PH comeback plan (BlockShoals partnership, SEC-BSP dual structure) signalled via whitepaper — incumbent exchange re-entry will bring incumbent compliance stack pressure; no TRM/Chainalysis PH deal surfaced [none found].",
+        "source": "https://bitpinas.com 'Inside Binance PH Comeback Plan... BlockShoals Partnership'",
+        "date": "2026-06-19",
+        "confidence": "medium"
+      }
+    ]
+  },
+
+  "vietnam": {
+    "reg_facts": [
+      {
+        "claim": "The no-licence reality ENDED: Digital Technology Industry Law regulates digital assets from 1 Jan 2026 (first statutory framework); crypto-exchange licensing pilot formally opened Jan 2026; OKX accepted into pilot; SCEX passed initial licence review; first licensed exchange(s) targeted to launch during 2026 (still awaiting operational completion as of late Oct 2026).",
+        "source": "https://www.wfw.com 'Landmark Legislation Regulates Digital Assets in Vietnam' (2026-01-27) + https://theinvestor.vn 'Vietnam officially pilots crypto asset licensing' (2026-01-21) + https://vietnamnews.vn 'SCEX passes initial review' (2026-05-12) + https://theinvestor.vn 'OKX to join Vietnam pilot' (2026-04-10) + https://vir.com.vn 'Digital asset exchange awaits completion of operational requirements' (2026-10-21)",
+        "date": "2026-01-21 through 2026-10-21",
+        "confidence": "high"
+      },
+      {
+        "claim": "Coercive leg: from 1 Sep 2026, fines up to USD ~1,900 for trading on unlicensed platforms — i.e. H2-2026 is the enforcement on-ramp while licensed supply is not yet live.",
+        "source": "https://en.vietnamplus.vn 'Vietnam fines crypto traders up to 1,900 USD for using unlicensed platforms' + https://vietnamnet.vn 'Vietnam tightens crypto trading rules from September 1'",
+        "date": "2026-07-19 / 2026-07-27",
+        "confidence": "high"
+      },
+      {
+        "claim": "Pilot is explicitly linked to Vietnam's FATF grey-list exit — AML/CFT tooling for the new exchange regime is a state priority, not optional.",
+        "source": "https://cryptonews.net 'Vietnam Advances Crypto Exchange Pilot as It Seeks FATF Watchlist Exit'",
+        "date": "2026-08-19",
+        "confidence": "medium"
+      }
+    ],
+    "demand_signals": [
+      {
+        "claim": "Usage scale: Vietnam ranked #4 globally in Chainalysis 2025 Global Crypto Adoption Index (per Vietnam Economic Times coverage). Major banks preparing market entry for the licensed exchange pilot.",
+        "source": "https://en.vneconomy.vn 'Vietnam ranks fourth globally in crypto adoption' (2025-09-04) + https://finance.yahoo.com 'Vietnam Opens Crypto Exchange Licensing as Major Banks Prepare Market Entry' (2026-01-21)",
+        "date": "2025-09-04 / 2026-01-21",
+        "confidence": "medium-high (index rank via secondary coverage; primary Chainalysis report not fetched)"
+      },
+      {
+        "claim": "TRX-corridor evidence for VN: none found beyond generic USDT/Dong-market commentary [UNVERIFIED].",
+        "source": "https://cryptodaily.co.uk (2026-07-08, generic)",
+        "date": "2026-07-08",
+        "confidence": "low"
+      }
+    ],
+    "competitor_presence": [
+      {
+        "claim": "No VN-specific forensics-vendor deal surfaced [none found in corpus]; greenfield licensing wave (banks + OKX/SCEX in pilot) implies imminent AML-tooling procurement with incumbents not yet visibly entrenched.",
+        "source": "absence-of-evidence in this sweep; pilot context from sources above",
+        "date": "2026-11-05",
+        "confidence": "low"
+      }
+    ]
+  },
+
+  "cross_cluster_notes": {
+    "apac_demand": "Chainalysis 2025 index: India #1, APAC fastest-growing (https://www.theblock.co, 2025-09-04) — regional tailwind for all four markets.",
+    "key_open_items": [
+      "PH: confirm whether BSP CASP freeze was rescinded or extended again in H2-2026; exact licensed-CASP count.",
+      "ID: reconcile 26 vs 29 licensed CASP count against OJK PAKD registry (ojk.go.id, JS-gated).",
+      "TH: current licensed VA-operator count post Bitget/GMO deal.",
+      "VN: which entity gets first operative licence; AML vendor selection in pilot.",
+      "TRX corridor volumes PH/VN/ID: requires paid Chainalysis/TRM corridor data — flagged, not obtainable keyless."
+    ]
+  }
+}

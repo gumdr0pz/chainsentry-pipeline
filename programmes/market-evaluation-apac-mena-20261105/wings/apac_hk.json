@@ -1,0 +1,198 @@
+{
+  "jurisdiction": "Hong Kong",
+  "compiled_utc": "2026-11-05",
+  "method_note": "Google News RSS (HK locale), direct SFC/HKMA site fetches, DuckDuckGo HTML fallback (serpapi returned empty). SFC licensed-VATP table parsed programmatically from live sfc.hk page. No fabrication; [UNVERIFIED] where corroboration was thin.",
+  "REG-FACT": [
+    {
+      "claim": "SFC licensed VATP list currently contains 13 platforms (parsed live from SFC page): OSL Exchange (15/12/2020), HashKey/Hash Blockchain (09/11/2022), HKVAX (03/10/2024), HKbitEX (18/12/2024), Accumulus (18/12/2024), DFX Labs (18/12/2024), EX.IO (18/12/2024), PantherTrade (27/01/2025), YAX (27/01/2025), Bullish (18/02/2025), BGE (17/06/2025), VDX (13/02/2026), Bixin.com (18/05/2026).",
+      "source_url": "https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms",
+      "date": "fetched 2026-11-05 (licence dates to 18/05/2026)",
+      "confidence": "verified (direct parse of SFC page)"
+    },
+    {
+      "claim": "SFC maintains parallel lists: licensed VATPs, VATP applicants, removed applicants, closing-down VATPs, and deemed-licensed VATPs (deemed-licensed category expires with 1 June 2024 transition tail); plus a suspicious-VATP alert list.",
+      "source_url": "https://apps.sfc.hk/edistributionWeb/api/news/list-content?refNo=23PR113&lang=EN",
+      "date": "2023-09-29 (structure), page re-fetched 2026-11-05",
+      "confidence": "verified"
+    },
+    {
+      "claim": "Stablecoins Ordinance (Cap. 656) took effect 1 Aug 2025 after Legislative Council passage in May 2025; HKMA operates the licensing register under s.15/s.21.",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTEJ6R3dR... (CNBC 'Hong Kong passes stablecoin bill') https://www.hkma.gov.hk/eng/regulatory-resources/registers/register-of-licensed-stablecoin-issuers/",
+      "date": "passage 2025-05-22 (CNBC via RSS); effective date 2025-08-01 corroborated by Elliptic explainer [effective-date: secondary source, treat as high-confidence-but-secondary]",
+      "confidence": "verified (register page live; passage date via CNBC RSS)"
+    },
+    {
+      "claim": "First stablecoin issuer licences granted 10 Apr 2026 to Anchorpoint Financial Limited (Standard Chartered JV with Hong Kong Telecommunications and Animoca Brands) and The Hongkong and Shanghai Banking Corporation Limited; licences effective same day. Total licensed issuers to date: 2.",
+      "source_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026-04-20260410-4/ ; https://www.reuters.com/business/finance/hong-kong-grants-first-stablecoin-licences-stanchart-joint-venture-hsbc-2026-04-10/",
+      "date": "2026-04-10",
+      "confidence": "verified (HKMA press release + Reuters)"
+    },
+    {
+      "claim": "HSBC launched 'RedCoin' stablecoin for retail payments to ~3.3M PayMe users — first licensed-issuer product live in market.",
+      "source_url": "Google News RSS: Payments Industry Intelligence + Crypto Reporter items (links are news.google.com redirects)",
+      "date": "2026-10-29/30",
+      "confidence": "moderate (two outlets via RSS; primary issuer page not fetched)"
+    },
+    {
+      "claim": "HKMA/SFC ASPIRe roadmap (unveiled Feb 2025) continued through 2025-26: staking-services guidance for VATPs/banks/VA funds (May-Oct 2025), relaxation of liquidity requirements + product diversity (Nov 2025), VA dealing & custodian licensing consultation (Jul 2025), VA dealer licensing finalised + advisors/managers consultation (Jan 2026), retail-access easing + tokenisation pilot announced Nov 2025, further digital-asset market initiatives Feb 2026.",
+      "source_url": "https://www.sfc.hk (ASPIRe piece, RSS 2025-09-23); Herbert Smith Freehills Kramer 2025-05-07 & 2025-11-17; Gibson Dunn 2025-11-11; Global Regulation Tomorrow 2025-02-26 & 2025-07-02; Charles Russell Speechlys 2025-10-05 & 2026-01-14; Reuters 2025-11-02; Fund Selector Asia 2026-02-12 (all via Google News RSS HK feed)",
+      "date": "2025-02 to 2026-02",
+      "confidence": "verified (multiple law-firm/regulator corroborations)"
+    },
+    {
+      "claim": "AML/CFT rulebook for VA providers: SFC 'Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Licensed Corporations and SFC-licensed Virtual Asset Service Providers)' applies to VATPs under AMLO Part 5B; 2025-26 evolution came via circulars rather than a full guideline rewrite.",
+      "source_url": "https://www.sfc.hk/en/Rules-and-standards/Anti-money-laundering-and-counter-financing-of-terrorism",
+      "date": "live page (2026)",
+      "confidence": "verified"
+    },
+    {
+      "claim": "SFC AML circular 25EC62 (issued ~17 Nov 2025) to Licensed Corporations / SFC-licensed VASPs on detection and prevention of potential LAYERING activities — flags illicit actors exploiting licensed corporations and VATPs for ML layering.",
+      "source_url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/aml/doc?refNo=25EC62 (via DuckDuckGo snippet; summary at timothyloh.com)",
+      "date": "2025-11-17",
+      "confidence": "high (SFC ref number visible; full text not fetched)"
+    },
+    {
+      "claim": "SFC + HKMA joint staking guidance (May 2025) and SFC circular allowing intermediaries to provide VA staking and VA funds in-kind subscriptions (Oct 2025) — expands regulated VA activity footprint needing transaction monitoring.",
+      "source_url": "Herbert Smith Freehills Kramer via Google News RSS 2025-05-07; Charles Russell Speechlys via RSS 2025-10-05",
+      "date": "2025-05-07 / 2025-10-05",
+      "confidence": "verified (secondary, corroborated)"
+    }
+  ],
+  "DEMAND-SIGNAL": [
+    {
+      "claim": "Elliptic announced HashKey Exchange scaling on Elliptic's VASP compliance infrastructure — direct proof licensed VATPs buy third-party chain-forensics from incumbents.",
+      "source_url": "https://www.elliptic.co/insights/ (item 'HashKey Scales with Elliptic's VASP Compliance Infrastructure', via Google News RSS)",
+      "date": "2026-07-30",
+      "confidence": "high (vendor-published case study)"
+    },
+    {
+      "claim": "HashKey Group IPO'd on HKEX (Dec 2025, ~US$214M raise, flat debut) and launched a $500M digital treasury fund (Sep 2025); Deutsche Bank expanded its fiat deposit channels (Feb 2025) — well-capitalised, expanding licensed VATP with growing compliance surface.",
+      "source_url": "Reuters 2025-12-16; SCMP 2025-12-09/2025-12-17/2025-12-01; Reuters 2025-09-08; Deutsche Bank press 2025-02-20 (Google News RSS)",
+      "date": "2025-02 to 2025-12",
+      "confidence": "verified"
+    },
+    {
+      "claim": "OSL Group raised US$300M equity (Jul 2025) for global expansion, acquired Koinsayang (Singapore, Sep 2025), launched regulated stablecoin-infrastructure products (Jul 2025), and partnered MetaComp on HK-SG stablecoin cross-border payments (Sep 2025).",
+      "source_url": "Reuters 2025-07-24; Bloomberg 2025-07-24; AsiaTechDaily 2025-09-25; Plataforma Media 2025-07-31; Fintech Singapore 2025-09-08 (Google News RSS)",
+      "date": "2025-07 to 2025-09",
+      "confidence": "verified"
+    },
+    {
+      "claim": "EX.IO (licensed VATP since 18/12/2024) publicly partnered with Solidus Labs for trade surveillance + AML compliance — second direct competitor-placement datapoint in HK.",
+      "source_url": "Business Wire via Google News RSS (EXIO Group / Solidus Labs)",
+      "date": "2026-05-27",
+      "confidence": "high"
+    },
+    {
+      "claim": "Bullish (Jack-Davies-backed) licensed 18/02/2025; BGE licensed 17/06/2025; VDX licensed 13/02/2026; Bixin.com licensed 18/05/2026 — four net new licences in the 12 months to May 2026 = growing buyer pool.",
+      "source_url": "https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms",
+      "date": "fetched 2026-11-05",
+      "confidence": "verified"
+    },
+    {
+      "claim": "HKVAX partnered Microsoft Hong Kong on enterprise digital-asset trading infrastructure (Apr 2025) — licensed VATPs investing in tech stack.",
+      "source_url": "Microsoft Source via Google News RSS",
+      "date": "2025-04-08",
+      "confidence": "verified"
+    },
+    {
+      "claim": "Specific AML/compliance job postings at HashKey/OSL/ERA/Tencent-affiliated venues: NOT captured — Google News/DuckDuckGo are poor sources for job boards (LinkedIn/Glassdoor gated).",
+      "source_url": "n/a",
+      "date": "n/a",
+      "confidence": "[UNVERIFIED] — gap, recommend targeted LinkedIn scrape in a later pass"
+    },
+    {
+      "claim": "Tencent does not operate a licensed retail VATP in HK; 'Tencent-backed exchange' framing not substantiated in 2025-26 coverage found. (EX.IO's backers are described as EXIO Group; [UNVERIFIED] on any Tencent equity link.)",
+      "source_url": "absence across RSS result sets",
+      "date": "n/a",
+      "confidence": "[UNVERIFIED] negative finding"
+    }
+  ],
+  "COMPETITOR-PRESENCE": [
+    {
+      "competitor": "Elliptic",
+      "presence": "Most visible incumbent in HK: published HashKey VASP-compliance case study (Jul 2026), active HK regulatory commentary stream ('Why Hong Kong's crypto regulation is drawing institutional capital', Jul 2026; first-stablecoin-licences analysis, Apr 2026), Travel-Rule content targeting HK regime; raised $120M May 2026 citing AI-driven compliance demand.",
+      "source_url": "https://www.elliptic.co/insights/ (RSS items 2026-04-20, 2026-05-12, 2026-07-24, 2026-07-30)",
+      "date": "2026",
+      "confidence": "high"
+    },
+    {
+      "competitor": "TRM Labs",
+      "presence": "APAC-strong thought leadership (Global Crypto Policy Review 2025/26, Dec 2025; CoinEx/Iran gateway report Jun 2026). No HK office or named HK VATP client found this pass.",
+      "source_url": "TRM Labs via Google News RSS (2025-12-03, 2026-06-24)",
+      "date": "2025-2026",
+      "confidence": "moderate — HK-specific office/partnership [UNVERIFIED]"
+    },
+    {
+      "competitor": "Chainalysis",
+      "presence": "Regional reports (Korea APAC coverage Oct 2026), product placements (Polymarket Apr 2026), blockchain-tracing standards push (Jun 2026). No HK office/partnership news surfaced this pass.",
+      "source_url": "CoinDesk/Korea Times via Google News RSS (2026-04-30, 2026-06-29, 2026-08-25, 2026-10-07)",
+      "date": "2026",
+      "confidence": "moderate — HK entity status [UNVERIFIED] (long-standing SG/APAC presence widely reported but not re-verified here)"
+    },
+    {
+      "competitor": "Merkle Science",
+      "presence": "Singapore-HQ APAC challenger; HK-specific news thin (last HK-adjacent coverage mostly 2020-2024); appears in 2026 APAC AML-tools comparison content alongside Chainalysis/Elliptic/TRM.",
+      "source_url": "Fintech Singapore via RSS (2024-12-03); apacfinstab.com comparison (2026) [non-authoritative blog]; merklescience.com",
+      "date": "2024-2026",
+      "confidence": "weak — current HK footprint [UNVERIFIED]"
+    },
+    {
+      "competitor": "Solidus Labs",
+      "presence": "Won EX.IO (licensed HK VATP) trade-surveillance + AML deal May 2026 via EXIO Group partnership — active HK beachhead.",
+      "source_url": "Business Wire via Google News RSS",
+      "date": "2026-05-27",
+      "confidence": "high"
+    },
+    {
+      "competitor": "Scorechain",
+      "presence": "No HK-specific signal found this pass.",
+      "source_url": "n/a (query returned nothing relevant)",
+      "date": "n/a",
+      "confidence": "[UNVERIFIED] negative/absent"
+    }
+  ],
+  "ENFORCEMENT": [
+    {
+      "claim": "JPEX (unlicensed, warned-out) remains the regime's defining case: 16 charged (Nov 2025) in HK$1.6B (~US$206M+) fraud; 2,700+ victims; HK$228M+ assets frozen, ~80 arrests cumulative; influencer Joseph Lam granted bail over HK$1.6B case (Nov 2025); hearing postponed to 16 Mar 2026; further charges on influencer 'Zhu Gongzi' in HK$18.8M laundering probe (Jan 2026).",
+      "source_url": "Yahoo Finance RSS 2025-11-05 & 2026-01-02; hongkongfp.com/2025-11-06 (Joseph Lam bail); ainvest.com/gate.com/shine-magazine RSS (trial delay)",
+      "date": "2025-11 to 2026-03 (ongoing)",
+      "confidence": "verified (multiple independent outlets)"
+    },
+    {
+      "claim": "SFC issued AML circular 25EC62 (Nov 2025) warning that illicit actors exploit licensed corporations and VATPs for layering — soft enforcement posture signalling supervisory focus on transaction-monitoring adequacy.",
+      "source_url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/aml/doc?refNo=25EC62",
+      "date": "2025-11-17",
+      "confidence": "high"
+    },
+    {
+      "claim": "SFC enforcement sweep Dec 2025-Jan 2026 covered personal trading, false trading/manipulation, insider dealing, listed-company fraud — no licensed-VATP AML sanction announced in that window per Charltons' roundup.",
+      "source_url": "https://www.charltonslaw.com/sfc-enforcement-actions-in-january-2026-and-december-2025/",
+      "date": "2026 (roundup of Dec 2025-Jan 2026)",
+      "confidence": "moderate (secondary summary; full text not fetched)"
+    },
+    {
+      "claim": "No fine/sanction against a LICENSED VATP under the AMLO Part 5B VATP regime located in 2025-26 reporting — regime's first licences (2022) still young; enforcement concentrated on unlicensed operators (JPEX), impersonation sites, and market misconduct. [UNVERIFIED] negative: absence after ~4 targeted queries, not exhaustive.",
+      "source_url": "queries: 'SFC disciplinary licensed VATP fine 2025 2026', 'SFC HKMA crypto money laundering investigation 2025 2026' (RSS + DDG)",
+      "date": "as of 2026-11-05",
+      "confidence": "[UNVERIFIED] negative finding"
+    },
+    {
+      "claim": "SFC blacklisted ~33 fraudulent websites impersonating licensed VATPs OSL Digital Securities and Hash Blockchain (HashKey).",
+      "source_url": "SFC alert-list coverage via RSS/DDG (cryptopresales.com, cryptonetcap.com, sfctoday.com)",
+      "date": "warning ~2026-03-04 per secondary reports (dates inconsistent across secondary outlets — [UNVERIFIED] exact date)",
+      "confidence": "moderate"
+    },
+    {
+      "claim": "Crypto.com announced closure of its HK consumer app from Feb 2027 — retail consolidation among VA operators in HK.",
+      "source_url": "The Crypto Times via Google News RSS",
+      "date": "2026-11-03",
+      "confidence": "moderate"
+    }
+  ],
+  "MARKET_ENTRY_READ": {
+    "addressable_buyers": "13 licensed VATPs + expanding VA dealer/custodian/adviser licence classes (2026 consultations) + 2 licensed stablecoin issuers (HSBC, Anchorpoint/SC) + banks enabling VA under HKMA circulars",
+    "wedge": "Incumbents (Elliptic@HashKey, Solidus@EX.IO) already hold anchors; differentiation for ChainSentry needs TRX/SOL depth, OFAC-validator angle for China-facing flows, and pricing below incumbent enterprise tiers",
+    "watch": "JPEX trial (Mar 2026+) will keep AML/chain-tracing budget priority high; first licensed-VATP AML enforcement action would instantly expand demand"
+  }
+}

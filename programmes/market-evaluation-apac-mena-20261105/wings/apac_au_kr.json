@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "task": "Australia + South Korea regulatory/market recon for ChainSentry blockchain-AML entry",
+    "as_of": "2026-11-05",
+    "method": "Google News RSS (en-AU, ko-KR), regulator page fetch attempts; Wikipedia/AUSTRAC page fetches blocked by extraction-backend + curl-pipe security denials. All claims below are headline-level evidence with source+date; items that could not be corroborated are marked [UNVERIFIED].",
+    "confidence_note": "Headline-level grounding; no full-article reads were possible (web_extract backend misconfigured, curl|python blocked by security scanner). Treat figures as reported-in-headline, not primary-source confirmed."
+  },
+  "australia": {
+    "REG-FACT": [
+      {
+        "claim": "AUSTRAC runs the digital-asset registration regime (DACSP registration); enforcement intensity rose sharply: a Sep-2026 report says Australia 'tightens crypto oversight with 45 removals', indicating ~45 providers were removed/deregistered from the AUSTRAC register in a cleanup sweep.",
+        "source_url": "https://news.google.com/rss/search?q=AUSTRAC%20digital%20asset%20registered%20businesses%20number (item: Crypto News Australia, 'Australia tightens crypto oversight with 45 removals')",
+        "date": "2026-09-07",
+        "status": "headline-verified; exact current register size [UNVERIFIED] (AUSTRAC register page not fetchable in this run)"
+      },
+      {
+        "claim": "Case-level deregistration is real: AUSTRAC cancelled registration of DACSP 'GetCoins' following customer scam complaints; earlier AUSTRAC 'took action against 13 crypto firms'.",
+        "source_url": "https://cryptoslate.com (CryptoSlate headline) ; Decrypt headline 'Australia's Financial Watchdog Takes Action Against 13 Crypto Firms'",
+        "date": "2026-09-07 ; 2025-02-18",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "2025-26 reform status: Australia's 'Digital Assets Framework Bill' (tokenisation tranche) is in play per major law-firm analyses; ASIC published a 'roadmap for digital assets law reform implementation' (Apr 2026); Treasury set digital-asset legislative priorities Mar 2025. A dedicated VA/DACSP licensing-and-supervision framework (replacing pure registration) is in the reform pipeline and referenced in TRM's 'Beyond ASIC's No-Action Period' commentary — i.e., regulatory bar is rising for providers.",
+        "source_url": "Squire Patton Boggs (2026-02-05), ASIC.gov.au (2026-04-20), TRM Labs (2026-10-07), Corrs Chambers Westgarth (2026-07-07) — via Google News AU RSS",
+        "date": "2025-03 to 2026-10",
+        "status": "headline-verified; exact bill number/pass stage of a standalone VA licensing bill [UNVERIFIED]"
+      },
+      {
+        "claim": "Foreign platforms still enter via registration: KuCoin registered with AUSTRAC (Nov 2025); Coinbase Australia obtained an AFSL (Apr 2026) — regime supports ongoing onboarding of new DACSPs.",
+        "source_url": "CoinDesk headline ; Coinbase announcement headline (Google News AU RSS)",
+        "date": "2025-11-25 ; 2026-04-07",
+        "status": "headline-verified"
+      }
+    ],
+    "DEMAND-SIGNAL": [
+      {
+        "claim": "AUSTRAC senior engagement with AML-vendor ecosystem: AUSTRAC's Brad Brown featured in TRM Labs 'Inside Australia's Historic AML Reform' (Aug 2026) — regulators are actively in the vendor/media loop, and AU firms face 'historic AML reform' compliance load.",
+        "source_url": "https://trmlabs.com (TRM Labs event/webinar headline)",
+        "date": "2026-08-26",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Scam-driven enforcement pressure (crypto ATMs, elderly-victim fraud coverage Jun 2025) keeps AML/CTF spend rising for AU DACSPs.",
+        "source_url": "ABC News / The Australian / News24 headlines via Google News AU RSS",
+        "date": "2025-06 to 2025-10",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Specific AML-hiring posts at Swyftx / CoinSpot / Independent Reserve [UNVERIFIED] — targeted RSS sweeps for hiring signals returned nothing usable (rate-limited); recommend LinkedIn/Seek check as follow-up.",
+        "source_url": "n/a",
+        "date": "2026-11-05",
+        "status": "unverified"
+      }
+    ],
+    "COMPETITOR-PRESENCE": [
+      {
+        "claim": "TRM Labs is the most visible vendor in AU market-making: recurring AU-specific research ('Australia's Crypto Economy', Mar 2026), AUSTRAC-official co-appearance (Aug 2026), ASIC no-action-period commentary (Oct 2026). Strong mindshare incumbent for AU mindshare.",
+        "source_url": "https://trmlabs.com (Google News AU RSS, multiple items)",
+        "date": "2025-12 to 2026-10",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Chainalysis: active in AU news cycle but damaged in Nov-2026 by an AI-assisted cyberattack exposing customer names/emails — a window for challengers to pitch on security posture. AUSTRAC's own use of Chainalysis tooling: widely reported historically but current-state contract [UNVERIFIED] in this run.",
+        "source_url": "BBC / Crypto News Australia / tech-insider.org headlines (Chainalysis breach)",
+        "date": "2026-10-31 to 2026-11-02",
+        "status": "breach headline-verified; AUSTRAC-Chainalysis contract status unverified"
+      },
+      {
+        "claim": "Elliptic AU: no fresh AU-specific item surfaced in this sweep beyond general APAC activity [UNVERIFIED]. Merkle Science AU: sweep rate-limited, [UNVERIFIED].",
+        "source_url": "n/a",
+        "date": "2026-11-05",
+        "status": "unverified"
+      }
+    ],
+    "ENFORCEMENT": [
+      {
+        "claim": "AUSTRAC deregistration/removal sweep (~45 removals, Sep 2026) + GetCoins cancellation + 13-firm action (Feb 2025) = enforcement cadence rising, and AUSTRAC framed crypto as mainstream ML/TF vehicle (Guardian, Dec 2022). No large DACSP civil-penalty suit verified this run [UNVERIFIED].",
+        "source_url": "Crypto News Australia; CryptoSlate; Decrypt; The Guardian",
+        "date": "2022-12-22 to 2026-09-07",
+        "status": "mixed — see items"
+      }
+    ]
+  },
+  "south_korea": {
+    "REG-FACT": [
+      {
+        "claim": "FIU Korea reported that only 28 virtual-asset operators remain properly reported/registered — 'everything except the 28 reported VASPs is illegal' — the de-facto current VASP count.",
+        "source_url": "Yonhap (연합뉴스) headline: FIU \"신고 가상자산사업자 28곳 빼고 다 불법\"",
+        "date": "2026-06-24",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Entry regulation tightening: FIU announced strengthened VASP review and a fully rewritten reporting manual ('가상자산사업자 진입규제 강화 및 신고매뉴얼 전면 개정'); ISMS (InfoSec mgmt cert, with preliminary-cert track since 2022) remains a gating requirement — exact count of ISMS-certified VASPs [UNVERIFIED] this run.",
+        "source_url": "Law Times (법률신문) headline; 보안뉴스/전자신문 (2022-07-20, ISMS 예비인증)",
+        "date": "2026-08-27",
+        "status": "regulatory tightening headline-verified; ISMS-certified VASP count unverified"
+      },
+      {
+        "claim": "Travel rule expanded to ALL virtual-asset transactions with strengthened VASP screening (특금법 enforcement decree change, Aug 2026); FIU additionally proposed transaction limits on high-risk VASP counterparties and small-amount travel-rule extension (May-Jun 2026), amid industry pushback ('1-won verification' controversy).",
+        "source_url": "Yonhap headline (2026-08-11); Digital Asset (2026-06-22); News1 (2026-05-19); TechM (2026-05-06)",
+        "date": "2026-05 to 2026-08",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "FIU continues requesting access-blocks of unregistered offshore exchanges (2 sites blocked + 3 referred for investigation Oct 2026; 27 overseas sites blocked per Digital Asset Oct 2026) and is litigating against Dunamu over unregistered-operator blocking duties (appeal first hearing Oct 2026).",
+        "source_url": "NewsPim/News1/Chosun Ilbo(조세일보) (2026-10-30); Digital Asset (2026-10-13); ZDNet Korea (2026-10-29)",
+        "date": "2026-10-13 to 2026-10-30",
+        "status": "headline-verified"
+      }
+    ],
+    "DEMAND-SIGNAL": [
+      {
+        "claim": "Upbit/Dunamu hit with record KRW 35.2bn FIU administrative fine (CDD/customer-verification + transaction-restriction lapses) — largest ever; Dunamu filed objection (Feb 2026). Bithumb then fined KRW 36.8bn (Mar 2026, ~2x Upbit's level for similar 특금법 violations) with possible partial business suspension; Bithumb weighing litigation and doing C-level/compliance overhaul ahead of IPO.",
+        "source_url": "Kyunghyang (2025-11-06); News1 (2026-02-09); IndustryNews (2026-03-17); Maeil Business (2026-03-09); ZDNet (2026-03-18); Seoul Economic (2025-10-21)",
+        "date": "2025-11 to 2026-03",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Buyer expansion beyond exchanges: K-Bank adopted a blockchain transaction-analysis solution to strengthen digital-asset AML (Oct 2026) — banks/KRW-bank partners are a second demand pool under travel-rule expansion.",
+        "source_url": "Digital Today (디지털투데이) headline",
+        "date": "2026-10-21",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Tax-enforcement adjacency: National Tax Service partnered with Bonanza Factory (local blockchain analytics) for crypto tax tracing (Aug 2026); CARF/taxation candidate activity ~15trn KRW (Aug 2026) — analytics demand also from tax authorities.",
+        "source_url": "Edaily (2026-08-10); VentureSquare (2026-08-31)",
+        "date": "2026-08",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Specific Upbit/Bithumb/Coinone compliance job postings [UNVERIFIED] (sweeps rate-limited); Coinone's Korea Investment Securities synergy push (Oct 2026) implies traditional-finance-standard compliance buildout.",
+        "source_url": "Financial Journal (금융신문, 2026-10-19)",
+        "date": "2026-10-19",
+        "status": "partial"
+      }
+    ],
+    "COMPETITOR-PRESENCE": [
+      {
+        "claim": "Chainalysis KR: Seoul operation with country manager (Baek Yong-ki, Dec 2024 interview claiming 12x Korea growth); active KR marketing ('Rapid' virtual-asset solution, Mar 2026); but global customer-data breach (Oct-Nov 2026) lands in a market hypersensitive to hacks — selling window for challengers.",
+        "source_url": "DailySecu interview (2024-12-09); Chainalysis KR PR (2026-03-26); breach items (2026-10-31/11-02)",
+        "date": "2024-12 to 2026-11",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Elliptic KR: active KR-language PR in 2026 (Built for Compliance report, Oct 2026; Binance-hack analysis, Nov 2026) — pushing 'onchain risk engineering' positioning.",
+        "source_url": "koreasprint.com KR PR (2026-10-06, 2026-11-02)",
+        "date": "2026-10/11",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "TRM Labs KR: strategic partnership with CODE (Korean compliance platform) for AML + travel-rule compliance since Nov 2024.",
+        "source_url": "TRM Labs announcement (via Google News)",
+        "date": "2024-11-05",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Local/self-supply threat: Dunamu's own Lambda256 now SELLS onchain-AML solutions — partnered with Crystal Intelligence (Apr 2026) to supply integrated AML/CFT, pitching 'extend banks' existing AML to onchain' (CTO interview, Aug 2026). Largest exchange is both customer and competitor/enabler.",
+        "source_url": "ZDNet Korea (2026-04-21); 내외경제TV (2026-04-22); DigitalDaily CTO interview (2026-08-12)",
+        "date": "2026-04 to 2026-08",
+        "status": "headline-verified"
+      },
+      {
+        "claim": "Yplanet as AML vendor and Uppsala's current state: [UNVERIFIED] — Yplanet AML searches returned nothing current; Yplanet's crypto-analytics line was historically divested/discontinued per my prior knowledge, treat as likely-exited until checked. Merkle/Crystal KR presence partly corroborated via Lambda256 deal.",
+        "source_url": "n/a",
+        "date": "2026-11-05",
+        "status": "unverified"
+      }
+    ],
+    "ENFORCEMENT": [
+      {
+        "claim": "FIU enforcement is the sharpest in APAC per this sweep: record fines (Upbit 35.2bn KRW Nov 2025; Bithumb 36.8bn KRW Mar 2026), objections/litigation underway, access-blocking of unregistered operators (domestic + 27 overseas sites), Dunamu appeal hearing vs FIU (Oct 2026), and 2026-08 VASP-review strengthening. Travel-rule scope expansion + high-risk-VASP restriction proposals = continuous compliance-tool refresh demand.",
+        "source_url": "as aggregated above (경향신문, 뉴스1, 매일경제, 지디넷, 연합뉴스, 디지털애셋)",
+        "date": "2025-11 to 2026-10",
+        "status": "headline-verified"
+      }
+    ]
+  },
+  "entry_read": {
+    "australia": "Rising: registration cleanup + licensing reform + AUSTRAC vendor-loop means budget exists, but TRM owns mindshare and Chainalysis-breach is an opening. Wedge: mid-tier DACSPs facing deregistration risk, priced-out by TRM/Chainalysis; OFAC-validator + 88k-wallet angle maps to AU scam-proceeds tracing. Caveat: exact register size and govt-contract landscape still unverified.",
+    "south_korea": "Sharper enforcement (record fines, travel-rule expansion) and bank-side demand (K-Bank), but harder market: incumbent exchange self-supply (Lambda256+Crystal), entrenched Chainalysis/Elliptic/TRM+CODE local partnerships, data-localisation/ISMS friction, and ChainSentry's BTC/ETH/TRX/SOL coverage must prove KR-chain depth (KRW-exchange-linked chains, likely need Korean exchange API partnerships). Best wedge = post-breach security narrative + high-risk-VASP screening module for banks."
+  }
+}
