@@ -88,9 +88,9 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
 
     # seal band: seal LEFT-of-centre + SIGNATURE RIGHT-of-centre, on ONE shared
     # optical axis — S1 (seal has a job) + S7
-    SEAL_D = 50  # mm diameter — anchors the lower-left
+    SEAL_D = 40  # mm diameter — smaller per spec, aligned to the wording block
     seal_left = W/2 - 84*mm         # points
-    seal_bottom = Y(R["sealzone_top"]) - SEAL_D*mm
+    seal_bottom = Y(R["sealzone_top"]) - SEAL_D*mm - 3*mm  # centred on the sig-block axis
     from reportlab.lib.utils import ImageReader
     if seal_path and os.path.exists(seal_path):
         cv.drawImage(ImageReader(str(seal_path)), seal_left, seal_bottom, SEAL_D*mm, SEAL_D*mm, mask="auto")
@@ -100,8 +100,8 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     # signature block — mirrors the seal, right of centre, same axis — S7
     sig_left = W/2 + 22*mm          # points
     # axis-align: signature rule at seal's optical centreline (seal centre = bottom + 23mm)
-    seal_center_y = Y(R["sealzone_top"]) - 23*mm
-    sig_y = seal_center_y           # shared axis
+    seal_center_y = Y(R["sealzone_top"]) - SEAL_D/2*mm - 3*mm
+    sig_y = seal_center_y           # shared axis (follows the smaller seal)
     # digital signature rendering (serif italic) above the rule — disclosed as digital signing
     try:
         from reportlab.pdfbase import pdfmetrics
@@ -151,17 +151,13 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     qr.add_data(vurl); qr.make(fit=True)
     qimg = qr.make_image(fill_color="#101820", back_color="white")  # near-black: scannability
     qbuf = _io.BytesIO(); qimg.save(qbuf, format="PNG"); qbuf.seek(0)
-    qs = 18
-    # measure the REAL left-block width (longest of the two footer lines) — no guessed extents
+    qs = 16
+    # QR aligned right AS A GROUP: QR sits immediately LEFT of the right column (chip's left edge),
+    # right-aligned to the info column without covering it. Right edge = chip left edge - 6mm gap.
     from reportlab.pdfbase.pdfmetrics import stringWidth as _sw
-    w_line1 = _sw(f"Credential ID: {cid}", "Helvetica", 9.5)
-    w_line2 = _sw(f"Issued: {issued}    Serial: {serial}", "Helvetica", 9.5)
-    left_edge = lx
-    right_edge = left_edge + max(w_line1, w_line2)
-    gap_mid_x = (right_edge + (rx - 38*mm))/2          # mid of whitespace up to the chip column
-    qx = gap_mid_x - qs*mm/2                           # true optical centre of the gap
-    gap_mid_y = fy + 8                                  # vertical centre of the two-line block
-    qy_bottom = gap_mid_y - qs*mm/2                     # QR centred against both lines
+    chip_left = rx - chip_w                              # chip rect left edge (points)
+    qx = chip_left - 6*mm - qs*mm
+    qy_bottom = fy - 2                                   # vertically settled in the footer zone
     cv.drawImage(ImageReader(qbuf), qx, qy_bottom, qs*mm, qs*mm)
     cv.setFillColor(GRAY); cv.setFont("Helvetica-Bold", 7.5)
     cv.drawCentredString(qx+qs/2*mm, qy_bottom-5.5, "Scan to verify")

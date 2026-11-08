@@ -122,5 +122,18 @@
     "extra_directive": "'Needs to be aligned' \u2014 alignment discipline on the kept elements",
     "image": "cca-certification:2.5.2",
     "date": "2026-11-08T11:29:30Z"
+  },
+  "user_plan_impl": {
+    "event": "user plan: 'seal should be smaller and aligned with the wordings below. Also the QR needs to be aligned too on the right'",
+    "impl": {
+      "seal": "50mm -> 40mm, centreline follows the sig-block axis (shared axis held within ~2px)",
+      "qr_attempt1": "flush with chip RIGHT edge \u2014 occluded the Expires value + STATUS text (caught: NOT SHIP)",
+      "qr_final": "right-aligned AS A GROUP \u2014 QR sits left of the chip column with 6mm gap, zero occlusion (OBJECTIVELY verified: only 'Scan to verify' intersects its own rect)",
+      "watermark": "untouched, centred (per prior correction)"
+    },
+    "lesson_banked": "right-align a GROUP = keep members clear of each other, not stacked on the same edge",
+    "verification": "vision SHIP (all 4 checks pass); text gate 11/11 LIVE; objective overlap check NONE",
+    "image": "cca-certification:2.6.0",
+    "date": "2026-11-08T11:44:26Z"
   }
 }
