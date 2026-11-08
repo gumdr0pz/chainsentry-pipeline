@@ -31,5 +31,22 @@
     "image": "cca-certification:2.2.3 (+latest)",
     "date": "2026-11-08T09:55:25Z",
     "pdf_final": "48.3KB with embedded seal, vision PASS"
+  },
+  "brand_correction": {
+    "event": "user correction: my navy/gold X mark was NOT the chainSENTRY brand",
+    "source": "pulled REAL assets live from chainsentry.arasintegrasi.ai: /chainSENTRY_logo.png + /favicon.png",
+    "real_brand": {
+      "mark": "5/6-point faceted gem-star, cyan->azure->deep-blue facets, pinwheel swirl, pentagonal core with WHITE chevron (alpha-hidden, reveals on dark)",
+      "wordmark": "'chain' lowercase bold cyan + 'SENTRY' ALL-CAPS bold white, fused no space",
+      "reveal_technique": "alpha-hidden white elements only visible on dark ground \u2014 logo.png composited on navy to extract full truth"
+    },
+    "seal": "built from THEIR mark: navy disc + gold double ring + real star (alpha-column segmentation for tight crop, stray 'chain'-letter fragment removed) + two-tone wordmark; vision-verified PASS v2",
+    "distribution": {
+      "certificate_PDF": "seal-real.png at 32mm, 152.7KB, vision PASS",
+      "open_badge": "image field -> /assets/seal-real.png",
+      "header_asset": "chainsentry-logo.png (full lockup) + chainsentry-mark.png served"
+    },
+    "image": "cca-certification:2.3.0",
+    "date": "2026-11-08T10:07:55Z"
   }
 }
