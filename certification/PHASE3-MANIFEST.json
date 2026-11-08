@@ -85,5 +85,23 @@
     "pdf": "280KB full-fidelity",
     "date": "2026-11-08T10:36:23Z",
     "carried": "date-inversion flag is a vision misread \u2014 PDF text + API both confirm Expires 2028-11-07; Auth Probe = test record until real issuance"
+  },
+  "scheme_alignment": {
+    "event": "user directive: 'The color needs to follow our color scheme'",
+    "source": "THEIR design-token system extracted live from chainsentry.arasintegrasi.ai theme CSS (--cs-* tokens, 57 tokens dumped to /tmp/cs_tokens.json)",
+    "mapping": {
+      "panels_headline": "#1c2a3b --cs-accent-subtle",
+      "accents_rules": "#f2c14e --cs-sev-elevated (house amber)",
+      "seal_rings": "#4a9bef accent-brand / #2a72cc accent-primary / #6fb0f5 accent-link",
+      "grays": "#8e9299 text-tertiary",
+      "positive_logic": "#6ad3a0 state-positive",
+      "watermark": "#1c2a3b tint 26%",
+      "seal_bg": "#161719 bg-app + #1c2a3b panel"
+    },
+    "verification": "vision 8/10 \u2014 'genuinely cohesive premium house scheme'; text gate 11/11 LIVE; image 2.5.0",
+    "previous_myths": [
+      "my invented navy #16304D / gold #C9A227 were NOT house colors \u2014 replaced by real tokens"
+    ],
+    "date": "2026-11-08T11:01:16Z"
   }
 }

@@ -20,10 +20,11 @@ import os
 
 
 def _brand_tokens():
-    NAVY = "#16304D"   # single navy
-    GOLD = "#C9A227"   # single gold
-    GRAY = "#5A6672"
-    GREEN = "#1B7F4D"
+    """Official chainSENTRY design tokens (source: chainsentry.arasintegrasi.ai theme CSS --cs-*)."""
+    NAVY = "#1c2a3b"    # --cs-accent-subtle (deep panel navy)
+    GOLD = "#f2c14e"    # --cs-sev-elevated (house amber/gold)
+    GRAY = "#8e9299"    # --cs-text-tertiary
+    GREEN = "#6ad3a0"   # --cs-state-positive
     return NAVY, GOLD, GRAY, GREEN
 
 
@@ -136,7 +137,7 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     # status chip BELOW expiry line, clear — chip_h in POINTS consistently
     chip_w, chip_h = 38*mm, 10
     # status pill in BRAND METALS: gold-tint fill + navy outline (kills the orphan-green)
-    cv.setFillColor(HexColor("#F4EAD0"))
+    cv.setFillColor(HexColor("#FBF3DC"))
     cv.roundRect(rx-chip_w, fy-1.5, chip_w, chip_h, 3, stroke=0, fill=1)
     cv.setStrokeColor(NAVY); cv.setLineWidth(0.8)
     cv.roundRect(rx-chip_w, fy-1.5, chip_w, chip_h, 3, stroke=1, fill=0)
