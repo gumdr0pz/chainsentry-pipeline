@@ -15,7 +15,7 @@ import sqlite3, json, os, datetime, hmac, hashlib, secrets, re
 from pathlib import Path
 
 try:
-    from fastapi import FastAPI, HTTPException, Request
+    from fastapi import FastAPI, HTTPException, Request, Depends
     from fastapi.responses import JSONResponse, HTMLResponse, RedirectResponse
     from pydantic import BaseModel, Field
     import uvicorn
@@ -90,6 +90,17 @@ def _legacy_cols(c):
         if col not in have2:
             c.execute(f"ALTER TABLE exams ADD COLUMN {col} {ddl}")
 
+# ---- Admin token auth (mutations only; reads stay public) ----
+from fastapi import Header
+
+ADMIN_TOKEN = os.environ.get("CCA_ADMIN_TOKEN", "")
+
+def require_admin(authorization: str | None = Header(default=None)):
+    if not ADMIN_TOKEN:
+        return  # auth not configured -> open mode (dev)
+    if authorization != f"Bearer {ADMIN_TOKEN}":
+        raise HTTPException(401, "admin token required: Authorization: Bearer <token>")
+
 # ---- D1: anti-confusion ID alphabet (no I/L/O/U) — Base58-style ----
 SAFE_ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
 
@@ -131,7 +142,7 @@ def health():
             "features": ["supersede","voucher","open-badge","fake-report","two-attempt","lookup-log","safe-alphabet"],
             "time": datetime.datetime.now(datetime.timezone.utc).isoformat()}
 
-@app.post("/api/v1/issue")
+@app.post("/api/v1/issue", dependencies=[Depends(require_admin)])
 def issue(req: IssueReq):  # noqa
     code = req.course_code.upper()
     if code not in COURSES:
@@ -206,7 +217,7 @@ def registry(status: str = None):
 class RevokeReq(BaseModel):
     reason: str
 
-@app.post("/api/v1/revoke/{cid}")
+@app.post("/api/v1/revoke/{cid}", dependencies=[Depends(require_admin)])
 def revoke(cid: str, req: RevokeReq):
     c = db()
     row = c.execute("SELECT * FROM credentials WHERE UPPER(id)=UPPER(?)", (cid,)).fetchone()
@@ -222,7 +233,7 @@ class ReissueReq(BaseModel):
     new_holder: str
     reason: str = "name change"
 
-@app.post("/api/v1/reissue/{cid}")
+@app.post("/api/v1/reissue/{cid}", dependencies=[Depends(require_admin)])
 def reissue(cid: str, req: ReissueReq):
     c = db(); _legacy_cols(c)
     row = c.execute("SELECT * FROM credentials WHERE UPPER(id)=UPPER(?)", (cid,)).fetchone()
@@ -258,7 +269,7 @@ class VoucherOrder(BaseModel):
     quantity: int = Field(..., ge=1, le=500)
     order_ref: str | None = None
 
-@app.post("/api/v1/vouchers/order")
+@app.post("/api/v1/vouchers/order", dependencies=[Depends(require_admin)])
 def voucher_order(req: VoucherOrder):
     code = req.course_code.upper()
     if code not in COURSES:
@@ -282,7 +293,7 @@ class VoucherRedeem(BaseModel):
     holder: str
     email: str | None = None
 
-@app.post("/api/v1/vouchers/{code}/redeem")
+@app.post("/api/v1/vouchers/{code}/redeem", dependencies=[Depends(require_admin)])
 def voucher_redeem(code: str, req: VoucherRedeem):
     c = db(); _legacy_cols(c)
     row = c.execute("SELECT * FROM vouchers WHERE code=?", (code,)).fetchone()
@@ -332,6 +343,8 @@ def vouchers_by_company(company: str):
 
 
 # ---- D5: Open Badge v2.0 compatible export ----
+BUSINESS_HTML = (APP_DIR / "design" / "business.html").read_text(errors="replace")
+
 BASE_URL = os.environ.get("CCA_BASE_URL", "http://localhost:8890")
 
 @app.get("/api/v1/badge/{cid}")
@@ -404,7 +417,7 @@ class ReviewReq(BaseModel):
     reviewer_note: str
     mark: str = "REVIEWED"  # REVIEWED|ACTIONED|DISMISSED
 
-@app.post("/api/v1/reports/{rid}/review")
+@app.post("/api/v1/reports/{rid}/review", dependencies=[Depends(require_admin)])
 def review_report(rid: int, req: ReviewReq):
     c = db()
     row = c.execute("SELECT * FROM fake_reports WHERE id=?", (rid,)).fetchone()
@@ -419,7 +432,7 @@ RETAKE_WAIT_DAYS = 7
 class ExamSubmit(BaseModel):
     score: int
 
-@app.post("/api/v1/exam/start")
+@app.post("/api/v1/exam/start", dependencies=[Depends(require_admin)])
 def exam_start(course_code: str, candidate: str):
     code = course_code.upper()
     if code not in COURSES:
@@ -490,6 +503,71 @@ def verify_log_tail(limit: int = 25):
     c = db()
     rows = c.execute("SELECT * FROM verify_log ORDER BY id DESC LIMIT ?", (limit,)).fetchall()
     return {"count": len(rows), "entries": [dict(r) for r in rows]}
+# ---- Certificate PDF renderer (reportlab + qrcode, generated on demand) ----
+import io as _io
+
+def _cert_pdf(d: dict) -> bytes:
+    from reportlab.lib.pagesizes import A4, landscape
+    from reportlab.lib.units import mm
+    from reportlab.lib.colors import HexColor
+    from reportlab.pdfgen import canvas as _canvas
+    import qrcode as _qrcode
+
+    NAVY = HexColor("#12263F"); GOLD = HexColor("#B8860B"); GREY = HexColor("#5A6672")
+    buf = _io.BytesIO()
+    W, H = landscape(A4)
+    cv = _canvas.Canvas(buf, pagesize=(W, H))
+    cv.setStrokeColor(NAVY); cv.setLineWidth(2)
+    cv.rect(14*mm, 14*mm, W-28*mm, H-28*mm)
+    cv.setStrokeColor(GOLD); cv.setLineWidth(0.8)
+    cv.rect(17*mm, 17*mm, W-34*mm, H-34*mm)
+    cv.setStrokeColor(GOLD); cv.setLineWidth(2)
+    cv.circle(46*mm, H/2, 14*mm, stroke=1, fill=0)
+    cv.setFillColor(GOLD); cv.setFont("Helvetica-Bold", 13)
+    cv.drawCentredString(46*mm, H/2-2*mm, "CCA")
+    cv.setFont("Helvetica", 6.5); cv.setFillColor(GREY)
+    cv.setFont("Helvetica", 5.2); cv.drawCentredString(40*mm, H/2-6*mm, "ACADEMY")
+    cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 11)
+    cv.drawCentredString(W/2, H-32*mm, "CHAINSENTRY ACADEMY")
+    cv.setFont("Helvetica-Bold", 26)
+    cv.drawCentredString(W/2, H-45*mm, "CERTIFICATE OF COMPLETION")
+    cv.setFont("Helvetica", 12); cv.setFillColor(GREY)
+    cv.drawCentredString(W/2, H-58*mm, "This certifies that")
+    cv.setFillColor(HexColor("#1A1A1A")); cv.setFont("Helvetica-Bold", 22)
+    cv.drawCentredString(W/2, H-68*mm, d["holder"][:44])
+    cv.setFont("Helvetica", 12); cv.setFillColor(GREY)
+    cv.drawCentredString(W/2, H-78*mm, "has passed the examination for")
+    cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 17)
+    cv.drawCentredString(W/2, H-88*mm, d["course"])
+    cv.setFont("Helvetica", 10); cv.setFillColor(GREY)
+    cv.drawString(60*mm, 30*mm, f"Credential ID: {d['id']}")
+    cv.drawString(60*mm, 24*mm, f"Issued: {d['issued']}    Serial: {d['serial']}")
+    cv.drawRightString(W-60*mm, 24*mm, f"Valid: {d['expires'] or 'Lifetime'}    Status: {d['status']}")
+    import urllib.parse
+    base = os.environ.get("CCA_BASE_URL", "http://localhost:8890")
+    vurl = f"{base}/verify?id={urllib.parse.quote(d['id'])}"
+    qr = _qrcode.QRCode(box_size=4, border=1)
+    qr.add_data(vurl); qr.make(fit=True)
+    qimg = qr.make_image(fill_color="#12263F", back_color="white")
+    qbuf = _io.BytesIO(); qimg.save(qbuf, format="PNG"); qbuf.seek(0)
+    from reportlab.lib.utils import ImageReader
+    cv.drawImage(ImageReader(qbuf), W-52*mm, 20*mm, 24*mm, 24*mm)
+    cv.setFont("Helvetica", 7)
+    cv.drawCentredString(W-40*mm, 18.5*mm, "Scan to verify")
+    cv.showPage(); cv.save()
+    return buf.getvalue()
+
+@app.get("/certificate/{cid}.pdf")
+def certificate_pdf(cid: str):
+    c = db(); _legacy_cols(c)
+    row = c.execute("SELECT * FROM credentials WHERE UPPER(id)=UPPER(?)", (cid,)).fetchone()
+    if not row:
+        raise HTTPException(404, "credential not found")
+    from fastapi.responses import Response
+    pdf = _cert_pdf(dict(row))
+    return Response(pdf, media_type="application/pdf",
+                    headers={"Content-Disposition": f'inline; filename="CCA-{row["id"]}.pdf"'})
+
 # ---- Academy static hosting (pages live in ../design) ----
 @app.get("/", response_class=HTMLResponse)
 def hub():
@@ -539,6 +617,10 @@ def verify_ui():
 })();
 </script>"""
     return html
+
+@app.get("/business", response_class=HTMLResponse)
+def business_page():
+    return BUSINESS_HTML
 
 @app.get("/courses/{code}", response_class=HTMLResponse)
 def course(code: str):

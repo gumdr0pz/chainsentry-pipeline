@@ -1,0 +1,21 @@
+{
+  "extends": "PHASE2-MANIFEST.json",
+  "phase3": {
+    "auth": {
+      "impl": "Bearer CCA_ADMIN_TOKEN on 8 mutation endpoints (issue/reissue/revoke/voucher-order/redeem/review/exam-start); reads public; open-mode when unset",
+      "tested": "no-token -> 401; with-token -> 200; verify w/o token still public"
+    },
+    "certificate_pdf": {
+      "impl": "reportlab landscape cert w/ double frame, gold seal, QR->verify deeplink",
+      "tested": "/%PDF- magic, 3.8KB, vision-verified PASS (3 cosmetic fixes: seal text containment, QR label, balance)"
+    },
+    "b2b_checkout": {
+      "impl": "design/business.html \u2014 order builder wired to live /api/v1/vouchers/order + company lookup; Bearer-token gated mutations",
+      "tested": "/business 200, wires live API, order->redeem->CCA-CAP-26-112-eVcS flow real"
+    }
+  },
+  "image": "cca-certification:2.1.2 (+latest)",
+  "image_sha": "sha256:53a6b47f\u2026",
+  "date": "2026-11-08T09:27:37Z",
+  "persistence": "registry 10 credentials across 7 container generations \u2014 zero loss"
+}
