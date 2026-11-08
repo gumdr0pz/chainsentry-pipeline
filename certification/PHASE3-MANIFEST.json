@@ -17,5 +17,19 @@
   "image": "cca-certification:2.1.2 (+latest)",
   "image_sha": "sha256:53a6b47f\u2026",
   "date": "2026-11-08T09:27:37Z",
-  "persistence": "registry 10 credentials across 7 container generations \u2014 zero loss"
+  "persistence": "registry 10 credentials across 7 container generations \u2014 zero loss",
+  "brand_pass": {
+    "logo": "v5 mark \u2014 navy squircle, gold sentry ring, interlocked X (\u00b122 mirrored, clip-masked punch, white restore); vision-verified clean (no stubs, no notches, ring unbroken)",
+    "seal_variant": "white-ground circular seal (gold+navy links, CCA/ACADEMY wordmark) \u2014 vision-verified PASS on certificate",
+    "favicon": "64px simplified cut \u2014 vision-verified legible",
+    "pdf_embed": "reportlab draws assets/seal.png at 32mm left margin; OpenBadge image wired to /assets/seal.png; /assets/ route live",
+    "fixes": [
+      "seal v1 white-link-on-white-ground invisible -> recolored gold+navy",
+      "Dockerfile assets path mismatch (/app/certification/assets vs APP_DIR=/app) -> aligned",
+      "INSERT arcname mismatch 2.2.2 build -> fixed"
+    ],
+    "image": "cca-certification:2.2.3 (+latest)",
+    "date": "2026-11-08T09:55:25Z",
+    "pdf_final": "48.3KB with embedded seal, vision PASS"
+  }
 }
