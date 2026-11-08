@@ -69,5 +69,21 @@
     "verification": "text-layer gate ALL 10 strings on LIVE container output (primary record, not pixels); vision PASS final; expiry-date scare disproved (2028-11-07 confirmed in PDF text + API record)",
     "image": "cca-certification:2.3.2",
     "date": "2026-11-08T10:17:14Z"
+  },
+  "premium_ship": {
+    "grade": "9/10 vision, verdict SHIP",
+    "fixes": {
+      "seal_wordmark": "8-offset manual keyline ate 52px glyph stems (mud) -> NATIVE stroke_width keyline, crisp interiors",
+      "watermark": "three-stage fix: 7% invisible -> 14% still JPEG-crushed -> RGB-flatten with rotate(fillcolor=white): Pillow expand-rotation was filling exposed corners BLACK (0,0,0 measured); fillcolor param killed the wedges; final navy-tint 30%, objective lum 195 vs 255 blank",
+      "chip": "orphan green -> gold-tint pill + navy outline (brand metals)",
+      "qr": "near-black #101820, caption bold",
+      "signature": "italic-serif rendering + Digitally signed disclosure (stand-in, disclosed; real wet-ink scan needs Fuad)",
+      "edges": "footer lifted to 23mm, nothing kisses the rules"
+    },
+    "verification": "objective pixel gates: near-black wedges=0, watermark lum 195, seal bright-pixels confirmed; EXTENDED text gate 12/12 on LIVE container",
+    "image": "cca-certification:2.4.0",
+    "pdf": "280KB full-fidelity",
+    "date": "2026-11-08T10:36:23Z",
+    "carried": "date-inversion flag is a vision misread \u2014 PDF text + API both confirm Expires 2028-11-07; Auth Probe = test record until real issuance"
   }
 }

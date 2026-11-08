@@ -48,6 +48,13 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     cv = _canvas.Canvas(buf, pagesize=(W, H))
     Y = lambda mm_from_top: H - mm_from_top * mm
 
+    # watermark: giant faint brand mark centred on the former void zone (behind content)
+    wm_path = os.path.join(os.path.dirname(seal_path or ""), "watermark.png") if seal_path else None
+    if wm_path and os.path.exists(wm_path):
+        wm_sz = 120*mm
+        from reportlab.lib.utils import ImageReader as _IRWM
+        cv.drawImage(_IRWM(wm_path), W/2-wm_sz/2, H/2-wm_sz/2-6*mm, wm_sz, wm_sz)
+
     # frame — S8 same tokens
     cv.setStrokeColor(NAVY); cv.setLineWidth(2)
     cv.rect(R["frame"]*mm, R["frame"]*mm, W-2*R["frame"]*mm, H-2*R["frame"]*mm)
@@ -94,15 +101,31 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     # axis-align: signature rule at seal's optical centreline (seal centre = bottom + 23mm)
     seal_center_y = Y(R["sealzone_top"]) - 23*mm
     sig_y = seal_center_y           # shared axis
+    # digital signature rendering (serif italic) above the rule — disclosed as digital signing
+    try:
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+        _sf = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
+        if os.path.exists(_sf):
+            pdfmetrics.registerFont(TTFont("SigIt", _sf))
+            cv.setFillColor(NAVY); cv.setFont("SigIt", 15)
+            cv.drawString(sig_left+4*mm, sig_y+4*mm, "Ahmad Fuad Kamarazaman")
+        else:
+            cv.setFillColor(NAVY); cv.setFont("Times-Italic", 15)
+            cv.drawString(sig_left+4*mm, sig_y+4*mm, "Ahmad Fuad Kamarazaman")
+    except Exception:
+        pass
     cv.setStrokeColor(GRAY); cv.setLineWidth(0.7)
-    cv.line(sig_left, sig_y, sig_left+52*mm, sig_y)
+    cv.line(sig_left, sig_y, sig_left+56*mm, sig_y)
     cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 11)
     cv.drawCentredString(sig_left+26*mm, sig_y-13, "AHMAD FUAD KAMARAZAMAN")
     cv.setFillColor(GRAY); cv.setFont("Helvetica", 9)
     cv.drawCentredString(sig_left+26*mm, sig_y-23, "Academic Director, ChainSentry Academy")
+    cv.setFillColor(HexColor("#8A94A0")); cv.setFont("Helvetica-Oblique", 7)
+    cv.drawCentredString(sig_left+26*mm, sig_y-31, "Digitally signed")
 
     # footer strip — SIMPLE, explicit, single baseline — S4
-    fy = 21*mm  # inside BOTH rules (outer 14, inner 18)
+    fy = 23*mm  # inside BOTH rules, breathing room from the inner rule
     cv.setFillColor(GRAY); cv.setFont("Helvetica", 9.5)
     lx = 22*mm
     cv.drawString(lx, fy+12, f"Credential ID: {cid}")
@@ -112,9 +135,12 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     cv.drawRightString(rx, fy+12, f"Expires: {expires or 'Lifetime'}")
     # status chip BELOW expiry line, clear — chip_h in POINTS consistently
     chip_w, chip_h = 38*mm, 10
-    cv.setFillColor(HexColor("#E8F4EC"))
+    # status pill in BRAND METALS: gold-tint fill + navy outline (kills the orphan-green)
+    cv.setFillColor(HexColor("#F4EAD0"))
     cv.roundRect(rx-chip_w, fy-1.5, chip_w, chip_h, 3, stroke=0, fill=1)
-    cv.setFillColor(GREEN); cv.setFont("Helvetica-Bold", 8.5)
+    cv.setStrokeColor(NAVY); cv.setLineWidth(0.8)
+    cv.roundRect(rx-chip_w, fy-1.5, chip_w, chip_h, 3, stroke=1, fill=0)
+    cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 8.5)
     cv.drawCentredString(rx-chip_w/2, fy+1.2, f"STATUS: {status}")
 
     # QR — left of the expiry/status column, INSIDE the frame — S4
@@ -122,13 +148,13 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     vurl = f"{base_url}/verify?id={urllib.parse.quote(cid)}"
     qr = _qrcode.QRCode(box_size=4, border=1)
     qr.add_data(vurl); qr.make(fit=True)
-    qimg = qr.make_image(fill_color=NAVY_H, back_color="white")
+    qimg = qr.make_image(fill_color="#101820", back_color="white")  # near-black: scannability
     qbuf = _io.BytesIO(); qimg.save(qbuf, format="PNG"); qbuf.seek(0)
-    qs = 19
+    qs = 18
     qx = rx - 92*mm
-    qy_bottom = fy - 1
+    qy_bottom = fy + 2
     cv.drawImage(ImageReader(qbuf), qx, qy_bottom, qs*mm, qs*mm)
-    cv.setFillColor(GRAY); cv.setFont("Helvetica", 6.5)
-    cv.drawCentredString(qx+qs/2*mm, qy_bottom-4.5, "Scan to verify")
+    cv.setFillColor(GRAY); cv.setFont("Helvetica-Bold", 7.5)
+    cv.drawCentredString(qx+qs/2*mm, qy_bottom-5.5, "Scan to verify")
     cv.showPage(); cv.save()
     return buf.getvalue()
