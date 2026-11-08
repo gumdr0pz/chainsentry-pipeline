@@ -1,0 +1,52 @@
+{
+  "artifact": "CCA certification container \u2014 PHASE 2 (all 7 deltas built, no exceptions)",
+  "date": "2026-11-08T09:14:52Z",
+  "image": "cca-certification:2.0.3 (+latest)",
+  "image_sha": "sha256:d52fffb3\u2026",
+  "container": "cca-certification (:8890, volume cca-registry, unless-stopped)",
+  "phase2_features": {
+    "D1_safe_alphabet": {
+      "impl": "Base58-style ID suffix + serial token, no I/L/O/U",
+      "tested": "CCA-DLF-26-111-tHRp; ILOU-lint note on misses"
+    },
+    "D2_lookup_log": {
+      "impl": "verify_log table, every GET verify logged (found/verdict/ip/at)",
+      "tested": "hits + misses logged; /api/v1/verify-log exposes tail"
+    },
+    "D3_supersede": {
+      "impl": "reissue endpoint; old->SUPERSEDED with replaced_by link",
+      "tested": "pNAv -> SUPERSEDED -> kMcq chain live"
+    },
+    "D4_vouchers": {
+      "impl": "order bulk vouchers (12mo), redeem->credential, company lane with results-privacy (pass/not only)",
+      "tested": "order 3 CCC -> redeem -> CCA-CCC-26-112-g4gK; company view outcome=passed"
+    },
+    "D5_open_badge": {
+      "impl": "Open Badges v2.0 Assertion at /api/v1/badge/{cid}",
+      "tested": "Assertion, uid, BadgeClass, Issuer all present"
+    },
+    "D6_fake_reports": {
+      "impl": "report-fake -> queue -> review (REVIEWED/ACTIONED/DISMISSED)",
+      "tested": "FR-261108-R7qY queued -> ACTIONED"
+    },
+    "D7_two_attempt": {
+      "impl": "fail->retry_scheduled (opens +7d, free); early retake 425-blocked; pass issues credential",
+      "tested": "55->retry 2026-11-15, early blocked=True, 88->CCA-BTE-26-114-Qhfm"
+    }
+  },
+  "e2e_battery": "all 7 features exercised with REAL calls through the running container",
+  "persistence": "registry survived 5 container generations (8 credentials), volume-mounted SQLite",
+  "bugs_fixed_in_phase": [
+    "15-vs-14 INSERT placeholder mismatch (2 sites)",
+    "vouchers 9-vs-10 cols",
+    "KeyError outcome projection",
+    "version single-sourced from CCA_VERSION env"
+  ],
+  "files": [
+    "Dockerfile",
+    "compose.yaml",
+    "certification/service.py (551+ lines)",
+    "certification/requirements.txt"
+  ],
+  "open_cosmetic": "verify page footer dead-space (carried)"
+}
