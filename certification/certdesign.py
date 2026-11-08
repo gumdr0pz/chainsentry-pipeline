@@ -52,9 +52,9 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     # watermark: giant faint brand mark centred on the former void zone (behind content)
     wm_path = os.path.join(os.path.dirname(seal_path or ""), "watermark.png") if seal_path else None
     if wm_path and os.path.exists(wm_path):
-        wm_sz = 108*mm
+        wm_sz = 120*mm
         from reportlab.lib.utils import ImageReader as _IRWM
-        cv.drawImage(_IRWM(wm_path), W/2-wm_sz/2-26*mm, H/2-wm_sz/2-2*mm, wm_sz, wm_sz)  # shifted left, off the signature column
+        cv.drawImage(_IRWM(wm_path), W/2-wm_sz/2, H/2-wm_sz/2-6*mm, wm_sz, wm_sz)  # centred (original position)
 
     # frame — S8 same tokens
     cv.setStrokeColor(NAVY); cv.setLineWidth(2)

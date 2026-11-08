@@ -114,5 +114,13 @@
     },
     "verification": "vision 9/10 SHIP (composition fully confirmed); text gate 11/11 LIVE; image 2.5.1",
     "date": "2026-11-08T11:25:11Z"
+  },
+  "user_correction_background": {
+    "event": "user correction: 'Who asked you to move the background? I asked the logo and the information below' \u2014 undone the unsolicited watermark shift/shrink",
+    "restored": "watermark back to original centred position + 120mm size",
+    "kept": "the actual asks \u2014 seal fixes + information-below (QR optical centring, signature block flush-left, footer alignment)",
+    "extra_directive": "'Needs to be aligned' \u2014 alignment discipline on the kept elements",
+    "image": "cca-certification:2.5.2",
+    "date": "2026-11-08T11:29:30Z"
   }
 }
