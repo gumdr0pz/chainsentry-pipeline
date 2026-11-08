@@ -1,0 +1,424 @@
+{
+  "generated": "2026-11-08T08:39:04Z",
+  "files": [
+    "cca-academy-bte-course.html",
+    "cca-academy-cap-course.html",
+    "cca-academy-ccc-course.html",
+    "cca-academy-ctx-course.html",
+    "cca-academy-dlf-course.html",
+    "cca-academy-mtx-course.html",
+    "cca-academy-index.html",
+    "cca-academy-verify.html"
+  ],
+  "courses": {
+    "BTE": {
+      "title": "Blockchain Tracing Essentials",
+      "level": "Essentials",
+      "hours": "About 3 h",
+      "sub": "Vendor-neutral foundations for reading cryptocurrency trails across chains \u2014 built by the team behind ChainSentry's forensics stack. No prior crypto experience required.",
+      "modules": [
+        [
+          "01",
+          "Reading the Chain",
+          [
+            [
+              "Explorers are evidence \u2014 what on-chain data can and cannot prove",
+              "20 min"
+            ],
+            [
+              "Blocks, height and confirmations",
+              "22 min"
+            ],
+            [
+              "Bitcoin: inputs, outputs and change",
+              "25 min"
+            ],
+            [
+              "Ethereum: accounts, gas and tokens",
+              "24 min"
+            ],
+            [
+              "Stablecoins and remittance corridors",
+              "22 min"
+            ],
+            [
+              "Addresses, wallets and clustering",
+              "26 min"
+            ],
+            [
+              "Exchange attribution and sanctions screening",
+              "24 min"
+            ],
+            [
+              "Confirmations, finality and verifying a payment",
+              "21 min"
+            ]
+          ]
+        ]
+      ],
+      "domains": [
+        [
+          "Transaction anatomy \u2014 inputs, outputs, fees, traces of intent",
+          "25%"
+        ],
+        [
+          "Consensus, confirmations and finality",
+          "20%"
+        ],
+        [
+          "Attribution \u2014 clustering, labels and their limits",
+          "20%"
+        ],
+        [
+          "Compliance context \u2014 travel rule, sanctions, reporting duty",
+          "20%"
+        ],
+        [
+          "Practical tracing \u2014 given a tx hash, tell the story",
+          "15%"
+        ]
+      ],
+      "cert": [
+        "40 questions \u00b7 online",
+        "70%",
+        "Included with enrolment",
+        "2 years"
+      ]
+    },
+    "DLF": {
+      "title": "Digital Ledger Foundations",
+      "level": "Essentials",
+      "hours": "About 2.5 h",
+      "sub": "How distributed ledgers actually work \u2014 keys, consensus and trust models, taught for people who will later have to explain them under oath.",
+      "modules": [
+        [
+          "01",
+          "Ledgers Without Banks",
+          [
+            [
+              "What a ledger promises \u2014 and what it cannot",
+              "20 min"
+            ],
+            [
+              "Public vs permissioned chains",
+              "22 min"
+            ],
+            [
+              "Keys, signatures and ownership",
+              "25 min"
+            ],
+            [
+              "Wallets: custodial, non-custodial, and the difference that matters",
+              "24 min"
+            ],
+            [
+              "Consensus: proof of work, proof of stake, and their failure modes",
+              "26 min"
+            ],
+            [
+              "Finality, forks and reorganisations",
+              "22 min"
+            ]
+          ]
+        ]
+      ],
+      "domains": [
+        [
+          "Ledger primitives \u2014 keys, addresses, signatures",
+          "30%"
+        ],
+        [
+          "Consensus and fork mechanics",
+          "25%"
+        ],
+        [
+          "Custody models and their risks",
+          "25%"
+        ],
+        [
+          "Failure modes \u2014 51%, reorgs, rug-pulls",
+          "20%"
+        ]
+      ],
+      "cert": [
+        "35 questions \u00b7 online",
+        "70%",
+        "Included with enrolment",
+        "Lifetime"
+      ]
+    },
+    "CAP": {
+      "title": "Certified AML Practitioner",
+      "level": "Professional",
+      "hours": "About 4 h",
+      "sub": "Anti-money-laundering practice for crypto-adjacent teams \u2014 the STR workflow, KYC/CDD discipline and reporting duty, from practitioners who file them.",
+      "modules": [
+        [
+          "01",
+          "The AML/CFT Obligation",
+          [
+            [
+              "AML/CFT law in the Malaysian and ASEAN context",
+              "28 min"
+            ],
+            [
+              "The regulated population \u2014 who owes what duty",
+              "25 min"
+            ],
+            [
+              "KYC and CDD: onboarding that survives examination",
+              "30 min"
+            ],
+            [
+              "Sanctions and watchlist screening discipline",
+              "26 min"
+            ],
+            [
+              "Typologies: how illicit value actually moves",
+              "30 min"
+            ],
+            [
+              "The STR workflow \u2014 suspicion, articulation, filing",
+              "32 min"
+            ],
+            [
+              "Evidence and record-keeping for examinations",
+              "28 min"
+            ],
+            [
+              "Capstone: build a compliant file end-to-end",
+              "40 min"
+            ]
+          ]
+        ]
+      ],
+      "domains": [
+        [
+          "Legal duty and regulated populations",
+          "25%"
+        ],
+        [
+          "KYC/CDD and screening",
+          "25%"
+        ],
+        [
+          "Typologies and red flags",
+          "20%"
+        ],
+        [
+          "STR workflow and documentation",
+          "30%"
+        ]
+      ],
+      "cert": [
+        "60 questions \u00b7 online",
+        "70%",
+        "Included with enrolment",
+        "2 years"
+      ]
+    },
+    "CCC": {
+      "title": "Certified Crypto Compliance Analyst",
+      "level": "Professional",
+      "hours": "About 5 h",
+      "sub": "Compliance analytics for VASPs and their supervisors \u2014 regimes, travel rule, risk scoring and freeze mechanics across APAC and MENA.",
+      "modules": [
+        [
+          "01",
+          "Regimes and Rules",
+          [
+            [
+              "The licensing map \u2014 MAS, HKMA, VARA, SC, FSC compared",
+              "30 min"
+            ],
+            [
+              "Travel rule mechanics and the data that must move",
+              "28 min"
+            ],
+            [
+              "On-chain analytics in a compliance programme",
+              "32 min"
+            ],
+            [
+              "Risk scoring wallets and counterparties",
+              "30 min"
+            ],
+            [
+              "Freezes, holds and lawful disclosure",
+              "26 min"
+            ],
+            [
+              "Reporting to FIUs \u2014 format and follow-through",
+              "28 min"
+            ],
+            [
+              "Vendor due diligence \u2014 questioning your analytics supplier",
+              "24 min"
+            ],
+            [
+              "Capstone: a compliance case from deposit to report",
+              "45 min"
+            ]
+          ]
+        ]
+      ],
+      "domains": [
+        [
+          "Regulatory map and licensing",
+          "20%"
+        ],
+        [
+          "Travel rule and data obligations",
+          "20%"
+        ],
+        [
+          "Analytics and risk scoring",
+          "30%"
+        ],
+        [
+          "Freezes, disclosure, FIU reporting",
+          "30%"
+        ]
+      ],
+      "cert": [
+        "60 questions \u00b7 online",
+        "70%",
+        "Included with enrolment",
+        "2 years"
+      ]
+    },
+    "CTX": {
+      "title": "Crypto Trace Examiner",
+      "level": "Expert",
+      "hours": "About 4 h",
+      "sub": "Court-grade tracing \u2014 clustering, peel chains, mixer demixing and exchange attribution, ending in reports that hold up under cross-examination.",
+      "modules": [
+        [
+          "01",
+          "Tracing as Evidence",
+          [
+            [
+              "What courts accept from on-chain evidence",
+              "28 min"
+            ],
+            [
+              "Clustering heuristics \u2014 common ownership and change addresses",
+              "32 min"
+            ],
+            [
+              "Peel chains and fan-out patterns",
+              "30 min"
+            ],
+            [
+              "Mixers and demixing honesty \u2014 what you can and cannot claim",
+              "30 min"
+            ],
+            [
+              "Exchange attribution and the KYC boundary",
+              "28 min"
+            ],
+            [
+              "Writing the expert report \u2014 method, chain of reasoning, limits",
+              "35 min"
+            ],
+            [
+              "Capstone: trace a real theft end-to-end",
+              "45 min"
+            ]
+          ]
+        ]
+      ],
+      "domains": [
+        [
+          "Admissibility and method",
+          "20%"
+        ],
+        [
+          "Clustering and attribution",
+          "30%"
+        ],
+        [
+          "Mixers, bridges and honest limits",
+          "20%"
+        ],
+        [
+          "Expert reporting",
+          "30%"
+        ]
+      ],
+      "cert": [
+        "50 questions \u00b7 2 practicals",
+        "70%",
+        "Exam fee applies",
+        "2 years"
+      ]
+    },
+    "MTX": {
+      "title": "Mixed-Chain Trace Examiner",
+      "level": "Expert",
+      "hours": "About 4 h",
+      "sub": "Following value across chains \u2014 bridges, hop detection and attribution fusion when the trail switches networks mid-flight.",
+      "modules": [
+        [
+          "01",
+          "Across the Bridges",
+          [
+            [
+              "Bridges, swappers and the hop problem",
+              "28 min"
+            ],
+            [
+              "Chain-hopping detection heuristics",
+              "32 min"
+            ],
+            [
+              "Wrapped assets and what wrapping does to provenance",
+              "26 min"
+            ],
+            [
+              "Timing correlation across chains \u2014 the honest method",
+              "30 min"
+            ],
+            [
+              "Fusion: combining clusters into one attribution",
+              "30 min"
+            ],
+            [
+              "Case study: the multi-hop exit",
+              "35 min"
+            ],
+            [
+              "Capstone: fused attribution with documented uncertainty",
+              "45 min"
+            ]
+          ]
+        ]
+      ],
+      "domains": [
+        [
+          "Bridge and DEX mechanics",
+          "20%"
+        ],
+        [
+          "Hop detection and timing correlation",
+          "30%"
+        ],
+        [
+          "Wrapped-asset provenance",
+          "20%"
+        ],
+        [
+          "Fused attribution and uncertainty",
+          "30%"
+        ]
+      ],
+      "cert": [
+        "50 questions \u00b7 2 practicals",
+        "70%",
+        "Exam fee applies",
+        "2 years"
+      ]
+    }
+  },
+  "template_owner": "scripts/gen-academy.py (canonical)"
+}
