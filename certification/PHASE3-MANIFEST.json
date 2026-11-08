@@ -48,5 +48,26 @@
     },
     "image": "cca-certification:2.3.0",
     "date": "2026-11-08T10:07:55Z"
+  },
+  "redesign_v3": {
+    "event": "user verdict on v2 design: 'weird \u2014 fix it' \u2192 vision autopsy found 8 ranked structural defects",
+    "redesign": "certdesign.py \u2014 canonical premium layout module (design-note header documents every fix)",
+    "fixes": {
+      "S1_orphaned_seal": "seal + SIGNATURE BLOCK (Ahmad Fuad Kamarazaman, Academic Director) paired on shared optical axis",
+      "S2_void": "modular rhythm constants; divider couples bands; authenticity row fills former dead zone",
+      "S3_seal_internals": "matched navy #16304D, centred star, 58px wordmark, ring clearance",
+      "S4_footer": "single two-line grid (CID/Issued-Serial | Expires/STATUS chip), QR+caption centred cell, all inside gold rules",
+      "S5_hierarchy": "recipient NAVY not black; STATUS as green chip; 30>26>17 title ladder",
+      "S7": "signature block gives the seal a job"
+    },
+    "bugs_killed": [
+      "double-mm unit bug (sig_x*mm off-page \u2014 signature was rendering off-canvas, caught by text-layer gate)",
+      "chip/expiry overlap",
+      "QR crossing inner rule",
+      "splice misplaced block inside legacy _cert_pdf (NameError row, caught by container logs)"
+    ],
+    "verification": "text-layer gate ALL 10 strings on LIVE container output (primary record, not pixels); vision PASS final; expiry-date scare disproved (2028-11-07 confirmed in PDF text + API record)",
+    "image": "cca-certification:2.3.2",
+    "date": "2026-11-08T10:17:14Z"
   }
 }

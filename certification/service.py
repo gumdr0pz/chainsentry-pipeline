@@ -369,7 +369,7 @@ def open_badge(cid: str):
         "id": f"{BASE_URL}/badges/{d['course_code']}",
         "name": d["course"],
         "description": f"ChainSentry Academy certification: {d['course']} (CCA-{d['course_code']}). Vendor-neutral, exam-verified.",
-        "image": f"{BASE_URL}/static/seal.png",
+        "image": f"{BASE_URL}/assets/seal-real.png",
         "criteria": {"narrative": "Pass the CCA-{cc} exam at 70% or higher.".format(cc=d["course_code"])},
         "issuer": {
           "type": "Issuer", "id": f"{BASE_URL}/issuer",
@@ -507,6 +507,7 @@ def verify_log_tail(limit: int = 25):
 import io as _io
 
 def _cert_pdf(d: dict) -> bytes:
+    """Legacy inline renderer (fallback; the canonical layout lives in certdesign.py)."""
     from reportlab.lib.pagesizes import A4, landscape
     from reportlab.lib.units import mm
     from reportlab.lib.colors import HexColor
@@ -521,19 +522,17 @@ def _cert_pdf(d: dict) -> bytes:
     cv.rect(14*mm, 14*mm, W-28*mm, H-28*mm)
     cv.setStrokeColor(GOLD); cv.setLineWidth(0.8)
     cv.rect(17*mm, 17*mm, W-34*mm, H-34*mm)
-    cv.setStrokeColor(GOLD); cv.setLineWidth(2)
-    cv.circle(46*mm, H/2, 14*mm, stroke=1, fill=0)
-    cv.setFillColor(GOLD); cv.setFont("Helvetica-Bold", 13)
-    cv.drawCentredString(46*mm, H/2-2*mm, "CCA")
-    cv.setFont("Helvetica", 6.5); cv.setFillColor(GREY)
-    cv.setFont("Helvetica", 5.2); cv.drawCentredString(40*mm, H/2-6*mm, "ACADEMY")
+    seal_path = APP_DIR / "assets" / "seal-real.png"
+    from reportlab.lib.utils import ImageReader as _IR
+    if seal_path.exists():
+        cv.drawImage(_IR(str(seal_path)), 30*mm, H/2-23*mm, 46*mm, 46*mm, mask="auto")
     cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 11)
     cv.drawCentredString(W/2, H-32*mm, "CHAINSENTRY ACADEMY")
     cv.setFont("Helvetica-Bold", 26)
     cv.drawCentredString(W/2, H-45*mm, "CERTIFICATE OF COMPLETION")
     cv.setFont("Helvetica", 12); cv.setFillColor(GREY)
     cv.drawCentredString(W/2, H-58*mm, "This certifies that")
-    cv.setFillColor(HexColor("#1A1A1A")); cv.setFont("Helvetica-Bold", 22)
+    cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 22)
     cv.drawCentredString(W/2, H-68*mm, d["holder"][:44])
     cv.setFont("Helvetica", 12); cv.setFillColor(GREY)
     cv.drawCentredString(W/2, H-78*mm, "has passed the examination for")
@@ -550,8 +549,7 @@ def _cert_pdf(d: dict) -> bytes:
     qr.add_data(vurl); qr.make(fit=True)
     qimg = qr.make_image(fill_color="#12263F", back_color="white")
     qbuf = _io.BytesIO(); qimg.save(qbuf, format="PNG"); qbuf.seek(0)
-    from reportlab.lib.utils import ImageReader
-    cv.drawImage(ImageReader(qbuf), W-52*mm, 20*mm, 24*mm, 24*mm)
+    cv.drawImage(_IR(qbuf), W-52*mm, 20*mm, 24*mm, 24*mm)
     cv.setFont("Helvetica", 7)
     cv.drawCentredString(W-40*mm, 18.5*mm, "Scan to verify")
     cv.showPage(); cv.save()
@@ -564,7 +562,17 @@ def certificate_pdf(cid: str):
     if not row:
         raise HTTPException(404, "credential not found")
     from fastapi.responses import Response
-    pdf = _cert_pdf(dict(row))
+    d = dict(row)
+    try:
+        import sys as _sys
+        if str(APP_DIR) not in _sys.path: _sys.path.insert(0, str(APP_DIR))
+        from certdesign import cert_pdf as _layout
+        pdf = _layout(holder=d["holder"], course=d["course"], cid=d["id"],
+                      issued=d["issued"], serial=d["serial"], expires=d["expires"],
+                      status=d["status"], base_url=os.environ.get("CCA_BASE_URL", "http://localhost:8890"),
+                      seal_path=str(APP_DIR / "assets" / "seal-real.png"))
+    except Exception:
+        pdf = _cert_pdf(d)  # legacy fallback
     return Response(pdf, media_type="application/pdf",
                     headers={"Content-Disposition": f'inline; filename="CCA-{row["id"]}.pdf"'})
 
@@ -621,6 +629,15 @@ def verify_ui():
 @app.get("/business", response_class=HTMLResponse)
 def business_page():
     return BUSINESS_HTML
+
+@app.get("/assets/{fname}")
+def assets(fname: str):
+    p = APP_DIR / "assets" / fname
+    if not p.exists():
+        raise HTTPException(404, "asset not found")
+    mime = "image/png" if fname.endswith(".png") else "image/svg+xml" if fname.endswith(".svg") else "application/octet-stream"
+    from fastapi.responses import Response
+    return Response(p.read_bytes(), media_type=mime)
 
 @app.get("/courses/{code}", response_class=HTMLResponse)
 def course(code: str):
