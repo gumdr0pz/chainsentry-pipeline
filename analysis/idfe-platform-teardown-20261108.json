@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "artifact": "IDFE platform \u2014 full competitive teardown",
+    "date": "2026-11-08T09:01:38Z",
+    "method": "48-URL map from BE page + 9 surfaces crawled (certs/business/partners/verify/institute/lesson/course/sign-in/faq-anchor) + verify endpoint exercised server-side with live code",
+    "operator": "Vesper (REA + curl)",
+    "classification": "CONFIDENTIAL - competitive intel"
+  },
+  "coverage": {
+    "complete": "marketing, course content (lesson 64 full-text), cert catalog + pricing (DA track), badges, voucher system, partner shape, verify mechanics (4 states + alphabet rule + logging), integrity loop",
+    "walled": [
+      "sign-in flow (auth - untouched per house rule)",
+      "exam-taking runtime",
+      "payment/order flow behind CTA",
+      "CF-track exam prices (not captured; DA-track prices are)"
+    ]
+  },
+  "catalog": {
+    "structure": "9 certifications, 2 tracks + free entry",
+    "computer_forensics_track": [
+      "DFF Digital Forensics Foundation",
+      "CFX Computer Forensic Examiner",
+      "MFX Mobile Forensic Examiner",
+      "EFX Expert Forensic Examiner"
+    ],
+    "digital_assets_track": [
+      "DF Digital Assets Foundations ($49, 40q/60min, 5 domains)",
+      "DA Certified Digital Assets Professional ($79, 60q/90min, 6 domains)",
+      "CC Certified Crypto Compliance Professional ($79, 60q/90min, 6 domains)",
+      "CF Crypto Forensic Examiner ($249, multiple-choice + PRACTICAL LAB, 10 domains)"
+    ],
+    "entry": "BE Blockchain Explorer \u2014 free, 8 lessons, ~3h, 30q/45min exam"
+  },
+  "motions": [
+    "freemium funnel: free course+cert -> paid ladder",
+    "B2B2C vouchers: 12-month validity, reassignable until redeemed, 14-day refund, results-privacy (passed/not, not scores)",
+    "badge gamification: Core (2 certs) / Distinction (3 paid) / Master Examiner (whole CF track) / DA Specialist (whole DA track), auto-awarded, Open Badge",
+    "partner program (sign-in gated)",
+    "5-year validity, renew-by-current-version"
+  ],
+  "trust_machinery": {
+    "verify_states": [
+      "Valid",
+      "Expired",
+      "Revoked (public reason)",
+      "Superseded (reissue chain)"
+    ],
+    "lookup_logging": "every lookup is logged",
+    "qr_deeplink": "scanning certificate QR opens verify with code prefilled",
+    "anti_confusion_alphabet": "credential codes never use I/L/O/U (OCR/phishing resistance, Base58-style)",
+    "report_flow": "report-a-certificate -> confidential IDFE review; attempts invalidatable; credentials revocable publicly with reason"
+  },
+  "curriculum_signal": "CF domain list: tracing, clustering, attribution, SQL over blockchain tables, cross-chain flows, mixers, DEVICE ARTIFACTS, evidence integrity, expert reports, ASSET RECOVERY \u2014 hands-on lab. (SQL-over-chain-tables = what ChainHarvest IS; partnership-or-mirror signal.)",
+  "deltas_vs_our_container": [
+    "SUPERSEDED state + reissue chaining \u2014 we lack it",
+    "anti-confusion ID alphabet \u2014 we use raw hex+sequential",
+    "lookup logging \u2014 ours doesn't log verify calls",
+    "voucher/B2B layer \u2014 absent in ours",
+    "Open Badge compat \u2014 absent",
+    "report-a-fake loop \u2014 absent",
+    "two-attempt rule (2nd free, 7d later) \u2014 absent"
+  ]
+}
