@@ -1,0 +1,16 @@
+services:
+  cca-certification:
+    build: .
+    image: cca-certification:1.0.0
+    container_name: cca-certification
+    ports:
+      - "8890:8890"
+    environment:
+      - CCA_SECRET=${CCA_SECRET:-dev-secret-change-me}
+      - CCA_DB=/data/registry.db
+    volumes:
+      - cca-registry:/data
+    restart: unless-stopped
+
+volumes:
+  cca-registry:

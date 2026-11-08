@@ -1,0 +1,77 @@
+{
+  "artifact": "CCA certification container - end-to-end deployment",
+  "deployed": "2026-11-08T08:54:53Z",
+  "image": "cca-certification:1.0.0",
+  "image_sha": "sha256:eab682b67b328702bf4f1fbf07d87add8b4dbd456a6f52af019b6881d4b004a1",
+  "container_id": "c81c05685bd3",
+  "state": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 2267544,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-11-08T08:54:15.507610515Z",
+    "FinishedAt": "2026-11-08T08:54:13.140362177Z",
+    "Health": {
+      "Status": "healthy",
+      "FailingStreak": 0,
+      "Log": [
+        {
+          "Start": "2026-11-08T08:54:04.12999766Z",
+          "End": "2026-11-08T08:54:04.514556565Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-11-08T08:54:20.913147533Z",
+          "End": "2026-11-08T08:54:21.282547732Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-11-08T08:54:51.283315598Z",
+          "End": "2026-11-08T08:54:52.316884347Z",
+          "ExitCode": 0,
+          "Output": ""
+        }
+      ]
+    }
+  },
+  "port": "8890 -> 8890",
+  "volume": "cca-registry:/data (SQLite registry, restart-survivable)",
+  "endpoints": [
+    "/health",
+    "/api/v1/issue",
+    "/api/v1/verify/{id}",
+    "/api/v1/credential/{id}",
+    "/api/v1/registry",
+    "/api/v1/revoke/{cid}",
+    "/ (hub)",
+    "/courses/{code}",
+    "/verify (live UI)"
+  ],
+  "e2e_evidence": {
+    "issued": [
+      "CCA-BTE-2026-0001 (Hadri, serial 2611-BF235B54)",
+      "CCA-CAP-2026-0001 (Jeffri, REVOKED test)"
+    ],
+    "verify_valid": true,
+    "verify_not_found": true,
+    "verify_revoked": true,
+    "restart_persistence": "registry_size=2 after container stop/start",
+    "live_ui_vision": "VALID + Holder + Serial from live API on non-demo ID",
+    "hub_http": 200,
+    "course_http": 200
+  },
+  "files": [
+    "Dockerfile",
+    "compose.yaml",
+    "certification/service.py",
+    "certification/requirements.txt"
+  ],
+  "known_cosmetic": "verify page footer dead-space (min-height), carried in manifests"
+}
