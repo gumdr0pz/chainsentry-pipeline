@@ -8,6 +8,7 @@ COPY certification/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY certification/service.py .
+COPY certification/certdesign.py .
 COPY design/ ./design/
 COPY certification/assets/ ./assets/
 
