@@ -103,5 +103,16 @@
       "my invented navy #16304D / gold #C9A227 were NOT house colors \u2014 replaced by real tokens"
     ],
     "date": "2026-11-08T11:01:16Z"
+  },
+  "silent_qa_pass": {
+    "event": "user sent render without comment (markup overlay on image = their annotation pointing at seal, not a defect)",
+    "fixes": {
+      "watermark": "shifted left 26mm + shrunk 120->108mm \u2014 signature zone clear",
+      "qr": "stringWidth-measured optical centring (real block extents, no guessed 92mm) \u2014 within ~3pt of whitespace midline, vertically centred against the two-line blocks",
+      "signature": "block internally flush-left (italic sig, rule, name, role, tag share one left edge)",
+      "seal": "SEAL_D 46->50mm \u2014 anchors lower-left"
+    },
+    "verification": "vision 9/10 SHIP (composition fully confirmed); text gate 11/11 LIVE; image 2.5.1",
+    "date": "2026-11-08T11:25:11Z"
   }
 }

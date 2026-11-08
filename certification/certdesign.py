@@ -52,9 +52,9 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     # watermark: giant faint brand mark centred on the former void zone (behind content)
     wm_path = os.path.join(os.path.dirname(seal_path or ""), "watermark.png") if seal_path else None
     if wm_path and os.path.exists(wm_path):
-        wm_sz = 120*mm
+        wm_sz = 108*mm
         from reportlab.lib.utils import ImageReader as _IRWM
-        cv.drawImage(_IRWM(wm_path), W/2-wm_sz/2, H/2-wm_sz/2-6*mm, wm_sz, wm_sz)
+        cv.drawImage(_IRWM(wm_path), W/2-wm_sz/2-26*mm, H/2-wm_sz/2-2*mm, wm_sz, wm_sz)  # shifted left, off the signature column
 
     # frame — S8 same tokens
     cv.setStrokeColor(NAVY); cv.setLineWidth(2)
@@ -88,7 +88,7 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
 
     # seal band: seal LEFT-of-centre + SIGNATURE RIGHT-of-centre, on ONE shared
     # optical axis — S1 (seal has a job) + S7
-    SEAL_D = 46  # mm diameter
+    SEAL_D = 50  # mm diameter — anchors the lower-left
     seal_left = W/2 - 84*mm         # points
     seal_bottom = Y(R["sealzone_top"]) - SEAL_D*mm
     from reportlab.lib.utils import ImageReader
@@ -110,20 +110,20 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
         if os.path.exists(_sf):
             pdfmetrics.registerFont(TTFont("SigIt", _sf))
             cv.setFillColor(NAVY); cv.setFont("SigIt", 15)
-            cv.drawString(sig_left+4*mm, sig_y+4*mm, "Ahmad Fuad Kamarazaman")
+            cv.drawString(sig_left+1*mm, sig_y+4*mm, "Ahmad Fuad Kamarazaman")
         else:
             cv.setFillColor(NAVY); cv.setFont("Times-Italic", 15)
-            cv.drawString(sig_left+4*mm, sig_y+4*mm, "Ahmad Fuad Kamarazaman")
+            cv.drawString(sig_left+1*mm, sig_y+4*mm, "Ahmad Fuad Kamarazaman")
     except Exception:
         pass
     cv.setStrokeColor(GRAY); cv.setLineWidth(0.7)
     cv.line(sig_left, sig_y, sig_left+56*mm, sig_y)
     cv.setFillColor(NAVY); cv.setFont("Helvetica-Bold", 11)
-    cv.drawCentredString(sig_left+26*mm, sig_y-13, "AHMAD FUAD KAMARAZAMAN")
+    cv.drawString(sig_left, sig_y-13, "AHMAD FUAD KAMARAZAMAN")
     cv.setFillColor(GRAY); cv.setFont("Helvetica", 9)
-    cv.drawCentredString(sig_left+26*mm, sig_y-23, "Academic Director, ChainSentry Academy")
+    cv.drawString(sig_left, sig_y-23, "Academic Director, ChainSentry Academy")
     cv.setFillColor(HexColor("#8A94A0")); cv.setFont("Helvetica-Oblique", 7)
-    cv.drawCentredString(sig_left+26*mm, sig_y-31, "Digitally signed")
+    cv.drawString(sig_left, sig_y-31, "Digitally signed")
 
     # footer strip — SIMPLE, explicit, single baseline — S4
     fy = 23*mm  # inside BOTH rules, breathing room from the inner rule
@@ -152,8 +152,16 @@ def cert_pdf(holder: str, course: str, cid: str, issued: str, serial: str,
     qimg = qr.make_image(fill_color="#101820", back_color="white")  # near-black: scannability
     qbuf = _io.BytesIO(); qimg.save(qbuf, format="PNG"); qbuf.seek(0)
     qs = 18
-    qx = rx - 92*mm
-    qy_bottom = fy + 2
+    # measure the REAL left-block width (longest of the two footer lines) — no guessed extents
+    from reportlab.pdfbase.pdfmetrics import stringWidth as _sw
+    w_line1 = _sw(f"Credential ID: {cid}", "Helvetica", 9.5)
+    w_line2 = _sw(f"Issued: {issued}    Serial: {serial}", "Helvetica", 9.5)
+    left_edge = lx
+    right_edge = left_edge + max(w_line1, w_line2)
+    gap_mid_x = (right_edge + (rx - 38*mm))/2          # mid of whitespace up to the chip column
+    qx = gap_mid_x - qs*mm/2                           # true optical centre of the gap
+    gap_mid_y = fy + 8                                  # vertical centre of the two-line block
+    qy_bottom = gap_mid_y - qs*mm/2                     # QR centred against both lines
     cv.drawImage(ImageReader(qbuf), qx, qy_bottom, qs*mm, qs*mm)
     cv.setFillColor(GRAY); cv.setFont("Helvetica-Bold", 7.5)
     cv.drawCentredString(qx+qs/2*mm, qy_bottom-5.5, "Scan to verify")
