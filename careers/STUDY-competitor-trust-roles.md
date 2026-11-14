@@ -2,7 +2,7 @@
 Fetched 2026-10-15 via Ashby public posting APIs: **Elliptic** (25 live jobs), **TRM Labs** (111 live jobs). Chainalysis board not publicly API-served (Greenhouse/Ashby/Lever slugs 404; no Chrome on host for browser walk) — rated NOT FETCHED, excluded from claims.
 
 ## Why this study
-Operator question: "Does the Jeff JD cover crypto? And ChainSentry is for the world, not only Malaysia." Method: read how the category leaders actually write their trust/advisory/expansion roles, steal the grammar that works.
+Operator question: "Does the Jeff JD cover crypto? And chainSENTRY is for the world, not only Malaysia." Method: read how the category leaders actually write their trust/advisory/expansion roles, steal the grammar that works.
 
 ## ELLIPTIC — Head of Enterprise Regulatory Advisory (New York)
 The closest analogue to our role. Key language, verbatim patterns:
@@ -33,8 +33,8 @@ Geo expansion is staffed as **network-activation roles, not quota sellers**:
 4. **Network-activation, never cold quota.** Both companies write the "not a closing-quota role" disclaimer explicitly.
 5. **AI-native is now stated** in trust-role requirements.
 
-## Implications for ChainSentry / Jeff JD v2
-*(Consumed 2026-10-16 → `careers/JD-trust-compliance-dual-mandate.md` v3 — fixes 1–3 applied: 90-day funded chain-fluency ramp with contractual T0 gate; dual-mandate restructure ChainSentry trust + Fiato advisory; chain-depth bench stays engineering + OSINT/REA lane, Jeff remains the trust seat.)*
+## Implications for chainSENTRY / Jeff JD v2
+*(Consumed 2026-10-16 → `careers/JD-trust-compliance-dual-mandate.md` v3 — fixes 1–3 applied: 90-day funded chain-fluency ramp with contractual T0 gate; dual-mandate restructure chainSENTRY trust + Fiato advisory; chain-depth bench stays engineering + OSINT/REA lane, Jeff remains the trust seat.)*
 - Our P-veto + artifact-KPI design already matches the category grammar (validated).
 - Fix 1 (crypto honesty): Jeff's resume shows **zero crypto/VA exposure** — category says that's survivable (working-knowledge baseline) but must be closed deliberately: add an explicit 90-day chain-fluency obligation with a test, not vibes.
 - Fix 2 (world, not just MY): re-scope P1 to multi-jurisdiction obligations (MiCA, MAS PSN02, VARA, PPATK, AMLO TH, FATF cross-map) and P4/P5 to corridor design partners + regional circuit — his MY network stays the beachhead, the methodology travels (Elliptic's own template).

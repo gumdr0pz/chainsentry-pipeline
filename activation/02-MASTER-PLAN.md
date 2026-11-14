@@ -30,7 +30,7 @@
 | wk8 | **Gate review (fri 27 Nov): ≥5 meetings held ✔/✘ + ≥2 signed MOUs ✔/✘** — fail = doors thesis wrong, re-tier roster before more spend | Gate minuted; re-tier proposal if red |
 | wk9–10 | Pilot #3–5 (target mix: 1 gov, 2 VASP); Turkey door-opening (SPK/MASAK intro via consultancy; Paribu/CoinMENA one-door play briefed); report generator G4 first MY-flavour output | Court-grade report template v1 accepted internally; TR outreach plan |
 | wk11 | First corridor report published → addressed to full MEA roster (Path 5 inbound test starts); if ACT-006 checkpoint (wk4) was YES: methodology paper submitted to one Swiss-adjacent venue; if NO: CH work stays deferred, none of this ships | Corridor report live; CH posture per wk4 minute |
-| wk12 | **Circuit breaker (wk12 per STRATEGY §9):** ≥1 pilot case report the *customer* names + corpus v0 gate → continue; fail → ChainSentry → maintenance, Aras refocuses. Also: first channel-sourced meeting expected (Path 4 test); Path-6 pull-check with pilot partners (E-KYC / RWA interest logged) | Board-deck parity paragraph + wk12 verdict; 2027 H1 plan draft |
+| wk12 | **Circuit breaker (wk12 per STRATEGY §9):** ≥1 pilot case report the *customer* names + corpus v0 gate → continue; fail → chainSENTRY → maintenance, Aras refocuses. Also: first channel-sourced meeting expected (Path 4 test); Path-6 pull-check with pilot partners (E-KYC / RWA interest logged) | Board-deck parity paragraph + wk12 verdict; 2027 H1 plan draft |
 
 ### P2 Scale — wk13–26 (condensed)
 

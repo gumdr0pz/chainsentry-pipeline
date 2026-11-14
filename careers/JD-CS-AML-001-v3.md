@@ -3,9 +3,9 @@
 **Position ID:** CS-AML-001
 **Version:** v3 — supersedes v2 (26 Oct 2026)
 **Owner:** Hadri (COO, approver) · **Prepared:** Vesper · **Band status:** INDICATIVE — owner confirmation before posting
-**Company:** Aras Integrasi Sdn Bhd — ChainSentry Product Division
-**Products:** ChainSentry (forensics & E-KYC) with the chain: family — chain:HARVEST (wallet intelligence) and the identity layer
-**Reports to:** Solutions Architect / Product Lead, ChainSentry — dotted line to COO for contractual and commercial matters
+**Company:** Aras Integrasi Sdn Bhd — chainSENTRY Product Division
+**Products:** chainSENTRY (forensics & E-KYC) with the chain: family — chain:HARVEST (wallet intelligence) and the identity layer
+**Reports to:** Solutions Architect / Product Lead, chainSENTRY — dotted line to COO for contractual and commercial matters
 **Direct reports:** None at appointment; owns analyst/contractor support as the design-partner cohort scales
 **Grade:** Senior Executive / Assistant Manager (4–8 years relevant experience)
 **Location:** Kuala Lumpur, Malaysia (hybrid). **Travel:** ~15–20% — Ho Chi Minh City, Bangkok, Dubai, occasionally Manama, Istanbul, Zürich
@@ -14,9 +14,9 @@
 
 ---
 
-## 1. About Aras Integrasi and ChainSentry
+## 1. About Aras Integrasi and chainSENTRY
 
-Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **ChainSentry** is the company's sovereign blockchain-forensics and E-KYC product line, built for governments, financial-intelligence units (FIUs), banks and licensed virtual-asset service providers (VASPs) that US-cloud-incumbent vendors price out, cannot serve on data-residency grounds, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
+Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **chainSENTRY** is the company's sovereign blockchain-forensics and E-KYC product line, built for governments, financial-intelligence units (FIUs), banks and licensed virtual-asset service providers (VASPs) that US-cloud-incumbent vendors price out, cannot serve on data-residency grounds, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
 
 Three principles define the product and are the standard against which this role's outputs are judged:
 
@@ -24,9 +24,9 @@ Three principles define the product and are the standard against which this role
 - **Corridor coverage.** Sourced, measurable attribution depth on the USDT/TRON Gulf-to-SEA off-ramp graph and adjacent MENA/SEA corridors — the graphs the incumbents underlabel.
 - **Auditability.** Detection methodology, label provenance and per-corridor precision/recall are published, not proprietary. Every label is expected to be defensible in the customer's court.
 
-The product family now spans three layers: ChainSentry forensics, chain:HARVEST wallet-intelligence harvesting (a continuously updated corpus of tens of thousands of checksum-validated wallet attributions drawn from dark-web, Telegram, ransomware-leak and sanctions sources, with an embedded OFAC screening engine), and an identity-assurance layer drawing on a university E-KYC research pipeline (tamper-resistant document authentication and liveness detection). A design-partner cohort of ~120 candidate institutions is being assembled across Malaysia, Vietnam, Thailand, the Philippines, Indonesia, Singapore, the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait, Oman, Jordan, Turkey, Egypt, Lebanon, Morocco and Switzerland — regulators and FIUs, licensed exchanges and e-money institutions, banks and tokenisation platforms, and professional-services channels.
+The product family now spans three layers: chainSENTRY forensics, chain:HARVEST wallet-intelligence harvesting (a continuously updated corpus of tens of thousands of checksum-validated wallet attributions drawn from dark-web, Telegram, ransomware-leak and sanctions sources, with an embedded OFAC screening engine), and an identity-assurance layer drawing on a university E-KYC research pipeline (tamper-resistant document authentication and liveness detection). A design-partner cohort of ~120 candidate institutions is being assembled across Malaysia, Vietnam, Thailand, the Philippines, Indonesia, Singapore, the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait, Oman, Jordan, Turkey, Egypt, Lebanon, Morocco and Switzerland — regulators and FIUs, licensed exchanges and e-money institutions, banks and tokenisation platforms, and professional-services channels.
 
-**Why this role exists:** ChainSentry's go-to-market is compliance-led. Supervisors and supervised entities adopt a tracing tool only when the methodology is defensible before their courts, the data handling satisfies their laws, and the vendor can sit across the table from an examiner as a credible peer. Today that discipline is carried informally by engineering and the product lead. This role makes it a function: pilots become lawful, evidence-preserving engagements; the attribution corpus stays defensible; regulators are answered in their own language. It does not replace sales — it makes sales compliant and pilots defensible.
+**Why this role exists:** chainSENTRY's go-to-market is compliance-led. Supervisors and supervised entities adopt a tracing tool only when the methodology is defensible before their courts, the data handling satisfies their laws, and the vendor can sit across the table from an examiner as a credible peer. Today that discipline is carried informally by engineering and the product lead. This role makes it a function: pilots become lawful, evidence-preserving engagements; the attribution corpus stays defensible; regulators are answered in their own language. It does not replace sales — it makes sales compliant and pilots defensible.
 
 ## 2. About the Role
 
@@ -123,7 +123,7 @@ Submit CV plus a one-page writing sample responding to: *"What should a newly li
 - Coinbase board scan, 2026-10-29 (228 jobs): "Compliance, Threat & Risk Assessment Manager" — risk-assessment manager titling grammar; Ripple board scan (108 jobs) — no AML-class openings; noted for coverage.
 
 **Verification ledger:**
-- [FACT] Company, product family, positioning, corridor list, E-KYC layer, cohort composition — ChainSentry pipeline repo (strategy doctrine, activation suite, contact/roster files), read 2026-10-29.
+- [FACT] Company, product family, positioning, corridor list, E-KYC layer, cohort composition — chainSENTRY pipeline repo (strategy doctrine, activation suite, contact/roster files), read 2026-10-29.
 - [FACT] chain:HARVEST corpus scale and OFAC engine — repo README v3.3.0 + OFAC_COMPLIANCE.md, read 2026-10-29.
 - [INDICATIVE] Salary band, benefits detail, travel percentage — pending COO confirmation before posting.
 - [UNKNOWN] Careers contact — to be inserted before posting.

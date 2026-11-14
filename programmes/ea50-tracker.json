@@ -33,7 +33,7 @@
   "master_target_lists": [
     "programmes/ea50-master-organisations.csv (184 org-grain rows incl. MEA expansion pool + T2-DEPTH pass 21-Oct)",
     "programmes/ea50-master-seats.csv (named seats per org)",
-    "ChainSentry-EA50-Master-Targets-20261020.xlsx (built 2026-10-20)"
+    "chainSENTRY-EA50-Master-Targets-20261020.xlsx (built 2026-10-20)"
   ],
   "welded_gates": [
     {"date": "2026-10-30", "gate": "P0 review", "bar": ">=5 seed meetings + >=2 MOUs"},

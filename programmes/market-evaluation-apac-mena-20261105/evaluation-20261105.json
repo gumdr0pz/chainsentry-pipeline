@@ -1,6 +1,6 @@
 {
   "meta": {
-    "evaluation": "ChainSentry pre-market evaluation - APAC & MENA",
+    "evaluation": "chainSENTRY pre-market evaluation - APAC & MENA",
     "generated": "2026-11-05T06:20:42Z",
     "weights": {
       "reg": 0.25,
@@ -109,7 +109,7 @@
       "fit": 5,
       "route": 3,
       "effort": 2,
-      "why": "BSP freeze shaped market; Coins.ph enforcement + remittance scale; TRX-corridor heartland = ChainSentry coverage advantage (TRX verified); english-speaking procurement",
+      "why": "BSP freeze shaped market; Coins.ph enforcement + remittance scale; TRX-corridor heartland = chainSENTRY coverage advantage (TRX verified); english-speaking procurement",
       "posture": "PRIMARY \u2014 remittance-corridor AML pilot, BSP-adjacent",
       "composite": 3.4
     },

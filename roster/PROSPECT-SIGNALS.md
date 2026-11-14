@@ -1,4 +1,4 @@
-# ChainSentry Malaysia — Signal Intelligence (hiring · vendors · budget · personnel)
+# chainSENTRY Malaysia — Signal Intelligence (hiring · vendors · budget · personnel)
 
 Mined 2026-10-10 from live job-board traffic (LinkedIn public postings API, KL-filtered, 53 unique current postings, JD bodies pulled individually). This layer is NOT directory data — it shows WHO IS BUILDING A FINANCIAL-CRIME FUNCTION RIGHT NOW, WHICH STACK THEY NAME, and WHEN THE DOOR OPENS. Hiring for these roles predicts tool purchases 6–12 months out. Each posting = dated, click-verified.
 
@@ -15,7 +15,7 @@ Mined 2026-10-10 from live job-board traffic (LinkedIn public postings API, KL-f
 - Department-head level, not staff: "strategic direction AML/CFT/TFS & CPF", "primary liaison with regulators, **financial intelligence units**", "supervise transaction monitoring systems" — JD names NO incumbent tool = stack undecided at this seat.
 - **This is the single highest-value timing signal in Malaysia right now:** whoever takes this seat buys the FCC stack for TNG's next cycle. A department head arriving without a mandated tool = 6–12 month purchase window OPEN until the hire lands and settles.
 - Corroborates T1: the TNG/PayNet fraud-alert pilot (BNM orbit, Oct-2026) is being staffed at head level = the mandate is real and funded.
-- Move: ChainSentry brief aimed at this seat (and the interim): on-prem + FIU-liaison-grade reporting + MY corridor corpus. If our AML/CFT hire (ACT-20261008-002) lands first, ex-incumbent-side candidates who lose to TNG's process are also our hire's feeder pool.
+- Move: chainSENTRY brief aimed at this seat (and the interim): on-prem + FIU-liaison-grade reporting + MY corridor corpus. If our AML/CFT hire (ACT-20261008-002) lands first, ex-incumbent-side candidates who lose to TNG's process are also our hire's feeder pool.
 
 ### First Digital (FDUSD — the MYR-stablecoin-adjacent issuer, KL desk) — Compliance Operations Analyst (15-Sep-2026)
 - Compliance *operations* hire = building the ops layer = tooling follows headcount. Watch-list prospect; no stack named.
@@ -45,7 +45,7 @@ Mined 2026-10-10 from live job-board traffic (LinkedIn public postings API, KL-f
 - **CelcomDigi**: Voice Firewall = in-house core-network build (no vendor); IPification (Jul-26) + Google Firebase for identity/OTP-defense. Money-tracing layer absent from their stack entirely.
 - **SC procurement page (live, dated RFPs)** = supervisory-tech pipeline: **ECMS + SC&Bursa Coordinated Enforcement Repository (CERS) maintenance re-award RFP closed 9-Jul-2026** — the shared enforcement data spine; SOC/WAF/PAM/DWH/AI-chatbot all 2024-26. Winners unpublished (MyPROC-gated) → integration/displacement watchpoint.
 - **CyberSecurity Malaysia publishes award-level detail** (procurement page): Trend Micro USM Anywhere SIEM, Sangfor NGFW, Elastic Platinum, AWS awarded 2025; "Renewal Forensic Software" (SH/09/2025) vendor unnamed; INTAi facial-recognition testbed. MoF registration codes 210102/210103/210106 required to bid.
-- **⚠ STRUCTURAL GATE on all Malaysian gov sales: Cyber Security Act 2024 (Act 854) — only NACSA-licensed providers may sell managed security services since 26-Aug-2024 (registry: licence.nacsa.gov.my).** ChainSentry/GSA govt motion REQUIRES: NACSA CSL licence + MoF registration. Not in the activation suite yet → add as G-gate (owner Hadri; the JSJK conversation makes this urgent).
+- **⚠ STRUCTURAL GATE on all Malaysian gov sales: Cyber Security Act 2024 (Act 854) — only NACSA-licensed providers may sell managed security services since 26-Aug-2024 (registry: licence.nacsa.gov.my).** chainSENTRY/GSA govt motion REQUIRES: NACSA CSL licence + MoF registration. Not in the activation suite yet → add as G-gate (owner Hadri; the JSJK conversation makes this urgent).
 - **NACSA–Huawei AI-security partnership** reported Jul-26 (secondary source only — verify before use).
 - **BNM: H1-2027 real-time fraud-ALERT pilot with selected banks** (Governor, IFCTF 6-Oct-26) — vendor unnamed = THE national procurement event to watch; NFP/PayNet is the rails.
 

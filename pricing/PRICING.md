@@ -1,4 +1,4 @@
-# ChainSentry — Plans & Pricing (v1, 2026-10-14)
+# chainSENTRY — Plans & Pricing (v1, 2026-10-14)
 
 > Competitive structure benchmarked against MistTrack's published tier ladder (fetched 2026-10-14: Basic $229 / Standard $689 / Compliance $2,069 / Developer from $20/yr / enterprise KYT = contact-us). Structure mirrors the market norm; the **wedge is what MistTrack, Chainalysis and TRM cannot sell: sovereign deployment, corridor-native intelligence, and court-grade auditability at every tier.**
 >

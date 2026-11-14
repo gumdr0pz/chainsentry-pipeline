@@ -5,7 +5,7 @@
 **Ref:** full field report `reports/FIELD-REPORT-UPNM-DARKWEB-20261012-14.md` v2; sign-in extraction `roster/UPNM-DARKWEB-KEHADIRAN-20261014.md` (65eb5f5); curriculum verified from course slide (OCR, 2 passes agree)
 
 ## BLUF
-Aras attended the UPNM dark-web course end-to-end; the Day-3 cohort on our verified sign-in is **five RMAF personnel — four from RISUD (finance-corps investigation arm), one from AWC**. The curriculum makes this stronger than an attendance signal: six modules over three days with **Day-2 afternoon = "Cryptocurrency Tracing & Financial Attribution"**, and the course spine is *"legal safeguards, OPSEC and evidence preservation run through every module"* — ChainSentry's exact capability walk and evidentiary posture, taught by a buyer. UPNM is simultaneously venue, host, and trainee pipeline — an academy/training-channel target with a curriculum/tooling seam at Modules 4–6. No asks on engineering beyond what the existing alpha window already commits; flagged so the week-1 load is visible.
+Aras attended the UPNM dark-web course end-to-end; the Day-3 cohort on our verified sign-in is **five RMAF personnel — four from RISUD (finance-corps investigation arm), one from AWC**. The curriculum makes this stronger than an attendance signal: six modules over three days with **Day-2 afternoon = "Cryptocurrency Tracing & Financial Attribution"**, and the course spine is *"legal safeguards, OPSEC and evidence preservation run through every module"* — chainSENTRY's exact capability walk and evidentiary posture, taught by a buyer. UPNM is simultaneously venue, host, and trainee pipeline — an academy/training-channel target with a curriculum/tooling seam at Modules 4–6. No asks on engineering beyond what the existing alpha window already commits; flagged so the week-1 load is visible.
 
 ## Participant intelligence (Day-3 sign-in, OCR-verified)
 | Rank & Name | Service No. | Unit | Outreach-safe contact |
@@ -28,7 +28,7 @@ Aras attended the UPNM dark-web course end-to-end; the Day-3 cohort on our verif
 Course spine, verbatim: *"Legal safeguards, OPSEC and evidence preservation run through every module."* Instructors not identified in materials seen. [TBC-OWNER: facilitator identities.]
 
 ## Why this matters (CTO read)
-1. **Signal quality:** RISUD = payment/finance corps with investigation elements; four of five attendees. Funded dark-web curriculum for military financial investigators maps onto exactly the workflow ChainSentry productizes (marketplace/vendor tracing, VA off-ramp ID, evidence-grade export).
+1. **Signal quality:** RISUD = payment/finance corps with investigation elements; four of five attendees. Funded dark-web curriculum for military financial investigators maps onto exactly the workflow chainSENTRY productizes (marketplace/vendor tracing, VA off-ramp ID, evidence-grade export).
 2. **Institutional surface:** UPNM owns the venue AND the course AND the graduate pipeline — same academy motion as the MAMPU/AG play; potential curriculum/tooling partner with training revenue, plus sovereign-hosting angle that resonates in a defence-academic setting (no foreign-hosted tooling for exercises).
 3. **Contact discipline:** all five are uniformed; only Luqman's `.mil.my` and one personal gmail are usable today, engagement through official channels only. Draft outreach exists, held — no sends pending approval posture unchanged.
 

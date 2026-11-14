@@ -1,4 +1,4 @@
-# Malaysia — Contact Dossier (ChainSentry MY Path) · v3 — freshness audit
+# Malaysia — Contact Dossier (chainSENTRY MY Path) · v3 — freshness audit
 
 Compiled 2026-10-10 (v1) · merged agent-research pass (v2) · deep freshness audit 10-Oct v3: VARA notice read at source, Malay-language verification, Rusdi dateline refresh · Sources tagged: [V]=official page fetched this cycle, [N]=reputable news (dated), [R]=register evidence, [L]=LinkedIn-headline via news index (low). NO name appears without a source; unverifiable roles say NOT FOUND.
 
@@ -25,7 +25,7 @@ Compiled 2026-10-10 (v1) · merged agent-research pass (v2) · deep freshness au
 ## 2. Exchanges & e-money
 
 ### MY-06 Luno Malaysia
-- **Scarlett Chai** — Country Manager, Luno Malaysia [N×4] (Edge Jan-25; theSun Sep-25; Star+fintechnews Sep-2026 UMYR stablecoin pilot — she fronts it: institutional/AML-sensitive = the natural ChainSentry hook)
+- **Scarlett Chai** — Country Manager, Luno Malaysia [N×4] (Edge Jan-25; theSun Sep-25; Star+fintechnews Sep-2026 UMYR stablecoin pilot — she fronts it: institutional/AML-sensitive = the natural chainSENTRY hook)
 - **Jeroni Khoo** — Deputy Country Manager MY [N] (fintechnews Mar-2026)
 - Group: **James Lanigan** CEO (since Mar-2023) [N-Med] · **Johan Hetzel (CAMS)** Global Head of Compliance & AFC [L-low]
 - Watch-out: sign MY entity only.
@@ -56,7 +56,7 @@ Compiled 2026-10-10 (v1) · merged agent-research pass (v2) · deep freshness au
 ## 3. Telco & bank
 ### MY-10 CelcomDigi (Aras client)
 - **Albern Murty** — Group CEO, appointed 10-Feb-2026 (successor to Datuk Mohamad Idham Nawawi) [N×3] (NST/Edge/BusinessToday — resolves v1's conflict; Potter/Izlib guesses both wrong).
-- Anti-fraud posture [N]: launched "Voice Firewall" (>355m suspicious calls blocked, Aug-2026) → pitch ChainSentry as the downstream money-mapping complement to their own stack.
+- Anti-fraud posture [N]: launched "Voice Firewall" (>355m suspicious calls blocked, Aug-2026) → pitch chainSENTRY as the downstream money-mapping complement to their own stack.
 - Group CCO: NOT FOUND. Account route: Aras sponsor (primary), Murty is the halo, not the door.
 
 ### MY-12 Maybank Group

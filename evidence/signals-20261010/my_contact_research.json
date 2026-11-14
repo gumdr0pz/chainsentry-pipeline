@@ -9,7 +9,7 @@
     ],
     "compliance_contact": {"name": "Johan Hetzel (CAMS)", "role": "Global Head of Compliance & Anti-Financial Crime (Crypto), Luno", "source": "LinkedIn profile headline via Google News index (login-walled)", "date": "profile cached, recency unverified (flag: stale, 2019-dated index entry)", "confidence": "Low", "note": "No Malaysia-based MLRO/compliance officer found in public sources."},
     "emails_published": [],
-    "route_note": "Enter via Scarlett Chai (Country Manager MY, quoted Sep-2026 on the UMYR ringgit-stablecoin pilot with Halogen/Kenanga — institutional/AML-sensitive initiative = natural ChainSentry hook). Luno is a DCG subsidiary under group-wide AML program."
+    "route_note": "Enter via Scarlett Chai (Country Manager MY, quoted Sep-2026 on the UMYR ringgit-stablecoin pilot with Halogen/Kenanga — institutional/AML-sensitive initiative = natural chainSENTRY hook). Luno is a DCG subsidiary under group-wide AML program."
   },
   {
     "company": "MX Global Sdn Bhd / MX Exchange (Labuan-linked DAX)",
@@ -76,7 +76,7 @@
     ],
     "compliance_contact": {"name": "NOT FOUND", "role": "Payments/AML/Financial Cyber Resilience department heads — bnm.gov.my fully bot-blocked (Access Denied/Cloudflare via all fetch paths)", "source": null, "date": null, "confidence": null},
     "emails_published": [],
-    "route_note": "Governor's Oct-2026 public line ('fraud prevention must shift from reactive to predictive; AI-assisted financial crime') is the direct policy hook for ChainSentry; AML/Payment Development Dept contacts need the BNM annual report PDF or LinkedIn — site unreachable from datacenter IPs."
+    "route_note": "Governor's Oct-2026 public line ('fraud prevention must shift from reactive to predictive; AI-assisted financial crime') is the direct policy hook for chainSENTRY; AML/Payment Development Dept contacts need the BNM annual report PDF or LinkedIn — site unreachable from datacenter IPs."
   },
   {
     "company": "PDRM / JBSS Bukit Aman — Jabatan Siasatan Jenayah Komersil (JSJK/JCID)",
@@ -96,7 +96,7 @@
     ],
     "compliance_contact": {"name": "NOT FOUND", "role": "Group Chief Compliance Officer not published", "source": null, "date": null, "confidence": null},
     "emails_published": [],
-    "route_note": "CelcomDigi shipped a 'Voice Firewall' scam-call product (Aug 2026, >355m suspicious calls) — they see themselves as anti-fraud sellers; pitch ChainSentry as tracing/downstream-money-mapping complement, via the new CEO's fraud/transformation agenda."
+    "route_note": "CelcomDigi shipped a 'Voice Firewall' scam-call product (Aug 2026, >355m suspicious calls) — they see themselves as anti-fraud sellers; pitch chainSENTRY as tracing/downstream-money-mapping complement, via the new CEO's fraud/transformation agenda."
   },
   {
     "company": "Maybank Group",

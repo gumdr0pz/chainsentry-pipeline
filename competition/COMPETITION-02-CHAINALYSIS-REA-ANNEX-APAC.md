@@ -2,11 +2,11 @@
 
 **Status:** DRAFT v1 (2026-10-19) · Owner: Hadri (approval) · Operator: Vesper (execution)
 **Parent:** COMPETITION-01-TRM-LABS-PLAN.md (method carried) · Two-market canon (04-CANONICAL-PLAN-AML-TWO-MARKETS.md)
-**Directives fulfilled:** (1) benefits-to-ChainSentry articulation; (2) REA applied to Chainalysis; (3) best-way-forward chosen with APAC as first target.
+**Directives fulfilled:** (1) benefits-to-chainSENTRY articulation; (2) REA applied to Chainalysis; (3) best-way-forward chosen with APAC as first target.
 
 ---
 
-## PART A — HOW COMPETITOR TEARDOWNS BENEFIT CHAINSENTRY (the articulated payoff)
+## PART A — HOW COMPETITOR TEARDOWNS BENEFIT chainSENTRY (the articulated payoff)
 
 | Benefit | Mechanism | Wired to |
 |---|---|---|
@@ -37,7 +37,7 @@
 
 ## PART C — HEAD-TO-HEAD (verified numbers, both crawls)
 
-| Dimension | Chainalysis [SITE_ASSERTION] | TRM Labs [SITE_ASSERTION] | ChainSentry position |
+| Dimension | Chainalysis [SITE_ASSERTION] | TRM Labs [SITE_ASSERTION] | chainSENTRY position |
 |---|---|---|---|
 | Flagship identity | "The Blockchain Data Platform" | "AI Investigations & Blockchain Intelligence" | Financial-AML platform, fiat+crypto (different axis) |
 | Investigation | Reactor (1,500+ orgs; **$34B+ frozen/recovered**; 134K+ counterparties) | Forensics + Ardence (65+ chains, 1.9B assets, glass-box attribution) | M3 cockpit — younger; differentiate on corridor + sovereign |
@@ -55,7 +55,7 @@
 
 ## PART D — WAY-FORWARD: APAC FIRST (the verdict)
 
-**Judgment:** APAC-first is right and now provable: both incumbents serve APAC from enterprise clouds, localize opportunistically, and price enterprise. APAC demand is structural — regulatory clock (SC RM Guidelines, SG PSA/MI, HK VATP, TR/ID/TH cohorts), the KL hiring hub (Bybit 6-postings, TNG FCC window), and LE caseload growth. ChainSentry's edge = the only corridor-native, fiat+crypto-unified, sovereign-deployable platform built AT APAC price/accessibility points.
+**Judgment:** APAC-first is right and now provable: both incumbents serve APAC from enterprise clouds, localize opportunistically, and price enterprise. APAC demand is structural — regulatory clock (SC RM Guidelines, SG PSA/MI, HK VATP, TR/ID/TH cohorts), the KL hiring hub (Bybit 6-postings, TNG FCC window), and LE caseload growth. chainSENTRY's edge = the only corridor-native, fiat+crypto-unified, sovereign-deployable platform built AT APAC price/accessibility points.
 
 **Sequence (two-market canon, APAC spearhead):**
 1. **Wave A — MY proof market (NOW → Day 90):** per canonical plan STEP A–D: JSJK casework pilot (Path 1), BNM/SC supervisory artifacts, PiLot-2 monitor in a DAX. APAC evidence base = MY artifacts translated to the APAC grammar.

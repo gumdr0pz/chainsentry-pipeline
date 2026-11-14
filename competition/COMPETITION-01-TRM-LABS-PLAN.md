@@ -1,7 +1,7 @@
 # COMPETITION-01 — TRM Labs: Know-the-Competitor Plan (End-to-End)
 
 **Status:** DRAFT v1 (2026-10-16) · Owner: Hadri (approval) · Operator: Vesper (execution)
-**Purpose:** ChainSentry displaces TRM-class incumbents (their own JDs name Chainalysis/Elliptic/TRM/CipherTrace; TNG's FCC seat decides a stack within 6 months). Knowing TRM end-to-end = the difference between pitching features and pitching THEIR gap. This plan operationalizes that knowledge: product teardown → technical layer → commercial layer → GTM layer → deliverables → continuous watch.
+**Purpose:** chainSENTRY displaces TRM-class incumbents (their own JDs name Chainalysis/Elliptic/TRM/CipherTrace; TNG's FCC seat decides a stack within 6 months). Knowing TRM end-to-end = the difference between pitching features and pitching THEIR gap. This plan operationalizes that knowledge: product teardown → technical layer → commercial layer → GTM layer → deliverables → continuous watch.
 **Standing rule:** NOT FOUND beats guess. Auth-gated surfaces (MyTRM portal, docs API-reference, member Slack/community internals) are marked as boundary conditions, never guessed.
 
 ---
@@ -9,16 +9,16 @@
 ## PHASE 0 — Objectives & the four questions (everything serves these)
 1. **What does TRM actually ship** — per-product feature truth (not brochure truth)?
 2. **Where are their structural gaps** — geographies, currencies, deployment models, price points, segments they underserve?
-3. **How do they earn trust** — certifications, communities, regulator relationships, services — and what can ChainSentry replicate cheaply?
+3. **How do they earn trust** — certifications, communities, regulator relationships, services — and what can chainSENTRY replicate cheaply?
 4. **What is their roadmap telegraphing** — hiring signals, launch cadence, partner moves?
 
-**Deliverable set (end-to-end):** (D1) product inventory + feature matrix · (D2) battle card vs ChainSentry M1–M5 · (D3) gap/opportunity memo feeding Paths 1–2 · (D4) trust-replication playbook · (D5) roadmap-inference memo from hiring · (D6) monitoring loop spec.
+**Deliverable set (end-to-end):** (D1) product inventory + feature matrix · (D2) battle card vs chainSENTRY M1–M5 · (D3) gap/opportunity memo feeding Paths 1–2 · (D4) trust-replication playbook · (D5) roadmap-inference memo from hiring · (D6) monitoring loop spec.
 
 ## PHASE 1 — Product teardown ✅ EXECUTED 2026-10-16 (evidence: live crawl, this session)
 All surfaces fetched from www.trmlabs.com (Next.js site; cloudflare edge) + status/support/docs subdomains. Boundary hit: docs API-reference is auth-gated (login) — endpoint truth beyond public OpenAPI hints NOT accessed, no credentials attempted.
 
 **Product inventory (verified at source 16-Oct):**
-| Product | What it is (site's own words, condensed) | ChainSentry analogue |
+| Product | What it is (site's own words, condensed) | chainSENTRY analogue |
 |---|---|---|
 | **Ardence** | "The AI investigation platform" — all-source investigations; NEW flagship (launch PR featured) | M3 cockpit (ours: younger, narrower) |
 | **Forensics** | Core tracing: 65+ blockchains, 1.9B digital assets; **"glass box" attribution** (source + confidence score per attribution — claimed unique); Signatures® (peeling chains, layering, change-of-custody detection); cross-chain tracing; multi-route pathfinding; victim-reports DB ("largest scam/fraud victim reports db"); BTC transaction fingerprinting; case management; graph customization/export; **Seed Analysis** (associated wallets from seed phrases); Co-Case Agent (AI assistant, "human-led, court-defensible") | M3 + M2 (signatures ≈ our typology engine) |
@@ -38,7 +38,7 @@ All surfaces fetched from www.trmlabs.com (Next.js site; cloudflare edge) + stat
 **Statistics to beat in our pitches (site-claimed):** 65+/184+ chains (context-dependent), 1.9B assets, 3.1B addresses, <500 ms, NPS 80+, "only glass-box attribution."
 
 ## PHASE 2 — Feature-vs-gap analysis (build: D1/D2) — PLAN
-- **Matrix build:** every Phase-1 product row × ChainSentry M1–M5 × (fiat leg / crypto leg). Field: parity / partial / none / *structural gap*.
+- **Matrix build:** every Phase-1 product row × chainSENTRY M1–M5 × (fiat leg / crypto leg). Field: parity / partial / none / *structural gap*.
 - **Known structural wedges to test (hypotheses, Phase 4 validates):** (a) fiat-rail depth (TRM is crypto-native; MY banks/e-money need fiat mule-chain AML in the SAME case tool) · (b) sovereign/on-prem deployment (TRM = cloud SaaS; MY/GCC data-residency mandates) · (c) corridor attribution Gulf⇄SEA corpus depth · (d) MY-language/regulator-format localization (BM reporting, BNM/FIED formats) · (e) price accessibility for Tier-2/3 FIs and LE units (TRM priced enterprise).
 - **Battle card (D2):** one pager per Path-1/2 door — their claim, our counter, the question to plant in the buyer's head ("who shows YOU the attribution source and confidence?" — if glass-box is their crown, our parallel-reconstruction workflow must match it or dodge it).
 
@@ -51,7 +51,7 @@ All surfaces fetched from www.trmlabs.com (Next.js site; cloudflare edge) + stat
 ## PHASE 4 — Commercial layer (build: D3/D4) — PLAN
 - **Packaging/pricing:** public pricing absent (sales-led) — collect from: purchasing portals/quotes, procurement disclosures, design-partner anecdotes, secondhand ranges; never present as fact without source grade.
 - **Partnership map:** Beacon membership roster (quoted members + announcements), Big-4/consultancy alliances, exchange data-sharing deals → who's locked (avoid), who's reachable (pitch).
-- **Beacon imitation assessment (D4):** a MY/GCC "settlement-risk network" (banks+e-wallets+DAXs flag mule wallets pre-withdrawal) is the highest-leverage community moat ChainSentry could seed with NACSA/PayNet orbit doors — costed proposal memo.
+- **Beacon imitation assessment (D4):** a MY/GCC "settlement-risk network" (banks+e-wallets+DAXs flag mule wallets pre-withdrawal) is the highest-leverage community moat chainSENTRY could seed with NACSA/PayNet orbit doors — costed proposal memo.
 - **Free-tier play (D4):** Deconflict is FREE-for-LE — their funnel hook. Our equivalent: free public-data casework triage for MY LE units (Path 1 wedge already half-built; formalize as product tier decision).
 
 ## PHASE 5 — GTM analysis (feeds Paths 1–2) — PLAN

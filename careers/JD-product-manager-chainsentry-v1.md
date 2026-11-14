@@ -1,9 +1,9 @@
-# Product Manager — ChainSentry
+# Product Manager — chainSENTRY
 
 **Position ID:** CS-PM-001
-**Company:** Aras Integrasi Sdn Bhd — ChainSentry Product Division
-**Department:** Product (ChainSentry)
-**Reports to:** Solutions Architect / Product Lead, ChainSentry — dotted line to Chief Operating Officer for commercial matters
+**Company:** Aras Integrasi Sdn Bhd — chainSENTRY Product Division
+**Department:** Product (chainSENTRY)
+**Reports to:** Solutions Architect / Product Lead, chainSENTRY — dotted line to Chief Operating Officer for commercial matters
 **Direct reports:** None at appointment; coordinates engineering (2 FTE) delivery priorities through the lead
 **Grade:** Senior Executive / Assistant Manager, commensurate with 5–8 years relevant experience
 **Location:** Kuala Lumpur, Malaysia (hybrid working policy)
@@ -17,13 +17,13 @@
 
 ## 1. About Us
 
-Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **ChainSentry** is the company's sovereign blockchain-tracing and E-KYC product line — jurisdiction-first blockchain forensics for governments, financial-intelligence units, banks and licensed virtual-asset service providers that US-based cloud vendors price out, cannot serve due to data-residency or sanctions optics, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
+Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **chainSENTRY** is the company's sovereign blockchain-tracing and E-KYC product line — jurisdiction-first blockchain forensics for governments, financial-intelligence units, banks and licensed virtual-asset service providers that US-based cloud vendors price out, cannot serve due to data-residency or sanctions optics, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
 
-The product competes where incumbents cannot follow: sovereign on-premise deployment (cases never leave the customer's jurisdiction), measurable attribution depth on the USDT/TRON Gulf-to-SEA off-ramp graph, and published, court-defensible methodology — auditable-but-young positioned against opaque-but-old. ChainSentry sits at the intersection of blockchain infrastructure, law-enforcement workflow, and regulated financial services. **The Product Manager is the seat that converts that positioning into a generally available product with named customer references — and does it on a published gate calendar that the board actually enforces.**
+The product competes where incumbents cannot follow: sovereign on-premise deployment (cases never leave the customer's jurisdiction), measurable attribution depth on the USDT/TRON Gulf-to-SEA off-ramp graph, and published, court-defensible methodology — auditable-but-young positioned against opaque-but-old. chainSENTRY sits at the intersection of blockchain infrastructure, law-enforcement workflow, and regulated financial services. **The Product Manager is the seat that converts that positioning into a generally available product with named customer references — and does it on a published gate calendar that the board actually enforces.**
 
 ## 2. About the Role
 
-You will own the conversion of ChainSentry from alpha/design-partner program to production-grade product. This is the product-strategy and execution seat for a forensic platform in its hardest, most consequential phase: pilots must convert, gates must pass on dates, and every demo shown externally must be honest about what is live and what is roadmap.
+You will own the conversion of chainSENTRY from alpha/design-partner program to production-grade product. This is the product-strategy and execution seat for a forensic platform in its hardest, most consequential phase: pilots must convert, gates must pass on dates, and every demo shown externally must be honest about what is live and what is roadmap.
 
 The mandate is a named pair: **(1)** own the roadmap as the program's sequence authority — the published gate spine (G1 appliance hardening → G2 import pathway → G3 adapters → G4 report generation → G5 corpus v0 → G6 pilot-readiness), the wave calendar, and the kill/continue checkpoints; **(2)** own the conversion loop — pilot feedback in, prioritized backlog out, shipped capability back to the pilot, until the program holds customer-named case reports that open government procurement.
 
@@ -32,7 +32,7 @@ You will work daily with engineering, the AML/CFT compliance function, the found
 ## 3. Key Responsibilities
 
 ### Roadmap and gate ownership
-- Own the ChainSentry product roadmap as sequence authority: version, publish, and defend it at scheduled gate reviews (board-visible, pass/fail, with freeze rules on failure).
+- Own the chainSENTRY product roadmap as sequence authority: version, publish, and defend it at scheduled gate reviews (board-visible, pass/fail, with freeze rules on failure).
 - Maintain the gate spine to published dates; escalate slipping gates in writing with options, not optimism.
 - Sequence the chain: product family after SENTRY GA — chain:HARVEST (cross-chain tracing MCP) and chain:IDENTITY (document forensics, deepfake/liveness, E-KYC capability line) — per the registered product-family roadmap.
 
@@ -104,7 +104,7 @@ Full-time, permanent, Kuala Lumpur hybrid. Three-month probation with the Sectio
 - Stripe — "Regulatory Reporting Program Manager, Stablecoin" (Greenhouse, id 7650177, pull 16-Oct-2026 — re-pull at revision).
 
 **Verification ledger:**
-- Gate spine G1–G6, wk4 gate review (31-Oct), wk12 kill/continue, §7 briefing protocol: [FACT — ChainSentry strategy v2 + activation master plan].
+- Gate spine G1–G6, wk4 gate review (31-Oct), wk12 kill/continue, §7 briefing protocol: [FACT — chainSENTRY strategy v2 + activation master plan].
 - SKU structure (editions-only, module matrix): [FACT — SKU Catalog v3.0 registration].
 - ~120-institution roster, chain-family sequencing: [FACT — roster canon + DEC-20260915-001].
 - Compensation band: [INDICATIVE] — owner confirmation precedes posting.

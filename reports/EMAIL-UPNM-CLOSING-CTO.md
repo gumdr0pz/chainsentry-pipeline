@@ -12,7 +12,7 @@ Who was there. The cohort I can account for was five RMAF officers, mostly from 
 
 What the students learned. In plain terms: how criminals hide online, how to find and collect intelligence from those places, how to trace cryptocurrency from a crime to a person, and how to turn all of it into a case file that stands up legally. A complete cycle from discovery to courtroom-ready output.
 
-Our read. UPNM is running this seriously — well-designed curriculum, credible cohort. Two natural follow-ups, nothing urgent: offering them a look at ChainSentry as a teaching tool for their crypto-tracing module (they need working tools their students can actually use), and staying connected with the attendees as their units build this capability. Both are early and low-cost; I'll keep them in the pipeline and flag anything that needs a decision from us.
+Our read. UPNM is running this seriously — well-designed curriculum, credible cohort. Two natural follow-ups, nothing urgent: offering them a look at chainSENTRY as a teaching tool for their crypto-tracing module (they need working tools their students can actually use), and staying connected with the attendees as their units build this capability. Both are early and low-cost; I'll keep them in the pipeline and flag anything that needs a decision from us.
 
 No action needed from your side — this is for awareness and to close out the activity.
 

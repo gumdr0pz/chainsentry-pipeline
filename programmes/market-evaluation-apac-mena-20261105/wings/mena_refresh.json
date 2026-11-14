@@ -1,6 +1,6 @@
 {
   "meta": {
-    "task": "MENA refresh layer (2025-26 events only) for ChainSentry pre-market eval",
+    "task": "MENA refresh layer (2025-26 events only) for chainSENTRY pre-market eval",
     "wing": "mena_refresh",
     "date_compiled": "2026-11-05",
     "method": "Google News RSS (hl=en, gl=AE, ceid=AE:en), 20+ query variants; direct curl to varadubai.gov.ae FAILED from this host (error 000 - blocked/unreachable, no proxy available). Raw RSS XML preserved at /home/mtadmin/chainsentry-apac-mena/raw/*.xml",

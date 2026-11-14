@@ -75,7 +75,7 @@
 3. `[EST]` All RM/USD bands (travel, ACV, channel margin, corpus seed, salary) are planning-grade; Aras finance validates P0 envelope at first gate review.
 4. `[INFERENCE]` Wave gating, one-corridor discipline, attach-rate targets and inbound-share targets are derived judgments, not measured facts.
 5. `[UNKNOWN]` JSJK briefing date, addressee rank (Insp vs ASP), and whether BNM will host a sandbox slot — all flagged where they block; none block suite adoption.
-6. `MERGE queue note:` this suite and all ChainSentry OPP-family records sit in register-proposal state until Hadri's MERGE; the repo is the working source of truth meanwhile.
+6. `MERGE queue note:` this suite and all chainSENTRY OPP-family records sit in register-proposal state until Hadri's MERGE; the repo is the working source of truth meanwhile.
 
 ## 5. Friday KPI log (append below, one line per week per 02 §6)
 

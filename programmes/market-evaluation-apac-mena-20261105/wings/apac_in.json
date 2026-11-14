@@ -1,7 +1,7 @@
 {
   "jurisdiction": "INDIA",
   "as_of": "2026-11-05",
-  "task": "FIU-IND regime + blockchain-AML demand recon for ChainSentry APAC/MENA entry",
+  "task": "FIU-IND regime + blockchain-AML demand recon for chainSENTRY APAC/MENA entry",
   "note_on_dates": "Live environment date is Nov 2026; '2025-26 state' interpreted as FY2024-25/FY2025-26 enforcement cycle. All claims from real Google News RSS / live fetches; unverifiable items marked [UNVERIFIED].",
   "REG-FACT": [
     {
@@ -97,7 +97,7 @@
     }
   ],
   "chain_sentry_fit_notes": [
-    "Bull: 49 FIU-registered VASPs with statutory STR duties + takedown pipeline (25 + 15 offshore platforms flagged 2025-26) + ED crypto-FEMA wave = recurring monitoring/tracing spend; ChainSentry's 88k-wallet intel + chain tracing + OFAC validator maps to FIU sanctions-screening and ED Dubai/Huione-linked tracing needs.",
+    "Bull: 49 FIU-registered VASPs with statutory STR duties + takedown pipeline (25 + 15 offshore platforms flagged 2025-26) + ED crypto-FEMA wave = recurring monitoring/tracing spend; chainSENTRY's 88k-wallet intel + chain tracing + OFAC validator maps to FIU sanctions-screening and ED Dubai/Huione-linked tracing needs.",
     "Bear: RBI openly favouring bank isolation/prohibition (Jul 2026) caps exchange growth; 0.7% domestic inflow share means registered-VASP TAM is small; govt procurement path (state police, MHA/I4C) favours local vendors/empanelment; 30% tax + 1% TDS suppressing volumes.",
     "Entry wedges: (1) offshore-exchange screening SaaS for the 49 registered exchanges (Travel-Rule/STR workflow), (2) state-police cyber-cell tracing pilots, (3) FIU-adjacent consultancies (CAM FIG-paper ecosystem: Cyril Amarchand, Grant Thornton) as channel."
   ],

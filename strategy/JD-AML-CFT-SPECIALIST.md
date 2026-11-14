@@ -1,9 +1,9 @@
 # AML/CFT Specialist — Blockchain Financial Crime & Compliance
 
 **Position ID:** CS-AML-001
-**Company:** Aras Integrasi Sdn Bhd — ChainSentry Product Division
-**Department:** Product & Commercial (ChainSentry)
-**Reports to:** Solutions Architect / Product Lead, ChainSentry — dotted line to Chief Operating Officer for contractual and commercial matters
+**Company:** Aras Integrasi Sdn Bhd — chainSENTRY Product Division
+**Department:** Product & Commercial (chainSENTRY)
+**Reports to:** Solutions Architect / Product Lead, chainSENTRY — dotted line to Chief Operating Officer for contractual and commercial matters
 **Direct reports:** None at appointment (expected to own contractor/junior analyst support within year one)
 **Grade:** Senior Executive / Assistant Manager, commensurate with 4–8 years relevant experience
 **Location:** Kuala Lumpur, Malaysia (hybrid working policy)
@@ -13,11 +13,11 @@
 
 ---
 
-## 1. About Aras Integrasi and ChainSentry
+## 1. About Aras Integrasi and chainSENTRY
 
-Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **ChainSentry** is the company's sovereign blockchain-tracing and E-KYC product line.
+Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **chainSENTRY** is the company's sovereign blockchain-tracing and E-KYC product line.
 
-ChainSentry provides jurisdiction-first blockchain forensics for governments, financial-intelligence units (FIUs), banks and licensed virtual-asset service providers (VASPs) that US-based cloud vendors price out, cannot serve due to data-residency or sanctions optics, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
+chainSENTRY provides jurisdiction-first blockchain forensics for governments, financial-intelligence units (FIUs), banks and licensed virtual-asset service providers (VASPs) that US-based cloud vendors price out, cannot serve due to data-residency or sanctions optics, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
 
 The product's positioning is deliberate and is the standard against which this role's outputs are judged:
 
@@ -25,11 +25,11 @@ The product's positioning is deliberate and is the standard against which this r
 - **Corridor coverage.** Measurable, sourced attribution depth on the USDT/TRON Gulf-to-SEA off-ramp graph and adjacent MENA/SEA corridors — the graph the incumbents underlabel.
 - **Auditability.** Detection methodology, label provenance and per-corridor precision/recall are published, not proprietary. We expect every label to be defensible in the customer's court.
 
-ChainSentry is currently assembling a design-partner cohort of approximately 120 candidate institutions across Malaysia, Vietnam, Thailand, the Philippines, Indonesia, Singapore, the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait, Oman, Jordan, Turkey, Egypt, Lebanon, Morocco and Switzerland. This cohort mixes regulators and FIUs, licensed exchanges and e-money institutions, banks and tokenisation platforms, and professional-services channels.
+chainSENTRY is currently assembling a design-partner cohort of approximately 120 candidate institutions across Malaysia, Vietnam, Thailand, the Philippines, Indonesia, Singapore, the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait, Oman, Jordan, Turkey, Egypt, Lebanon, Morocco and Switzerland. This cohort mixes regulators and FIUs, licensed exchanges and e-money institutions, banks and tokenisation platforms, and professional-services channels.
 
 ## 2. Why this role exists
 
-ChainSentry's go-to-market is compliance-led. Regulators and supervised entities adopt a tracing tool only when three conditions hold: the methodology is defensible before their courts, the data handling satisfies their laws, and the vendor can sit across the table from an examiner as a credible peer. Those three conditions are a discipline, and today that discipline is carried informally by engineering and the product lead.
+chainSENTRY's go-to-market is compliance-led. Regulators and supervised entities adopt a tracing tool only when three conditions hold: the methodology is defensible before their courts, the data handling satisfies their laws, and the vendor can sit across the table from an examiner as a credible peer. Those three conditions are a discipline, and today that discipline is carried informally by engineering and the product lead.
 
 The company's named top program risk is that the commercial pipeline outruns the product: a large roster of well-known institutions creates expectation in small regulator circles, and unhandled compliance friction in early pilots converts goodwill into cautionary tales. This role is the primary mitigation on the compliance and credibility axis of that risk. It converts pilot agreements into lawful, evidence-preserving engagements; it makes the attribution corpus defensible; and it answers regulators in their own language, so the company's leadership is not the single point of financial-crime judgment across four time zones.
 
@@ -37,7 +37,7 @@ This role does **not** replace sales capacity; it makes sales compliant and pilo
 
 ## 3. Role summary
 
-Own the AML/CFT compliance posture of ChainSentry's alpha/design-partner program and its expansion: pilot contracting and data-governance terms, jurisdictional lawfulness of every engagement, sanctions and watchlist integrity of the attribution corpus, court-grade casework output, and the company's written presence before regulators and supervisors. The role is a practitioner position with program-ownership weight — hands-on casework and drafting in year one, with first-line analyst leadership as the cohort scales.
+Own the AML/CFT compliance posture of chainSENTRY's alpha/design-partner program and its expansion: pilot contracting and data-governance terms, jurisdictional lawfulness of every engagement, sanctions and watchlist integrity of the attribution corpus, court-grade casework output, and the company's written presence before regulators and supervisors. The role is a practitioner position with program-ownership weight — hands-on casework and drafting in year one, with first-line analyst leadership as the cohort scales.
 
 ## 4. Key accountabilities
 
@@ -176,6 +176,6 @@ Submit CV plus a one-page writing sample responding to: *"What should a newly li
 
 ## Appendix B — Context anchors (internal)
 
-Positioning, gates G1–G6, alpha programme terms, corpus cold-start roadmap and team-gap analysis per ChainSentry strategy document v2; regional opportunity records and design-partner action records per CognitiveOS register; target rosters (canonical 50 + MEA 72). Kill/continue program metrics referenced in Section 8 are per strategy §9.
+Positioning, gates G1–G6, alpha programme terms, corpus cold-start roadmap and team-gap analysis per chainSENTRY strategy document v2; regional opportunity records and design-partner action records per CognitiveOS register; target rosters (canonical 50 + MEA 72). Kill/continue program metrics referenced in Section 8 are per strategy §9.
 
 *— End of document —*

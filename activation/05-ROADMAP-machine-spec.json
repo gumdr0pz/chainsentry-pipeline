@@ -23,7 +23,7 @@
   },
 
   "positioning_locked": {
-    "company": "ChainSentry",
+    "company": "chainSENTRY",
     "definition": "Financial-crime investigation & AML platform covering fiat + crypto rails, built to the internationally-used AML framework stack (FATF 40 / R.15-20 / Travel Rule / Egmont norms / Basel-COSO program governance)",
     "end_state_directive_hadri": "Become a FINANCIAL SECURITY COMPANY that helps regulated finance and crypto work within the government framework for finance and crypto",
     "markets": {
@@ -50,7 +50,7 @@
 
   "starting_position": {
     "as_of": "2026-10-21",
-    "aml_hire": {"candidate": "Jeffri Ashari", "action_id": "ACT-20261008-002", "due": "2026-10-22", "offer_target": "wk4", "dual_mandate": "Fiato Malaysia named compliance officer AND ChainSentry trust authority; conflict firewall per JD v4 sec 7"},
+    "aml_hire": {"candidate": "Jeffri Ashari", "action_id": "ACT-20261008-002", "due": "2026-10-22", "offer_target": "wk4", "dual_mandate": "Fiato Malaysia named compliance officer AND chainSENTRY trust authority; conflict firewall per JD v4 sec 7"},
     "product_gates": {"review": "2026-10-30", "meaning": "pass = outreach proceeds; fail = outreach freezes, product sprint only"},
     "p0_bar": {"seed_meetings": ">=5 by 2026-10-30", "mous": ">=2 by 2026-10-30", "tracker_state": "zero rows filled - CRITICAL PATH"},
     "send_domain": {"status": "BLOCKED", "reason": "host IP Spamhaus-listed, Microsoft-tenant recipients bounce", "trip_wire": "2026-11-09", "fallback": "redirect Tier-3 outbound to LinkedIn/manual lanes"},
@@ -61,14 +61,14 @@
     "step_1_fiato_founding_deployment": {
       "window": "now -> Day 90",
       "governing_plan": "../fiato/PLAN.md phases C-0 to C-3",
-      "objective": "ChainSentry = compliance engine under Fiato Malaysia crypto-to-MYR settlement (CSF-1 Screen / CSF-2 Monitor / CSF-3 Evidence; anything else OUT of scope)",
+      "objective": "chainSENTRY = compliance engine under Fiato Malaysia crypto-to-MYR settlement (CSF-1 Screen / CSF-2 Monitor / CSF-3 Evidence; anything else OUT of scope)",
       "moves": [
         {"id": "1.1", "move": "Authorize bilateral MoU", "contents": ["data-rights clause", "written reference/logo consent", "commercial skeleton: owner picks free-now | paid-at-Day-180 | revenue-share"], "deadline": "this week (2026-10-27)", "gate": "Hadri decision + Fiato consent", "decision_needed": 1},
         {"id": "1.2", "move": "Evidence Fiato MY licensing posture", "detail": "BNM e-money / MSB / VA-intermediary classification; public footprint currently Nigeria-entity; [UNKNOWN] on record", "deadline": "hire Day 45", "kill_wire": "unresolved => CSF-3 evidence-support only, no live monitoring, minuted", "decision_needed": 2},
         {"id": "1.3", "move": "AML hire lands at the seam", "detail": "JD v4 dual mandate; T0 gate on Day 1-30 ramp (mental model -> typologies -> hands-on -> T0 brief)", "deadline": "wk4 offer", "firewall": "JD v4 sec 7: employment seat vs Fiato mandate separated in contract/data/sign-off", "decision_needed": 0},
         {"id": "1.4", "move": "Gap assessment = CSF-coverage review", "detail": "JD Day-30 measure doubles as module requirements review; every gap mapped vs CSF-1/2/3; misses -> backlog, never scope creep", "deadline": "hire Day 30", "output": "CSF coverage matrix v1", "decision_needed": 0},
         {"id": "1.5", "move": "Controlled test on historical flows", "detail": "data-rights annex finalized BEFORE any flow; CSF-1+CSF-2 in controlled test; requires G1+G2 passed 2026-10-30", "deadline": "hire Day 60", "decision_needed": 0},
-        {"id": "1.6", "move": "First live deployment", "detail": "CSF-1+2 live on settlement flows; CSF-3 generates examiner-ready file + first partner-bank due-diligence pack BY ChainSentry (becomes the demo asset for all future prospects)", "deadline": "hire Day 90", "gate": "owner decision: nominate deployment as THE payments pilot counted in P0/P1 KPIs", "decision_needed": 3}
+        {"id": "1.6", "move": "First live deployment", "detail": "CSF-1+2 live on settlement flows; CSF-3 generates examiner-ready file + first partner-bank due-diligence pack BY chainSENTRY (becomes the demo asset for all future prospects)", "deadline": "hire Day 90", "gate": "owner decision: nominate deployment as THE payments pilot counted in P0/P1 KPIs", "decision_needed": 3}
       ],
       "exit_artifact": "exam-ready Fiato + first production deployment + 'the settlement operator we took exam-ready' demo asset"
     },
@@ -78,7 +78,7 @@
       "governing_plan": "activation/04 REGULATE/REQUIRE steps A1-A3, B1-B3",
       "moves": [
         {"id": "2.1", "move": "MY + GCC AML Obligation Matrices v1", "outputs": ["MY: AMLATFPUAA 2001 + BNM AML/CFT policy + SC RM Guidelines -> module rows", "GCC: VARA/SCA rulebooks + goAML formats -> module rows"], "validation": "hire validates MY half from Day 1; channel partner validates GCC half", "deadline": "hire Day 30-45"},
-        {"id": "2.2", "move": "ChainSentry Standards Map", "detail": "FATF 40 / R.15-20 / Travel Rule crosswalk onto M1-M5; the citable 'internationally-used framework' claim; replaces feature-selling permanently", "deadline": "hire Day 30-45"},
+        {"id": "2.2", "move": "chainSENTRY Standards Map", "detail": "FATF 40 / R.15-20 / Travel Rule crosswalk onto M1-M5; the citable 'internationally-used framework' claim; replaces feature-selling permanently", "deadline": "hire Day 30-45"},
         {"id": "2.3", "move": "Requirement backlog scored + frozen", "detail": "40+ rows (JD interviews + signals evidence); score on legal-binding / corridor-specific / incumbent-priced; owner approves frozen ship order M1->M5 (M3 flagship)", "deadline": "hire Day 60", "decision_needed": "freeze approval"},
         {"id": "2.4", "move": "Examiner pack v1 (M4)", "detail": "STR-ready, goAML-mapped; tested on PILOT-1 casework", "acceptance_test": "survives a BNM examiner", "deadline": "Day 90-120"},
         {"id": "2.5", "move": "Court-grade export v1 (M3)", "detail": "evidence locker + chain-of-custody export", "acceptance_test": "survives mock legal challenge", "deadline": "Day 120"}
@@ -90,7 +90,7 @@
       "window": "hire Day 90 -> Day 180",
       "moves": [
         {"id": "3.1", "move": "Package product lines M1->M5", "lines": ["M1 Screen", "M2 Monitor", "M3 Investigate (flagship)", "M4 Report/Filings", "M5 Govern"], "price_basis": "compliance clauses, never features", "deadline": "Day 90-120"},
-        {"id": "3.2", "move": "Government-framework legality (MALAYSIA)", "legal_key": ["NACSA CSL licence under Cyber Security Act 854 (mandatory since 2024-08-26 to sell managed security services to gov)", "MoF registration codes 210102/210103/210106", "security-exemption path drafted for PDRM direct procurement"], "deadline": "Day 90-150", "note": "without this the gov motion is unlawful; with it ChainSentry is lawfully sellable INTO the framework"},
+        {"id": "3.2", "move": "Government-framework legality (MALAYSIA)", "legal_key": ["NACSA CSL licence under Cyber Security Act 854 (mandatory since 2024-08-26 to sell managed security services to gov)", "MoF registration codes 210102/210103/210106", "security-exemption path drafted for PDRM direct procurement"], "deadline": "Day 90-150", "note": "without this the gov motion is unlawful; with it chainSENTRY is lawfully sellable INTO the framework"},
         {"id": "3.3", "move": "Position + machinery", "detail": ["sovereignty/on-prem posture = wedge vs US-cloud incumbents", "data-rights clause institutionalized on every deployment", "claims veto live", "Fiato commercial conversion signed Day 180 (first PAYING payments deployment; named reference live, consent-first)"], "deadline": "Day 120-180"},
         {"id": "3.4", "move": "Optional second sale", "detail": "corridor monitoring for Fiato international payees; fresh consent + gate required", "deadline": "Day 150-180"}
       ],

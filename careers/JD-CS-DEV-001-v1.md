@@ -3,9 +3,9 @@
 **Position ID:** CS-DEV-001
 **Version:** v1 — new position
 **Owner:** Hadri (COO, approver) · **Prepared:** Vesper · **Band status:** INDICATIVE — owner confirmation before posting
-**Company:** Aras Integrasi Sdn Bhd — ChainSentry Product Division
-**Product line:** ChainSentry (sovereign blockchain forensics + E-KYC) and the chain: family — chain:HARVEST wallet intelligence
-**Reports to:** Solutions Architect / Product Lead, ChainSentry — engineering mentoring from the senior engineering bench
+**Company:** Aras Integrasi Sdn Bhd — chainSENTRY Product Division
+**Product line:** chainSENTRY (sovereign blockchain forensics + E-KYC) and the chain: family — chain:HARVEST wallet intelligence
+**Reports to:** Solutions Architect / Product Lead, chainSENTRY — engineering mentoring from the senior engineering bench
 **Team context:** Small product-engineering pod alongside the intelligence/data pipeline that feeds it
 **Grade:** Two bands hire against this single posting — Junior (0–2 years) and Middle (2–4 years)
 **Location:** Kuala Lumpur, Malaysia (hybrid)
@@ -14,14 +14,14 @@
 
 ---
 
-## 1. About Aras Integrasi and ChainSentry
+## 1. About Aras Integrasi and chainSENTRY
 
-Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **ChainSentry** is the company's sovereign blockchain-forensics and E-KYC product line: jurisdiction-first blockchain intelligence for governments, financial-intelligence units, banks and licensed virtual-asset service providers that US-cloud vendors price out or cannot serve — on-premises, auditable, and built for Gulf–Southeast Asia–BRICS corridors.
+Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **chainSENTRY** is the company's sovereign blockchain-forensics and E-KYC product line: jurisdiction-first blockchain intelligence for governments, financial-intelligence units, banks and licensed virtual-asset service providers that US-cloud vendors price out or cannot serve — on-premises, auditable, and built for Gulf–Southeast Asia–BRICS corridors.
 
 The stack you would join is real, deployed, and unusual for its size:
 
-- **ChainSentry forensics app** — Next.js 16 / TypeScript with a graph-exploration core (Cytoscape with fCoSe/Dagre layouts), React Query data layer, authenticated role-based access (NextAuth), and an in-app sanctions-import pipeline.
-- **A TypeScript MCP server layer** exposing ChainSentry capabilities as tools (single- and multi-source variants) so agentic systems can drive forensics workflows.
+- **chainSENTRY forensics app** — Next.js 16 / TypeScript with a graph-exploration core (Cytoscape with fCoSe/Dagre layouts), React Query data layer, authenticated role-based access (NextAuth), and an in-app sanctions-import pipeline.
+- **A TypeScript MCP server layer** exposing chainSENTRY capabilities as tools (single- and multi-source variants) so agentic systems can drive forensics workflows.
 - **chain:HARVEST** — a Python wallet-intelligence system: crawler fleet across dark-web forums, ransomware-leak sites, Telegram channels, paste sites and clearweb crypto communities; checksum-validating ingestion (Base58Check, Bech32/Bech32m per chain); enrichment engines (contract vs EOA classification via live RPC, token-symbol resolution, explorer backfills); and an OFAC compliance engine (SDN parsing, wallet matching, risk scoring, reporting) — every address checksum-validated before entering the database, no exceptions.
 - **PostgreSQL** storage, Docker-based deploys, Linux production hosts.
 
@@ -52,7 +52,7 @@ You will build the ingestion, validation, enrichment and exploration machinery t
 - Tune matching behaviour with the AML/CFT SME: exact vs fuzzy matching thresholds, coin-type validation, scoring weights — with documented, reversible changes.
 
 ### 3.5 Surfaces and integrations
-- Maintain and extend the MCP tool layer so agentic clients can consume ChainSentry capabilities safely (authentication, scoping, tool contracts).
+- Maintain and extend the MCP tool layer so agentic clients can consume chainSENTRY capabilities safely (authentication, scoping, tool contracts).
 - Build and maintain internal APIs consumed by the app, the pipelines, and partner integrations.
 
 ### 3.6 Quality, security and operations

@@ -1,4 +1,4 @@
-# ChainSentry — Market Activation Suite
+# chainSENTRY — Market Activation Suite
 
 **Status:** Canonical v1 (2026-10-08) · Owner: Hadri (accountable) · Prepared: Vesper
 **Relationship to strategy:** `strategy/STRATEGY.md` v2 is the *why* (positioning, parity, gates, kill metrics). This suite is the canonical *how* — paths, sequencing, resourcing, metrics, decisions. Where they differ, this suite governs execution and STRATEGY.md governs doctrine.

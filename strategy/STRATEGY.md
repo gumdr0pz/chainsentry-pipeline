@@ -1,6 +1,6 @@
-# ChainSentry — Strategy & Chainalysis Parity Plan
+# chainSENTRY — Strategy & Chainalysis Parity Plan
 Status: draft v2 (2026-10-06) — adds entry playbooks, pricing counters, corpus roadmap, kill metrics, team gap · Owner: Hadri · Processor: Vesper
-Grounding: DEC-20260914-001 (ChainTrace→ChainSentry rename), DEC-20260915-001 (BRICS/sanctions pivot).
+Grounding: DEC-20260914-001 (ChainTrace→chainSENTRY rename), DEC-20260915-001 (BRICS/sanctions pivot).
 Epistemic: parity claims below are [ASSESSMENT]; market triggers news-corroborated 2026-10-06.
 
 ## Positioning (non-negotiable, from the pivot decision)
@@ -97,7 +97,7 @@ Corpus v0 gate: 10M+ labelled/derived addresses with per-corridor precision meas
 ## 9. Kill / Continue Metrics (wk4 / wk8 / wk12)
 - **wk4:** G1 appliance hardening green; G2 Reactor/CSV import demo-able. Fail → freeze outreach, product sprint only.
 - **wk8:** ≥5 seed-15 meetings held, ≥2 signed pilot MOUs with data-rights clause. Fail → doors thesis wrong; re-tier roster before more time spent.
-- **wk12:** ≥1 pilot producing a case report the *customer* will put their name on; corpus v0 gate G5 hit. Fail → ChainSentry to maintenance mode, Aras focus back to services. (Pivot cost is lower than sunk-cost drift. This is the RSK-20261006-001 circuit breaker.)
+- **wk12:** ≥1 pilot producing a case report the *customer* will put their name on; corpus v0 gate G5 hit. Fail → chainSENTRY to maintenance mode, Aras focus back to services. (Pivot cost is lower than sunk-cost drift. This is the RSK-20261006-001 circuit breaker.)
 
 ## 10. Team & Cost Envelope [EST — validate against Aras resourcing]
 - Product: 2 engineers (appliance hardening G1, adapters G2/G3) + 1 data (corpus G5) — 8–12 wks, the binding constraint.
@@ -106,4 +106,4 @@ Corpus v0 gate: 10M+ labelled/derived addresses with per-corridor precision meas
 - Sequence honesty: **the roster is ahead of the team.** Do not run seed-15 until G2 passes and a runner exists — otherwise this becomes 50 conversations and zero pilots, which is exactly RSK-20261006-001.
 
 ## 11. What "parity with Chainalysis" actually means (one paragraph, for the board deck)
-Chainalysis = graph corpus + government incumbency + network effects + brand. We will not match the first two in 24 months, so parity is *redefined by wedge*: (1) deployment parity — sovereign on-prem they won't build; (2) corridor parity — be measurably better on Gulf→SEA USDT-TRON than they are, verified by third-party eval on alpha data; (3) audit parity — publish what they keep private; (4) price-scope parity — proportionate licensing for supervised-SMB, their non-served segment. When a Malaysian/Emirati regulator can say "ChainSentry covers our corridors, the data never leaves our jurisdiction, and we can defend every label in our court" — that *is* parity where it matters, and their brand halo is irrelevant to that sentence.
+Chainalysis = graph corpus + government incumbency + network effects + brand. We will not match the first two in 24 months, so parity is *redefined by wedge*: (1) deployment parity — sovereign on-prem they won't build; (2) corridor parity — be measurably better on Gulf→SEA USDT-TRON than they are, verified by third-party eval on alpha data; (3) audit parity — publish what they keep private; (4) price-scope parity — proportionate licensing for supervised-SMB, their non-served segment. When a Malaysian/Emirati regulator can say "chainSENTRY covers our corridors, the data never leaves our jurisdiction, and we can defend every label in our court" — that *is* parity where it matters, and their brand halo is irrelevant to that sentence.

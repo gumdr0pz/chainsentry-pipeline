@@ -1,8 +1,8 @@
-# ChainSentry — Market Pipeline
+# chainSENTRY — Market Pipeline
 
-**Program repo for ChainSentry go-to-market.** Owner: Hadri (accountable) · Prepared/maintained: Vesper · Status: **P0 Foundation in flight** (program wk1 = w/c 2026-10-06).
+**Program repo for chainSENTRY go-to-market.** Owner: Hadri (accountable) · Prepared/maintained: Vesper · Status: **P0 Foundation in flight** (program wk1 = w/c 2026-10-06).
 
-ChainSentry = sovereign, on-prem blockchain forensics + E-KYC for states and regulated entities the US-cloud incumbents price out or can't serve. Doctrine is fixed: **we never sell "cheaper Chainalysis" — we sell jurisdiction-deployable, auditable, Gulf/SEA/BRICS-corridor coverage.** (`strategy/STRATEGY.md` is the doctrine of record.)
+chainSENTRY = sovereign, on-prem blockchain forensics + E-KYC for states and regulated entities the US-cloud incumbents price out or can't serve. Doctrine is fixed: **we never sell "cheaper Chainalysis" — we sell jurisdiction-deployable, auditable, Gulf/SEA/BRICS-corridor coverage.** (`strategy/STRATEGY.md` is the doctrine of record.)
 
 This repo holds the execution layer: strategy, activation plan, target rosters, contact intelligence, hiring signal scans, evidence snapshots, and the hiring spec. The CognitiveOS register (private, separate) holds the governed records (OPP/ACT/INT/RSK family) this repo points to.
 
@@ -15,7 +15,7 @@ This repo holds the execution layer: strategy, activation plan, target rosters, 
 | `strategy/STRATEGY.md` | **Doctrine** — positioning, Chainalysis parity scoreboard, entry playbooks, pricing counters, kill metrics | v2, 6-Oct |
 | `activation/` | **Canonical market-activation suite** (vision/mission → six paths → master plan → KPIs/risks/decisions) + consolidated `.docx` | v1, 8-Oct |
 | `roster/CONTACTS.csv` | **Contact list** — 76 rows: company / person / position / **state-tagged email** (VERIFIED-DIRECT / CATCHALL / PATTERN / published) / phone / how-to-reach / source. 20 corridor orgs with dated buy-now hooks + JP cohort (29-Oct route map) | 29-Oct |
-| `pricing/PRICING.md` · `pricing/ChainSentry-Pricing-v1.docx` | **Pricing tier ladder** — Scout (free) / Analyst $249 / Investigator $749 / Compliance $2,299 / **Sovereign (on-prem, air-gap)** / API from $29. Structure benchmarked vs published market ladders; capacity numbers marked PENDING-ENGINEERING-CONFIRM | 14-Oct |
+| `pricing/PRICING.md` · `pricing/chainSENTRY-Pricing-v1.docx` | **Pricing tier ladder** — Scout (free) / Analyst $249 / Investigator $749 / Compliance $2,299 / **Sovereign (on-prem, air-gap)** / API from $29. Structure benchmarked vs published market ladders; capacity numbers marked PENDING-ENGINEERING-CONFIRM | 14-Oct |
 | `roster/PROSPECT-INDICATORS.md` | **Master prospect list** — ranked by "why they buy NOW," each target = named signatory + dated buying indicators; contact table embedded | v2, 10-Oct |
 | `roster/PROSPECT-SIGNALS.md` | Signal intelligence — hiring clusters, incumbent vendors, procurement/budget trails (Belanjawan lines, parliamentary replies), operating-level personnel | 10-Oct sweep |
 | `roster/MALAYSIA-BATTLEMAP.docx` | All three analyses above in one circulated document (strip contact table before external use) | 10-Oct |
@@ -38,7 +38,7 @@ This repo holds the execution layer: strategy, activation plan, target rosters, 
 |---|---|
 | **10 Oct** | JSJK/CCID reply due (inbound briefing invitation) · escalation 12 Oct |
 | **13 Oct** | G2 Reactor/CSV-import sprint freeze — **no live-demo commitments until G2 passes** |
-| **15 Oct** | CAAM workshop track (existing Aras halo — do not conflate with ChainSentry pitch) |
+| **15 Oct** | CAAM workshop track (existing Aras halo — do not conflate with chainSENTRY pitch) |
 | 17 Oct | SC oversight-desk request (ACT-004) · Zetrix open loop closed (ACT-007 → recommend: close politely) |
 | 20 Oct | Data-rights annex + pilot-terms package (ACT-008) |
 | 22 Oct | AML/CFT specialist JD posted (ACT-002) |
@@ -63,6 +63,6 @@ D-01/02 vision + path ratification · **D-03 pipeline runner (recommend: Aras se
 *Maintained continuously. Signal scans re-run Fridays and diff against `evidence/signals-20261010/`. Contact data re-verified before any external letter older than 30 days.*
 
 ## Sub-repos
-- **`fiato/`** — dedicated Fiato collaboration repo (github.com/gumdr0pz/chainsentry-fiato): bilateral ChainSentry × Fiato Malaysia plan + source evidence. Referenced by the canonical plan (`activation/04-CANONICAL-PLAN-AML-TWO-MARKETS.md` §STEP F). Owned separately; parent links, never duplicates.
+- **`fiato/`** — dedicated Fiato collaboration repo (github.com/gumdr0pz/chainsentry-fiato): bilateral chainSENTRY × Fiato Malaysia plan + source evidence. Referenced by the canonical plan (`activation/04-CANONICAL-PLAN-AML-TWO-MARKETS.md` §STEP F). Owned separately; parent links, never duplicates.
 
 - 2026-11-05: APAC/MENA pre-market evaluation — 14 jurisdictions scored (wings + evaluation-20261105.json under programmes/market-evaluation-apac-mena-20261105/)

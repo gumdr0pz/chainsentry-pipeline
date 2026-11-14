@@ -1,6 +1,6 @@
-# JOB DESCRIPTION — Head of Trust & Compliance: ChainSentry × Fiato
+# JOB DESCRIPTION — Head of Trust & Compliance: chainSENTRY × Fiato
 **Company:** Aras Integrasi Sdn Bhd
-**Portfolio:** ChainSentry (product trust seat) + Fiato (fiato.io — compliance advisory mandate)
+**Portfolio:** chainSENTRY (product trust seat) + Fiato (fiato.io — compliance advisory mandate)
 **Reports to:** Solutions Architect (COO track) · **Location:** Kuala Lumpur / hybrid (Fiato remotes from Lagos — travel blocks budgeted)
 **Mode:** Full-time, or FT + separate Fiato advisory rider (see §8)
 **Version:** v3 · 16-Oct-2026 · owner: Hadri · supersedes JD-head-fcc.md v1 (15-Oct); incorporates JD-v2 implications from careers/STUDY-competitor-trust-roles.md
@@ -8,21 +8,21 @@
 ---
 
 ## 1. Why this role exists
-ChainSentry's engineering is real; its *trust* is not yet built — and trust is the binding constraint in every market it sells to. Separately, Fiato — a crypto-payment settlements company bridging crypto payments to local-currency payouts — has compliance architecture on paper (a 12-section AML/CFT policy) but needs it converted into operating proof that regulators, partner banks, and merchants can rely on. This is one hire doing two composed mandates with a single methodology: **regulate → requirement → artifact → proof.** The person has sat in the chairs these companies sell to and serve.
+chainSENTRY's engineering is real; its *trust* is not yet built — and trust is the binding constraint in every market it sells to. Separately, Fiato — a crypto-payment settlements company bridging crypto payments to local-currency payouts — has compliance architecture on paper (a 12-section AML/CFT policy) but needs it converted into operating proof that regulators, partner banks, and merchants can rely on. This is one hire doing two composed mandates with a single methodology: **regulate → requirement → artifact → proof.** The person has sat in the chairs these companies sell to and serve.
 
 ---
 
 ## 2. THE TWO MAIN TASKS
 
-### TASK 1 — Make ChainSentry a trusted local AND international brand
-**Objective:** ChainSentry becomes the blockchain-tracing platform a regulated institution in ANY jurisdiction can defend choosing — to its regulator, its board, and in court. Malaysia is the anchor reference; international expansion is the trajectory, not the afterthought.
+### TASK 1 — Make chainSENTRY a trusted local AND international brand
+**Objective:** chainSENTRY becomes the blockchain-tracing platform a regulated institution in ANY jurisdiction can defend choosing — to its regulator, its board, and in court. Malaysia is the anchor reference; international expansion is the trajectory, not the afterthought.
 
 | # | Workstream | What he does |
 |---|---|---|
 | 1.1 | **Regulatory soundness → product (local + international)** | Maps MY regimes (BNM AML/CFT Policy, SC RM Guidelines, AMLATFPUAA 2001, PMABA) AND international rails (FATF Rec. 15/20, Travel Rule, MiCA horizon, MAS/VARA/AMLO corridors) into concrete requirement rows in the product backlog. Owns the Trust Requirements Spec handed to engineering. Every new target market = a new mapped column, not a slide. |
 | 1.2 | **Evidentiary standard** | Defines what "court-grade export" means — chain-of-custody, exhibit naming, affidavit hooks — and extends it cross-border (evidence admissibility in international proceedings). **Veto on any evidentiary claim** made about the product. |
 | 1.3 | **Trust gatekeeper** | Claims-audits every deck, webinar, and collateral piece — Malaysian AND international/localized versions alike. **Veto on sales claims.** One overstated "we traced it" burns a corridor deal permanently. |
-| 1.4 | **References, regulator presence, international proof** | Converts MY design partners into named references, then international case studies. Opens BNM/SC engagement as a compliance peer. Publishes the methodology whitepaper (MY edition, then international supplement). Gets on ≥1 stage outside MY by month 12. The international bar: ChainSentry wins a procurement checklist line against an incumbent foreign suite. |
+| 1.4 | **References, regulator presence, international proof** | Converts MY design partners into named references, then international case studies. Opens BNM/SC engagement as a compliance peer. Publishes the methodology whitepaper (MY edition, then international supplement). Gets on ≥1 stage outside MY by month 12. The international bar: chainSENTRY wins a procurement checklist line against an incumbent foreign suite. |
 
 **Success measures (dated, checkable):**
 - **Day 30:** Trust Requirements Spec v1 (MY + 2 target jurisdictions, international expansion markets identified) — signed by COO as backlog commitments. Zero unaudited claims live.
@@ -51,11 +51,11 @@ ChainSentry's engineering is real; its *trust* is not yet built — and trust is
 
 ## 3. How the two mandates compose
 - **One methodology, two applications.** Task 1 SELLS the regulate→prove capability; Task 2 CONSUMES it as Fiato's living showcase. Fiato becomes the flagship reference: "the payment institution we took exam-ready."
-- **Hat separation.** ChainSentry hat = internal product trust owner (employment seat). Fiato hat = external compliance advisor (advisory rider, timeboxed days/week). Never blended in title, contract, or commitment.
-- **MEA synergy (deliberate).** Fiato's Lagos base strengthens ChainSentry's Middle-East/Africa lanes — trust work done there doubles as regional proof. Identified in ChainSentry activation paths as an ACV band market; this role compounds it.
+- **Hat separation.** chainSENTRY hat = internal product trust owner (employment seat). Fiato hat = external compliance advisor (advisory rider, timeboxed days/week). Never blended in title, contract, or commitment.
+- **MEA synergy (deliberate).** Fiato's Lagos base strengthens chainSENTRY's Middle-East/Africa lanes — trust work done there doubles as regional proof. Identified in chainSENTRY activation paths as an ACV band market; this role compounds it.
 
 ## 4. The 30-day ramp (part of the job, not homework)
-Carried intact from JD v1: Week 1 mental model (UTXO/account, mixers, bridges, explorers) · Week 2 typologies in compliance language (mule wallets ↔ mule accounts; off-ramp ↔ cash-out; each mapping = a one-pager feeding the MY typology library) · Week 3 ChainSentry hands-on (5 seeded live cases; every unanswered compliance question = backlog entry) · Week 4 **T0 gate (contractual):** unscripted 20-min typology brief to the product team — pass means understood without translation. Ongoing: one chain-fluency item/week; budgeted path to recognized standing (CAMS-Crypto or equivalent).
+Carried intact from JD v1: Week 1 mental model (UTXO/account, mixers, bridges, explorers) · Week 2 typologies in compliance language (mule wallets ↔ mule accounts; off-ramp ↔ cash-out; each mapping = a one-pager feeding the MY typology library) · Week 3 chainSENTRY hands-on (5 seeded live cases; every unanswered compliance question = backlog entry) · Week 4 **T0 gate (contractual):** unscripted 20-min typology brief to the product team — pass means understood without translation. Ongoing: one chain-fluency item/week; budgeted path to recognized standing (CAMS-Crypto or equivalent).
 **Fiato immersion (parallel, weeks 1–2):** their full policy set, settlement flow, partner contracts, licensing posture — native territory, hence lighter lift.
 
 ## 5. Standing cadences (from week one — no grey zones)
@@ -72,12 +72,12 @@ Engineering honors the trust-feature backlog (6-week response cycle on gap items
 ## 7. Guardrails (three-party — non-negotiable)
 - **Employment:** no solicitation of his current employer while employed; corridor via formal channels only.
 - **Independence:** the veto seat excludes conflicting side retainers; any existing Fiato-linked interest disclosed to COO before Day 1.
-- **Data boundary:** ChainSentry client casework data NEVER enters Fiato engagements; Fiato internal compliance data stays bilateral (Aras-Fiato NDA); nothing marketed as a ChainSentry case study without written consent.
+- **Data boundary:** chainSENTRY client casework data NEVER enters Fiato engagements; Fiato internal compliance data stays bilateral (Aras-Fiato NDA); nothing marketed as a chainSENTRY case study without written consent.
 - **Claims:** all third-party-facing comms for both brands run the claims-audit workflow (self-audit, COO sign-off).
 
 ## 8. Engagement modes
 - **A. Full-time Head of Trust & Compliance** — both mandates, T-measures as contract objectives; Fiato rider as Scope-of-Work annex. Band indicative RM15–20k/mo + KPI bonus *(indicative — owner to confirm)*.
-- **B. Split engagement** — ChainSentry full-time + Fiato 2-day/wk advisory rider (separate advisory fee, pro-rated). Preferred structure keeps incentives visibly clean between the seats.
+- **B. Split engagement** — chainSENTRY full-time + Fiato 2-day/wk advisory rider (separate advisory fee, pro-rated). Preferred structure keeps incentives visibly clean between the seats.
 - Owner confirmation before posting. Careers contact to be inserted before publication.
 
 ## 9. Verification state (honesty ledger)

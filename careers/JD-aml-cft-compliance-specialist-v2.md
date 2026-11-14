@@ -1,9 +1,9 @@
 # AML/CFT Compliance Specialist — Blockchain Financial Crime
 
 **Position ID:** CS-AML-001
-**Company:** Aras Integrasi Sdn Bhd — ChainSentry Product Division
-**Department:** Product & Commercial (ChainSentry)
-**Reports to:** Solutions Architect / Product Lead, ChainSentry — dotted line to Chief Operating Officer for contractual and commercial matters
+**Company:** Aras Integrasi Sdn Bhd — chainSENTRY Product Division
+**Department:** Product & Commercial (chainSENTRY)
+**Reports to:** Solutions Architect / Product Lead, chainSENTRY — dotted line to Chief Operating Officer for contractual and commercial matters
 **Direct reports:** None at appointment; owns contractor/junior-analyst support within year one
 **Grade:** Senior Executive / Assistant Manager, commensurate with 4–8 years relevant experience
 **Location:** Kuala Lumpur, Malaysia (hybrid working policy)
@@ -17,13 +17,13 @@
 
 ## 1. About Us
 
-Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **ChainSentry** is the company's sovereign blockchain-tracing and E-KYC product line: jurisdiction-first blockchain forensics for governments, financial-intelligence units (FIUs), banks and licensed virtual-asset service providers that US-based cloud vendors price out, cannot serve due to data-residency or sanctions optics, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
+Aras Integrasi Sdn Bhd is a Malaysian technology and security integrator with an established government and regulated-industry client base, including national security-agency deployments. **chainSENTRY** is the company's sovereign blockchain-tracing and E-KYC product line: jurisdiction-first blockchain forensics for governments, financial-intelligence units (FIUs), banks and licensed virtual-asset service providers that US-based cloud vendors price out, cannot serve due to data-residency or sanctions optics, or leave blind on Gulf–Southeast Asia–BRICS correspondent corridors.
 
-Three standards define the product and set the bar this role upholds: **sovereign deployment** (the customer's cases never leave the customer's jurisdiction, auditable on-prem or jurisdiction-locked hosting); **corridor depth** (measurable, sourced attribution on the USDT/TRON Gulf-to-SEA off-ramp graph the incumbents underlabel); and **auditability** (detection methodology, label provenance and per-corridor precision/recall published, not proprietary — every label defensible in the customer's court). ChainSentry is assembling a design-partner cohort of ~120 candidate institutions across Malaysia, Vietnam, Thailand, the Philippines, Indonesia, Singapore, the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait, Oman, Jordan, Turkey, Egypt, Lebanon, Morocco and Switzerland. **This role exists because a compliance-led go-to-market fails on compliance friction — and that friction is a discipline this company intends to carry in a named seat, not informally.**
+Three standards define the product and set the bar this role upholds: **sovereign deployment** (the customer's cases never leave the customer's jurisdiction, auditable on-prem or jurisdiction-locked hosting); **corridor depth** (measurable, sourced attribution on the USDT/TRON Gulf-to-SEA off-ramp graph the incumbents underlabel); and **auditability** (detection methodology, label provenance and per-corridor precision/recall published, not proprietary — every label defensible in the customer's court). chainSENTRY is assembling a design-partner cohort of ~120 candidate institutions across Malaysia, Vietnam, Thailand, the Philippines, Indonesia, Singapore, the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait, Oman, Jordan, Turkey, Egypt, Lebanon, Morocco and Switzerland. **This role exists because a compliance-led go-to-market fails on compliance friction — and that friction is a discipline this company intends to carry in a named seat, not informally.**
 
 ## 2. About the Role
 
-You will serve as Aras Integrasi's principal decision-maker on AML/CFT matters for the ChainSentry program — the technical-compliance counterpart to central banks, FIUs and police financial-crime units across three continents, and the internal authority that makes every pilot lawful, every corpus label defensible, and every court-grade report forwardable without editing.
+You will serve as Aras Integrasi's principal decision-maker on AML/CFT matters for the chainSENTRY program — the technical-compliance counterpart to central banks, FIUs and police financial-crime units across three continents, and the internal authority that makes every pilot lawful, every corpus label defensible, and every court-grade report forwardable without editing.
 
 The mandate is a named pair: **(1)** own the compliance posture of the alpha/design-partner program — pilot contracts and data-governance terms, jurisdictional lawfulness, sanctions/watchlist integrity of the attribution corpus; **(2)** own the company's written presence before regulators and supervisors — supervisory-grade papers, consultation responses, published methodology. A practitioner seat with program-ownership weight: hands-on casework and drafting in year one, first-line analyst leadership as the cohort scales. This role does not replace sales capacity; it makes sales compliant and pilots defensible, and the distinction is reflected in every objective below.
 
@@ -118,7 +118,7 @@ Full-time, permanent, Kuala Lumpur hybrid; 15–20% regional travel. Three-month
 - Binance — "Compliance Officer, Payments (Kazakhstan)", "Deputy MLRO — Taiwan" — country-officer pattern (pull 16-Oct-2026).
 
 **Verification ledger:**
-- ~120-institution roster, corridors, gates G1–G6, kill/continue metrics: [FACT — ChainSentry strategy v2 + activation master plan].
+- ~120-institution roster, corridors, gates G1–G6, kill/continue metrics: [FACT — chainSENTRY strategy v2 + activation master plan].
 - Program top-risk (pipeline outruns compliance): [FACT — RSK register].
 - Pilot terms/data-rights doctrine: [FACT — ACT-20261006-008 closed 20-Oct].
 - Compensation band: [INDICATIVE] — COO confirmation precedes posting or candidate delivery.

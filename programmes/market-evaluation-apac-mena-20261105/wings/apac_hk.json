@@ -192,7 +192,7 @@
   ],
   "MARKET_ENTRY_READ": {
     "addressable_buyers": "13 licensed VATPs + expanding VA dealer/custodian/adviser licence classes (2026 consultations) + 2 licensed stablecoin issuers (HSBC, Anchorpoint/SC) + banks enabling VA under HKMA circulars",
-    "wedge": "Incumbents (Elliptic@HashKey, Solidus@EX.IO) already hold anchors; differentiation for ChainSentry needs TRX/SOL depth, OFAC-validator angle for China-facing flows, and pricing below incumbent enterprise tiers",
+    "wedge": "Incumbents (Elliptic@HashKey, Solidus@EX.IO) already hold anchors; differentiation for chainSENTRY needs TRX/SOL depth, OFAC-validator angle for China-facing flows, and pricing below incumbent enterprise tiers",
     "watch": "JPEX trial (Mar 2026+) will keep AML/chain-tracing budget priority high; first licensed-VATP AML enforcement action would instantly expand demand"
   }
 }

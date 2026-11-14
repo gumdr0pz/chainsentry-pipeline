@@ -1,6 +1,6 @@
 {
   "meta": {
-    "artifact": "ChainSentry hiring suite — structured position specs",
+    "artifact": "chainSENTRY hiring suite — structured position specs",
     "generated": "2026-10-29T07:44:31Z",
     "generator": "Vesper (HermesAgent)",
     "built_from": [
@@ -31,9 +31,9 @@
       "title": "AML/CFT Subject-Matter Expert — Cryptocurrency Financial Crime & Compliance",
       "version": "v3 — supersedes v2 (26 Oct 2026)",
       "status": "DRAFT — internal review; band INDICATIVE",
-      "company": "Aras Integrasi Sdn Bhd — ChainSentry Product Division",
-      "products": "ChainSentry (forensics & E-KYC) with the chain: family — chain:HARVEST (wallet intelligence) and the identity layer",
-      "reports_to": "Solutions Architect / Product Lead, ChainSentry — dotted line to COO for contractual and commercial matters",
+      "company": "Aras Integrasi Sdn Bhd — chainSENTRY Product Division",
+      "products": "chainSENTRY (forensics & E-KYC) with the chain: family — chain:HARVEST (wallet intelligence) and the identity layer",
+      "reports_to": "Solutions Architect / Product Lead, chainSENTRY — dotted line to COO for contractual and commercial matters",
       "direct_reports": "None at appointment; owns analyst/contractor support as the design-partner cohort scales",
       "grade": "Senior Executive / Assistant Manager (4–8 years relevant experience)",
       "location": "Kuala Lumpur, Malaysia (hybrid). **Travel:** ~15–20% — Ho Chi Minh City, Bangkok, Dubai, occasionally Manama, Istanbul, Zürich",
@@ -140,9 +140,9 @@
       "title": "Blockchain Developer (Junior / Middle) — Forensics & Data Platform",
       "version": "v1 — new position",
       "status": "DRAFT — internal review; band INDICATIVE",
-      "company": "Aras Integrasi Sdn Bhd — ChainSentry Product Division",
+      "company": "Aras Integrasi Sdn Bhd — chainSENTRY Product Division",
       "products": "",
-      "reports_to": "Solutions Architect / Product Lead, ChainSentry — engineering mentoring from the senior engineering bench",
+      "reports_to": "Solutions Architect / Product Lead, chainSENTRY — engineering mentoring from the senior engineering bench",
       "direct_reports": "",
       "grade": "Two bands hire against this single posting — Junior (0–2 years) and Middle (2–4 years)",
       "location": "Kuala Lumpur, Malaysia (hybrid)",
@@ -169,7 +169,7 @@
           "Tune matching behaviour with the AML/CFT SME: exact vs fuzzy matching thresholds, coin-type validation, scoring weights — with documented, reversible changes."
         ],
         "3.5 Surfaces and integrations": [
-          "Maintain and extend the MCP tool layer so agentic clients can consume ChainSentry capabilities safely (authentication, scoping, tool contracts).",
+          "Maintain and extend the MCP tool layer so agentic clients can consume chainSENTRY capabilities safely (authentication, scoping, tool contracts).",
           "Build and maintain internal APIs consumed by the app, the pipelines, and partner integrations."
         ],
         "3.6 Quality, security and operations": [

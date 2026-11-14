@@ -1,27 +1,27 @@
-# JD — Head of Financial Crime Compliance, ChainSentry
-**Company:** Aras Integrasi Sdn Bhd · **Product:** ChainSentry (blockchain forensics & AML tracing, sovereign-deployable)
+# JD — Head of Financial Crime Compliance, chainSENTRY
+**Company:** Aras Integrasi Sdn Bhd · **Product:** chainSENTRY (blockchain forensics & AML tracing, sovereign-deployable)
 **Reports to:** Solutions Architect (COO track) · **Location:** KL · hybrid · **Mode:** full-time, or 2-day/wk advisor retainer
 
 ## Why this role exists
-ChainSentry's binding constraint is trust, not engineering. This seat owns the trust side end-to-end: regulatory soundness, evidentiary strength, buyer credibility, and regulator presence across MY + the corridor.
+chainSENTRY's binding constraint is trust, not engineering. This seat owns the trust side end-to-end: regulatory soundness, evidentiary strength, buyer credibility, and regulator presence across MY + the corridor.
 
 ## The translation engine — his skills → crypto (how we utilize him)
-| His skill (bank-native) | How it lands in crypto | What he produces for ChainSentry |
+| His skill (bank-native) | How it lands in crypto | What he produces for chainSENTRY |
 |---|---|---|
 | FIED STR drafting (PDRM/ASTANA) | STR anatomy is identical on-chain; only evidence artifacts change (txhash, cluster, exposure path) | STR-ready case-file workflow; "crypto STR" playbook for Malaysian FIs — none exists publicly today |
 | AMLATFPUAA 2001 disclosure orders | On-chain records = digital evidence; admissibility questions are his, not ours | Evidentiary standard for export: chain-of-custody, exhibit naming, affidavit hooks |
 | Sanctions/name screening (Refinitiv/DJ/CTOS) | OFAC SDN + virtual-asset designations + Travel Rule = screening with a wallet dimension | Requirement set for our sanctions/VA-designation coverage; MEA lanes hinge on this |
 | Regulatory inspection response (BNM/SC) | Regulators now ask FIs about VA exposure, DAX/KYT vendors, Travel Rule | Trust Requirements Spec; our answers to FI questionnaires |
 | Board/management reporting | Boards ask "how do we govern crypto risk" without vendor fog | Compliance-grade reporting pack: what a board needs, in board language |
-| Court proceedings experience | First on-chain cases will be contested; expert testimony is scarce locally | Deck/webinar claims audit; expert-witness readiness path for ChainSentry |
+| Court proceedings experience | First on-chain cases will be contested; expert testimony is scarce locally | Deck/webinar claims audit; expert-witness readiness path for chainSENTRY |
 | AML policy/program build | FIs must extend programs to VA exposure — that extension IS our use case | Productized checklist: "AML program update for VA exposure" (lead magnet + pilot scope) |
 ## Honest positioning
-We hire for judgment and translate for medium. Chain-fluency is a mandatory 30-day ramp we fund; his compliance depth is the raw material the product needs. The design principle is deliberate: **he is not our crypto expert — he is our crypto BUYER.** The compliance head with no chain depth is exactly who ChainSentry must convert; his learning curve is the buyer's learning curve, and every step that teaches him ships as product capability.
+We hire for judgment and translate for medium. Chain-fluency is a mandatory 30-day ramp we fund; his compliance depth is the raw material the product needs. The design principle is deliberate: **he is not our crypto expert — he is our crypto BUYER.** The compliance head with no chain depth is exactly who chainSENTRY must convert; his learning curve is the buyer's learning curve, and every step that teaches him ships as product capability.
 
 ## The crypto ramp — first 30 days (part of the job, not homework)
 **Week 1 — Mental model.** Addresses, blocks, fees; UTXO vs account; what a wallet is and isn't; exchanges, DEXs, mixers, bridges; block explorers without fear. 2×2h engineering-led sessions + reading.
 **Week 2 — Typologies in his native language.** Pig-butchering, romance scams, mule networks, ransomware, sanctioned-entity movement, off-ramp patterns — each mapped to the typology he already knows: mule accounts ↔ mule wallets, cash-out ↔ off-ramp, layering ↔ chain-hop. He writes each mapping as a one-pager; the one-pagers become our MY-tuned typology library.
-**Week 3 — Tool-side.** ChainSentry hands-on: run 5 seeded live cases end-to-end; tag/cluster/exposure features; every place the tool fails to answer a compliance question becomes a backlog entry with his name on it.
+**Week 3 — Tool-side.** chainSENTRY hands-on: run 5 seeded live cases end-to-end; tag/cluster/exposure features; every place the tool fails to answer a compliance question becomes a backlog entry with his name on it.
 **Week 4 — His turn (T0 gate, contractual).** Unscripted 20-min brief: one VA off-ramp typology, to the product team, in compliance language. Pass = the team understood it without translation.
 **Ongoing.** One chain-fluency item/week (TRM/Elliptic/Chainalysis public reports, FATF VA updates, SC RM Guidelines); budgeted path to recognisable standing (CAMS-Crypto or equivalent).
 
@@ -40,9 +40,9 @@ Named, checkable, no grey zones. Standing cadence unless noted:
 4. **Day 1–30:** write 4 typology one-pagers (his mapping work — Week 2 ramp); own T0 brief.
 5. **Day 30–60:** STR-ready case-file workflow — write it, walk it with engineering, walk it with one friendly MLRO (candidate: his referee, conflict-cleared first).
 6. **Day 30–90:** design-partner recruitment — target list from our T1 roster + his book; he leads, COO shadows.
-7. **Monthly:** horizon scan — one page, corridor regulatory movement (MAS, VARA, PPATK, AMLO, SC/BNM, FATF), with "so what for ChainSentry" line per item.
+7. **Monthly:** horizon scan — one page, corridor regulatory movement (MAS, VARA, PPATK, AMLO, SC/BNM, FATF), with "so what for chainSENTRY" line per item.
 8. **Quarterly:** webinar/briefing under his name (MY, then corridor); conference circuit proposal to COO.
-9. **Quarterly:** expert-network activation — join 1–2 (Deloitte/FTI/Ropes&Gray class), log any ChainSentry referral as engagement, never quota.
+9. **Quarterly:** expert-network activation — join 1–2 (Deloitte/FTI/Ropes&Gray class), log any chainSENTRY referral as engagement, never quota.
 10. **Standing:** veto on public claims about evidentiary/regulatory matters. If he can't say it at a BNM roundtable, it doesn't ship.
 
 ## Pillars (what he owns)

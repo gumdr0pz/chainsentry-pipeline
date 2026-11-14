@@ -33,7 +33,7 @@
 - Row 5 email: early full-frame pass misread `captain@`; corrected-rotation zoom passes converge on `captzaim@gmail.com`.
 
 ## Context note (assessment, flagged as such)
-Roster skews military cyber-financial: RISUD = Royal Military Forces Finance Corps investigation arm (4 pax), AWC = Air Warfare Centre (1 pax); course subject = dark-web investigation, venue UPNM. ChainSentry ICP-fringe: these are potential cyber-finance crime investigators, i.e. the ICP pattern in uniform. Not yet in the prospect roster; run through contact pipeline (verification states + tiering) on operator go.
+Roster skews military cyber-financial: RISUD = Royal Military Forces Finance Corps investigation arm (4 pax), AWC = Air Warfare Centre (1 pax); course subject = dark-web investigation, venue UPNM. chainSENTRY ICP-fringe: these are potential cyber-finance crime investigators, i.e. the ICP pattern in uniform. Not yet in the prospect roster; run through contact pipeline (verification states + tiering) on operator go.
 
 ---
 *Extraction method: vision backend down; recovered via operator AI gateway (Kimi K2.6 vision) through the Harvey brain route. Raw passes reproducible via /tmp/ocr_ccw.py.*

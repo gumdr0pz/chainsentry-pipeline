@@ -1,4 +1,4 @@
-# PROGRAMME — ChainSentry Early Adopters 50 (EA-50): Growth Plan to 31 December 2026
+# PROGRAMME — chainSENTRY Early Adopters 50 (EA-50): Growth Plan to 31 December 2026
 
 **Status:** DRAFT v2 (2026-10-20 — unique-org reconciliation + master target-list fusion) · Owner: Hadri (approval) · Operator: Vesper (execution)
 **Window:** 19 Oct – 31 Dec 2026 (opens today; supersedes the 13-Dec corridor label per this directive — labelled extension, minuted here)

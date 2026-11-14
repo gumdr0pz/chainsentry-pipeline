@@ -3,13 +3,13 @@
 **Status:** DRAFT CANON v1 (2026-10-16) — elevates to canonical at Hadri sign-off (01/00 statuses: canonical = signed) · Owner: Hadri (accountable) · Operator: Vesper (execution)
 **Directive (Hadri, 16-Oct):** two main markets; financial-AML expertise spanning fiat + crypto; focus on investigation & AML modules/framework that is internationally used; engineered for success, canonical step-by-step.
 **Basis:** DEC-20260915-001 (pivot) · ACT-20260926-002 data-rights family · ACT-20261008-001/002 (JSJK reply · AML hire due 22 Oct) · JD v4 (hire's dual mandate) · 01-ACTIVATION-PATHS v1 (Paths 1–2 PRIMARY carried) · 02-MASTER-PLAN (gates inherit, none relaxed) · roster/signals evidence 2026-10-10
-**Relationship to prior drafts:** supersedes 04-FINANCIAL-PLATFORM-PIPELINE.md and 04-CHAINSENTRY-X-FIATO-MY-PIPELINE.md (bilateral Fiato content absorbed into STEP C and §F below — Fiato is now the engagement lateral, not the frame).
+**Relationship to prior drafts:** supersedes 04-FINANCIAL-PLATFORM-PIPELINE.md and 04-chainSENTRY-X-FIATO-MY-PIPELINE.md (bilateral Fiato content absorbed into STEP C and §F below — Fiato is now the engagement lateral, not the frame).
 
 ---
 
 ## 0. THE FRAME (what this plan is)
 
-**Positioning (locked):** ChainSentry = **financial-crime investigation & AML platform** covering **fiat and crypto rails**, built to the internationally-used AML framework stack (FATF 40 Recommendations spine; Recommendation 15/20 virtual-asset guidance; Travel Rule; Egmont/FIU exchange norms; Basel/COSO-style program governance; WIPO-style evidence discipline for casework) — sold into two markets:
+**Positioning (locked):** chainSENTRY = **financial-crime investigation & AML platform** covering **fiat and crypto rails**, built to the internationally-used AML framework stack (FATF 40 Recommendations spine; Recommendation 15/20 virtual-asset guidance; Travel Rule; Egmont/FIU exchange norms; Basel/COSO-style program governance; WIPO-style evidence discipline for casework) — sold into two markets:
 
 - **MARKET 1 — MALAYSIA (the proof market).** Regulated institutions + LE casework. Revenue modest, reference decisive. Every artifact must survive a BNM examiner and a courtroom.
 - **MARKET 2 — UAE/GCC (the revenue market).** Live licensing cohorts (VARA/SCA), licensee AML-stack capex, corridor off-ramp flows Gulf⇄SEA that no incumbent attributes well. Currency: USD contracts.
@@ -48,7 +48,7 @@ Ramp rule: **ship order M1→M5**, M3 (investigation cockpit) is the flagship an
 |---|---|---|---|---|
 | A1 | MY obligation map | MY AML Matrix v1: AMLATFPUAA 2001 §§ + BNM AML/CFT policy + SC RM Guidelines → module rows | Vesper draft; hire validates from Day 1 | Hire signs off in C1 |
 | A2 | UAE/GCC obligation map | GCC AML Matrix v1: VARA/SCA rulebooks + goAML filing formats + AmMLRA → module rows | Vesper draft; hire validates | Channel partner validates (ACT-20261006-005) |
-| A3 | Framework spine doc | ChainSentry Standards Map: FATF 40/R.15-20/Travel Rule → module-matrix crosswalk (the "internationally used" claim, citable) | Hire (day 1–30 measure) | Veto live day one (label provenance QA 100%) |
+| A3 | Framework spine doc | chainSENTRY Standards Map: FATF 40/R.15-20/Travel Rule → module-matrix crosswalk (the "internationally used" claim, citable) | Hire (day 1–30 measure) | Veto live day one (label provenance QA 100%) |
 | A4 | Fiato lateral | Fiato exam-readiness proceeds as engagement lateral (C-step below absorbs JD Task 1) — NOT the frame of this plan | Hire + Fiato CO | Bilateral MoU pending decision |
 
 ### STEP B — Require (wk2–6)

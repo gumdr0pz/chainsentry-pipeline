@@ -5,7 +5,7 @@
 **Event:** Dark Web Investigation, 3-day course · **Date:** 12–14 October 2026 (Mon–Wed) · **Venue:** Kluster Siber, Elektronik dan Robotik, Pusat Kecemerlangan Sultan Ibrahim, UPNM
 
 ## 1. BLUF
-UPNM ran a serious, well-structured 3-day dark-web course for TUDM personnel. The curriculum's Day-2 afternoon module is *Cryptocurrency Tracing & Financial Attribution* — ChainSentry's exact problem space, taught as core content — and the course spine is "legal safeguards, OPSEC and evidence preservation run through every module," which is the same evidentiary posture our product is built on. Two concrete openings: curriculum/sandbox partnership with UPNM, and a military financial-investigation cohort (RISUD-heavy) now in our awareness base. No commitments made; all outreach drafts held.
+UPNM ran a serious, well-structured 3-day dark-web course for TUDM personnel. The curriculum's Day-2 afternoon module is *Cryptocurrency Tracing & Financial Attribution* — chainSENTRY's exact problem space, taught as core content — and the course spine is "legal safeguards, OPSEC and evidence preservation run through every module," which is the same evidentiary posture our product is built on. Two concrete openings: curriculum/sandbox partnership with UPNM, and a military financial-investigation cohort (RISUD-heavy) now in our awareness base. No commitments made; all outreach drafts held.
 
 ## 2. Verified facts
 - **Course:** Dark Web Investigation, 12–14 Oct 2026, UPNM Kluster Siber, Elektronik dan Robotik (Pusat Kecemerlangan Sultan Ibrahim). [FACT: sign-in sheet + curriculum slide, both photo-verified]
@@ -22,8 +22,8 @@ UPNM ran a serious, well-structured 3-day dark-web course for TUDM personnel. Th
 - **Instructors:** not identified in materials seen — **[TBC-OWNER: names/orgs if recalled]**
 
 ## 3. Assessment (mine, not FACT)
-1. **The curriculum is our pitch deck, written by a buyer.** M1→M6 maps near-1:1 to ChainSentry's capability walk: infrastructure/anonymity (discovery), ecosystems (typologies), collection/extraction (ingest), crypto tracing & attribution (our core), tradecraft/OPSEC (workflow security), analysis & reporting (case-file export). A training institution teaching this sequence is a *thinking* customer — and a natural curriculum partner: they teach the workflow; we can supply the live tooling for M4–M6 exercises.
-2. **The evidence-preservation spine is the sales seam.** Their course treats admissibility as a through-line, not a chapter. That's exactly the trust layer we sell — ChainSentry's court-grade export (workflow built to the AMLATFPUAA evidentiary standard, per the Head-of-FCC design) answers their M6 reporting requirement with a product, not a slide.
+1. **The curriculum is our pitch deck, written by a buyer.** M1→M6 maps near-1:1 to chainSENTRY's capability walk: infrastructure/anonymity (discovery), ecosystems (typologies), collection/extraction (ingest), crypto tracing & attribution (our core), tradecraft/OPSEC (workflow security), analysis & reporting (case-file export). A training institution teaching this sequence is a *thinking* customer — and a natural curriculum partner: they teach the workflow; we can supply the live tooling for M4–M6 exercises.
+2. **The evidence-preservation spine is the sales seam.** Their course treats admissibility as a through-line, not a chapter. That's exactly the trust layer we sell — chainSENTRY's court-grade export (workflow built to the AMLATFPUAA evidentiary standard, per the Head-of-FCC design) answers their M6 reporting requirement with a product, not a slide.
 3. **Cohort read:** four RISUD attendees into dark-web + crypto-tracing training = military financial-crime capacity being built now. Long-cycle ICP fringe in uniform; engagement only via official channels (defence etiquette; no individual pitching).
 4. UPNM = venue + host + pipeline (cadets rotate into cyber roles). Institutional relationship > individual contacts here.
 
@@ -45,7 +45,7 @@ UPNM ran a serious, well-structured 3-day dark-web course for TUDM personnel. Th
 >
 > Thank you for three well-built days at Kluster Siber — the six-module structure, and the way evidence preservation runs through every module rather than sitting in one chapter, shows real craft. My sign-in confirmed on Day 3.
 >
-> One tie-in worth twenty minutes of your time: Module 4 (Cryptocurrency Tracing & Financial Attribution) is exactly the problem space our platform exists for. ChainSentry is a Malaysian-built blockchain-intelligence platform — sovereign, locally operated — and it would fit your M4–M6 exercises directly: live tracing cases, attribution workflows, and reporting out to an evidence-grade standard, without depending on foreign-hosted tooling your students can't access after class.
+> One tie-in worth twenty minutes of your time: Module 4 (Cryptocurrency Tracing & Financial Attribution) is exactly the problem space our platform exists for. chainSENTRY is a Malaysian-built blockchain-intelligence platform — sovereign, locally operated — and it would fit your M4–M6 exercises directly: live tracing cases, attribution workflows, and reporting out to an evidence-grade standard, without depending on foreign-hosted tooling your students can't access after class.
 >
 > If useful, I can open a sandbox slot for the centre inside our early-adopter window (19 Oct–13 Dec) with office hours from our side, and walk your technical team through it at UPNM — 45 minutes, no paperwork, no cost at this stage.
 >

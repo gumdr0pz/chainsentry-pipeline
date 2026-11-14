@@ -131,7 +131,7 @@
       "action": "MAS added Bybit to Investor Alert List (Nov 4 2026) and Hyperliquid (Jun 2026 — one of first DeFi protocols flagged, despite SG-based entity claim); MAS monitoring Tokenize Xchange wind-down/asset return (Aug 2026).",
       "sources": "The Straits Times / TradingView / CNA / The Defiant",
       "dates": "2026-06-18 .. 2026-11-04",
-      "tooling_gap": "unlicensed-platform exposure detection, DeFi/protocol-level tracing, off-platform flow attribution — directly adjacent to ChainSentry chain-tracing MCP value prop"
+      "tooling_gap": "unlicensed-platform exposure detection, DeFi/protocol-level tracing, off-platform flow attribution — directly adjacent to chainSENTRY chain-tracing MCP value prop"
     },
     {
       "action": "Binance hack (Jun 2025) — SG investors' exposure unknowable, withdrawals suspended; later ICIJ reporting (Apr 2026) on billions moved via major exchanges linked to launderers/North Korean hackers.",

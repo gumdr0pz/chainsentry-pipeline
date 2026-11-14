@@ -1,6 +1,6 @@
 {
   "meta": {
-    "artifact": "Japan contact-route map — ChainSentry targets from 'Japan is what crypto looks like when it grows up' post",
+    "artifact": "Japan contact-route map — chainSENTRY targets from 'Japan is what crypto looks like when it grows up' post",
     "generated": "2026-10-29T13:18:27Z",
     "generator": "Vesper (HermesAgent)",
     "trigger": {
@@ -10,7 +10,7 @@
       "traction": "102 reactions, 16 comments at pull (2026-10-29)",
       "verified_via": "Googlebot-UA guest fetch [A2]"
     },
-    "fit_thesis": "Japan-licensed VASPs are compliance-first buyers by construction: post-display economics (SBI crypto arm: ¥21.2B pretax on ¥41.6B revenue) fund compliance budgets; custody-segregation rules (2017 licence regime, FTX-Japan repayment precedent) make auditability a purchasing criterion. ChainSentry's sovereign/auditable posture speaks directly to post-MtGox/post-Coincheck institutional scar tissue.",
+    "fit_thesis": "Japan-licensed VASPs are compliance-first buyers by construction: post-display economics (SBI crypto arm: ¥21.2B pretax on ¥41.6B revenue) fund compliance budgets; custody-segregation rules (2017 licence regime, FTX-Japan repayment precedent) make auditability a purchasing criterion. chainSENTRY's sovereign/auditable posture speaks directly to post-MtGox/post-Coincheck institutional scar tissue.",
     "grading_legend": "[V]=official page fetched this cycle; [A2]=dual-source/current; [N]=news dateline; [ROUTE]=actionable channel; stale/unknown flagged",
     "consumption_rule": {
       "audience": "Hadri + sales ops; feeder for roster/CONTACTS.csv rows",
@@ -150,7 +150,7 @@
     },
     {
       "door": "Manuel Lopes (马成功) — deal-side commenter (exchange-ownership value thesis in-thread)",
-      "why": "M&A/deal perspective aligned to ChainSentry placement; engaged publicly",
+      "why": "M&A/deal perspective aligned to chainSENTRY placement; engaged publicly",
       "grade": "[A2]"
     },
     {

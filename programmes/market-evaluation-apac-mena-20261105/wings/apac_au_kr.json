@@ -1,6 +1,6 @@
 {
   "meta": {
-    "task": "Australia + South Korea regulatory/market recon for ChainSentry blockchain-AML entry",
+    "task": "Australia + South Korea regulatory/market recon for chainSENTRY blockchain-AML entry",
     "as_of": "2026-11-05",
     "method": "Google News RSS (en-AU, ko-KR), regulator page fetch attempts; Wikipedia/AUSTRAC page fetches blocked by extraction-backend + curl-pipe security denials. All claims below are headline-level evidence with source+date; items that could not be corroborated are marked [UNVERIFIED].",
     "confidence_note": "Headline-level grounding; no full-article reads were possible (web_extract backend misconfigured, curl|python blocked by security scanner). Treat figures as reported-in-headline, not primary-source confirmed."
@@ -177,6 +177,6 @@
   },
   "entry_read": {
     "australia": "Rising: registration cleanup + licensing reform + AUSTRAC vendor-loop means budget exists, but TRM owns mindshare and Chainalysis-breach is an opening. Wedge: mid-tier DACSPs facing deregistration risk, priced-out by TRM/Chainalysis; OFAC-validator + 88k-wallet angle maps to AU scam-proceeds tracing. Caveat: exact register size and govt-contract landscape still unverified.",
-    "south_korea": "Sharper enforcement (record fines, travel-rule expansion) and bank-side demand (K-Bank), but harder market: incumbent exchange self-supply (Lambda256+Crystal), entrenched Chainalysis/Elliptic/TRM+CODE local partnerships, data-localisation/ISMS friction, and ChainSentry's BTC/ETH/TRX/SOL coverage must prove KR-chain depth (KRW-exchange-linked chains, likely need Korean exchange API partnerships). Best wedge = post-breach security narrative + high-risk-VASP screening module for banks."
+    "south_korea": "Sharper enforcement (record fines, travel-rule expansion) and bank-side demand (K-Bank), but harder market: incumbent exchange self-supply (Lambda256+Crystal), entrenched Chainalysis/Elliptic/TRM+CODE local partnerships, data-localisation/ISMS friction, and chainSENTRY's BTC/ETH/TRX/SOL coverage must prove KR-chain depth (KRW-exchange-linked chains, likely need Korean exchange API partnerships). Best wedge = post-breach security narrative + high-risk-VASP screening module for banks."
   }
 }

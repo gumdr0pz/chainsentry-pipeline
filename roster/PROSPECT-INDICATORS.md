@@ -1,4 +1,4 @@
-# ChainSentry Malaysia — Master Prospect List (buying indicators + who signs)
+# chainSENTRY Malaysia — Master Prospect List (buying indicators + who signs)
 
 v2 · 2026-10-10 (rebuilt after 4-lane deep sweep). Every indicator = dated, click-verified event; full sourcing in my-contact-dossier.md v3 + PROSPECT-SIGNALS.md (raw evidence in evidence/signals-20261010/). Ranked by "why they buy NOW."
 

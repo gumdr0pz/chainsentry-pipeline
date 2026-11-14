@@ -6,11 +6,11 @@
 
 **Financial-crime investigations run on evidence any court can audit, in any jurisdiction, without any country renting another country's cloud to get it.**
 
-The long game is structural: blockchain tracing has become critical national casework — scam centres, mule networks, sanction evasion, ransomware off-ramps — yet the tooling is concentrated in a handful of US cloud vendors whose data practices, pricing and geopolitical exposure their customers cannot fully control. Sovereign states and their supervised institutions deserve tracing infrastructure they can deploy, audit and defend at home. ChainSentry exists to be that standard for the corridor states between the Gulf and Southeast Asia — and to make that standard as respected as the incumbents' within a decade.
+The long game is structural: blockchain tracing has become critical national casework — scam centres, mule networks, sanction evasion, ransomware off-ramps — yet the tooling is concentrated in a handful of US cloud vendors whose data practices, pricing and geopolitical exposure their customers cannot fully control. Sovereign states and their supervised institutions deserve tracing infrastructure they can deploy, audit and defend at home. chainSENTRY exists to be that standard for the corridor states between the Gulf and Southeast Asia — and to make that standard as respected as the incumbents' within a decade.
 
 ## Mission (5-year horizon, to 2031)
 
-**Make ChainSentry the reference blockchain-forensics platform for the Gulf–SEA–BRICS corridors** — measured by: live sovereign deployments in ≥12 states, the corridor attribution corpus that even incumbents' customers benchmark against, and methodology so openly published that our reports are accepted in MY, UAE, CH and VN courts without a brand halo doing the arguing.
+**Make chainSENTRY the reference blockchain-forensics platform for the Gulf–SEA–BRICS corridors** — measured by: live sovereign deployments in ≥12 states, the corridor attribution corpus that even incumbents' customers benchmark against, and methodology so openly published that our reports are accepted in MY, UAE, CH and VN courts without a brand halo doing the arguing.
 
 ## Values (how we behave while getting there)
 
@@ -37,13 +37,13 @@ Per STRATEGY.md §11, we do **not** chase global feature parity. Winning in our 
 3. **Audit parity** — published methodology, label provenance, reproducible reports; their brand halo is irrelevant against "defend every label in *your* court."
 4. **Price-scope parity** — proportionate licensing (per monitored address-band) for supervised SMBs, the segment their seat model prices out.
 
-When a Malaysian, Emirati or Vietnamese regulator can say — *ChainSentry covers our corridors, the data never leaves our jurisdiction, and we can defend every label in our court* — that sentence **is** parity where it matters. Everything else is backlog.
+When a Malaysian, Emirati or Vietnamese regulator can say — *chainSENTRY covers our corridors, the data never leaves our jurisdiction, and we can defend every label in our court* — that sentence **is** parity where it matters. Everything else is backlog.
 
 ## What we are not
 
 - Not a cheaper Chainalysis clone (never the pitch, never the pricing page).
 - Not a BRICS product (BRICS **corridors** are the market; the product is neutral, auditable, and Western-reviewable — this distinction protects the CH/EU play).
-- Not a services company that happens to own software (Aras' services arm feeds us pilots and delivery capacity, but ChainSentry is judged as product or it goes to maintenance — STRATEGY §9 wk12 breaker).
+- Not a services company that happens to own software (Aras' services arm feeds us pilots and delivery capacity, but chainSENTRY is judged as product or it goes to maintenance — STRATEGY §9 wk12 breaker).
 - Not a data-resale play: the corpus exists to make customers' cases stronger, and every label's provenance is a customer right, not our merchandise.
 
 ---
